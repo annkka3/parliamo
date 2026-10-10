@@ -11,7 +11,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (avere, presente)",
      "stimulus_it": "Mio fratello ___ trentadue anni.",
-     "accepted_answers": ["ha"],
+     "accepted_answers": [
+      "ha"
+     ],
      "feedback_ru": "Возраст — через avere: ha trentadue anni (не «è»).",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -22,7 +24,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь определённый артикль.",
      "stimulus_it": "Ho dimenticato ___ zaino sul treno.",
-     "accepted_answers": ["lo"],
+     "accepted_answers": [
+      "lo"
+     ],
      "feedback_ru": "Перед z (а также s + согласная, gn, ps) — lo: lo zaino.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -33,7 +37,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (andare, presente)",
      "stimulus_it": "Ogni estate i miei amici ___ al mare in Puglia.",
-     "accepted_answers": ["vanno"],
+     "accepted_answers": [
+      "vanno"
+     ],
      "feedback_ru": "Andare неправильный: vado, vai, va, andiamo, andate, vanno.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -44,7 +50,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (potere, io, presente)",
      "stimulus_it": "Scusi, ___ aprire la finestra?",
-     "accepted_answers": ["posso"],
+     "accepted_answers": [
+      "posso"
+     ],
      "feedback_ru": "Potere: posso, puoi, può…; после него сразу инфинитив: posso aprire.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -55,7 +63,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь «моя» в правильной форме.",
      "stimulus_it": "___ madre abita a Torino.",
-     "accepted_answers": ["mia"],
+     "accepted_answers": [
+      "mia"
+     ],
      "feedback_ru": "С родственником в единственном числе (без прилагательного и уменьшительной формы) артикль не нужен: mia madre.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -66,7 +76,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь partitivo: di + артикль одним словом.",
      "stimulus_it": "Per cena compro ___ spaghetti e un po’ di parmigiano.",
-     "accepted_answers": ["degli"],
+     "accepted_answers": [
+      "degli"
+     ],
      "feedback_ru": "Partitivo = di + артикль; spaghetti берут gli → degli spaghetti.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -77,7 +89,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (svegliarsi, presente)",
      "stimulus_it": "Di solito Luca ___ alle sette.",
-     "accepted_answers": ["si sveglia"],
+     "accepted_answers": [
+      "si sveglia"
+     ],
      "feedback_ru": "Возвратный глагол: местоимение si стоит перед формой — si sveglia.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -87,7 +101,10 @@
     {
      "type": "transform",
      "prompt_ru": "Скажи наоборот, со значением «никогда не»: «Prendo sempre il taxi.»",
-     "accepted_answers": ["Non prendo mai il taxi.", "Io non prendo mai il taxi."],
+     "accepted_answers": [
+      "Non prendo mai il taxi.",
+      "Io non prendo mai il taxi."
+     ],
      "feedback_ru": "Двойное отрицание: non перед глаголом + mai после него; sempre убираем.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -135,7 +152,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (andare, passato prossimo)",
      "stimulus_it": "Ieri Giulia e Sara ___ a Bologna in treno.",
-     "accepted_answers": ["sono andate"],
+     "accepted_answers": [
+      "sono andate"
+     ],
      "feedback_ru": "Andare — с essere; причастие согласуется: две женщины → andate.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -146,7 +165,10 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (preparare, io)",
      "stimulus_it": "Mentre ___ la cena, è suonato il telefono.",
-     "accepted_answers": ["preparavo", "stavo preparando"],
+     "accepted_answers": [
+      "preparavo",
+      "stavo preparando"
+     ],
      "feedback_ru": "Фон, который прервало событие, — imperfetto (или stare + gerundio): preparavo.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -157,7 +179,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (prendere; вежливый imperativo на Lei)",
      "stimulus_it": "Scusi, per il Duomo? — ___ la seconda strada a destra.",
-     "accepted_answers": ["prenda"],
+     "accepted_answers": [
+      "prenda"
+     ],
      "feedback_ru": "Imperativo на Lei совпадает с congiuntivo: prenda (не prende).",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -168,7 +192,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (dovere, tu; мягкий совет)",
      "stimulus_it": "Sei stanca: ___ riposarti un po’.",
-     "accepted_answers": ["dovresti"],
+     "accepted_answers": [
+      "dovresti"
+     ],
      "feedback_ru": "Мягкий совет — condizionale: dovresti.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -178,7 +204,10 @@
     {
      "type": "transform",
      "prompt_ru": "Замени «le cartoline» местоимением: «Ho già spedito le cartoline.»",
-     "accepted_answers": ["Le ho già spedite.", "Io le ho già spedite."],
+     "accepted_answers": [
+      "Le ho già spedite.",
+      "Io le ho già spedite."
+     ],
      "feedback_ru": "Le перед ho; с lo/la/li/le причастие согласуется: spedite.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -189,7 +218,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь пропущенное местоимение.",
      "stimulus_it": "Ho incontrato Paola e ___ ho prestato la mia guida.",
-     "accepted_answers": ["le"],
+     "accepted_answers": [
+      "le"
+     ],
      "feedback_ru": "Prestare a qualcuno → косвенное дополнение; «ей» = le (без согласования причастия).",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -200,7 +231,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь пропущенное местоимение.",
      "stimulus_it": "Quanti biglietti compri? — ___ compro due.",
-     "accepted_answers": ["ne"],
+     "accepted_answers": [
+      "ne"
+     ],
      "feedback_ru": "Ne заменяет количество из названного: ne compro due.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -211,7 +244,10 @@
      "type": "cloze",
      "prompt_ru": "Вставь относительное слово (с предлогом, если он нужен).",
      "stimulus_it": "Ecco il libro ___ ti ho parlato ieri.",
-     "accepted_answers": ["di cui", "del quale"],
+     "accepted_answers": [
+      "di cui",
+      "del quale"
+     ],
      "feedback_ru": "Parlare di qualcosa → di cui (официальнее: del quale).",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -251,7 +287,7 @@
   {
    "id": "it-check-b1",
    "stage": "B1",
-   "purpose_ru": "Внутренняя выборочная проверка грамматики и переноса в речь. Не полный тест уровня CEFR и не экзамен CILS/CELI.",
+   "purpose_ru": "Внутренняя выборочная проверка грамматики и переноса в речь. Не полный тест уровня CEFR и не экзамен CILS/CELI. Часть тем этого блока (condizionale passato, congiuntivo imperfetto, gerundio, сочетания местоимений) по итальянским программам Profilo, CILS и PLIDA относится уже к B2: ошибки в них на этом этапе нормальны.",
    "closed_task_count": 8,
    "production_task_count": 2,
    "exercises": [
@@ -259,7 +295,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (mangiare, io; действие раньше другого прошлого)",
      "stimulus_it": "Non avevo fame perché ___ un panino in stazione.",
-     "accepted_answers": ["avevo mangiato"],
+     "accepted_answers": [
+      "avevo mangiato"
+     ],
      "feedback_ru": "Предыстория в прошлом — trapassato prossimo: avevo mangiato.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -270,7 +308,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (venire; будущее по отношению к прошлому, письменная норма)",
      "stimulus_it": "Marco ha detto che ___ alle nove.",
-     "accepted_answers": ["sarebbe venuto"],
+     "accepted_answers": [
+      "sarebbe venuto"
+     ],
      "feedback_ru": "Будущее в прошлом — condizionale passato: sarebbe venuto (не verrebbe).",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -281,7 +321,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (essere)",
      "stimulus_it": "Penso che il museo ___ chiuso il lunedì.",
-     "accepted_answers": ["sia"],
+     "accepted_answers": [
+      "sia"
+     ],
      "feedback_ru": "Мнение: penso che + congiuntivo — sia.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -292,7 +334,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (avere, io)",
      "stimulus_it": "Se ___ più tempo, visiterei anche Palermo.",
-     "accepted_answers": ["avessi"],
+     "accepted_answers": [
+      "avessi"
+     ],
      "feedback_ru": "Возможное условие: se + congiuntivo imperfetto → condizionale: se avessi…, visiterei.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -302,7 +346,12 @@
     {
      "type": "transform",
      "prompt_ru": "Замени «la chiave» и «al portiere» местоимениями: «Ho restituito la chiave al portiere.»",
-     "accepted_answers": ["Gliel’ho restituita.", "Gliela ho restituita.", "Io gliel’ho restituita.", "Io gliela ho restituita."],
+     "accepted_answers": [
+      "Gliel’ho restituita.",
+      "Gliela ho restituita.",
+      "Io gliel’ho restituita.",
+      "Io gliela ho restituita."
+     ],
      "feedback_ru": "Gli + la → gliela, перед ho обычно gliel’; причастие согласуется с la: restituita.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -312,7 +361,9 @@
     {
      "type": "transform",
      "prompt_ru": "Скажи короче, заменив «la mappa» и «a me» местоимениями: «Dai la mappa a me!»",
-     "accepted_answers": ["Dammela!"],
+     "accepted_answers": [
+      "Dammela!"
+     ],
      "feedback_ru": "Местоимения присоединяются к imperativo; после da’ согласная удваивается: dammela.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -323,7 +374,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (vendere; конструкция с si)",
      "stimulus_it": "In questo negozio ___ anche francobolli.",
-     "accepted_answers": ["si vendono"],
+     "accepted_answers": [
+      "si vendono"
+     ],
      "feedback_ru": "Si passivante: глагол согласуется с francobolli → si vendono.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -333,7 +386,10 @@
     {
      "type": "transform",
      "prompt_ru": "Замени придаточное с mentre на gerundio: «Mentre camminavo per il centro, ho incontrato un vecchio amico.»",
-     "accepted_answers": ["Camminando per il centro, ho incontrato un vecchio amico.", "Camminando per il centro ho incontrato un vecchio amico."],
+     "accepted_answers": [
+      "Camminando per il centro, ho incontrato un vecchio amico.",
+      "Camminando per il centro ho incontrato un vecchio amico."
+     ],
      "feedback_ru": "Подлежащее одно и то же, поэтому mentre + imperfetto → gerundio: camminando.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -381,7 +437,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (avere)",
      "stimulus_it": "Era necessario che tutti i passeggeri ___ un documento valido.",
-     "accepted_answers": ["avessero"],
+     "accepted_answers": [
+      "avessero"
+     ],
      "feedback_ru": "Главное предложение в прошлом, действие одновременное → congiuntivo imperfetto: avessero.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -392,7 +450,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (essere)",
      "stimulus_it": "Anche se ___ tardi, prendiamo un ultimo caffè.",
-     "accepted_answers": ["è"],
+     "accepted_answers": [
+      "è"
+     ],
      "feedback_ru": "Anche se + indicativo: è; benché/sebbene потребовали бы congiuntivo.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -403,7 +463,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (restituire, tu)",
      "stimulus_it": "Ti presto la macchina, purché me la ___ entro sabato.",
-     "accepted_answers": ["restituisca"],
+     "accepted_answers": [
+      "restituisca"
+     ],
      "feedback_ru": "Purché + congiuntivo presente; restituire спрягается с -isc-: restituisca.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -430,7 +492,10 @@
     {
      "type": "transform",
      "prompt_ru": "Замени «la valigia» местоимением: «Faccio portare la valigia in camera.»",
-     "accepted_answers": ["La faccio portare in camera.", "Io la faccio portare in camera."],
+     "accepted_answers": [
+      "La faccio portare in camera.",
+      "Io la faccio portare in camera."
+     ],
      "feedback_ru": "В конструкции fare + инфинитив местоимение стоит перед fare: la faccio portare.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -441,7 +506,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (farcela, noi)",
      "stimulus_it": "Siamo stanchissimi: non ___ più!",
-     "accepted_answers": ["ce la facciamo"],
+     "accepted_answers": [
+      "ce la facciamo"
+     ],
      "feedback_ru": "Farcela = справиться: ce la faccio, ce la facciamo; ci → ce перед la.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -452,7 +519,10 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (pagare)",
      "stimulus_it": "Dopo ___ il conto, siamo usciti dal ristorante.",
-     "accepted_answers": ["aver pagato", "avere pagato"],
+     "accepted_answers": [
+      "aver pagato",
+      "avere pagato"
+     ],
      "feedback_ru": "Dopo + инфинитив прошедшего времени: aver (avere) pagato.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -463,7 +533,9 @@
      "type": "cloze",
      "prompt_ru": "Вставь только пропущенную форму. (scoppiare; сведения не подтверждены)",
      "stimulus_it": "Secondo alcuni testimoni, l’incendio ___ verso le tre di notte.",
-     "accepted_answers": ["sarebbe scoppiato"],
+     "accepted_answers": [
+      "sarebbe scoppiato"
+     ],
      "feedback_ru": "Непроверенная информация о прошлом — condizionale passato (giornalistico): sarebbe scoppiato.",
      "grading": "exact_normalized",
      "target_language": "it",
@@ -614,33 +686,365 @@
   }
  ],
  "verb_reference": {
-  "person_order": ["io", "tu", "lui/lei/Lei", "noi", "voi", "loro"],
+  "person_order": [
+   "io",
+   "tu",
+   "lui/lei/Lei",
+   "noi",
+   "voi",
+   "loro"
+  ],
   "items": [
-   {"infinitive": "essere", "present_forms": ["sono", "sei", "è", "siamo", "siete", "sono"], "past_participle_base": "stato", "future_conditional_stem": "sar", "auxiliary_ru": "essere"},
-   {"infinitive": "avere", "present_forms": ["ho", "hai", "ha", "abbiamo", "avete", "hanno"], "past_participle_base": "avuto", "future_conditional_stem": "avr", "auxiliary_ru": "avere"},
-   {"infinitive": "andare", "present_forms": ["vado", "vai", "va", "andiamo", "andate", "vanno"], "past_participle_base": "andato", "future_conditional_stem": "andr", "auxiliary_ru": "essere"},
-   {"infinitive": "venire", "present_forms": ["vengo", "vieni", "viene", "veniamo", "venite", "vengono"], "past_participle_base": "venuto", "future_conditional_stem": "verr", "auxiliary_ru": "essere"},
-   {"infinitive": "fare", "present_forms": ["faccio", "fai", "fa", "facciamo", "fate", "fanno"], "past_participle_base": "fatto", "future_conditional_stem": "far", "auxiliary_ru": "avere"},
-   {"infinitive": "stare", "present_forms": ["sto", "stai", "sta", "stiamo", "state", "stanno"], "past_participle_base": "stato", "future_conditional_stem": "star", "auxiliary_ru": "essere"},
-   {"infinitive": "dare", "present_forms": ["do", "dai", "dà", "diamo", "date", "danno"], "past_participle_base": "dato", "future_conditional_stem": "dar", "auxiliary_ru": "avere"},
-   {"infinitive": "dire", "present_forms": ["dico", "dici", "dice", "diciamo", "dite", "dicono"], "past_participle_base": "detto", "future_conditional_stem": "dir", "auxiliary_ru": "avere"},
-   {"infinitive": "potere", "present_forms": ["posso", "puoi", "può", "possiamo", "potete", "possono"], "past_participle_base": "potuto", "future_conditional_stem": "potr", "auxiliary_ru": "essere/avere"},
-   {"infinitive": "volere", "present_forms": ["voglio", "vuoi", "vuole", "vogliamo", "volete", "vogliono"], "past_participle_base": "voluto", "future_conditional_stem": "vorr", "auxiliary_ru": "essere/avere"},
-   {"infinitive": "dovere", "present_forms": ["devo", "devi", "deve", "dobbiamo", "dovete", "devono"], "past_participle_base": "dovuto", "future_conditional_stem": "dovr", "auxiliary_ru": "essere/avere"},
-   {"infinitive": "sapere", "present_forms": ["so", "sai", "sa", "sappiamo", "sapete", "sanno"], "past_participle_base": "saputo", "future_conditional_stem": "sapr", "auxiliary_ru": "avere"},
-   {"infinitive": "uscire", "present_forms": ["esco", "esci", "esce", "usciamo", "uscite", "escono"], "past_participle_base": "uscito", "future_conditional_stem": "uscir", "auxiliary_ru": "essere"},
-   {"infinitive": "bere", "present_forms": ["bevo", "bevi", "beve", "beviamo", "bevete", "bevono"], "past_participle_base": "bevuto", "future_conditional_stem": "berr", "auxiliary_ru": "avere"},
-   {"infinitive": "prendere", "present_forms": ["prendo", "prendi", "prende", "prendiamo", "prendete", "prendono"], "past_participle_base": "preso", "future_conditional_stem": "prender", "auxiliary_ru": "avere"},
-   {"infinitive": "mettere", "present_forms": ["metto", "metti", "mette", "mettiamo", "mettete", "mettono"], "past_participle_base": "messo", "future_conditional_stem": "metter", "auxiliary_ru": "avere"},
-   {"infinitive": "vedere", "present_forms": ["vedo", "vedi", "vede", "vediamo", "vedete", "vedono"], "past_participle_base": "visto", "future_conditional_stem": "vedr", "auxiliary_ru": "avere"},
-   {"infinitive": "rimanere", "present_forms": ["rimango", "rimani", "rimane", "rimaniamo", "rimanete", "rimangono"], "past_participle_base": "rimasto", "future_conditional_stem": "rimarr", "auxiliary_ru": "essere"},
-   {"infinitive": "scegliere", "present_forms": ["scelgo", "scegli", "sceglie", "scegliamo", "scegliete", "scelgono"], "past_participle_base": "scelto", "future_conditional_stem": "sceglier", "auxiliary_ru": "avere"},
-   {"infinitive": "tenere", "present_forms": ["tengo", "tieni", "tiene", "teniamo", "tenete", "tengono"], "past_participle_base": "tenuto", "future_conditional_stem": "terr", "auxiliary_ru": "avere"},
-   {"infinitive": "piacere", "present_forms": ["piaccio", "piaci", "piace", "piacciamo", "piacete", "piacciono"], "past_participle_base": "piaciuto", "future_conditional_stem": "piacer", "auxiliary_ru": "essere"},
-   {"infinitive": "parlare", "present_forms": ["parlo", "parli", "parla", "parliamo", "parlate", "parlano"], "past_participle_base": "parlato", "future_conditional_stem": "parler", "auxiliary_ru": "avere"},
-   {"infinitive": "credere", "present_forms": ["credo", "credi", "crede", "crediamo", "credete", "credono"], "past_participle_base": "creduto", "future_conditional_stem": "creder", "auxiliary_ru": "avere"},
-   {"infinitive": "dormire", "present_forms": ["dormo", "dormi", "dorme", "dormiamo", "dormite", "dormono"], "past_participle_base": "dormito", "future_conditional_stem": "dormir", "auxiliary_ru": "avere"},
-   {"infinitive": "finire", "present_forms": ["finisco", "finisci", "finisce", "finiamo", "finite", "finiscono"], "past_participle_base": "finito", "future_conditional_stem": "finir", "auxiliary_ru": "essere/avere"}
+   {
+    "infinitive": "essere",
+    "present_forms": [
+     "sono",
+     "sei",
+     "è",
+     "siamo",
+     "siete",
+     "sono"
+    ],
+    "past_participle_base": "stato",
+    "future_conditional_stem": "sar",
+    "auxiliary_ru": "essere"
+   },
+   {
+    "infinitive": "avere",
+    "present_forms": [
+     "ho",
+     "hai",
+     "ha",
+     "abbiamo",
+     "avete",
+     "hanno"
+    ],
+    "past_participle_base": "avuto",
+    "future_conditional_stem": "avr",
+    "auxiliary_ru": "avere"
+   },
+   {
+    "infinitive": "andare",
+    "present_forms": [
+     "vado",
+     "vai",
+     "va",
+     "andiamo",
+     "andate",
+     "vanno"
+    ],
+    "past_participle_base": "andato",
+    "future_conditional_stem": "andr",
+    "auxiliary_ru": "essere"
+   },
+   {
+    "infinitive": "venire",
+    "present_forms": [
+     "vengo",
+     "vieni",
+     "viene",
+     "veniamo",
+     "venite",
+     "vengono"
+    ],
+    "past_participle_base": "venuto",
+    "future_conditional_stem": "verr",
+    "auxiliary_ru": "essere"
+   },
+   {
+    "infinitive": "fare",
+    "present_forms": [
+     "faccio",
+     "fai",
+     "fa",
+     "facciamo",
+     "fate",
+     "fanno"
+    ],
+    "past_participle_base": "fatto",
+    "future_conditional_stem": "far",
+    "auxiliary_ru": "avere"
+   },
+   {
+    "infinitive": "stare",
+    "present_forms": [
+     "sto",
+     "stai",
+     "sta",
+     "stiamo",
+     "state",
+     "stanno"
+    ],
+    "past_participle_base": "stato",
+    "future_conditional_stem": "star",
+    "auxiliary_ru": "essere"
+   },
+   {
+    "infinitive": "dare",
+    "present_forms": [
+     "do",
+     "dai",
+     "dà",
+     "diamo",
+     "date",
+     "danno"
+    ],
+    "past_participle_base": "dato",
+    "future_conditional_stem": "dar",
+    "auxiliary_ru": "avere"
+   },
+   {
+    "infinitive": "dire",
+    "present_forms": [
+     "dico",
+     "dici",
+     "dice",
+     "diciamo",
+     "dite",
+     "dicono"
+    ],
+    "past_participle_base": "detto",
+    "future_conditional_stem": "dir",
+    "auxiliary_ru": "avere"
+   },
+   {
+    "infinitive": "potere",
+    "present_forms": [
+     "posso",
+     "puoi",
+     "può",
+     "possiamo",
+     "potete",
+     "possono"
+    ],
+    "past_participle_base": "potuto",
+    "future_conditional_stem": "potr",
+    "auxiliary_ru": "essere/avere"
+   },
+   {
+    "infinitive": "volere",
+    "present_forms": [
+     "voglio",
+     "vuoi",
+     "vuole",
+     "vogliamo",
+     "volete",
+     "vogliono"
+    ],
+    "past_participle_base": "voluto",
+    "future_conditional_stem": "vorr",
+    "auxiliary_ru": "essere/avere"
+   },
+   {
+    "infinitive": "dovere",
+    "present_forms": [
+     "devo",
+     "devi",
+     "deve",
+     "dobbiamo",
+     "dovete",
+     "devono"
+    ],
+    "past_participle_base": "dovuto",
+    "future_conditional_stem": "dovr",
+    "auxiliary_ru": "essere/avere"
+   },
+   {
+    "infinitive": "sapere",
+    "present_forms": [
+     "so",
+     "sai",
+     "sa",
+     "sappiamo",
+     "sapete",
+     "sanno"
+    ],
+    "past_participle_base": "saputo",
+    "future_conditional_stem": "sapr",
+    "auxiliary_ru": "avere"
+   },
+   {
+    "infinitive": "uscire",
+    "present_forms": [
+     "esco",
+     "esci",
+     "esce",
+     "usciamo",
+     "uscite",
+     "escono"
+    ],
+    "past_participle_base": "uscito",
+    "future_conditional_stem": "uscir",
+    "auxiliary_ru": "essere"
+   },
+   {
+    "infinitive": "bere",
+    "present_forms": [
+     "bevo",
+     "bevi",
+     "beve",
+     "beviamo",
+     "bevete",
+     "bevono"
+    ],
+    "past_participle_base": "bevuto",
+    "future_conditional_stem": "berr",
+    "auxiliary_ru": "avere"
+   },
+   {
+    "infinitive": "prendere",
+    "present_forms": [
+     "prendo",
+     "prendi",
+     "prende",
+     "prendiamo",
+     "prendete",
+     "prendono"
+    ],
+    "past_participle_base": "preso",
+    "future_conditional_stem": "prender",
+    "auxiliary_ru": "avere"
+   },
+   {
+    "infinitive": "mettere",
+    "present_forms": [
+     "metto",
+     "metti",
+     "mette",
+     "mettiamo",
+     "mettete",
+     "mettono"
+    ],
+    "past_participle_base": "messo",
+    "future_conditional_stem": "metter",
+    "auxiliary_ru": "avere"
+   },
+   {
+    "infinitive": "vedere",
+    "present_forms": [
+     "vedo",
+     "vedi",
+     "vede",
+     "vediamo",
+     "vedete",
+     "vedono"
+    ],
+    "past_participle_base": "visto",
+    "future_conditional_stem": "vedr",
+    "auxiliary_ru": "avere"
+   },
+   {
+    "infinitive": "rimanere",
+    "present_forms": [
+     "rimango",
+     "rimani",
+     "rimane",
+     "rimaniamo",
+     "rimanete",
+     "rimangono"
+    ],
+    "past_participle_base": "rimasto",
+    "future_conditional_stem": "rimarr",
+    "auxiliary_ru": "essere"
+   },
+   {
+    "infinitive": "scegliere",
+    "present_forms": [
+     "scelgo",
+     "scegli",
+     "sceglie",
+     "scegliamo",
+     "scegliete",
+     "scelgono"
+    ],
+    "past_participle_base": "scelto",
+    "future_conditional_stem": "sceglier",
+    "auxiliary_ru": "avere"
+   },
+   {
+    "infinitive": "tenere",
+    "present_forms": [
+     "tengo",
+     "tieni",
+     "tiene",
+     "teniamo",
+     "tenete",
+     "tengono"
+    ],
+    "past_participle_base": "tenuto",
+    "future_conditional_stem": "terr",
+    "auxiliary_ru": "avere"
+   },
+   {
+    "infinitive": "piacere",
+    "present_forms": [
+     "piaccio",
+     "piaci",
+     "piace",
+     "piacciamo",
+     "piacete",
+     "piacciono"
+    ],
+    "past_participle_base": "piaciuto",
+    "future_conditional_stem": "piacer",
+    "auxiliary_ru": "essere"
+   },
+   {
+    "infinitive": "parlare",
+    "present_forms": [
+     "parlo",
+     "parli",
+     "parla",
+     "parliamo",
+     "parlate",
+     "parlano"
+    ],
+    "past_participle_base": "parlato",
+    "future_conditional_stem": "parler",
+    "auxiliary_ru": "avere"
+   },
+   {
+    "infinitive": "credere",
+    "present_forms": [
+     "credo",
+     "credi",
+     "crede",
+     "crediamo",
+     "credete",
+     "credono"
+    ],
+    "past_participle_base": "creduto",
+    "future_conditional_stem": "creder",
+    "auxiliary_ru": "avere"
+   },
+   {
+    "infinitive": "dormire",
+    "present_forms": [
+     "dormo",
+     "dormi",
+     "dorme",
+     "dormiamo",
+     "dormite",
+     "dormono"
+    ],
+    "past_participle_base": "dormito",
+    "future_conditional_stem": "dormir",
+    "auxiliary_ru": "avere"
+   },
+   {
+    "infinitive": "finire",
+    "present_forms": [
+     "finisco",
+     "finisci",
+     "finisce",
+     "finiamo",
+     "finite",
+     "finiscono"
+    ],
+    "past_participle_base": "finito",
+    "future_conditional_stem": "finir",
+    "auxiliary_ru": "essere/avere"
+   }
   ],
   "rule_ru": "Это справочник, не 25 новых карточек в первый день. Причастия даны в базовой форме (м. р., ед. ч.); с essere они согласуются: è andata, sono rimaste. Futuro = основа + -ò, -ai, -à, -emo, -ete, -anno (sarò, andrò); condizionale = основа + -ei, -esti, -ebbe, -emmo, -este, -ebbero (vorrei). «essere/avere»: finire берёт avere с прямым дополнением (ho finito il libro) и essere без него (il film è finito); potere, volere, dovere без инфинитива берут avere (non ho potuto), а с инфинитивом по норме — вспомогательный этого инфинитива: sono dovuta partire, ho dovuto lavorare (ho dovuto partire тоже встречается). Dà (он даёт) пишется с ударением, чтобы отличать от предлога da."
  }

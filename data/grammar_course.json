@@ -1839,8 +1839,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/pronomi-personali_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/pronomi-allocutivi_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -1957,8 +1962,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/copula_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -2199,8 +2208,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/genere_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/plurale_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -2317,8 +2331,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/articolo-prontuario_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/articolo_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -2436,8 +2455,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/aggettivi_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/accordo_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -2555,8 +2579,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/coniugazione-verbale_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/presente_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -2674,8 +2703,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/coniugazione-verbale_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/presente_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -2795,8 +2829,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/coniugazione-verbale_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -2913,8 +2951,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/negazione_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -3034,8 +3076,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/interrogative-dirette_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/aggettivi-e-pronomi-interrogativi_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -3151,8 +3198,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/aggettivi-e-pronomi-possessivi_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/nomi-di-parentela_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -3268,8 +3320,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/aggettivi-e-pronomi-dimostrativi_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -3387,8 +3443,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/preposizioni-prontuario_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/preposizioni_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -3508,8 +3569,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/partitivo-prontuario_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/partitivo_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -3630,8 +3696,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/verbi-modali_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -3751,8 +3821,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/verbi-riflessivi_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/pronomi-riflessivi_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -3783,7 +3858,8 @@
     "Который час: Che ore sono? (или Che ora è?) — Sono le tre; È l’una; È mezzogiorno / mezzanotte. Минуты: le tre e dieci, le tre e un quarto, le tre e mezza, le quattro meno dieci. «Во сколько?» — A che ora? — alle otto, all’una, a mezzogiorno.",
     "Частотность: sempre, spesso, a volte, raramente, non… mai, ogni giorno, ogni settimana. Sempre и spesso обычно ставят после глагола: Prendo sempre il caffè al bar («Я всегда пью кофе в баре»). Ogni не меняется и требует ед. ч.: ogni giorno (не *ogni giorni).",
     "Связки: e (и), ma (но), o (или), poi (потом), allora (тогда, значит), quando (когда), perché (потому что; тот же perché — «почему?» в вопросе).",
-    "Stare + gerundio — действие в процессе прямо сейчас: sto, stai, sta… + -ando (parlare → parlando) или -endo (prendere → prendendo, partire → partendo). Неправильные: fare → facendo, bere → bevendo, dire → dicendo. Sto arrivando! — «Я уже иду!»"
+    "Stare + gerundio — действие в процессе прямо сейчас: sto, stai, sta… + -ando (parlare → parlando) или -endo (prendere → prendendo, partire → partendo). Неправильные: fare → facendo, bere → bevendo, dire → dicendo. Sto arrivando! — «Я уже иду!»",
+    "Готовые фразы для поездки — запоминаем целиком, разбор будет позже (темы 19 и 29): Mi piace… / Mi piacciono… («мне нравится / нравятся»), Ho prenotato… («я забронировала»), Ho perso… («я потеряла»), Sono arrivata ieri."
    ],
    "examples": [
     {
@@ -3872,8 +3948,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/avverbi_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/congiunzioni_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -3996,8 +4077,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/passato-prossimo_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/verbi-ausiliari_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -4116,8 +4202,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/verbi-ausiliari_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/accordo-prontuario_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -4148,7 +4239,8 @@
    "rules_ru": [
     "Образование: у инфинитива отбрасываем -re и добавляем -vo, -vi, -va, -vamo, -vate, -vano: parlare → parlavo, avere → avevo, dormire → dormivo. В 3-м л. мн. ч. ударение на третий слог от конца: parlavano, avevano.",
     "Essere неправильный: ero, eri, era, eravamo, eravate, erano. Fare, dire, bere берут старую основу: facevo, dicevo, bevevo.",
-    "Imperfetto отвечает на вопросы «как было?» и «что бывало обычно?»: описание (La camera era piccola, faceva caldo), возраст и состояние (Avevo dieci anni, ero stanca), привычка в прошлом (Da bambina andavo al mare ogni estate). По-русски это часто несовершенный вид: «я ездила (каждое лето)», «было жарко»."
+    "Imperfetto отвечает на вопросы «как было?» и «что бывало обычно?»: описание (La camera era piccola, faceva caldo), возраст и состояние (Avevo dieci anni, ero stanca), привычка в прошлом (Da bambina andavo al mare ogni estate). По-русски это часто несовершенный вид: «я ездила (каждое лето)», «было жарко».",
+    "Вежливое imperfetto в просьбах: Volevo un’informazione («я хотела бы узнать»), Volevo prenotare un tavolo — мягче, чем Voglio."
    ],
    "examples": [
     {
@@ -4237,8 +4329,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/imperfetto_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -4360,8 +4456,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/passato-prossimo_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/imperfetto_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -4482,8 +4583,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/futuro_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -4603,8 +4708,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/condizionale_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -4726,8 +4835,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/imperativo_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -4847,8 +4960,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/clitici_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/pronomi-personali_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -4966,8 +5084,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/pronomi-personali_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/clitici_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -5090,8 +5213,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/clitici_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -5209,8 +5336,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/verbi-psicologici_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -5329,8 +5460,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/comparazione_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/superlativo_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -5449,8 +5585,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/avverbi_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -5571,8 +5711,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/preposizioni_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/strutture-perifrastiche_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -5691,8 +5836,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/pronomi-relativi_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/frasi-relative_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -5811,8 +5961,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/negazione_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -5842,7 +5996,7 @@
    "rules_ru": [
     "После модальных и некоторых других глаголов инфинитив идёт без предлога: voglio partire, posso entrare, devo pagare, preferisco restare, mi piace viaggiare. Многие глаголы требуют предлога — учи их сразу вместе с ним.",
     "A: cominciare a, imparare a, provare a, continuare a, aiutare a, а также andare/venire a + инфинитив (Vado a dormire). Di: finire di, decidere di, cercare di («стараться»), smettere di, dimenticare di. Ошибка — «Cerco trovare» вместо «Cerco di trovare».",
-    "Per + инфинитив = «чтобы»: Sono qui per imparare l’italiano. Prima di + инфинитив = «прежде чем, перед тем как»: Prima di partire controllo il passaporto. Da + инфинитив после существительного или niente/qualcosa — «который нужно или можно»: niente da fare, qualcosa da bere, molto da vedere."
+    "Per + инфинитив = «чтобы»: Sono qui per imparare l’italiano. Prima di + инфинитив = «прежде чем, перед тем как»: Prima di partire controllo il passaporto. Da + инфинитив после существительного или niente/qualcosa — «который нужно или можно»: niente da fare, qualcosa da bere, molto da vedere. Senza + инфинитив = «не делая, без того чтобы»: Sono uscita senza mangiare."
    ],
    "examples": [
     {
@@ -5933,8 +6087,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/infinito_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/reggenza_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -6055,8 +6214,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/aggettivi-e-pronomi-indefiniti_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -6175,8 +6338,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/trapassato-prossimo_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -6298,8 +6465,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/aspetto_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/trapassato-prossimo_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -6418,8 +6590,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/futuro-anteriore_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -6437,7 +6613,7 @@
    "id": "it-grammar-040",
    "order": 40,
    "stage": "B1",
-   "cefr_band_author": "B1",
+   "cefr_band_author": "B2",
    "priority": "core",
    "title_ru": "Condizionale passato",
    "can_do_ru": "Выразить сожаление и «будущее в прошлом».",
@@ -6538,8 +6714,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/condizionale_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -6660,8 +6840,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/congiuntivo_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/coniugazione-verbale_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -6778,8 +6963,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/congiuntivo_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/frasi-completive_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -6798,7 +6988,7 @@
    "id": "it-grammar-043",
    "order": 43,
    "stage": "B1",
-   "cefr_band_author": "B1",
+   "cefr_band_author": "B2",
    "priority": "core",
    "title_ru": "Congiuntivo passato",
    "can_do_ru": "Выразить мнение о прошедшем.",
@@ -6898,8 +7088,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/congiuntivo_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/concordanza-dei-tempi_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -6917,7 +7112,7 @@
    "id": "it-grammar-044",
    "order": 44,
    "stage": "B1",
-   "cefr_band_author": "B1",
+   "cefr_band_author": "B2",
    "priority": "core",
    "title_ru": "Congiuntivo imperfetto",
    "can_do_ru": "Выразить желание и предположение в прошлом и нереальное.",
@@ -7016,8 +7211,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/congiuntivo_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/concordanza-dei-tempi_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -7035,7 +7235,7 @@
    "id": "it-grammar-045",
    "order": 45,
    "stage": "B1",
-   "cefr_band_author": "B1",
+   "cefr_band_author": "B1/B2",
    "priority": "core",
    "title_ru": "Periodo ipotetico: реальное и возможное",
    "can_do_ru": "Строить условия: если… то.",
@@ -7138,8 +7338,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/periodo-ipotetico_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -7158,7 +7362,7 @@
    "id": "it-grammar-046",
    "order": 46,
    "stage": "B1",
-   "cefr_band_author": "B1",
+   "cefr_band_author": "B2",
    "priority": "extension",
    "title_ru": "Periodo ipotetico: нереальное прошлое",
    "can_do_ru": "Сказать, что было бы, если бы…",
@@ -7260,8 +7464,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/periodo-ipotetico_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -7379,8 +7587,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/clitici_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -7499,8 +7711,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/clitici_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/imperativo_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -7518,7 +7735,7 @@
    "id": "it-grammar-049",
    "order": 49,
    "stage": "B1",
-   "cefr_band_author": "B1",
+   "cefr_band_author": "B2",
    "priority": "core",
    "title_ru": "Относительные: il quale, chi, quello che, ciò che",
    "can_do_ru": "Строить сложные определения.",
@@ -7619,8 +7836,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/pronomi-relativi_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/frasi-relative_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -7638,7 +7860,7 @@
    "id": "it-grammar-050",
    "order": 50,
    "stage": "B1",
-   "cefr_band_author": "B1",
+   "cefr_band_author": "B1/B2",
    "priority": "core",
    "title_ru": "Пассив и si passivante",
    "can_do_ru": "Сказать, что что-то делается/сделано.",
@@ -7740,8 +7962,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/costruzione-passiva_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -7766,7 +7992,7 @@
    "can_do_ru": "Сказать «здесь едят», «говорят, что».",
    "prerequisites": [
     "it-grammar-017",
-    "it-grammar-049"
+    "it-grammar-050"
    ],
    "rules_ru": [
     "Si + глагол в 3-м лице единственного числа = «люди вообще», как русское «здесь едят», «говорят»: Qui si mangia bene. In Italia si cena tardi. Si dice che… = говорят, что… Подлежащее не нужно.",
@@ -7861,8 +8087,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/verbi-impersonali_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -7982,8 +8212,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/discorso-indiretto_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/interrogative-indirette_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -8001,7 +8236,7 @@
    "id": "it-grammar-053",
    "order": 53,
    "stage": "B1",
-   "cefr_band_author": "B1",
+   "cefr_band_author": "B2",
    "priority": "core",
    "title_ru": "Gerundio: время, способ, причина",
    "can_do_ru": "Сократить придаточное с помощью gerundio.",
@@ -8103,8 +8338,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/gerundio_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -8227,8 +8466,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/connettivi_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/frasi-finali_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -8346,8 +8590,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/concordanza-dei-tempi_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/congiuntivo_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -8465,8 +8714,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/congiuntivo_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/frasi-completive_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -8586,8 +8840,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/frasi-concessive_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -8607,7 +8865,7 @@
    "stage": "B2",
    "cefr_band_author": "B2",
    "priority": "core",
-   "title_ru": "Условие: purché, a condizione che, a meno che, qualora, nel caso in cui",
+   "title_ru": "Условие и сравнение: purché, a meno che, qualora; come se",
    "can_do_ru": "Выразить условие разными союзами.",
    "prerequisites": [
     "it-grammar-045",
@@ -8617,7 +8875,8 @@
    "rules_ru": [
     "Purché, a condizione che, a patto che = «при условии, что; лишь бы» → congiuntivo: Ti presto la macchina, purché tu la riporti domani.",
     "A meno che (non) = «если только не» → congiuntivo. Non здесь лишнее по смыслу и фразу отрицательной не делает: Prendiamo il treno, a meno che non ci sia uno sciopero (= если только не будет забастовки).",
-    "Qualora, nel caso in cui, nel caso che = «в случае если» → congiuntivo, в отличие от se: Nel caso in cui piova, la cena sarà al coperto. In caso di + существительное без артикля: in caso di pioggia, in caso di emergenza."
+    "Qualora, nel caso in cui, nel caso che = «в случае если» → congiuntivo, в отличие от se: Nel caso in cui piova, la cena sarà al coperto. In caso di + существительное без артикля: in caso di pioggia, in caso di emergenza.",
+    "Come se = «как будто» → congiuntivo imperfetto (одновременно) или trapassato (раньше): Parla come se fosse il capo; Mi guarda come se non mi avesse mai visto. Ошибка — indicativo после come se: не «come se è»."
    ],
    "examples": [
     {
@@ -8707,8 +8966,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/periodo-ipotetico_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/frasi-eccettuative_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -8732,7 +8996,7 @@
    "can_do_ru": "Пересказать сказанное в прошлом.",
    "prerequisites": [
     "it-grammar-040",
-    "it-grammar-051",
+    "it-grammar-052",
     "it-grammar-055"
    ],
    "rules_ru": [
@@ -8826,8 +9090,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/discorso-indiretto_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/concordanza-dei-tempi_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -8948,8 +9217,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/frasi-scisse_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/dislocazioni_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -9069,8 +9343,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/participio_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -9191,8 +9469,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/infinito_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -9311,8 +9593,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/costruzione-causativa_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -9430,8 +9716,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/verbi-pronominali_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/clitici_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -9549,8 +9840,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/reggenza_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/preposizioni_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -9671,8 +9967,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/articolo_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/articolo-prontuario_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -9792,8 +10093,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/negazione_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -9819,7 +10124,8 @@
    "prerequisites": [
     "it-grammar-039",
     "it-grammar-043",
-    "it-grammar-063"
+    "it-grammar-041",
+    "it-grammar-062"
    ],
    "rules_ru": [
     "Prima che + congiuntivo — когда у двух частей разные подлежащие: Torniamo prima che piova; Ti do le chiavi prima che tu parta. Если подлежащее одно, нужно prima di + инфинитив: Prima di partire, chiudo le finestre (не «prima che io parta»).",
@@ -9913,8 +10219,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/frasi-temporali_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -10035,8 +10345,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/modalita_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/condizionale_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -10156,8 +10471,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/nominalizzazioni_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/connettivi_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -10278,8 +10598,13 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/registro_(Enciclopedia-dell'Italiano)/",
+    "https://www.treccani.it/enciclopedia/allocutivi-prontuario_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -10299,7 +10624,7 @@
    "order": 72,
    "stage": "B2",
    "cefr_band_author": "B2",
-   "priority": "optional_reading",
+   "priority": "core",
    "title_ru": "Passato remoto: узнавание",
    "can_do_ru": "Узнавать passato remoto в книгах и на табличках.",
    "prerequisites": [
@@ -10398,8 +10723,12 @@
      "model_answer_scope": "one_possible_response_not_exhaustive"
     }
    ],
-   "reference_ids": [],
-   "grammar_reference_paths": [],
+   "reference_ids": [
+    "S-GRAM"
+   ],
+   "grammar_reference_paths": [
+    "https://www.treccani.it/enciclopedia/passato-remoto_(Enciclopedia-dell'Italiano)/"
+   ],
    "estimated_sessions": {
     "count": 3,
     "minutes_each": [
@@ -10702,7 +11031,7 @@
   {
    "id": "it-check-b1",
    "stage": "B1",
-   "purpose_ru": "Внутренняя выборочная проверка грамматики и переноса в речь. Не полный тест уровня CEFR и не экзамен CILS/CELI.",
+   "purpose_ru": "Внутренняя выборочная проверка грамматики и переноса в речь. Не полный тест уровня CEFR и не экзамен CILS/CELI. Часть тем этого блока (condizionale passato, congiuntivo imperfetto, gerundio, сочетания местоимений) по итальянским программам Profilo, CILS и PLIDA относится уже к B2: ошибки в них на этом этапе нормальны.",
    "closed_task_count": 8,
    "production_task_count": 2,
    "exercises": [
@@ -10988,7 +11317,99 @@
    "retest_ru": "После первого показа задания уже не новые. Повторный результат помечай как повтор; для независимой проверки нужны другие формулировки или проверка преподавателем."
   }
  ],
- "sources": [],
+ "sources": [
+  {
+   "id": "S-CEFR",
+   "title": "Council of Europe — The CEFR Levels (Global scale)",
+   "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions",
+   "use_ru": "Общая шкала: уровень описывается через умения во всех видах речевой деятельности, а не через список грамматики; поэтому приложение уровень не присваивает.",
+   "accessed_at": "2026-10-10"
+  },
+  {
+   "id": "S-QUAL",
+   "title": "Council of Europe — Qualitative aspects of spoken language use, Table 3 (CEFR 3.3)",
+   "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-3-cefr-3.3-common-reference-levels-qualitative-aspects-of-spoken-language-use",
+   "use_ru": "Различия уровней по диапазону, точности, беглости, взаимодействию и связности; объяснение, почему грамматический мини-тест не равен уровню.",
+   "accessed_at": "2026-10-10"
+  },
+  {
+   "id": "S-RLD",
+   "title": "Council of Europe — Reference Level Descriptions (RLDs) developed so far",
+   "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/reference-level-descriptions-rlds-developed-so-far",
+   "use_ru": "Подтверждение, что Profilo della lingua italiana — описание уровней A1–B2 для итальянского в рамках проекта RLD Совета Европы.",
+   "accessed_at": "2026-10-10"
+  },
+  {
+   "id": "S-PROFILO",
+   "title": "Spinelli B., Parizzi F. Profilo della lingua italiana. Livelli di riferimento del QCER A1, A2, B1, B2 (La Nuova Italia, 2010) — онлайн-инвентари, Università per Stranieri di Perugia",
+   "url": "https://www.unistrapg.it/profilo_lingua_italiana/site/contenuti.html",
+   "use_ru": "Главный ориентир распределения грамматики по уровням A1–B2 (инвентари «Grammatica» и «Funzioni»); ориентир охвата, не обязательный экзаменационный список; недели и группировка тем авторские.",
+   "accessed_at": "2026-10-10"
+  },
+  {
+   "id": "S-CILS",
+   "title": "Università per Stranieri di Siena — Linee guida CILS (силлабусы уровней A1, A2, UNO-B1, DUE-B2)",
+   "url": "https://cils.unistrasi.it/public/articoli/12/linee_guida_cils_pdf(2).pdf",
+   "use_ru": "Сверка уровней по морфосинтаксическим силлабусам CILS; CILS осторожнее Profilo (congiuntivo и сочетания местоимений — на B2), passato prossimo уже на A1; не подготовка к экзамену.",
+   "accessed_at": "2026-10-10"
+  },
+  {
+   "id": "S-CELI",
+   "title": "Università per Stranieri di Perugia (CVCL) — CELI 3, livello B2: descrizione delle competenze richieste",
+   "url": "https://www.unistrapg.it/sites/default/files/docs/certificazioni/celi-3-competenze-richieste.pdf",
+   "use_ru": "Верхняя граница B2: condizionale, congiuntivo, periodo ipotetico, пассив и безличные формы, gerundio, связки; грамматика CELI 3 сама отсылает к Profilo. Проверен только уровень B2.",
+   "accessed_at": "2026-10-10"
+  },
+  {
+   "id": "S-PLIDA",
+   "title": "Società Dante Alighieri — Sillabo della Certificazione PLIDA, livelli A1–C2 (2-е изд., март 2021)",
+   "url": "https://cms.plida.dante.global/wp-content/uploads/2022/11/Sillabo_della_certificazione_PLIDA-1.pdf",
+   "use_ru": "Коммуникативные цели и типы текстов по уровням; отдельного списка грамматики в силлабусе нет — грамматику сверяли по Quaderni delle specifiche B1 и B2.",
+   "accessed_at": "2026-10-10"
+  },
+  {
+   "id": "S-PLIDA-B1",
+   "title": "Società Dante Alighieri — PLIDA B1, Quaderno delle specifiche (2-е изд., 2021): Elenco delle strutture ricorrenti",
+   "url": "https://cms.plida.dante.global/wp-content/uploads/2022/11/Quaderno-delle-specifiche-PLIDA-B1.pdf",
+   "use_ru": "Список структур, которые экзаменаторы ожидают на B1 (сочетания местоимений, imperfetto/passato prossimo, congiuntivo presente после глаголов мнения, реальное условие); сам список не исчерпывающий.",
+   "accessed_at": "2026-10-10"
+  },
+  {
+   "id": "S-PLIDA-B2",
+   "title": "Società Dante Alighieri — PLIDA B2, Quaderno delle specifiche: Elenco delle strutture ricorrenti",
+   "url": "https://cms.plida.dante.global/wp-content/uploads/2022/11/Quaderno-delle-specifiche-PLIDA-B2.pdf",
+   "use_ru": "Список структур B2 (congiuntivo всех времён, condizionale passato, periodo ipotetico II–III, gerundio, пассив с essere/venire, passato remoto, il quale, discorso indiretto, come se); ориентир, не экзаменационное обещание.",
+   "accessed_at": "2026-10-10"
+  },
+  {
+   "id": "S-CLIQ-B2",
+   "title": "Enti certificatori dell’italiano L2 — Sillabo di riferimento per i livelli di competenza in italiano L2: Livello B2",
+   "url": "https://www.unistrapg.it/sites/default/files/docs/certificazioni/sillabo-4-enti-B2.pdf",
+   "use_ru": "Точечно: passato remoto на B2 — на уровне узнавания, condizionale «giornalistico»; силлабус ориентирован на взрослых мигрантов, поэтому как общий ориентир не использован.",
+   "accessed_at": "2026-10-10"
+  },
+  {
+   "id": "S-GRAM",
+   "title": "Treccani — Enciclopedia dell’Italiano (dir. R. Simone, 2010–2011)",
+   "url": "https://www.treccani.it/enciclopedia/elenco-opere/Enciclopedia_dell'Italiano/",
+   "use_ru": "Основной грамматический справочник: 1–2 статьи на тему в italian_reference_paths.json; статьи научные и на итальянском — для преподавателя и проверки правил, не для чтения новичком.",
+   "accessed_at": "2026-10-10"
+  },
+  {
+   "id": "S-RU-MASLA",
+   "title": "Masla A. Imparare dagli errori: apprendenti russofoni di italiano LS/L2 // EL.LE 10(3), 2021, 361–392",
+   "url": "https://edizionicafoscari.it/media/pdf/article/elle/2021/3/art-10.30687-ELLE-2280-6792-2021-03-002.pdf",
+   "use_ru": "Типичные письменные ошибки русскоязычных по корпусу VALICO: артикли и слитные предлоги, вспомогательные глаголы и выбор essere/avere, пропуск связки, congiuntivo, управление, двойные согласные.",
+   "accessed_at": "2026-10-10"
+  },
+  {
+   "id": "S-RU-TORRESIN",
+   "title": "Torresin L. Attività glottoludiche per la correzione degli errori di allievi russofoni // Bollettino ITALS 17(77), 2019",
+   "url": "https://www.itals.it/sites/default/files/pdf-bollettino/febbraio2019/Linda_Torresin.pdf",
+   "use_ru": "Контрастивные заметки «русский — итальянский»: артикли, passato prossimo и imperfetto через вид глагола, пропуск essere, двойные согласные, письменное ударение.",
+   "accessed_at": "2026-10-10"
+  }
+ ],
  "omitted_by_design_ru": [
   "Автоматическая сертификация уровня B1/B2.",
   "Полная фонетика, словарь B2 и все четыре речевых навыка: развиваются отдельной практикой.",

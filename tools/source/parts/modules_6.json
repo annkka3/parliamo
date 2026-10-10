@@ -855,7 +855,8 @@
   "prerequisites": [
    "it-grammar-039",
    "it-grammar-043",
-   "it-grammar-063"
+   "it-grammar-041",
+   "it-grammar-062"
   ],
   "rules_ru": [
    "Prima che + congiuntivo — когда у двух частей разные подлежащие: Torniamo prima che piova; Ti do le chiavi prima che tu parta. Если подлежащее одно, нужно prima di + инфинитив: Prima di partire, chiudo le finestre (не «prima che io parta»).",
@@ -1335,7 +1336,7 @@
   "order": 72,
   "stage": "B2",
   "cefr_band_author": "B2",
-  "priority": "optional_reading",
+  "priority": "core",
   "title_ru": "Passato remoto: узнавание",
   "can_do_ru": "Узнавать passato remoto в книгах и на табличках.",
   "prerequisites": [

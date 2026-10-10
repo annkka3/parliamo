@@ -724,7 +724,8 @@
   "recommended_vocab_topic_ids": [
    "04",
    "19"
-  ]
+  ],
+  "cefr_band_author": "B2"
  },
  {
   "id": "it-grammar-041",
@@ -778,7 +779,8 @@
   "scope_notes": "penso che abbia ragione → penso che sia già partito; abbia/sia + participio",
   "recommended_vocab_topic_ids": [
    "19"
-  ]
+  ],
+  "cefr_band_author": "B2"
  },
  {
   "id": "it-grammar-044",
@@ -795,7 +797,8 @@
   "scope_notes": "parlassi, prendessi, dormissi; fossi, avessi, facessi, dicessi, dessi, stessi; pensavo che fosse; vorrei che tu venissi",
   "recommended_vocab_topic_ids": [
    "19"
-  ]
+  ],
+  "cefr_band_author": "B2"
  },
  {
   "id": "it-grammar-045",
@@ -814,7 +817,8 @@
   "recommended_vocab_topic_ids": [
    "04",
    "20"
-  ]
+  ],
+  "cefr_band_author": "B1/B2"
  },
  {
   "id": "it-grammar-046",
@@ -831,7 +835,8 @@
   "scope_notes": "se + congiuntivo trapassato → condizionale passato: Se avessi saputo, sarei venuta; разговорное imperfetto: Se lo sapevo, venivo (узнавание)",
   "recommended_vocab_topic_ids": [
    "04"
-  ]
+  ],
+  "cefr_band_author": "B2"
  },
  {
   "id": "it-grammar-047",
@@ -884,7 +889,8 @@
   "scope_notes": "il quale/la quale/i quali/le quali (официально, с предлогами); chi = тот, кто; quello che/ciò che = то, что",
   "recommended_vocab_topic_ids": [
    "20"
-  ]
+  ],
+  "cefr_band_author": "B2"
  },
  {
   "id": "it-grammar-050",
@@ -903,7 +909,8 @@
   "recommended_vocab_topic_ids": [
    "11",
    "13"
-  ]
+  ],
+  "cefr_band_author": "B1/B2"
  },
  {
   "id": "it-grammar-051",
@@ -915,7 +922,7 @@
   "can_do_ru": "Сказать «здесь едят», «говорят, что».",
   "prerequisites": [
    "it-grammar-017",
-   "it-grammar-049"
+   "it-grammar-050"
   ],
   "scope_notes": "si mangia bene; si è + прил. во мн. ч.: si è stanchi; ci si alza (возвратные); bisogna, conviene, basta",
   "recommended_vocab_topic_ids": [
@@ -957,7 +964,8 @@
   "scope_notes": "parlando, prendendo, partendo; essendo, avendo, facendo, dicendo; gerundio composto: avendo finito; местоимения присоединяются: vedendolo",
   "recommended_vocab_topic_ids": [
    "03"
-  ]
+  ],
+  "cefr_band_author": "B2"
  },
  {
   "id": "it-grammar-054",
@@ -1038,7 +1046,7 @@
   "stage": "B2",
   "suggested_week": 41,
   "priority": "core",
-  "title_ru": "Условие: purché, a condizione che, a meno che, qualora, nel caso in cui",
+  "title_ru": "Условие и сравнение: purché, a meno che, qualora; come se",
   "can_do_ru": "Выразить условие разными союзами.",
   "prerequisites": [
    "it-grammar-045",
@@ -1060,7 +1068,7 @@
   "can_do_ru": "Пересказать сказанное в прошлом.",
   "prerequisites": [
    "it-grammar-040",
-   "it-grammar-051",
+   "it-grammar-052",
    "it-grammar-055"
   ],
   "scope_notes": "ha detto che era stanca / che sarebbe venuta / che aveva finito; imperativo → di + inf.; domande → se + ind./cong.",
@@ -1225,7 +1233,8 @@
   "prerequisites": [
    "it-grammar-039",
    "it-grammar-043",
-   "it-grammar-063"
+   "it-grammar-041",
+   "it-grammar-062"
   ],
   "scope_notes": "prima che + cong. (prima di + inf. при том же лице); dopo che + ind.; finché (non); appena + futuro anteriore; mentre",
   "recommended_vocab_topic_ids": [
@@ -1297,7 +1306,7 @@
   "order": 72,
   "stage": "B2",
   "suggested_week": 50,
-  "priority": "optional_reading",
+  "priority": "core",
   "title_ru": "Passato remoto: узнавание",
   "can_do_ru": "Узнавать passato remoto в книгах и на табличках.",
   "prerequisites": [

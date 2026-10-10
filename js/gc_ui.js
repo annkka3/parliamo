@@ -63,7 +63,7 @@ function gcCourseView() {
         mods.map(m => el('button', { type: 'button', class: 'phrase-row', onclick: () => { UI.gTopic = m.id; UI.gStep = 0; render(); window.scrollTo(0, 0); } },
           el('span', { class: 'chip', style: { minWidth: '34px', justifyContent: 'center' } }, String(m.order)),
           el('span', { class: 'grow cell stack', style: { gap: '2px' } }, el('span', { style: { fontWeight: 600 } }, m.title_ru),
-            el('span', { class: 'muted small' }, tt(`week ${m.suggested_week}`, `нед. ${m.suggested_week}`) + (m.priority === 'extension' ? ' · ' + tt('extension', 'расширение') : m.priority === 'optional_reading' ? ' · ' + tt('for reading', 'для чтения') : '') + (travel.has(m.id) ? ' · ✈' : ''))),
+            el('span', { class: 'muted small' }, tt(`week ${m.suggested_week}`, `нед. ${m.suggested_week}`) + (m.priority === 'extension' ? ' · ' + tt('extension', 'расширение') : m.priority === 'optional_reading' ? ' · ' + tt('for reading', 'для чтения') : '') + (m.cefr_band_author && m.cefr_band_author !== m.stage ? ' · ' + tt('syllabi: ', 'по программам: ') + m.cefr_band_author : '') + (travel.has(m.id) ? ' · ✈' : ''))),
           gcStatusChip(m.id)))) : null));
   });
   const c = gcCounts();
@@ -78,10 +78,11 @@ function gcTopicScreen(id) {
   const steps = m.rules_ru.length + 2, k = Math.min(UI.gStep, steps - 1);
   const out = [el('div', { class: 'row' },
     el('button', { type: 'button', class: 'btn icon-btn', 'aria-label': tt('Back', 'Назад'), onclick: () => { UI.gTopic = null; render(); } }, icon('back')),
-    el('div', { class: 'grow cell' }, el('div', { class: 'row wrapr', style: { gap: '6px' } }, el('span', { class: 'chip' }, m.stage), el('span', { class: 'chip' }, tt(`week ${m.suggested_week}`, `нед. ${m.suggested_week}`)), travel.has(id) ? el('span', { class: 'chip hint' }, tt('for the trip', 'для поездки')) : null, gcStatusChip(id)),
+    el('div', { class: 'grow cell' }, el('div', { class: 'row wrapr', style: { gap: '6px' } }, el('span', { class: 'chip' }, m.stage), m.cefr_band_author && m.cefr_band_author !== m.stage ? el('span', { class: 'chip', title: tt('Level of this topic in the Italian syllabi (Profilo, CILS, PLIDA)', 'Уровень темы по итальянским программам (Profilo, CILS, PLIDA)') }, tt('syllabi: ', 'по программам: ') + m.cefr_band_author) : null, el('span', { class: 'chip' }, tt(`week ${m.suggested_week}`, `нед. ${m.suggested_week}`)), travel.has(id) ? el('span', { class: 'chip hint' }, tt('for the trip', 'для поездки')) : null, gcStatusChip(id)),
       el('h1', { class: 'h2', style: { marginTop: '4px' } }, m.title_ru)))];
   if (k === 0) {
-    out.push(el('section', { class: 'card stack' }, el('div', { class: 'eyebrow' }, tt('Goal', 'Цель')), el('p', { class: 'lesson-p' }, m.can_do_ru)));
+    out.push(el('section', { class: 'card stack' }, el('div', { class: 'eyebrow' }, tt('Goal', 'Цель')), el('p', { class: 'lesson-p' }, m.can_do_ru),
+      (m.grammar_reference_paths || []).length ? el('div', { class: 'row wrapr', style: { gap: '6px' } }, el('span', { class: 'muted small' }, tt('Read more:', 'Подробнее:')), m.grammar_reference_paths.map((u, i) => el('a', { class: 'chip', href: u, target: '_blank', rel: 'noopener' }, 'Treccani' + (m.grammar_reference_paths.length > 1 ? ' ' + (i + 1) : '')))) : null));
     const miss = gcMissingPre(m);
     if (miss.length) out.push(el('section', { class: 'card flat stack' }, el('div', { class: 'eyebrow' }, tt('Better to know first', 'Лучше знать заранее')),
       el('p', { class: 'muted small' }, tt('A recommendation, not a lock: you can read this topic now.', 'Это рекомендация, а не запрет: тему можно читать уже сейчас.')),
@@ -163,7 +164,7 @@ function gcSetWeek(w) { S.gc.week = Math.max(1, Math.min(52, w)); S.gc.rt = Date
 
 /* ---------- reference ---------- */
 function gcRefView() {
-  const out = [seg([['terms', tt('Terms', 'Термины')], ['verbs', tt('Verbs', 'Глаголы')], ['examples', tt('Examples', 'Примеры')]], UI.gRef, v => { UI.gRef = v; render(); }, true)];
+  const out = [seg([['terms', tt('Terms', 'Термины')], ['verbs', tt('Verbs', 'Глаголы')], ['examples', tt('Examples', 'Примеры')], ['sources', tt('Sources', 'Ссылки')]], UI.gRef, v => { UI.gRef = v; render(); }, true)];
   const search = (ph, fill) => {
     const box = el('div', { id: 'gresults', class: 'stack', style: { gap: 0 } });
     out.push(el('div', { class: 'searchbox' }, icon('search'), el('input', { id: 'gsearch', class: 'field', type: 'search', placeholder: ph, value: UI.gq, autocomplete: 'off', oninput: e => { UI.gq = e.target.value; fill(box); } })));
@@ -183,6 +184,10 @@ function gcRefView() {
       el('div', { class: 'kv' }, el('span', { class: 'muted' }, tt('Future / conditional stem', 'Основа futuro / condizionale')), tl(v.future_conditional_stem)),
       el('div', { class: 'kv' }, el('span', { class: 'muted' }, tt('Auxiliary in the past', 'Вспомогательный в прошедшем')), tl(v.auxiliary_ru)),
       el('p', { class: 'muted small' }, vr.rule_ru)));
+  } else if (UI.gRef === 'sources') {
+    out.push(el('p', { class: 'muted small' }, tt('What the plan of the course was checked against. The level split is the author’s; none of these is an official list for the app.', 'С чем сверялся план курса. Распределение по уровням авторское; ни один источник не является официальным списком для приложения.')));
+    out.push(el('div', { class: 'stack', style: { gap: 0 } }, (GC.data.sources || []).map(x => el('div', { class: 'list-row' }, el('div', { class: 'grow cell' },
+      el('a', { href: x.url, target: '_blank', rel: 'noopener', style: { fontWeight: 600, color: 'var(--accent)' } }, x.title), el('div', { class: 'muted small' }, x.use_ru))))));
   } else {
     search(tt('Search an example (Italian or Russian)', 'Найти пример (по-итальянски или по-русски)'), box => {
       const q = gcFold(UI.gq); box.replaceChildren();
