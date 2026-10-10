@@ -1,0 +1,1452 @@
+[
+ {
+  "id": "it-grammar-061",
+  "order": 61,
+  "stage": "B2",
+  "cefr_band_author": "B2",
+  "priority": "core",
+  "title_ru": "Participio как оборот",
+  "can_do_ru": "Сократить придаточное причастием.",
+  "prerequisites": [
+   "it-grammar-020",
+   "it-grammar-053"
+  ],
+  "rules_ru": [
+   "Participio passato без вспомогательного глагола может заменить придаточное «после того как / когда»: Finito il lavoro, siamo andati a cena = Dopo che abbiamo finito il lavoro… Оборот стоит в начале фразы и обозначает действие, которое завершилось раньше главного. Русское «закончив» — это finito, а не gerundio finendo («заканчивая», одновременно).",
+   "Согласование. Если глагол переходный, причастие согласуется с дополнением: Finita la cena…, Comprati i biglietti…, Viste le foto… Если глагол спрягается с essere, причастие согласуется с подлежащим, общим для оборота и главной части: Arrivata a Roma, Giulia ha chiamato sua madre; Partiti presto, siamo arrivati alle nove.",
+   "Participio presente (-ante, -ente) в современном языке почти всегда просто прилагательное или существительное: interessante, divertente, importante, il cantante, l’insegnante, i partecipanti. Русское «читающий человек» — не «un uomo leggente», а un uomo che legge."
+  ],
+  "examples": [
+   {
+    "it": "Finito il lavoro, siamo andati a cena insieme.",
+    "ru": "Закончив работу, мы вместе пошли ужинать.",
+    "tts_text": "Finito il lavoro, siamo andati a cena insieme.",
+    "audio_url": null
+   },
+   {
+    "it": "Arrivata a Roma, Giulia ha subito chiamato sua madre.",
+    "ru": "Приехав в Рим, Джулия сразу позвонила маме.",
+    "tts_text": "Arrivata a Roma, Giulia ha subito chiamato sua madre.",
+    "audio_url": null
+   },
+   {
+    "it": "I partecipanti alla riunione hanno ricevuto il programma.",
+    "ru": "Участники совещания получили программу.",
+    "tts_text": "I partecipanti alla riunione hanno ricevuto il programma.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь participio passato глагола в скобках в нужной форме.",
+    "stimulus_it": "___ i biglietti, siamo entrati nel museo. (comprare)",
+    "accepted_answers": [
+     "Comprati"
+    ],
+    "feedback_ru": "Comprati: причастие согласуется с дополнением i biglietti (м. р., мн. ч.).",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-061-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Выбери форму для пропуска: «___ in albergo, le ragazze hanno lasciato le valigie.»",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Arrivato"
+     },
+     {
+      "id": "o2",
+      "text": "Arrivate"
+     },
+     {
+      "id": "o3",
+      "text": "Arrivata"
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "Arrivare спрягается с essere, поэтому причастие согласуется с подлежащим le ragazze (ж. р., мн. ч.): arrivate.",
+    "grading": "option_id",
+    "id": "it-grammar-061-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Сократи придаточное до причастного оборота (без dopo и без вспомогательного глагола): «Dopo che abbiamo visitato il castello, siamo tornati in centro.»",
+    "accepted_answers": [
+     "Visitato il castello, siamo tornati in centro.",
+     "Visitato il castello siamo tornati in centro.",
+     "Una volta visitato il castello, siamo tornati in centro.",
+     "Una volta visitato il castello siamo tornati in centro."
+    ],
+    "feedback_ru": "Visitato il castello…: причастие согласуется с дополнением il castello (м. р., ед. ч.). Можно добавить una volta: Una volta visitato il castello…",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-061-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-061-e4",
+    "type": "production",
+    "prompt_ru": "Опиши в 3 фразах день в поездке. Начни каждую фразу с причастного оборота: что ты уже сделала до главного действия (например, приехала, позавтракала, закончила экскурсию).",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Arrivata a Firenze, ho lasciato la valigia in albergo. Fatta colazione, sono andata agli Uffizi. Finita la visita, ho mangiato una pizza in piazza della Signoria.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Каждая фраза начинается с причастного оборота; причастие согласовано с дополнением (Fatta colazione) или с подлежащим при глаголах с essere (Arrivata a Firenze).",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь окончание причастия: с переходным глаголом — по дополнению, с глаголом на essere — по тебе самой (arrivata, partita).",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 44,
+  "recommended_vocab_topic_ids": [
+   "13"
+  ]
+ },
+ {
+  "id": "it-grammar-062",
+  "order": 62,
+  "stage": "B2",
+  "cefr_band_author": "B2",
+  "priority": "core",
+  "title_ru": "Инфинитив прошедший: dopo aver…, prima di",
+  "can_do_ru": "Упорядочить действия инфинитивом.",
+  "prerequisites": [
+   "it-grammar-020",
+   "it-grammar-035",
+   "it-grammar-061"
+  ],
+  "rules_ru": [
+   "После dopo нужен прошедший инфинитив: aver(e) + participio или essere + participio: dopo aver mangiato, dopo essere arrivata. Простой инфинитив после dopo — ошибка: не «dopo mangiare», а dopo aver mangiato. Aver — просто сокращённое avere, верны обе формы.",
+   "Вспомогательный глагол тот же, что в passato prossimo. С essere причастие согласуется с подлежащим: dopo essere arrivata (о тебе), dopo essere partiti (о нас). Местоимения пишутся слитно с инфинитивом: dopo essermi alzata, dopo esserci riposati, dopo averlo visto.",
+   "Prima di + простой инфинитив = «перед тем как, прежде чем», когда подлежащее одно и то же: Prima di partire, controllo il passaporto. Прошедший инфинитив нужен и после слов о чувствах и благодарности: Sono contenta di aver visto Venezia; Grazie per aver aspettato."
+  ],
+  "examples": [
+   {
+    "it": "Dopo aver mangiato, abbiamo fatto una passeggiata sul lungomare.",
+    "ru": "Поев, мы прогулялись по набережной.",
+    "tts_text": "Dopo aver mangiato, abbiamo fatto una passeggiata sul lungomare.",
+    "audio_url": null
+   },
+   {
+    "it": "Dopo essere arrivata in albergo, ho fatto una doccia.",
+    "ru": "Приехав в отель, я приняла душ.",
+    "tts_text": "Dopo essere arrivata in albergo, ho fatto una doccia.",
+    "audio_url": null
+   },
+   {
+    "it": "Prima di partire, controllo sempre il passaporto.",
+    "ru": "Перед отъездом я всегда проверяю паспорт.",
+    "tts_text": "Prima di partire, controllo sempre il passaporto.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь participio глагола в скобках в нужной форме.",
+    "stimulus_it": "Dopo essere ___ in albergo, Marta ha chiamato a casa. (tornare)",
+    "accepted_answers": [
+     "tornata"
+    ],
+    "feedback_ru": "Tornare спрягается с essere: причастие согласуется с подлежащим Marta — tornata.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-062-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Выбери вариант для пропуска: «___ dal museo, siamo andati a prendere un gelato.»",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Dopo aver usciti"
+     },
+     {
+      "id": "o2",
+      "text": "Dopo essere uscito"
+     },
+     {
+      "id": "o3",
+      "text": "Dopo essere usciti"
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "Uscire спрягается с essere; подлежащее — noi (мн. ч.), поэтому dopo essere usciti.",
+    "grading": "option_id",
+    "id": "it-grammar-062-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Объедини две фразы в одну: начни с dopo и прошедшего инфинитива. «Ho visitato il Colosseo. Poi sono andata al Foro Romano.»",
+    "accepted_answers": [
+     "Dopo aver visitato il Colosseo, sono andata al Foro Romano.",
+     "Dopo avere visitato il Colosseo, sono andata al Foro Romano.",
+     "Dopo aver visitato il Colosseo sono andata al Foro Romano.",
+     "Dopo avere visitato il Colosseo sono andata al Foro Romano."
+    ],
+    "feedback_ru": "Visitare спрягается с avere: dopo aver(e) visitato. С avere причастие не меняется.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-062-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-062-e4",
+    "type": "production",
+    "prompt_ru": "Опиши своё утро в поездке: 2 фразы с dopo + прошедший инфинитив и 1 фраза с prima di.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Dopo essermi svegliata, ho fatto colazione in albergo. Dopo aver controllato il meteo, sono uscita con l’ombrello. Prima di prendere il treno, ho comprato un caffè alla stazione.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Использованы dopo aver/essere + participio (с согласованием при essere) и prima di + простой инфинитив.",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь вспомогательный глагол после dopo и окончание причастия при essere: dopo essere uscita.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 44,
+  "recommended_vocab_topic_ids": [
+   "03"
+  ]
+ },
+ {
+  "id": "it-grammar-063",
+  "order": 63,
+  "stage": "B2",
+  "cefr_band_author": "B2",
+  "priority": "core",
+  "title_ru": "Fare + infinito; farsi; lasciare + infinito",
+  "can_do_ru": "Сказать «заставить, дать сделать, сделать себе».",
+  "prerequisites": [
+   "it-grammar-017",
+   "it-grammar-026",
+   "it-grammar-035"
+  ],
+  "rules_ru": [
+   "Fare + инфинитив = поручить, заставить или дать сделать кому-то: Faccio riparare la macchina — машину мне чинят (я отдаю её в ремонт). Исполнителя вводят через a или da: Faccio riparare la macchina al meccanico. Русское «я починила машину» часто значит «отдала в ремонт» — по-итальянски это Ho fatto riparare la macchina.",
+   "Местоимения ставятся перед fare, а не после инфинитива: La faccio riparare (не «Faccio ripararla»); L’ho fatta riparare — причастие согласуется с la. В повелительном наклонении они присоединяются к fare: Fammi vedere! Farsi + инфинитив = сделать что-то для себя чужими руками: Mi faccio tagliare i capelli; в passato prossimo — с essere: Mi sono fatta tagliare i capelli; Me la faccio portare in camera.",
+   "Lasciare + инфинитив = позволить, не мешать: Lasciami parlare! — Дай мне сказать! I miei non mi lasciavano uscire la sera. Вежливо: Mi lascia passare? — Вы меня пропустите? Устойчивое выражение: Lascia stare! — Оставь, не надо."
+  ],
+  "examples": [
+   {
+    "it": "Domani faccio riparare la macchina.",
+    "ru": "Завтра я отдаю машину в ремонт.",
+    "tts_text": "Domani faccio riparare la macchina.",
+    "audio_url": null
+   },
+   {
+    "it": "Mi sono fatta tagliare i capelli da un parrucchiere di Milano.",
+    "ru": "Я подстриглась у парикмахера в Милане.",
+    "tts_text": "Mi sono fatta tagliare i capelli da un parrucchiere di Milano.",
+    "audio_url": null
+   },
+   {
+    "it": "Scusi, mi lascia passare?",
+    "ru": "Простите, вы меня пропустите?",
+    "tts_text": "Scusi, mi lascia passare?",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь participio глагола в скобках в нужной форме.",
+    "stimulus_it": "Ieri Giulia si è ___ tagliare i capelli. (fare)",
+    "accepted_answers": [
+     "fatta"
+    ],
+    "feedback_ru": "Farsi + инфинитив в passato prossimo спрягается с essere; причастие согласуется с подлежащим Giulia: si è fatta tagliare.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-063-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Часы (l’orologio) сломались. Как сказать «Я отдам их в ремонт», заменив часы местоимением?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Lo faccio riparare."
+     },
+     {
+      "id": "o2",
+      "text": "Faccio ripararlo."
+     },
+     {
+      "id": "o3",
+      "text": "Faccio lo riparare."
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "С fare + инфинитив местоимение стоит перед fare: lo faccio riparare.",
+    "grading": "option_id",
+    "id": "it-grammar-063-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Перепиши фразу так, чтобы было ясно: ты не чинила телефон сама, а отдала его в ремонт. Время оставь то же: «Ho riparato il telefono.»",
+    "accepted_answers": [
+     "Ho fatto riparare il telefono.",
+     "Mi sono fatta riparare il telefono."
+    ],
+    "feedback_ru": "Fare + инфинитив: Ho fatto riparare il telefono. С farsi («для себя») — Mi sono fatta riparare il telefono.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-063-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-063-e4",
+    "type": "production",
+    "prompt_ru": "Ты в отеле. Обращаясь к администратору на Lei: 1) спроси, можно ли получить завтрак в номер; 2) скажи, что хочешь отдать в стирку платье; 3) спроси, позволят ли тебе выехать из номера позже. Используй fare/farsi + инфинитив и lasciare + инфинитив.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Buongiorno, posso farmi portare la colazione in camera domani mattina? Vorrei anche far lavare questo vestito. E mi lascia fare il check-out un po’ più tardi, verso mezzogiorno?",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Есть fare или farsi + инфинитив и lasciare + инфинитив; местоимения стоят на своём месте (mi lascia…, farmi portare).",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь, что после fare и lasciare сразу идёт инфинитив, без предлога, и что ты обращаешься на Lei.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 45,
+  "recommended_vocab_topic_ids": [
+   "03",
+   "12"
+  ]
+ },
+ {
+  "id": "it-grammar-064",
+  "order": 64,
+  "stage": "B2",
+  "cefr_band_author": "B2",
+  "priority": "core",
+  "title_ru": "Местоименные глаголы: andarsene, farcela, cavarsela…",
+  "can_do_ru": "Понимать и использовать идиоматичные глаголы с ci/ne/la.",
+  "prerequisites": [
+   "it-grammar-028",
+   "it-grammar-047"
+  ],
+  "rules_ru": [
+   "Некоторые глаголы срастаются с ci, ne, la и получают новый смысл: andarsene — уйти, уехать (прочь); farcela — справиться, успеть; cavarsela — выкрутиться, неплохо справиться; prendersela — обидеться, расстроиться; smetterla — перестать (с раздражением: Smettila!).",
+   "Спряжение: возвратное местоимение перед ne и la превращается в me, te, se, ce, ve: me ne vado, te ne vai, se ne va, ce ne andiamo; ce la faccio, ce la fai; me la cavo; te la prendi. В passato prossimo andarsene, cavarsela, prendersela спрягаются с essere, farcela — с avere; причастие согласуется с la: me ne sono andata, me la sono cavata, se l’è presa, ce l’ho fatta.",
+   "Про время: metterci = «тратить (время)», подлежащее — человек: Ci metto un’ora per arrivare; Ci ho messo due ore. Volerci = «требуется», глагол согласуется с тем, что нужно: ci vuole un’ora, ci vogliono due ore; в прошедшем — с essere: ci è voluta un’ora, ci sono voluti tre giorni. Ошибка: «ci vuole due ore»."
+  ],
+  "examples": [
+   {
+    "it": "È tardi, me ne vado.",
+    "ru": "Уже поздно, я ухожу.",
+    "tts_text": "È tardi, me ne vado.",
+    "audio_url": null
+   },
+   {
+    "it": "Ce l’ho fatta: ho preso l’ultimo treno!",
+    "ru": "Я успела: села на последний поезд!",
+    "tts_text": "Ce l’ho fatta: ho preso l’ultimo treno!",
+    "audio_url": null
+   },
+   {
+    "it": "Da qui a Firenze ci vogliono due ore di treno.",
+    "ru": "Отсюда до Флоренции два часа на поезде.",
+    "tts_text": "Da qui a Firenze ci vogliono due ore di treno.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в скобках в presente в нужной форме.",
+    "stimulus_it": "Da qui al centro ci ___ venti minuti a piedi. (volerci)",
+    "accepted_answers": [
+     "vogliono"
+    ],
+    "feedback_ru": "Volerci согласуется с тем, что нужно: venti minuti — мн. ч., поэтому ci vogliono.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-064-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать подруге «Не обижайся, я пошутила»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non ti prendere, scherzavo."
+     },
+     {
+      "id": "o2",
+      "text": "Non prendertene, scherzavo."
+     },
+     {
+      "id": "o3",
+      "text": "Non te la prendere, scherzavo."
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "Prendersela: ti + la → te la. В отрицательном повелении можно и non prendertela.",
+    "grading": "option_id",
+    "id": "it-grammar-064-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Перепиши в passato prossimo: «Alla fine ce la faccio.»",
+    "accepted_answers": [
+     "Alla fine ce l’ho fatta."
+    ],
+    "feedback_ru": "Farcela спрягается с avere, а причастие согласуется с la: ce l’ho fatta.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-064-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-064-e4",
+    "type": "production",
+    "prompt_ru": "Расскажи в 3 фразах о трудном дне в дороге: сколько времени ушло на дорогу, справилась ли ты в итоге и когда ушла с вечеринки или из ресторана. Используй хотя бы три глагола из темы.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Ieri ci ho messo quattro ore per arrivare a Napoli, perché il treno era in ritardo. Per fortuna ce l’ho fatta a prendere l’ultimo traghetto per Ischia. La sera ero così stanca che me ne sono andata dalla festa alle dieci.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Использованы хотя бы три глагола темы (metterci/volerci, farcela/cavarsela, andarsene) в правильной форме; в passato prossimo верны вспомогательный глагол и согласование.",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь местоимения (me ne, ce la) и вспомогательный глагол: me ne sono andata, но ce l’ho fatta.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 45,
+  "recommended_vocab_topic_ids": [
+   "04",
+   "19"
+  ]
+ },
+ {
+  "id": "it-grammar-065",
+  "order": 65,
+  "stage": "B2",
+  "cefr_band_author": "B2",
+  "priority": "core",
+  "title_ru": "Управление глаголов и предлогов: тонкости",
+  "can_do_ru": "Выбрать предлог по значению глагола.",
+  "prerequisites": [
+   "it-grammar-035",
+   "it-grammar-047"
+  ],
+  "rules_ru": [
+   "Pensare a = думать о ком-то или чём-то (мысли обращены к): Penso a te, Penso alle vacanze; Ci penso io — я этим займусь. Pensare di + инфинитив = собираться: Penso di partire domani. Pensare di + существительное — только в вопросе о мнении: Che cosa pensi di questo albergo? Che ne pensi? Ошибка: «penso di te» в смысле «думаю о тебе».",
+   "Credere a = верить кому-то или в правдивость чего-то: Ti credo; Non credo alle sue promesse. Credere in = верить в (существование, силы, ценность): Credo in te. Parlare di — говорить о чём-то, parlare con — говорить с кем-то: Ho parlato del problema con il direttore.",
+   "Dipendere da — «зависеть от» (не di): Dipende dal tempo. Servire a = служить для чего-то или быть нужным кому-то: A che cosa serve questo tasto? Mi serve una penna. Interessarsi di = заниматься, увлекаться областью (Mi interesso di arte); interessarsi a = заинтересоваться чем-то конкретным (Si è interessato al mio progetto). Предлог подсказывает местоимение: a → ci (ci penso), di → ne (ne parliamo)."
+  ],
+  "examples": [
+   {
+    "it": "Penso spesso a Venezia.",
+    "ru": "Я часто думаю о Венеции.",
+    "tts_text": "Penso spesso a Venezia.",
+    "audio_url": null
+   },
+   {
+    "it": "Pensiamo di andare in Sicilia ad agosto.",
+    "ru": "Мы думаем поехать на Сицилию в августе.",
+    "tts_text": "Pensiamo di andare in Sicilia ad agosto.",
+    "audio_url": null
+   },
+   {
+    "it": "Il prezzo della camera dipende dalla stagione.",
+    "ru": "Цена номера зависит от сезона.",
+    "tts_text": "Il prezzo della camera dipende dalla stagione.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь предлог (слитый с артиклем, если нужно).",
+    "stimulus_it": "Il programma di domani dipende ___ tempo.",
+    "accepted_answers": [
+     "dal"
+    ],
+    "feedback_ru": "Dipendere da: dipende dal tempo (da + il).",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-065-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать «Я часто думаю о тебе»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Penso spesso di te."
+     },
+     {
+      "id": "o2",
+      "text": "Penso spesso a te."
+     },
+     {
+      "id": "o3",
+      "text": "Penso spesso su te."
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "Pensare a qualcuno — думать о ком-то. Pensare di — «собираться» или «быть какого-то мнения».",
+    "grading": "option_id",
+    "id": "it-grammar-065-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Замени слова «a prenotare l’albergo» одним местоимением: «Penso io a prenotare l’albergo.»",
+    "accepted_answers": [
+     "Ci penso io."
+    ],
+    "feedback_ru": "Pensare a… → ci: Ci penso io — «я этим займусь».",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-065-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-065-e4",
+    "type": "production",
+    "prompt_ru": "Ты планируешь отпуск с подругой. Напиши ей 3 фразы: о чём ты всё время думаешь, что собираешься сделать и от чего зависит окончательное решение.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Penso sempre al mare della Sardegna! Penso di prenotare un appartamento a Cagliari per una settimana. Però tutto dipende dai prezzi dei voli.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Предлоги выбраны по смыслу: pensare a (о чём думаешь), pensare di + инфинитив (что собираешься), dipendere da.",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь предлоги: penso a…, penso di + инфинитив, dipende da…",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 46,
+  "recommended_vocab_topic_ids": [
+   "02",
+   "04"
+  ]
+ },
+ {
+  "id": "it-grammar-066",
+  "order": 66,
+  "stage": "B2",
+  "cefr_band_author": "B2",
+  "priority": "core",
+  "title_ru": "Артикли: тонкости употребления",
+  "can_do_ru": "Решить, нужен ли артикль.",
+  "prerequisites": [
+   "it-grammar-005",
+   "it-grammar-012",
+   "it-grammar-014",
+   "it-grammar-036"
+  ],
+  "rules_ru": [
+   "География: страны, регионы, большие острова, реки и горы — с артиклем: l’Italia, la Toscana, la Sardegna, il Po, le Alpi. Города и маленькие острова — без артикля: Roma, Capri. После in артикль у стран и регионов женского рода в ед. ч. исчезает: in Italia, in Toscana; но с уточнением или во мн. ч. он возвращается: nell’Italia del Sud, negli Stati Uniti, nelle Marche.",
+   "Даты и время: il 2 giugno, nel 2024, sono le otto. День недели без артикля — ближайший (lunedì vado a Roma — в этот понедельник), с артиклем — регулярно (il lunedì il museo è chiuso — по понедельникам).",
+   "Профессии: с fare — с артиклем (fa il medico, fa l’ingegnere), с essere — без него (è medico), с оценкой — неопределённый (è un bravo medico). Притяжательные без артикля — только с родственниками в ед. ч. без уточнений (mia madre, suo fratello); артикль нужен во мн. ч., с уменьшительными и всегда с loro: i miei fratelli, la mia sorellina, la loro madre.",
+   "Без артикля — устойчивые сочетания и перечисления: in treno, in banca, in ufficio, a casa, a piedi; biglietto di andata e ritorno, sala d’attesa; Servono passaporto, biglietto e carta d’imbarco."
+  ],
+  "examples": [
+   {
+    "it": "Quest’estate andiamo in Sicilia, ma l’anno scorso siamo stati nell’Italia del Nord.",
+    "ru": "Этим летом мы едем на Сицилию, а в прошлом году были на севере Италии.",
+    "tts_text": "Quest’estate andiamo in Sicilia, ma l’anno scorso siamo stati nell’Italia del Nord.",
+    "audio_url": null
+   },
+   {
+    "it": "Mio fratello fa l’ingegnere a Torino.",
+    "ru": "Мой брат работает инженером в Турине.",
+    "tts_text": "Mio fratello fa l’ingegnere a Torino.",
+    "audio_url": null
+   },
+   {
+    "it": "Il museo è chiuso il lunedì.",
+    "ru": "По понедельникам музей закрыт.",
+    "tts_text": "Il museo è chiuso il lunedì.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь артикль, если он нужен.",
+    "stimulus_it": "Paolo e Sara abitano ancora con ___ loro madre.",
+    "accepted_answers": [
+     "la"
+    ],
+    "feedback_ru": "С loro артикль нужен всегда, даже с родственником в ед. ч.: la loro madre.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-066-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать «Мой брат — врач»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Mio fratello fa il medico."
+     },
+     {
+      "id": "o2",
+      "text": "Il mio fratello fa medico."
+     },
+     {
+      "id": "o3",
+      "text": "Mio fratello fa un medico."
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "С родственником в ед. ч. артикль не нужен (mio fratello), а после fare с профессией — нужен (fa il medico). Можно и так: è medico.",
+    "grading": "option_id",
+    "id": "it-grammar-066-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Добавь к названию страны уточнение «del Sud»: «Abbiamo passato due settimane in Italia.»",
+    "accepted_answers": [
+     "Abbiamo passato due settimane nell’Italia del Sud."
+    ],
+    "feedback_ru": "С уточнением артикль возвращается: in Italia, но nell’Italia del Sud.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-066-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-066-e4",
+    "type": "production",
+    "prompt_ru": "Расскажи о себе в 3 фразах: кем работает кто-то из твоих родственников, в каких регионах или странах ты была и что ты регулярно делаешь в какой-то день недели.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Mia madre fa l’insegnante e mio padre è in pensione. L’anno scorso sono stata in Puglia e nell’Italia del Nord. Il sabato di solito vado al mercato.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Артикль выбран верно с профессией, родственниками, географическими названиями и днями недели.",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь артикль в трёх местах: fa l’insegnante, in Puglia / nell’Italia del Nord, il sabato.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 46,
+  "recommended_vocab_topic_ids": [
+   "10",
+   "13"
+  ]
+ },
+ {
+  "id": "it-grammar-067",
+  "order": 67,
+  "stage": "B2",
+  "cefr_band_author": "B2",
+  "priority": "core",
+  "title_ru": "Отрицание: тонкости",
+  "can_do_ru": "Использовать усилители и ограничители отрицания.",
+  "prerequisites": [
+   "it-grammar-034",
+   "it-grammar-056"
+  ],
+  "rules_ru": [
+   "Усилители: non… affatto и non… per niente = «совсем не, вовсе не»: Non sono affatto stanca; Non mi piace per niente. Разговорное mica — «ведь не, вовсе не»: Non è mica lontano. В начале фразы mica обходится без non: Mica male! — Неплохо! Короткий ответ «нисколько!» — Per niente! или Niente affatto!",
+   "Neanche, nemmeno, neppure (синонимы) = «тоже не» или «даже не»: Non ho nemmeno mangiato — я даже не поела. «Я тоже нет» — Neanche io (не «anche io non»). Если такое слово стоит перед глаголом, non не нужно: Nemmeno Marco lo sa.",
+   "Non не всегда отрицает. Non… che = «только»: Non ho che dieci euro — у меня только десять евро. «Лишнее» non (non espletivo) после a meno che, finché и в восклицаниях смысла не меняет: Aspetto finché non arrivi — жду, пока не придёшь (как и русское «пока не»); Quante volte non te l’ho detto! — Сколько раз я тебе это говорила!"
+  ],
+  "examples": [
+   {
+    "it": "Non sono affatto stanca, possiamo continuare.",
+    "ru": "Я совсем не устала, можем идти дальше.",
+    "tts_text": "Non sono affatto stanca, possiamo continuare.",
+    "audio_url": null
+   },
+   {
+    "it": "Non è mica lontano: andiamo a piedi!",
+    "ru": "Это же совсем недалеко: пойдём пешком!",
+    "tts_text": "Non è mica lontano: andiamo a piedi!",
+    "audio_url": null
+   },
+   {
+    "it": "Non abbiamo che un’ora per visitare il museo.",
+    "ru": "У нас есть всего час на музей.",
+    "tts_text": "Non abbiamo che un’ora per visitare il museo.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Ответь «Я тоже нет»: вставь одно слово.",
+    "stimulus_it": "— Non ho capito niente. — ___ io!",
+    "accepted_answers": [
+     "Neanche",
+     "Nemmeno",
+     "Neppure"
+    ],
+    "feedback_ru": "Neanche io / Nemmeno io / Neppure io — «я тоже нет». «Anche io non» — ошибка.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-067-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Что значит «Non ho che dieci euro»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "У меня нет десяти евро."
+     },
+     {
+      "id": "o2",
+      "text": "У меня больше десяти евро."
+     },
+     {
+      "id": "o3",
+      "text": "У меня только десять евро."
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "Non… che = «только»: отрицания по смыслу здесь нет.",
+    "grading": "option_id",
+    "id": "it-grammar-067-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Перепиши, начав фразу с Nemmeno: «Non è venuto nemmeno Marco.»",
+    "accepted_answers": [
+     "Nemmeno Marco è venuto."
+    ],
+    "feedback_ru": "Если nemmeno стоит перед глаголом, non убираем: Nemmeno Marco è venuto.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-067-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-067-e4",
+    "type": "production",
+    "prompt_ru": "Подруга предлагает пешком дойти до замка, но сомневается, стоит ли. Ответь в 2–3 фразах: ты совсем не устала, замок ведь недалеко, а до поезда у вас всего час.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Non sono per niente stanca, andiamo! Il castello non è mica lontano. Però non abbiamo che un’ora prima del treno, quindi sbrighiamoci.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Использованы хотя бы два средства из темы: affatto/per niente, mica, neanche/nemmeno, non… che.",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь, что при affatto, per niente, mica и non… che перед глаголом стоит non.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 48,
+  "recommended_vocab_topic_ids": [
+   "19",
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-068",
+  "order": 68,
+  "stage": "B2",
+  "cefr_band_author": "B2",
+  "priority": "core",
+  "title_ru": "Временные придаточные: prima che, finché, appena, dopo che",
+  "can_do_ru": "Построить сложное предложение со временем.",
+  "prerequisites": [
+   "it-grammar-039",
+   "it-grammar-043",
+   "it-grammar-063"
+  ],
+  "rules_ru": [
+   "Prima che + congiuntivo — когда у двух частей разные подлежащие: Torniamo prima che piova; Ti do le chiavi prima che tu parta. Если подлежащее одно, нужно prima di + инфинитив: Prima di partire, chiudo le finestre (не «prima che io parta»).",
+   "Dopo che + indicativo, congiuntivo не нужен: Dopo che sei partita, ha cominciato a piovere. Appena (non appena) + indicativo; о будущем в аккуратной речи — futuro anteriore для того, что случится раньше: Appena sarò arrivata, ti chiamerò (русское «как только приеду»). В разговоре часто проще: Appena arrivo, ti chiamo.",
+   "Finché (non) + indicativo = «пока не, до тех пор пока»: Aspettiamo finché non arriva il treno; non здесь можно опустить, смысл тот же. Finché без non может значить и «пока, всё то время, что»: Finché sei qui, ti faccio vedere la città. Mentre + indicativo = «в то время как» (одновременно): Mentre aspettavo, ho letto il giornale."
+  ],
+  "examples": [
+   {
+    "it": "Torniamo in albergo prima che cominci a piovere.",
+    "ru": "Вернёмся в отель, пока не начался дождь.",
+    "tts_text": "Torniamo in albergo prima che cominci a piovere.",
+    "audio_url": null
+   },
+   {
+    "it": "Appena sarò arrivata a Milano, ti scriverò.",
+    "ru": "Как только приеду в Милан, я тебе напишу.",
+    "tts_text": "Appena sarò arrivata a Milano, ti scriverò.",
+    "audio_url": null
+   },
+   {
+    "it": "Restiamo in spiaggia finché non tramonta il sole.",
+    "ru": "Останемся на пляже, пока не сядет солнце.",
+    "tts_text": "Restiamo in spiaggia finché non tramonta il sole.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в скобках в нужной форме.",
+    "stimulus_it": "Ti do le chiavi prima che tu ___. (partire)",
+    "accepted_answers": [
+     "parta"
+    ],
+    "feedback_ru": "Подлежащие разные (io и tu), поэтому prima che + congiuntivo: tu parta.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-068-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать «Перед тем как уехать, я закрою окна»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Prima che io parta, chiudo le finestre."
+     },
+     {
+      "id": "o2",
+      "text": "Prima di partire, chiudo le finestre."
+     },
+     {
+      "id": "o3",
+      "text": "Prima che parto, chiudo le finestre."
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "Подлежащее одно и то же (я), поэтому prima di + инфинитив. Prima che + congiuntivo нужно, когда подлежащие разные.",
+    "grading": "option_id",
+    "id": "it-grammar-068-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Перепиши в аккуратном письменном стиле: после appena поставь futuro anteriore, в главной части — futuro semplice. Говорит Анна: «Appena arrivo a Roma, ti chiamo.»",
+    "accepted_answers": [
+     "Appena sarò arrivata a Roma, ti chiamerò.",
+     "Appena sarò arrivata a Roma ti chiamerò."
+    ],
+    "feedback_ru": "Сначала приеду — futuro anteriore с согласованием по женскому роду (sarò arrivata), потом позвоню — futuro (ti chiamerò).",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-068-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-068-e4",
+    "type": "production",
+    "prompt_ru": "Напиши подруге 3 фразы о планах на день в новом городе: что ты сделаешь, как только приедешь; что надо успеть до закрытия музея; до какого момента ты останешься в центре.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Appena sarò arrivata a Bologna, lascerò la valigia in albergo. Voglio vedere la Pinacoteca prima che chiuda. Poi resterò in centro finché non arriverai anche tu.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Использованы appena (+ futuro или futuro anteriore), prima che + congiuntivo (или prima di + инфинитив при одном подлежащем) и finché (non).",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь наклонение: после prima che — congiuntivo, после appena, dopo che и finché — indicativo.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 48,
+  "recommended_vocab_topic_ids": [
+   "15",
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-069",
+  "order": 69,
+  "stage": "B2",
+  "cefr_band_author": "B2",
+  "priority": "core",
+  "title_ru": "Модальность: вероятность и неподтверждённая информация",
+  "can_do_ru": "Предположить и смягчить утверждение.",
+  "prerequisites": [
+   "it-grammar-023",
+   "it-grammar-039",
+   "it-grammar-040",
+   "it-grammar-042"
+  ],
+  "rules_ru": [
+   "Futuro semplice может выражать предположение о настоящем, а не будущее: Dov’è Marco? — Sarà in ufficio (наверное, он в офисе). Che ore sono? — Saranno le otto (сейчас, наверное, восемь).",
+   "Futuro anteriore — предположение о прошлом: Non c’è nessuno: saranno già usciti (наверное, уже ушли). Sarà già partita — она, наверное, уже уехала. По-русски — «наверное, должно быть» + прошедшее время.",
+   "Dovere и potere тоже оценивают вероятность: Deve essere stanca — она, должно быть, устала; Deve aver sbagliato strada — должно быть, он(а) заблудился(-лась); Potrebbe essere vero — возможно, это правда.",
+   "Condizionale в новостях передаёт неподтверждённую информацию («якобы», «по имеющимся данным»): Secondo il giornale, il ministro avrebbe detto… — министр якобы сказал…; Il treno sarebbe in ritardo di un’ora — поезд, по имеющимся данным, опаздывает на час. Condizionale presente — о настоящем, passato — о прошлом."
+  ],
+  "examples": [
+   {
+    "it": "Il negozio è chiuso: saranno in pausa pranzo.",
+    "ru": "Магазин закрыт: наверное, у них обеденный перерыв.",
+    "tts_text": "Il negozio è chiuso: saranno in pausa pranzo.",
+    "audio_url": null
+   },
+   {
+    "it": "Giulia non risponde: avrà dimenticato il telefono in albergo.",
+    "ru": "Джулия не отвечает: наверное, забыла телефон в отеле.",
+    "tts_text": "Giulia non risponde: avrà dimenticato il telefono in albergo.",
+    "audio_url": null
+   },
+   {
+    "it": "Secondo la radio, lo sciopero dei treni sarebbe stato annullato.",
+    "ru": "По данным радио, забастовку на железной дороге отменили.",
+    "tts_text": "Secondo la radio, lo sciopero dei treni sarebbe stato annullato.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в скобках в форме предположения о прошлом (futuro anteriore).",
+    "stimulus_it": "Marco non è ancora arrivato: ___ il treno. (perdere)",
+    "accepted_answers": [
+     "avrà perso"
+    ],
+    "feedback_ru": "Предположение о прошлом — futuro anteriore: avrà perso («наверное, опоздал на поезд»).",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-069-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Что значит фраза из новостей «Il ministro avrebbe lasciato il governo»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Министр, по неподтверждённым данным, ушёл из правительства."
+     },
+     {
+      "id": "o2",
+      "text": "Министр уйдёт из правительства."
+     },
+     {
+      "id": "o3",
+      "text": "Министр должен уйти из правительства."
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "Condizionale passato в новостях — неподтверждённая информация о прошлом: «якобы ушёл».",
+    "grading": "option_id",
+    "id": "it-grammar-069-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Вырази то же предположение без forse, с помощью futuro: «Forse sono le dieci.»",
+    "accepted_answers": [
+     "Saranno le dieci."
+    ],
+    "feedback_ru": "Futuro di probabilità: saranno le dieci — «сейчас, наверное, десять».",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-069-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-069-e4",
+    "type": "production",
+    "prompt_ru": "Подруга опаздывает на встречу и не отвечает на сообщения. Напиши 3 предположения: где она сейчас, что могло случиться и ещё одно — с dovere.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Sarà ancora in metropolitana, lì non c’è campo. Avrà perso l’autobus delle sei. Oppure deve aver sbagliato fontana: a Roma ce ne sono tante!",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Есть предположение о настоящем (futuro), о прошлом (futuro anteriore) и фраза с dovere в значении «должно быть».",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь, что futuro здесь значит «наверное», а не «будет», и что для прошлого взят futuro anteriore.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 49,
+  "recommended_vocab_topic_ids": [
+   "19",
+   "14"
+  ]
+ },
+ {
+  "id": "it-grammar-070",
+  "order": 70,
+  "stage": "B2",
+  "cefr_band_author": "B2",
+  "priority": "core",
+  "title_ru": "Номинализация и связность текста",
+  "can_do_ru": "Писать связный аргументированный текст.",
+  "prerequisites": [
+   "it-grammar-054",
+   "it-grammar-057",
+   "it-grammar-058"
+  ],
+  "rules_ru": [
+   "Il fatto che + congiuntivo (обычно) = «то, что…»: Il fatto che i treni siano in ritardo è un problema. Не переводи такое «то, что» как quello che: quello che — это «то, что» в смысле «вещь, которую» (Quello che dici è vero), а il fatto che — «факт, что».",
+   "Номинализация — замена глагола существительным, чтобы текст звучал компактнее и официальнее: partire → la partenza, arrivare → l’arrivo, prenotare → la prenotazione, cancellare → la cancellazione, chiudere → la chiusura, scegliere → la scelta. Dopo che il treno è arrivato… → Dopo l’arrivo del treno…",
+   "Связки для рассуждения: in primo luogo / in secondo luogo — во-первых / во-вторых; inoltre — кроме того; tuttavia — однако; pertanto — поэтому, следовательно (книжное); infatti — и действительно, ведь (подтверждает сказанное); in conclusione — в заключение. Ошибка: infatti ≠ «на самом деле» в значении противопоставления — это in realtà."
+  ],
+  "examples": [
+   {
+    "it": "Il fatto che i treni siano spesso in ritardo è un problema per i turisti.",
+    "ru": "То, что поезда часто опаздывают, — проблема для туристов.",
+    "tts_text": "Il fatto che i treni siano spesso in ritardo è un problema per i turisti.",
+    "audio_url": null
+   },
+   {
+    "it": "La partenza del volo è prevista alle sette.",
+    "ru": "Вылет рейса запланирован на семь часов.",
+    "tts_text": "La partenza del volo è prevista alle sette.",
+    "audio_url": null
+   },
+   {
+    "it": "L’albergo è in centro; inoltre, la colazione è compresa nel prezzo.",
+    "ru": "Отель в центре; кроме того, завтрак включён в стоимость.",
+    "tts_text": "L’albergo è in centro; inoltre, la colazione è compresa nel prezzo.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь существительное, образованное от глагола в скобках.",
+    "stimulus_it": "La ___ del treno è prevista alle 8:15. (partire)",
+    "accepted_answers": [
+     "partenza"
+    ],
+    "feedback_ru": "Partire → la partenza. Похоже: arrivare → l’arrivo.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-070-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Какая связка подходит по смыслу: «Il ristorante è un po’ caro; ___, il cibo è ottimo e la vista è splendida.»",
+    "options": [
+     {
+      "id": "o1",
+      "text": "pertanto"
+     },
+     {
+      "id": "o2",
+      "text": "infatti"
+     },
+     {
+      "id": "o3",
+      "text": "tuttavia"
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "Здесь противопоставление: дороговато, однако вкусно — tuttavia.",
+    "grading": "option_id",
+    "id": "it-grammar-070-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Замени придаточное «Dopo che il volo è stato cancellato» сочетанием dopo + существительное: «Dopo che il volo è stato cancellato, abbiamo dormito in aeroporto.»",
+    "accepted_answers": [
+     "Dopo la cancellazione del volo, abbiamo dormito in aeroporto.",
+     "Dopo la cancellazione del volo abbiamo dormito in aeroporto."
+    ],
+    "feedback_ru": "Cancellare → la cancellazione; после dopo — существительное с артиклем: dopo la cancellazione del volo.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-070-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-070-e4",
+    "type": "production",
+    "prompt_ru": "Напиши короткий отзыв (4 фразы) об отеле, где ты останавливалась. Используй in primo luogo, inoltre, tuttavia, in conclusione и хотя бы раз il fatto che + congiuntivo.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "In primo luogo, l’albergo è in una posizione perfetta, a due passi dal Duomo. Inoltre, il personale è stato molto gentile al momento dell’arrivo. Tuttavia, il fatto che la colazione non sia compresa nel prezzo è un po’ strano per un quattro stelle. In conclusione, lo consiglio, soprattutto per un breve soggiorno.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Текст связный: связки стоят по смыслу, есть il fatto che + congiuntivo; номинализация (l’arrivo, la partenza) — плюс.",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь congiuntivo после il fatto che и смысл связок: tuttavia — противопоставление, inoltre — добавление.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 49,
+  "recommended_vocab_topic_ids": [
+   "20",
+   "13"
+  ]
+ },
+ {
+  "id": "it-grammar-071",
+  "order": 71,
+  "stage": "B2",
+  "cefr_band_author": "B2",
+  "priority": "core",
+  "title_ru": "Регистр: разговор, вежливое письмо, Lei и voi",
+  "can_do_ru": "Писать вежливое письмо и выбирать стиль.",
+  "prerequisites": [
+   "it-grammar-001",
+   "it-grammar-024",
+   "it-grammar-049",
+   "it-grammar-061"
+  ],
+  "rules_ru": [
+   "Вежливое письмо. Обращение: Gentile signora Rossi, / Gentile signor Bianchi, — вежливо и нейтрально; Egregio dottore, / Egregio avvocato, — очень официально; к организации — Spettabile (Spett.le) Hotel… Начало: Le scrivo per… / Le scrivo in merito a… Конец: La ringrazio in anticipo; Cordiali saluti (стандарт), Distinti saluti (официальнее).",
+   "Lei: глагол в 3-м лице ед. ч., местоимения La (кого), Le (кому), Suo/Sua; в письмах их часто пишут с заглавной: La ringrazio, Le invio il documento, la Sua prenotazione. Ringraziare требует прямого дополнения: La ringrazio (не «Le ringrazio»). Типичная ошибка — смешивать tu и Lei в одном тексте.",
+   "Voi — к нескольким людям или к организации: Vi scrivo per chiedere…, Vi ringrazio per la disponibilità. Мягкая просьба — через condizionale: Vorrei sapere se…, Potrebbe inviarmi…? В разговоре и в чатах — tu и сокращения (cmq = comunque, xké = perché, nn = non); в письме они недопустимы."
+  ],
+  "examples": [
+   {
+    "it": "Gentile signora Bianchi, Le scrivo per confermare la prenotazione.",
+    "ru": "Уважаемая госпожа Бьянки, пишу Вам, чтобы подтвердить бронирование.",
+    "tts_text": "Gentile signora Bianchi, Le scrivo per confermare la prenotazione.",
+    "audio_url": null
+   },
+   {
+    "it": "La ringrazio in anticipo per la Sua risposta.",
+    "ru": "Заранее благодарю Вас за ответ.",
+    "tts_text": "La ringrazio in anticipo per la Sua risposta.",
+    "audio_url": null
+   },
+   {
+    "it": "Vi scrivo per chiedere se è possibile anticipare il check-in.",
+    "ru": "Пишу вам, чтобы узнать, можно ли заселиться пораньше.",
+    "tts_text": "Vi scrivo per chiedere se è possibile anticipare il check-in.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь местоимение вежливого обращения.",
+    "stimulus_it": "Gentile signor Rossi, ___ ringrazio per la Sua rapida risposta.",
+    "accepted_answers": [
+     "La"
+    ],
+    "feedback_ru": "Ringraziare qualcuno — прямое дополнение, поэтому La ringrazio (в письме — с заглавной).",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-071-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Какая заключительная формула подходит для официального письма в отель?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Un abbraccio"
+     },
+     {
+      "id": "o2",
+      "text": "Cordiali saluti"
+     },
+     {
+      "id": "o3",
+      "text": "Ciao e a presto"
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "Cordiali saluti — стандартная вежливая подпись. Un abbraccio и Ciao e a presto — для друзей.",
+    "grading": "option_id",
+    "id": "it-grammar-071-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Перепиши фразу, заменив обращение на tu вежливым Lei: «Ti scrivo per chiederti se la tua offerta è ancora valida.»",
+    "accepted_answers": [
+     "Le scrivo per chiederLe se la Sua offerta è ancora valida.",
+     "Le scrivo per chiederLe se la Sua offerta sia ancora valida."
+    ],
+    "feedback_ru": "Ti → Le, chiederti → chiederLe, la tua → la Sua. В письме формы Lei часто пишут с заглавной.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-071-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-071-e4",
+    "type": "production",
+    "prompt_ru": "Напиши короткое письмо хозяйке агротуризма синьоре Ферри: вежливо обратись, упомяни свою бронь с 12 по 15 мая, спроси, можно ли приехать на день раньше, поблагодари и попрощайся.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Gentile signora Ferri,\nLe scrivo in merito alla mia prenotazione dal 12 al 15 maggio. Vorrei sapere se è possibile arrivare un giorno prima, l’11 maggio. La ringrazio in anticipo per la Sua disponibilità.\nCordiali saluti,\nAnna",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Выдержан вежливый стиль: обращение, формы Le/La/Sua, condizionale для просьбы, заключительная формула; tu и Lei не смешиваются.",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь, что во всём письме ты обращаешься на Lei и что после ringraziare стоит La.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 50,
+  "recommended_vocab_topic_ids": [
+   "13",
+   "04"
+  ]
+ },
+ {
+  "id": "it-grammar-072",
+  "order": 72,
+  "stage": "B2",
+  "cefr_band_author": "B2",
+  "priority": "optional_reading",
+  "title_ru": "Passato remoto: узнавание",
+  "can_do_ru": "Узнавать passato remoto в книгах и на табличках.",
+  "prerequisites": [
+   "it-grammar-019",
+   "it-grammar-021",
+   "it-grammar-038"
+  ],
+  "rules_ru": [
+   "Passato remoto — законченное действие в далёком прошлом, не связанное с настоящим. Он встречается в книгах, учебниках истории, путеводителях и на памятных табличках, а на юге Италии — и в живой речи. Переводится обычным прошедшим временем (родился, написал). Самой в разговоре достаточно passato prossimo — здесь задача только узнавать формы.",
+   "Правильные глаголы проще всего узнать по 3-му лицу: -are → -ò / -arono (parlò, parlarono); -ere → -é или -ette / -erono или -ettero (credé, credette, crederono, credettero); -ire → -ì / -irono (partì, partirono). Следи за ударением: parlò — «он(а) говорил(а)», а parlo — «я говорю».",
+   "Самые частые неправильные формы (3-е лицо ед. ч.): fu (essere), ebbe (avere), fece (fare), disse (dire), venne (venire), nacque (nascere), morì (morire), prese (prendere), visse (vivere), scrisse (scrivere), vide (vedere). Во мн. ч. обычно добавляется -ro: ebbero, fecero, dissero, nacquero (но у essere — furono)."
+  ],
+  "examples": [
+   {
+    "it": "Giuseppe Verdi nacque nel 1813 vicino a Busseto.",
+    "ru": "Джузеппе Верди родился в 1813 году недалеко от Буссето.",
+    "tts_text": "Giuseppe Verdi nacque nel 1813 vicino a Busseto.",
+    "audio_url": null
+   },
+   {
+    "it": "Leonardo da Vinci morì in Francia nel 1519.",
+    "ru": "Леонардо да Винчи умер во Франции в 1519 году.",
+    "tts_text": "Leonardo da Vinci morì in Francia nel 1519.",
+    "audio_url": null
+   },
+   {
+    "it": "Garibaldi arrivò in Sicilia nel 1860 e prese Palermo.",
+    "ru": "Гарибальди прибыл на Сицилию в 1860 году и взял Палермо.",
+    "tts_text": "Garibaldi arrivò in Sicilia nel 1860 e prese Palermo.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Перескажи фразу из путеводителя разговорным временем: вставь глагол в passato prossimo.",
+    "stimulus_it": "Dante nacque a Firenze nel 1265. → Dante ___ a Firenze nel 1265.",
+    "accepted_answers": [
+     "è nato"
+    ],
+    "feedback_ru": "Nacque — passato remoto от nascere; в разговоре — è nato.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-072-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "От какого глагола форма ebbe во фразе «L’artista ebbe molto successo»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "avere"
+     },
+     {
+      "id": "o2",
+      "text": "essere"
+     },
+     {
+      "id": "o3",
+      "text": "bere"
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "Ebbe — passato remoto от avere: «имел большой успех». У essere — fu, у bere — bevve.",
+    "grading": "option_id",
+    "id": "it-grammar-072-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Перепиши фразу из путеводителя в passato prossimo: «Michelangelo dipinse la volta della Cappella Sistina tra il 1508 e il 1512.»",
+    "accepted_answers": [
+     "Michelangelo ha dipinto la volta della Cappella Sistina tra il 1508 e il 1512."
+    ],
+    "feedback_ru": "Dipinse — от dipingere (причастие dipinto), поэтому ha dipinto.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-072-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-072-e4",
+    "type": "production",
+    "prompt_ru": "На доме висит (придуманная) памятная табличка: «In questa casa nacque e visse il pittore Luca Bruni (1820–1890). Qui dipinse i suoi quadri più famosi.» Объясни подруге по-итальянски в 1–2 фразах, что там написано, используя passato prossimo.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Qui è nato e ha vissuto il pittore Luca Bruni. In questa casa ha dipinto i suoi quadri più famosi.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Смысл таблички передан верно; ответ не обязан совпадать с образцом.",
+     "Формы passato remoto узнаны и переданы через passato prossimo: nacque → è nato, visse → ha vissuto (или è vissuto), dipinse → ha dipinto.",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Главное здесь — понять, от каких глаголов формы nacque, visse и dipinse; сама ты говоришь в passato prossimo.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 50,
+  "recommended_vocab_topic_ids": [
+   "14"
+  ]
+ }
+]

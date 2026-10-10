@@ -1,0 +1,1430 @@
+[
+ {
+  "id": "it-grammar-001",
+  "order": 1,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Предложение, личные местоимения, tu и Lei",
+  "can_do_ru": "Сказать, кто что делает; выбрать tu или Lei.",
+  "prerequisites": [],
+  "rules_ru": [
+   "Личные местоимения: io — я, tu — ты, lui — он, lei — она, noi — мы, voi — вы (когда людей несколько), loro — они (и мужчины, и женщины).",
+   "Местоимение-подлежащее обычно опускают: лицо уже видно по окончанию глагола. Parlo russo. — Я говорю по-русски. Местоимение ставят, чтобы выделить или противопоставить: Io parlo russo, lui parla italiano. Типичная ошибка русскоговорящих — начинать каждую фразу с io.",
+   "Tu — с друзьями, родными, детьми и ровесниками в неформальной обстановке. С незнакомыми взрослыми (в гостинице, магазине, на вокзале) — вежливое Lei, и к женщине, и к мужчине; глагол при нём в 3-м лице ед. ч., как при lui/lei: Tu parli inglese? → Lei parla inglese? К одному человеку на voi не обращаются. В письме вежливое Lei часто пишут с заглавной буквы, чтобы отличить от lei «она»."
+  ],
+  "examples": [
+   {
+    "it": "Parlo russo e inglese.",
+    "ru": "Я говорю по-русски и по-английски.",
+    "tts_text": "Parlo russo e inglese.",
+    "audio_url": null
+   },
+   {
+    "it": "Noi parliamo russo, loro parlano italiano.",
+    "ru": "Мы говорим по-русски, а они — по-итальянски.",
+    "tts_text": "Noi parliamo russo, loro parlano italiano.",
+    "audio_url": null
+   },
+   {
+    "it": "Scusi, Lei parla inglese?",
+    "ru": "Извините, вы говорите по-английски?",
+    "tts_text": "Scusi, Lei parla inglese?",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь личное местоимение. Ты обращаешься к незнакомой женщине.",
+    "stimulus_it": "Signora, ___ parla inglese?",
+    "accepted_answers": [
+     "Lei"
+    ],
+    "feedback_ru": "К незнакомому человеку обращаемся на Lei, глагол в 3-м лице: Lei parla.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-001-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Ты спрашиваешь администратора гостиницы (вы не знакомы), говорит ли он по-английски. Как правильно?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Tu parli inglese?"
+     },
+     {
+      "id": "o2",
+      "text": "Lei parla inglese?"
+     },
+     {
+      "id": "o3",
+      "text": "Voi parlate inglese?"
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "Вежливое Lei подходит и к мужчине, и к женщине; voi — это «вы» для нескольких людей.",
+    "grading": "option_id",
+    "id": "it-grammar-001-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Задай тот же вопрос незнакомому человеку, перейдя с tu на вежливое Lei: «Tu parli russo?»",
+    "accepted_answers": [
+     "Lei parla russo?",
+     "Parla russo?"
+    ],
+    "feedback_ru": "С Lei глагол стоит в 3-м лице: parli → parla. Местоимение Lei можно и опустить.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-001-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-001-e4",
+    "type": "production",
+    "prompt_ru": "Ты в кафе в Риме. Вежливо спроси официанта, говорит ли он по-английски, и скажи, на каком языке говоришь ты.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Scusi, Lei parla inglese? Io parlo russo.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "К незнакомому человеку — вежливое Lei с глаголом в 3-м лице (parla), а не tu или voi.",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь, что к официанту ты обращаешься на Lei, а глагол стоит в 3-м лице.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 1,
+  "recommended_vocab_topic_ids": [
+   "01"
+  ]
+ },
+ {
+  "id": "it-grammar-002",
+  "order": 2,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Essere; c’è и ci sono",
+  "can_do_ru": "Представиться, описать место и сказать, что где есть.",
+  "prerequisites": [
+   "it-grammar-001"
+  ],
+  "rules_ru": [
+   "Essere — «быть»: io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono. Sono — и «я», и «они»: лицо понятно из контекста. È (глагол) пишется с ударением, e без ударения — союз «и».",
+   "В отличие от русского, связку не пропускают: «Я русская» — Sono russa, «Он врач» — È medico. Essere + di + город — откуда человек: Sono di Mosca. Essere + состояние: Sono stanca. Женщина говорит о себе с окончанием -a: sono russa, sono stanca.",
+   "C’è (+ ед. ч.) и ci sono (+ мн. ч.) — «есть, имеется» где-то: C’è un bar qui vicino? Ci sono due musei. Если предмет уже известен и речь о том, где он, — просто è: Il bar è qui. Ошибка: «C’è due musei» — при мн. ч. нужно ci sono."
+  ],
+  "examples": [
+   {
+    "it": "Sono russa, di Mosca.",
+    "ru": "Я русская, из Москвы.",
+    "tts_text": "Sono russa, di Mosca.",
+    "audio_url": null
+   },
+   {
+    "it": "Oggi il museo è chiuso.",
+    "ru": "Сегодня музей закрыт.",
+    "tts_text": "Oggi il museo è chiuso.",
+    "audio_url": null
+   },
+   {
+    "it": "C’è una farmacia qui vicino?",
+    "ru": "Здесь поблизости есть аптека?",
+    "tts_text": "C’è una farmacia qui vicino?",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь нужную форму глагола.",
+    "stimulus_it": "Noi ___ in vacanza a Roma. (essere)",
+    "accepted_answers": [
+     "siamo"
+    ],
+    "feedback_ru": "Essere с noi: siamo.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-002-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать «Здесь есть два ресторана»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Qui c’è due ristoranti."
+     },
+     {
+      "id": "o2",
+      "text": "Qui sono due ristoranti."
+     },
+     {
+      "id": "o3",
+      "text": "Qui ci sono due ristoranti."
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "Ristoranti — мн. ч., поэтому ci sono. C’è — только с ед. ч.",
+    "grading": "option_id",
+    "id": "it-grammar-002-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Замени io на noi: «Io sono di Mosca.»",
+    "accepted_answers": [
+     "Noi siamo di Mosca.",
+     "Siamo di Mosca."
+    ],
+    "feedback_ru": "Essere с noi: siamo. Местоимение noi можно опустить.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-002-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-002-e4",
+    "type": "production",
+    "prompt_ru": "Ты знакомишься с хозяйкой квартиры в Болонье. Скажи, кто ты и откуда, и спроси, есть ли рядом супермаркет.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Sono Anna, sono russa, di Mosca. C’è un supermercato qui vicino?",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Использованы формы essere (sono…) и c’è / ci sono по смыслу.",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь, что связка sono не пропущена, а «есть ли…» передано через c’è.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 1,
+  "recommended_vocab_topic_ids": [
+   "01",
+   "10"
+  ]
+ },
+ {
+  "id": "it-grammar-003",
+  "order": 3,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Avere; возраст и состояния",
+  "can_do_ru": "Сказать, что у тебя есть, сколько лет, что хочется есть/пить.",
+  "prerequisites": [
+   "it-grammar-001",
+   "it-grammar-002"
+  ],
+  "rules_ru": [
+   "Avere — «иметь»: io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno. Буква h не читается: ho [о], ha [а], hanno [а́нно]. Она нужна на письме, чтобы различать слова: ho (имею) — o (или), ha (имеет) — a (в), hanno (имеют) — anno (год).",
+   "«У меня есть» — просто ho: Ho una prenotazione. — У меня бронь. Возраст тоже выражают через avere: Ho trent’anni (букв. «имею тридцать лет»), Quanti anni hai? Ошибка русскоговорящих — «Sono trenta anni» по аналогии с «мне тридцать».",
+   "Многие ощущения — avere + существительное: ho fame (хочу есть), ho sete (хочу пить), ho caldo (мне жарко), ho freddo (мне холодно), ho sonno (хочу спать), ho fretta (я спешу). Не «sono fame» и не «mi è freddo»."
+  ],
+  "examples": [
+   {
+    "it": "Ho una prenotazione per due notti.",
+    "ru": "У меня бронь на две ночи.",
+    "tts_text": "Ho una prenotazione per due notti.",
+    "audio_url": null
+   },
+   {
+    "it": "Marco ha quarant’anni.",
+    "ru": "Марко сорок лет.",
+    "tts_text": "Marco ha quarant’anni.",
+    "audio_url": null
+   },
+   {
+    "it": "Abbiamo fame e sete.",
+    "ru": "Мы хотим есть и пить.",
+    "tts_text": "Abbiamo fame e sete.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь нужную форму глагола.",
+    "stimulus_it": "Marco e Giulia ___ due bambini. (avere)",
+    "accepted_answers": [
+     "hanno"
+    ],
+    "feedback_ru": "Avere с loro: hanno — с немой h (anno без h — «год»).",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-003-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать «Мне холодно»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Ho freddo."
+     },
+     {
+      "id": "o2",
+      "text": "Sono fredda."
+     },
+     {
+      "id": "o3",
+      "text": "Mi è freddo."
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "Ощущение холода — avere + freddo. Sono fredda значит «я холодная (на ощупь или по характеру)».",
+    "grading": "option_id",
+    "id": "it-grammar-003-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Исправь ошибку во фразе «Мне тридцать лет»: «Sono trenta anni.»",
+    "accepted_answers": [
+     "Ho trent’anni.",
+     "Ho trenta anni.",
+     "Io ho trent’anni.",
+     "Io ho trenta anni."
+    ],
+    "feedback_ru": "Возраст выражают через avere: Ho trent’anni.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-003-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-003-e4",
+    "type": "production",
+    "prompt_ru": "Ты пришла в кафе после долгой прогулки по жаре. Скажи официанту, что ты голодна, хочешь пить и тебе жарко, и спроси, есть ли у них столик на улице (un tavolo fuori).",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Ho fame, ho sete e ho caldo. Avete un tavolo fuori?",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Ощущения выражены через avere (ho fame, ho sete, ho caldo); вопрос к персоналу — с avete.",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь, что «голодна», «хочу пить» и «жарко» переданы через ho, а не через sono.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 2,
+  "recommended_vocab_topic_ids": [
+   "01",
+   "12"
+  ]
+ },
+ {
+  "id": "it-grammar-004",
+  "order": 4,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Существительные: род и число",
+  "can_do_ru": "Узнать род по окончанию и образовать множественное число.",
+  "prerequisites": [
+   "it-grammar-002",
+   "it-grammar-003"
+  ],
+  "rules_ru": [
+   "Род обычно видно по окончанию: -o — мужской (biglietto, treno), -a — женский (camera, farmacia). На -e бывают оба рода: ristorante — м. р., notte — ж. р.; такие слова запоминай вместе с родом. Среднего рода нет, и род часто не совпадает с русским: mare (море) — м. р., città (город) — ж. р.",
+   "Множественное число: -o → -i (biglietto → biglietti), -a → -e (camera → camere), -e → -i (notte → notti, ristorante → ristoranti). Слова, которые в русском не изменяются, в итальянском меняются: cappuccino → cappuccini, panino → panini («панини» — это уже мн. ч.).",
+   "Исключения: problema — м. р. (due problemi); mano — ж. р., хотя на -o (due mani). Не меняются во мн. ч. слова с ударной последней гласной (caffè, città), сокращённые (foto, bici) и иностранные (bar, sport): due caffè, tre foto, due bar."
+  ],
+  "examples": [
+   {
+    "it": "Due biglietti per Firenze, per favore.",
+    "ru": "Два билета до Флоренции, пожалуйста.",
+    "tts_text": "Due biglietti per Firenze, per favore.",
+    "audio_url": null
+   },
+   {
+    "it": "Qui vicino ci sono due ristoranti.",
+    "ru": "Здесь рядом два ресторана.",
+    "tts_text": "Qui vicino ci sono due ristoranti.",
+    "audio_url": null
+   },
+   {
+    "it": "Due caffè e due cornetti, per favore.",
+    "ru": "Два кофе и два круассана, пожалуйста.",
+    "tts_text": "Due caffè e due cornetti, per favore.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь существительное во множественном числе.",
+    "stimulus_it": "Avete due ___ per stanotte? (camera)",
+    "accepted_answers": [
+     "camere"
+    ],
+    "feedback_ru": "Слова на -a во мн. ч. получают -e: camera → camere.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-004-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Множественное число от problema:",
+    "options": [
+     {
+      "id": "o1",
+      "text": "probleme"
+     },
+     {
+      "id": "o2",
+      "text": "problema"
+     },
+     {
+      "id": "o3",
+      "text": "problemi"
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "Problema — мужского рода, хотя кончается на -a, поэтому во мн. ч. -i: due problemi.",
+    "grading": "option_id",
+    "id": "it-grammar-004-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Замени un и una на due: «Ho un biglietto e una prenotazione.»",
+    "accepted_answers": [
+     "Ho due biglietti e due prenotazioni.",
+     "Io ho due biglietti e due prenotazioni."
+    ],
+    "feedback_ru": "biglietto → biglietti (-o → -i), prenotazione → prenotazioni (-e → -i).",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-004-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-004-e4",
+    "type": "production",
+    "prompt_ru": "Ты в баре с друзьями и заказываешь на всех. Закажи 2–3 разных напитка или выпечки, каждого больше одного (например, кофе, капучино, круассаны).",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Due cappuccini, tre caffè e quattro cornetti, per favore.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Множественное число образовано верно (cappuccini, cornetti), а неизменяемые слова (caffè) не меняются.",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь окончания мн. ч. и помни: caffè, bar, foto не меняются.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 2,
+  "recommended_vocab_topic_ids": [
+   "06",
+   "07"
+  ]
+ },
+ {
+  "id": "it-grammar-005",
+  "order": 5,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Артикли: il, lo, la, l’; un, uno, una, un’",
+  "can_do_ru": "Выбрать артикль по роду и первому звуку.",
+  "prerequisites": [
+   "it-grammar-004"
+  ],
+  "rules_ru": [
+   "Определённый артикль (известный, тот самый предмет). Мужской род: il перед согласной (il treno → i treni); lo перед s + согласная, z, gn, ps, x, y (lo zaino → gli zaini, lo studente → gli studenti); l’ перед гласной (l’aeroporto → gli aeroporti). Женский род: la (la camera → le camere), l’ перед гласной (l’uscita → le uscite).",
+   "Неопределённый артикль (какой-то, один): un — м. р. (un treno, un albergo), uno — там же, где lo (uno zaino, uno studente), una — ж. р. (una camera), un’ — ж. р. перед гласной (un’amica). Апостроф только в женском роде: un’amica, но un amico.",
+   "Артикль выбирают по роду и по первому звуку слова сразу за ним. В русском артиклей нет, поэтому главная ошибка — их пропускать: не «Dov’è stazione?», а Dov’è la stazione? Обычно c’è + un/una (что-то новое), dov’è + il/la (конкретный предмет)."
+  ],
+  "examples": [
+   {
+    "it": "Il treno per Napoli è in ritardo.",
+    "ru": "Поезд в Неаполь опаздывает.",
+    "tts_text": "Il treno per Napoli è in ritardo.",
+    "audio_url": null
+   },
+   {
+    "it": "Ho uno zaino e una valigia.",
+    "ru": "У меня рюкзак и чемодан.",
+    "tts_text": "Ho uno zaino e una valigia.",
+    "audio_url": null
+   },
+   {
+    "it": "Scusi, dov’è l’uscita?",
+    "ru": "Извините, где выход?",
+    "tts_text": "Scusi, dov’è l’uscita?",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь неопределённый артикль.",
+    "stimulus_it": "Ho ___ amica a Milano.",
+    "accepted_answers": [
+     "un’"
+    ],
+    "feedback_ru": "Amica — ж. р. и начинается с гласной: un’amica (с апострофом). Ср.: un amico.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-005-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Выбери определённый артикль для zaino:",
+    "options": [
+     {
+      "id": "o1",
+      "text": "il"
+     },
+     {
+      "id": "o2",
+      "text": "lo"
+     },
+     {
+      "id": "o3",
+      "text": "l’"
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "Перед z мужской род берёт lo: lo zaino, во мн. ч. gli zaini.",
+    "grading": "option_id",
+    "id": "it-grammar-005-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Поставь всю фразу во множественное число: «Lo studente è in albergo.»",
+    "accepted_answers": [
+     "Gli studenti sono in albergo."
+    ],
+    "feedback_ru": "lo → gli, studente → studenti, è → sono.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-005-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-005-e4",
+    "type": "production",
+    "prompt_ru": "Ты только что заселилась в гостиницу. Спроси на ресепшене, где лифт (ascensore) и где выход, и есть ли поблизости банкомат (bancomat).",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Scusi, dov’è l’ascensore? E dov’è l’uscita? C’è un bancomat qui vicino?",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Артикли выбраны по роду и первому звуку: dov’è + l’/il/la, c’è + un/una.",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь, что перед каждым существительным стоит артикль и что перед гласной он сокращён (l’).",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 3,
+  "recommended_vocab_topic_ids": [
+   "06",
+   "07"
+  ]
+ },
+ {
+  "id": "it-grammar-006",
+  "order": 6,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Прилагательные: согласование и место",
+  "can_do_ru": "Описать человека и предмет с верным окончанием.",
+  "prerequisites": [
+   "it-grammar-004",
+   "it-grammar-005"
+  ],
+  "rules_ru": [
+   "Прилагательное согласуется с существительным в роде и числе. У прилагательных на -o четыре формы: caro, cara, cari, care (un treno caro, una camera cara, treni cari, camere care). У прилагательных на -e — две, общие для обоих родов: -e в ед. ч., -i во мн. ч. (una camera grande, camere grandi).",
+   "Обычно прилагательное стоит после существительного: una camera tranquilla, il vino rosso, una ragazza russa. Но bello, buono, grande, piccolo часто ставят перед существительным: una bella città, una grande piazza. Перед существительным м. р. buono и bello сокращаются: un buon caffè, un bel posto.",
+   "Molto перед прилагательным значит «очень» и не меняется: una camera molto cara, camere molto care (не «molta cara»). Род берётся у итальянского слова, а не у русского перевода: città (город) — ж. р., поэтому una bella città."
+  ],
+  "examples": [
+   {
+    "it": "La camera è piccola ma molto pulita.",
+    "ru": "Номер маленький, но очень чистый.",
+    "tts_text": "La camera è piccola ma molto pulita.",
+    "audio_url": null
+   },
+   {
+    "it": "Roma è una bella città.",
+    "ru": "Рим — красивый город.",
+    "tts_text": "Roma è una bella città.",
+    "audio_url": null
+   },
+   {
+    "it": "Qui gli alberghi sono cari.",
+    "ru": "Здесь гостиницы дорогие.",
+    "tts_text": "Qui gli alberghi sono cari.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь прилагательное в нужной форме.",
+    "stimulus_it": "Le camere sono molto ___. (caro)",
+    "accepted_answers": [
+     "care"
+    ],
+    "feedback_ru": "Camere — ж. р., мн. ч., поэтому care. Molto при этом не меняется.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-006-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать «очень красивый город»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "una città molto bella"
+     },
+     {
+      "id": "o2",
+      "text": "una città molta bella"
+     },
+     {
+      "id": "o3",
+      "text": "una città molto bello"
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "Città — ж. р., поэтому bella; molto перед прилагательным не меняется.",
+    "grading": "option_id",
+    "id": "it-grammar-006-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Поставь всю фразу во множественное число: «Il ristorante è piccolo ma buono.»",
+    "accepted_answers": [
+     "I ristoranti sono piccoli ma buoni."
+    ],
+    "feedback_ru": "il → i, ristorante → ristoranti, è → sono, piccolo/buono → piccoli/buoni.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-006-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-006-e4",
+    "type": "production",
+    "prompt_ru": "Гостиница просит оставить отзыв. Опиши в 2–3 фразах свой номер: какой он, какая кровать, какой район.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "La camera è piccola ma molto pulita. Il letto è comodo. Il quartiere è tranquillo e molto bello.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Прилагательные согласованы с существительными в роде и числе; molto не меняется.",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь окончание каждого прилагательного: какого рода и числа существительное?",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 3,
+  "recommended_vocab_topic_ids": [
+   "18"
+  ]
+ },
+ {
+  "id": "it-grammar-007",
+  "order": 7,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Presente: глаголы на -are",
+  "can_do_ru": "Рассказать о привычных действиях.",
+  "prerequisites": [
+   "it-grammar-001",
+   "it-grammar-004"
+  ],
+  "rules_ru": [
+   "Presente: отбрасываем -are и добавляем окончания: parlare → parlo, parli, parla, parliamo, parlate, parlano. В форме loro ударение падает на тот же слог, что и в io: parlano [па́рлано], abitano [а́битано], а не «парла́но».",
+   "Глаголы на -care и -gare добавляют h перед i, чтобы звук остался твёрдым: cercare → cerchi, cerchiamo; pagare → paghi, paghiamo. У глаголов на -iare i не удваивается: mangiare → mangi, mangiamo; studiare → studi.",
+   "Как и в русском, presente — это и «обычно», и «сейчас», и ближайшие планы: Lavoro a Mosca. Stasera mangiamo in centro. Местоимение-подлежащее, как обычно, можно опустить."
+  ],
+  "examples": [
+   {
+    "it": "Abito a Mosca e lavoro in un ufficio.",
+    "ru": "Я живу в Москве и работаю в офисе.",
+    "tts_text": "Abito a Mosca e lavoro in un ufficio.",
+    "audio_url": null
+   },
+   {
+    "it": "Cerchiamo la stazione.",
+    "ru": "Мы ищем вокзал.",
+    "tts_text": "Cerchiamo la stazione.",
+    "audio_url": null
+   },
+   {
+    "it": "Pago con la carta.",
+    "ru": "Я заплачу картой.",
+    "tts_text": "Pago con la carta.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в нужной форме.",
+    "stimulus_it": "Tu ___ con la carta o in contanti? (pagare)",
+    "accepted_answers": [
+     "paghi"
+    ],
+    "feedback_ru": "Pagare с tu: paghi — h сохраняет твёрдое «г».",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-007-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Форма mangiare с noi:",
+    "options": [
+     {
+      "id": "o1",
+      "text": "mangiiamo"
+     },
+     {
+      "id": "o2",
+      "text": "mangiano"
+     },
+     {
+      "id": "o3",
+      "text": "mangiamo"
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "У глаголов на -iare i не удваивается: mangiamo. Mangiano — форма loro.",
+    "grading": "option_id",
+    "id": "it-grammar-007-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Замени io на loro: «Io cerco un albergo economico.»",
+    "accepted_answers": [
+     "Loro cercano un albergo economico.",
+     "Cercano un albergo economico."
+    ],
+    "feedback_ru": "Cercare с loro: cercano [че́ркано] — ударение на первом слоге.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-007-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-007-e4",
+    "type": "production",
+    "prompt_ru": "Расскажи о своём обычном дне в поездке: 3 фразы с глаголами на -are (например, visitare, mangiare, camminare).",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "La mattina visito un museo. A pranzo mangio una pizza. La sera cammino in centro.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Глаголы на -are стоят в верной форме (visito, mangio, cammino).",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь окончание -o в форме io и написание у глаголов на -care, -gare, -iare.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 5,
+  "recommended_vocab_topic_ids": [
+   "02",
+   "03"
+  ]
+ },
+ {
+  "id": "it-grammar-008",
+  "order": 8,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Presente: глаголы на -ere и -ire (и -isc-)",
+  "can_do_ru": "Спрягать правильные глаголы второй и третьей группы.",
+  "prerequisites": [
+   "it-grammar-007"
+  ],
+  "rules_ru": [
+   "Глаголы на -ere: prendere → prendo, prendi, prende, prendiamo, prendete, prendono. Глаголы на -ire (тип dormire): dormo, dormi, dorme, dormiamo, dormite, dormono. Различаются только в форме voi: prendete / dormite.",
+   "Многие глаголы на -ire добавляют -isc- в формах io, tu, lui/lei и loro: capire → capisco, capisci, capisce, capiamo, capite, capiscono. С noi и voi -isc- нет. Перед i и e sc читается как «ш»: capisci [капи́ши], capisce [капи́ше], но capisco [капи́ско].",
+   "По инфинитиву не видно, какой тип у глагола на -ire, — запоминай со словом. Как dormire: partire, aprire, sentire, offrire. С -isc-: capire, finire, preferire, pulire."
+  ],
+  "examples": [
+   {
+    "it": "Prendo un cappuccino, grazie.",
+    "ru": "Я возьму капучино, спасибо.",
+    "tts_text": "Prendo un cappuccino, grazie.",
+    "audio_url": null
+   },
+   {
+    "it": "Il treno parte adesso.",
+    "ru": "Поезд отправляется прямо сейчас.",
+    "tts_text": "Il treno parte adesso.",
+    "audio_url": null
+   },
+   {
+    "it": "Capisco l’italiano, ma parlo poco.",
+    "ru": "Я понимаю итальянский, но говорю мало.",
+    "tts_text": "Capisco l’italiano, ma parlo poco.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в нужной форме.",
+    "stimulus_it": "Loro ___ l’italiano molto bene. (capire)",
+    "accepted_answers": [
+     "capiscono"
+    ],
+    "feedback_ru": "Capire — глагол с -isc-: loro capiscono.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-008-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Форма preferire с voi:",
+    "options": [
+     {
+      "id": "o1",
+      "text": "preferiscete"
+     },
+     {
+      "id": "o2",
+      "text": "preferite"
+     },
+     {
+      "id": "o3",
+      "text": "preferiscite"
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "С noi и voi -isc- не добавляется: preferite.",
+    "grading": "option_id",
+    "id": "it-grammar-008-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Замени tu на noi: «Tu prendi un taxi o l’autobus?»",
+    "accepted_answers": [
+     "Noi prendiamo un taxi o l’autobus?",
+     "Prendiamo un taxi o l’autobus?"
+    ],
+    "feedback_ru": "Prendere с noi: prendiamo.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-008-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-008-e4",
+    "type": "production",
+    "prompt_ru": "Расскажи о планах на завтра в поездке: 2–3 фразы с prendere, partire и preferire.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Domani prendo il treno per Firenze. Parto la mattina. Preferisco il treno: è comodo e veloce.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Глаголы на -ere и -ire спрягаются верно; у preferire есть -isc- (preferisco).",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь окончания и не забудь -isc- в preferisco.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 5,
+  "recommended_vocab_topic_ids": [
+   "02",
+   "03"
+  ]
+ },
+ {
+  "id": "it-grammar-009",
+  "order": 9,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Неправильные: andare, fare, stare, venire, dare, dire, uscire",
+  "can_do_ru": "Сказать, куда идёшь, что делаешь, как дела.",
+  "prerequisites": [
+   "it-grammar-007",
+   "it-grammar-008"
+  ],
+  "rules_ru": [
+   "Andare (идти, ехать): vado, vai, va, andiamo, andate, vanno. Fare (делать): faccio, fai, fa, facciamo, fate, fanno. Stare (находиться; о самочувствии): sto, stai, sta, stiamo, state, stanno.",
+   "Venire (приходить, приезжать): vengo, vieni, viene, veniamo, venite, vengono. Dire (говорить, сказать): dico, dici, dice, diciamo, dite, dicono. Uscire (выходить, уходить из дома): esco, esci, esce, usciamo, uscite, escono. Dare (давать): do, dai, dà, diamo, date, danno; dà с ударением — чтобы не путать с предлогом da.",
+   "Самочувствие — со stare, а не с essere: Come stai? — Sto bene. Ошибка: «Sono bene». Fare входит во многие выражения: fare colazione (завтракать), fare la spesa (покупать продукты), fare una foto (сфотографировать).",
+   "Куда: andare a + город или инфинитив (Vado a Roma, Vado a mangiare), andare in + страна и многие места (Vado in Italia, in centro, in farmacia). Откуда: venire da (Vengo da Mosca — я из Москвы). Ошибка: «Vado in Roma»."
+  ],
+  "examples": [
+   {
+    "it": "Domani vado a Venezia.",
+    "ru": "Завтра я еду в Венецию.",
+    "tts_text": "Domani vado a Venezia.",
+    "audio_url": null
+   },
+   {
+    "it": "Come stai? — Sto bene, grazie.",
+    "ru": "Как дела? — Хорошо, спасибо.",
+    "tts_text": "Come stai? — Sto bene, grazie.",
+    "audio_url": null
+   },
+   {
+    "it": "Stasera usciamo e facciamo una passeggiata.",
+    "ru": "Вечером мы выйдем прогуляться.",
+    "tts_text": "Stasera usciamo e facciamo una passeggiata.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в нужной форме.",
+    "stimulus_it": "Stasera io ___ a cena con un’amica. (uscire)",
+    "accepted_answers": [
+     "esco"
+    ],
+    "feedback_ru": "Uscire с io: esco — основа меняется на esc-.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-009-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать «Я еду в Италию»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Vado in Italia."
+     },
+     {
+      "id": "o2",
+      "text": "Vado a Italia."
+     },
+     {
+      "id": "o3",
+      "text": "Vengo a Italia."
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "Со страной — in: Vado in Italia. A — с городом: Vado a Roma.",
+    "grading": "option_id",
+    "id": "it-grammar-009-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Замени io на noi: «Io vado in centro e faccio la spesa.»",
+    "accepted_answers": [
+     "Noi andiamo in centro e facciamo la spesa.",
+     "Andiamo in centro e facciamo la spesa."
+    ],
+    "feedback_ru": "vado → andiamo, faccio → facciamo.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-009-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-009-e4",
+    "type": "production",
+    "prompt_ru": "Друг-итальянец пишет: «Come stai? Cosa fai oggi?» Ответь: как у тебя дела, куда ты идёшь сегодня, что там делаешь и с кем встречаешься вечером.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Sto bene, grazie! Oggi vado in centro e faccio una passeggiata. Stasera esco con un’amica.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Неправильные глаголы стоят в верной форме (sto, vado, faccio, esco); после andare — верный предлог a или in.",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь формы io у неправильных глаголов и «Sto bene», а не «Sono bene».",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 6,
+  "recommended_vocab_topic_ids": [
+   "03"
+  ]
+ },
+ {
+  "id": "it-grammar-010",
+  "order": 10,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Отрицание non; sì, no; non… mai, niente",
+  "can_do_ru": "Отказаться, возразить, сказать «никогда», «ничего».",
+  "prerequisites": [
+   "it-grammar-007"
+  ],
+  "rules_ru": [
+   "Non ставится прямо перед глаголом, как русское «не»: Non capisco. Non parlo tedesco. «Да» — sì (с ударением), «нет» — no. Не путай: «нет» = no, «не» = non. Ошибка: «No capisco».",
+   "Ответ «нет» на вопрос: сначала no, потом non перед глаголом: Parla tedesco? — No, non parlo tedesco. Вежливый отказ: No, grazie.",
+   "«Никогда» и «ничего» — с двойным отрицанием, как в русском: non + глагол + mai / niente. Non mangio mai carne. — Я никогда не ем мясо. Non compro niente. — Я ничего не покупаю. Без non нельзя: «Mangio mai carne» — ошибка."
+  ],
+  "examples": [
+   {
+    "it": "Scusi, non capisco.",
+    "ru": "Извините, я не понимаю.",
+    "tts_text": "Scusi, non capisco.",
+    "audio_url": null
+   },
+   {
+    "it": "No, grazie, non prendo il dolce.",
+    "ru": "Нет, спасибо, я не буду десерт.",
+    "tts_text": "No, grazie, non prendo il dolce.",
+    "audio_url": null
+   },
+   {
+    "it": "Non mangio mai carne.",
+    "ru": "Я никогда не ем мясо.",
+    "tts_text": "Non mangio mai carne.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь пропущенное слово.",
+    "stimulus_it": "Marco non viaggia ___ in aereo: ha paura. (никогда)",
+    "accepted_answers": [
+     "mai"
+    ],
+    "feedback_ru": "«Никогда» — non… mai: non перед глаголом, mai после него.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-010-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как ответить «Нет, я не говорю по-немецки»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "No parlo tedesco."
+     },
+     {
+      "id": "o2",
+      "text": "Non, non parlo tedesco."
+     },
+     {
+      "id": "o3",
+      "text": "No, non parlo tedesco."
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "«Нет» — no, «не» перед глаголом — non: No, non parlo tedesco.",
+    "grading": "option_id",
+    "id": "it-grammar-010-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Скажи, что ты ничего не покупаешь, используя non… niente. Исходная фраза: «Compro una borsa.»",
+    "accepted_answers": [
+     "Non compro niente.",
+     "Io non compro niente."
+    ],
+    "feedback_ru": "Non перед глаголом, niente после: Non compro niente.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-010-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-010-e4",
+    "type": "production",
+    "prompt_ru": "На рынке продавец спрашивает тебя: «Prende qualcosa?» Вежливо откажись, скажи, что сегодня ничего не покупаешь и что сувениры ты никогда не покупаешь.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "No, grazie. Oggi non compro niente. E non compro mai souvenir.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Non стоит перед глаголом; mai и niente — после глагола, вместе с non.",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь, что в каждой фразе с mai или niente есть non перед глаголом.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 6,
+  "recommended_vocab_topic_ids": [
+   "01",
+   "04"
+  ]
+ },
+ {
+  "id": "it-grammar-011",
+  "order": 11,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Вопросы: интонация и вопросительные слова",
+  "can_do_ru": "Задать простые вопросы в поездке.",
+  "prerequisites": [
+   "it-grammar-002",
+   "it-grammar-003",
+   "it-grammar-010"
+  ],
+  "rules_ru": [
+   "Вопрос «да/нет» строится без изменения порядка слов — только интонацией (на письме — знак ?): Lei parla inglese? Il museo è aperto? Подлежащее часто переносят в конец: È aperto il museo?",
+   "Вопросительные слова: chi — кто, che cosa / cosa — что, dove — где, куда, quando — когда, come — как, perché — почему (и «потому что» — тоже perché), quale — какой (из нескольких). Dove + è = dov’è (с апострофом), а quale + è = qual è — без апострофа. Ошибка: «Qual’è».",
+   "Quanto согласуется с существительным: quanto tempo, quanta acqua, quanti giorni, quante notti; «Сколько стоит?» — Quanto costa? После вопросительного слова подлежащее обычно ставят после глагола: Quanto costa il biglietto? Dove abita Marco?"
+  ],
+  "examples": [
+   {
+    "it": "Quanto costa il biglietto?",
+    "ru": "Сколько стоит билет?",
+    "tts_text": "Quanto costa il biglietto?",
+    "audio_url": null
+   },
+   {
+    "it": "Dov’è la stazione?",
+    "ru": "Где вокзал?",
+    "tts_text": "Dov’è la stazione?",
+    "audio_url": null
+   },
+   {
+    "it": "Quando parte il treno per Bologna?",
+    "ru": "Когда отправляется поезд в Болонью?",
+    "tts_text": "Quando parte il treno per Bologna?",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь вопросительное слово в нужной форме.",
+    "stimulus_it": "___ notti resta, signora? (сколько)",
+    "accepted_answers": [
+     "Quante"
+    ],
+    "feedback_ru": "Notti — ж. р., мн. ч., поэтому quante.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-011-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как правильно написать «В чём проблема?»",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Qual’è il problema?"
+     },
+     {
+      "id": "o2",
+      "text": "Qual è il problema?"
+     },
+     {
+      "id": "o3",
+      "text": "Che è il problema?"
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "Qual è пишется без апострофа.",
+    "grading": "option_id",
+    "id": "it-grammar-011-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Задай вопрос со словом dove, чтобы узнать, где живёт Марко. Исходная фраза: «Marco abita a Napoli.»",
+    "accepted_answers": [
+     "Dove abita Marco?",
+     "Marco dove abita?"
+    ],
+    "feedback_ru": "После dove глагол, подлежащее — в конце: Dove abita Marco?",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-011-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-011-e4",
+    "type": "production",
+    "prompt_ru": "Ты на вокзале в Милане. Задай кассиру три вопроса: когда отправляется поезд в Верону, сколько стоит билет и с какой платформы (binario) он уходит.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Quando parte il treno per Verona? Quanto costa il biglietto? Da quale binario parte?",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Вопросительные слова выбраны по смыслу; подлежащее стоит после глагола (Quando parte il treno…?).",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь порядок слов: вопросительное слово, глагол, потом подлежащее.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 7,
+  "recommended_vocab_topic_ids": [
+   "01"
+  ]
+ },
+ {
+  "id": "it-grammar-012",
+  "order": 12,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Притяжательные: il mio, la mia…",
+  "can_do_ru": "Сказать, чьё это; говорить о семье.",
+  "prerequisites": [
+   "it-grammar-005"
+  ],
+  "rules_ru": [
+   "Притяжательное согласуется с предметом (а не с владельцем) и обычно идёт с артиклем: il mio biglietto, la mia valigia, i miei amici, le mie chiavi. Формы: mio/mia/miei/mie, tuo/tua/tuoi/tue, suo/sua/suoi/sue, nostro/nostra/nostri/nostre, vostro/vostra/vostri/vostre; loro не меняется (il loro albergo, la loro casa).",
+   "Suo — и «его», и «её»; форму выбираем по предмету: la sua valigia — его или её чемодан. Вежливое «ваш» (к Lei) — тоже Suo, в письме часто с заглавной: il Suo passaporto. Русского «свой» нет: «Я ищу свой паспорт» — Cerco il mio passaporto.",
+   "С названиями родственников в ед. ч. артикль не ставят: mia madre, tuo padre, sua sorella. Но он нужен во мн. ч. (le mie sorelle), с ласковыми словами (la mia mamma, il mio papà) и с loro (il loro figlio)."
+  ],
+  "examples": [
+   {
+    "it": "Ecco il mio passaporto.",
+    "ru": "Вот мой паспорт.",
+    "tts_text": "Ecco il mio passaporto.",
+    "audio_url": null
+   },
+   {
+    "it": "Mia sorella abita a Milano.",
+    "ru": "Моя сестра живёт в Милане.",
+    "tts_text": "Mia sorella abita a Milano.",
+    "audio_url": null
+   },
+   {
+    "it": "Signora, è la Sua valigia?",
+    "ru": "Синьора, это ваш чемодан?",
+    "tts_text": "Signora, è la Sua valigia?",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь притяжательное местоимение.",
+    "stimulus_it": "Marco cerca la ___ valigia. (его)",
+    "accepted_answers": [
+     "sua"
+    ],
+    "feedback_ru": "Valigia — ж. р., поэтому sua, хотя владелец — мужчина.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-012-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать «мои сёстры»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "le mie sorelle"
+     },
+     {
+      "id": "o2",
+      "text": "mie sorelle"
+     },
+     {
+      "id": "o3",
+      "text": "le miei sorelle"
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "Во мн. ч. артикль с родственниками нужен; sorelle — ж. р., поэтому mie.",
+    "grading": "option_id",
+    "id": "it-grammar-012-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Поставь всю фразу во множественное число: «Il mio amico abita a Roma.»",
+    "accepted_answers": [
+     "I miei amici abitano a Roma."
+    ],
+    "feedback_ru": "il mio → i miei, amico → amici, abita → abitano.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-012-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-012-e4",
+    "type": "production",
+    "prompt_ru": "Попутчик в поезде спрашивает о твоей семье. Расскажи в 2–3 фразах, кто у тебя есть и где они живут.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Mia madre e mio padre abitano a Mosca. Mia sorella abita a San Pietroburgo con suo marito e i loro figli.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Притяжательные согласованы с предметом; с родственником в ед. ч. без артикля (mia madre), во мн. ч. — с артиклем (i loro figli).",
+     "Фраза понятна; ошибки вне темы модуля обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец — один из возможных ответов. Проверь, где нужен артикль: mia sorella, но le mie sorelle.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 7,
+  "recommended_vocab_topic_ids": [
+   "05"
+  ]
+ }
+]

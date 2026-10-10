@@ -1,0 +1,1313 @@
+[
+ {
+  "id": "it-grammar-001",
+  "order": 1,
+  "stage": "A1",
+  "suggested_week": 1,
+  "priority": "core",
+  "title_ru": "Предложение, личные местоимения, tu и Lei",
+  "can_do_ru": "Сказать, кто что делает; выбрать tu или Lei.",
+  "prerequisites": [],
+  "scope_notes": "io/tu/lui/lei/noi/voi/loro; подлежащее часто опускается (Parlo italiano); вежливое Lei + 3-е лицо; Lei с заглавной в письме",
+  "recommended_vocab_topic_ids": [
+   "01"
+  ]
+ },
+ {
+  "id": "it-grammar-002",
+  "order": 2,
+  "stage": "A1",
+  "suggested_week": 1,
+  "priority": "core",
+  "title_ru": "Essere; c’è и ci sono",
+  "can_do_ru": "Представиться, описать место и сказать, что где есть.",
+  "prerequisites": [
+   "it-grammar-001"
+  ],
+  "scope_notes": "sono, sei, è, siamo, siete, sono; c’è / ci sono; essere + происхождение/профессия/состояние",
+  "recommended_vocab_topic_ids": [
+   "01",
+   "10"
+  ]
+ },
+ {
+  "id": "it-grammar-003",
+  "order": 3,
+  "stage": "A1",
+  "suggested_week": 2,
+  "priority": "core",
+  "title_ru": "Avere; возраст и состояния",
+  "can_do_ru": "Сказать, что у тебя есть, сколько лет, что хочется есть/пить.",
+  "prerequisites": [
+   "it-grammar-001",
+   "it-grammar-002"
+  ],
+  "scope_notes": "ho, hai, ha, abbiamo, avete, hanno; ho trent’anni; ho fame/sete/caldo/freddo/sonno; h немая",
+  "recommended_vocab_topic_ids": [
+   "01",
+   "12"
+  ]
+ },
+ {
+  "id": "it-grammar-004",
+  "order": 4,
+  "stage": "A1",
+  "suggested_week": 2,
+  "priority": "core",
+  "title_ru": "Существительные: род и число",
+  "can_do_ru": "Узнать род по окончанию и образовать множественное число.",
+  "prerequisites": [
+   "it-grammar-002",
+   "it-grammar-003"
+  ],
+  "scope_notes": "-o→-i, -a→-e, -e→-i; исключения: il problema, la mano, la foto, il caffè (неизменяемые на ударную гласную), il bar/lo sport (иностранные)",
+  "recommended_vocab_topic_ids": [
+   "06",
+   "07"
+  ]
+ },
+ {
+  "id": "it-grammar-005",
+  "order": 5,
+  "stage": "A1",
+  "suggested_week": 3,
+  "priority": "core",
+  "title_ru": "Артикли: il, lo, la, l’; un, uno, una, un’",
+  "can_do_ru": "Выбрать артикль по роду и первому звуку.",
+  "prerequisites": [
+   "it-grammar-004"
+  ],
+  "scope_notes": "il/lo/l’/la; i/gli/le; lo и gli перед s+согласная, z, gn, ps, x, y; un/uno/una/un’; un’amica, но un amico",
+  "recommended_vocab_topic_ids": [
+   "06",
+   "07"
+  ]
+ },
+ {
+  "id": "it-grammar-006",
+  "order": 6,
+  "stage": "A1",
+  "suggested_week": 3,
+  "priority": "core",
+  "title_ru": "Прилагательные: согласование и место",
+  "can_do_ru": "Описать человека и предмет с верным окончанием.",
+  "prerequisites": [
+   "it-grammar-004",
+   "it-grammar-005"
+  ],
+  "scope_notes": "-o/-a/-i/-e и -e/-i; обычно после существительного; bello/buono/grande перед существительным; molto как наречие",
+  "recommended_vocab_topic_ids": [
+   "18"
+  ]
+ },
+ {
+  "id": "it-grammar-007",
+  "order": 7,
+  "stage": "A1",
+  "suggested_week": 5,
+  "priority": "core",
+  "title_ru": "Presente: глаголы на -are",
+  "can_do_ru": "Рассказать о привычных действиях.",
+  "prerequisites": [
+   "it-grammar-001",
+   "it-grammar-004"
+  ],
+  "scope_notes": "parlo, parli, parla, parliamo, parlate, parlano; ударение в parlano; -care/-gare: cerchi, paghi; -iare: mangi",
+  "recommended_vocab_topic_ids": [
+   "02",
+   "03"
+  ]
+ },
+ {
+  "id": "it-grammar-008",
+  "order": 8,
+  "stage": "A1",
+  "suggested_week": 5,
+  "priority": "core",
+  "title_ru": "Presente: глаголы на -ere и -ire (и -isc-)",
+  "can_do_ru": "Спрягать правильные глаголы второй и третьей группы.",
+  "prerequisites": [
+   "it-grammar-007"
+  ],
+  "scope_notes": "prendo/prendi/prende…; dormo/dormi…; capisco/capisci/capisce/capiamo/capite/capiscono; finire, preferire",
+  "recommended_vocab_topic_ids": [
+   "02",
+   "03"
+  ]
+ },
+ {
+  "id": "it-grammar-009",
+  "order": 9,
+  "stage": "A1",
+  "suggested_week": 6,
+  "priority": "core",
+  "title_ru": "Неправильные: andare, fare, stare, venire, dare, dire, uscire",
+  "can_do_ru": "Сказать, куда идёшь, что делаешь, как дела.",
+  "prerequisites": [
+   "it-grammar-007",
+   "it-grammar-008"
+  ],
+  "scope_notes": "vado, vai, va, andiamo, andate, vanno; faccio; sto; vengo; do; dico; esco; andare a/in, venire da",
+  "recommended_vocab_topic_ids": [
+   "03"
+  ]
+ },
+ {
+  "id": "it-grammar-010",
+  "order": 10,
+  "stage": "A1",
+  "suggested_week": 6,
+  "priority": "core",
+  "title_ru": "Отрицание non; sì, no; non… mai, niente",
+  "can_do_ru": "Отказаться, возразить, сказать «никогда», «ничего».",
+  "prerequisites": [
+   "it-grammar-007"
+  ],
+  "scope_notes": "non перед глаголом; двойное отрицание non… mai / non… niente; No, grazie",
+  "recommended_vocab_topic_ids": [
+   "01",
+   "04"
+  ]
+ },
+ {
+  "id": "it-grammar-011",
+  "order": 11,
+  "stage": "A1",
+  "suggested_week": 7,
+  "priority": "core",
+  "title_ru": "Вопросы: интонация и вопросительные слова",
+  "can_do_ru": "Задать простые вопросы в поездке.",
+  "prerequisites": [
+   "it-grammar-002",
+   "it-grammar-003",
+   "it-grammar-010"
+  ],
+  "scope_notes": "интонация без смены порядка; chi, che cosa/cosa, dove, quando, come, quanto/quanta/quanti/quante, perché, quale; Dov’è…?",
+  "recommended_vocab_topic_ids": [
+   "01"
+  ]
+ },
+ {
+  "id": "it-grammar-012",
+  "order": 12,
+  "stage": "A1",
+  "suggested_week": 7,
+  "priority": "core",
+  "title_ru": "Притяжательные: il mio, la mia…",
+  "can_do_ru": "Сказать, чьё это; говорить о семье.",
+  "prerequisites": [
+   "it-grammar-005"
+  ],
+  "scope_notes": "il mio/la mia/i miei/le mie, il suo/la sua; артикль обычно нужен; без артикля с родственниками в ед. ч.: mia madre, но la mia mamma, le mie sorelle",
+  "recommended_vocab_topic_ids": [
+   "05"
+  ]
+ },
+ {
+  "id": "it-grammar-013",
+  "order": 13,
+  "stage": "A1",
+  "suggested_week": 9,
+  "priority": "core",
+  "title_ru": "Указательные: questo и quello",
+  "can_do_ru": "Показать на предмет рядом и вдали.",
+  "prerequisites": [
+   "it-grammar-005"
+  ],
+  "scope_notes": "questo/questa/questi/queste; quello меняется как артикль: quel, quello, quell’, quella, quei, quegli, quelle",
+  "recommended_vocab_topic_ids": [
+   "06",
+   "11"
+  ]
+ },
+ {
+  "id": "it-grammar-014",
+  "order": 14,
+  "stage": "A1",
+  "suggested_week": 9,
+  "priority": "core",
+  "title_ru": "Предлоги и слияние с артиклем",
+  "can_do_ru": "Сказать, где что находится и куда идти.",
+  "prerequisites": [
+   "it-grammar-005",
+   "it-grammar-009"
+  ],
+  "scope_notes": "di, a, da, in, con, su, per, tra/fra; al, allo, all’, alla, ai, agli, alle; del, nel, sul, dal…; a Roma, in Italia, in centro, al mare",
+  "recommended_vocab_topic_ids": [
+   "10",
+   "17"
+  ]
+ },
+ {
+  "id": "it-grammar-015",
+  "order": 15,
+  "stage": "A1",
+  "suggested_week": 10,
+  "priority": "core",
+  "title_ru": "Количество и partitivo",
+  "can_do_ru": "Попросить немного чего-то в магазине и в кафе.",
+  "prerequisites": [
+   "it-grammar-005",
+   "it-grammar-010",
+   "it-grammar-014"
+  ],
+  "scope_notes": "del pane, della frutta, dei pomodori, delle mele; un po’ di; un etto, un chilo, una bottiglia di; quanto/quanti",
+  "recommended_vocab_topic_ids": [
+   "07",
+   "08",
+   "11"
+  ]
+ },
+ {
+  "id": "it-grammar-016",
+  "order": 16,
+  "stage": "A1",
+  "suggested_week": 10,
+  "priority": "core",
+  "title_ru": "Potere, volere, dovere; вежливая просьба",
+  "can_do_ru": "Вежливо попросить, предложить, сказать, что нужно.",
+  "prerequisites": [
+   "it-grammar-003",
+   "it-grammar-009",
+   "it-grammar-010"
+  ],
+  "scope_notes": "posso, puoi, può…; voglio; devo; Vorrei…; Posso pagare con la carta?; Potrebbe…? как вежливая формула",
+  "recommended_vocab_topic_ids": [
+   "02",
+   "08"
+  ]
+ },
+ {
+  "id": "it-grammar-017",
+  "order": 17,
+  "stage": "A1",
+  "suggested_week": 11,
+  "priority": "core",
+  "title_ru": "Возвратные глаголы в presente",
+  "can_do_ru": "Рассказать о распорядке дня.",
+  "prerequisites": [
+   "it-grammar-001",
+   "it-grammar-007",
+   "it-grammar-010"
+  ],
+  "scope_notes": "mi chiamo, mi alzo, ti svegli, si lava; ci vediamo; место местоимения перед глаголом",
+  "recommended_vocab_topic_ids": [
+   "03"
+  ]
+ },
+ {
+  "id": "it-grammar-018",
+  "order": 18,
+  "stage": "A1",
+  "suggested_week": 11,
+  "priority": "core",
+  "title_ru": "Время, частотность и первые связки",
+  "can_do_ru": "Связать простые фразы во времени.",
+  "prerequisites": [
+   "it-grammar-007",
+   "it-grammar-011",
+   "it-grammar-017"
+  ],
+  "scope_notes": "che ore sono, alle otto, sempre, spesso, a volte, ogni giorno; e, ma, o, perché, poi, quando, allora; stare + gerundio как «сейчас»",
+  "recommended_vocab_topic_ids": [
+   "15",
+   "16",
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-019",
+  "order": 19,
+  "stage": "A2",
+  "suggested_week": 14,
+  "priority": "core",
+  "title_ru": "Passato prossimo с avere",
+  "can_do_ru": "Рассказать, что ты сделала.",
+  "prerequisites": [
+   "it-grammar-003",
+   "it-grammar-007",
+   "it-grammar-008",
+   "it-grammar-010"
+  ],
+  "scope_notes": "avere + participio: ho mangiato, ho preso, ho fatto, ho visto, ho detto, ho scritto; причастие не меняется с avere (без местоимения)",
+  "recommended_vocab_topic_ids": [
+   "03"
+  ]
+ },
+ {
+  "id": "it-grammar-020",
+  "order": 20,
+  "stage": "A2",
+  "suggested_week": 14,
+  "priority": "core",
+  "title_ru": "Passato prossimo с essere и возвратными",
+  "can_do_ru": "Рассказать, куда ходила и что случилось.",
+  "prerequisites": [
+   "it-grammar-002",
+   "it-grammar-017",
+   "it-grammar-019"
+  ],
+  "scope_notes": "essere + participio с согласованием: sono andata, siamo arrivati; глаголы движения и состояния; mi sono svegliata",
+  "recommended_vocab_topic_ids": [
+   "03",
+   "09"
+  ]
+ },
+ {
+  "id": "it-grammar-021",
+  "order": 21,
+  "stage": "A2",
+  "suggested_week": 15,
+  "priority": "core",
+  "title_ru": "Imperfetto: образование и значения",
+  "can_do_ru": "Описать, как было, и привычки в прошлом.",
+  "prerequisites": [
+   "it-grammar-007",
+   "it-grammar-008",
+   "it-grammar-009"
+  ],
+  "scope_notes": "-avo/-evo/-ivo; ero, facevo, dicevo, bevevo; описание, привычка, фон",
+  "recommended_vocab_topic_ids": [
+   "15"
+  ]
+ },
+ {
+  "id": "it-grammar-022",
+  "order": 22,
+  "stage": "A2",
+  "suggested_week": 15,
+  "priority": "core",
+  "title_ru": "Passato prossimo или imperfetto",
+  "can_do_ru": "Выбрать прошедшее время по смыслу.",
+  "prerequisites": [
+   "it-grammar-019",
+   "it-grammar-020",
+   "it-grammar-021"
+  ],
+  "scope_notes": "событие vs фон; mentre + imperfetto; quando + passato prossimo; глаголы sapere/conoscere/volere в двух временах",
+  "recommended_vocab_topic_ids": [
+   "03",
+   "09"
+  ]
+ },
+ {
+  "id": "it-grammar-023",
+  "order": 23,
+  "stage": "A2",
+  "suggested_week": 16,
+  "priority": "core",
+  "title_ru": "Futuro semplice",
+  "can_do_ru": "Говорить о планах и предположениях.",
+  "prerequisites": [
+   "it-grammar-009",
+   "it-grammar-016",
+   "it-grammar-018"
+  ],
+  "scope_notes": "-erò/-erai/-erà…; sarò, avrò, andrò, farò, verrò, vorrò, potrò; futuro di probabilità: Saranno le otto",
+  "recommended_vocab_topic_ids": [
+   "15",
+   "09"
+  ]
+ },
+ {
+  "id": "it-grammar-024",
+  "order": 24,
+  "stage": "A2",
+  "suggested_week": 16,
+  "priority": "core",
+  "title_ru": "Condizionale presente: просьбы и советы",
+  "can_do_ru": "Вежливо попросить и дать совет.",
+  "prerequisites": [
+   "it-grammar-016",
+   "it-grammar-021",
+   "it-grammar-023"
+  ],
+  "scope_notes": "-erei/-eresti/-erebbe…; vorrei, potrei, dovresti, sarebbe; Mi piacerebbe…",
+  "recommended_vocab_topic_ids": [
+   "04",
+   "08"
+  ]
+ },
+ {
+  "id": "it-grammar-025",
+  "order": 25,
+  "stage": "A2",
+  "suggested_week": 18,
+  "priority": "core",
+  "title_ru": "Imperativo: tu, voi, noi и вежливое Lei",
+  "can_do_ru": "Давать и понимать инструкции и дорогу.",
+  "prerequisites": [
+   "it-grammar-007",
+   "it-grammar-008",
+   "it-grammar-009",
+   "it-grammar-010",
+   "it-grammar-017"
+  ],
+  "scope_notes": "parla!, prendi!, senti!; не: non parlare!; Lei: Prenda, Giri a destra, Scusi; неправильные: va’, fa’, di’, sta’, da’",
+  "recommended_vocab_topic_ids": [
+   "17",
+   "09"
+  ]
+ },
+ {
+  "id": "it-grammar-026",
+  "order": 26,
+  "stage": "A2",
+  "suggested_week": 18,
+  "priority": "core",
+  "title_ru": "Прямые дополнения: lo, la, li, le",
+  "can_do_ru": "Заменить предмет местоимением.",
+  "prerequisites": [
+   "it-grammar-005",
+   "it-grammar-017",
+   "it-grammar-019"
+  ],
+  "scope_notes": "mi, ti, lo, la, ci, vi, li, le; La вежливое; место перед глаголом; l’ho visto / l’ho vista — согласование причастия",
+  "recommended_vocab_topic_ids": [
+   "11"
+  ]
+ },
+ {
+  "id": "it-grammar-027",
+  "order": 27,
+  "stage": "A2",
+  "suggested_week": 19,
+  "priority": "core",
+  "title_ru": "Косвенные дополнения и ударные местоимения",
+  "can_do_ru": "Сказать кому; выделить человека.",
+  "prerequisites": [
+   "it-grammar-014",
+   "it-grammar-026"
+  ],
+  "scope_notes": "mi, ti, gli, le, Le, ci, vi, gli (= a loro); a me, a te, con lui, per lei, secondo me",
+  "recommended_vocab_topic_ids": [
+   "05",
+   "04"
+  ]
+ },
+ {
+  "id": "it-grammar-028",
+  "order": 28,
+  "stage": "A2",
+  "suggested_week": 19,
+  "priority": "core",
+  "title_ru": "Ci и ne",
+  "can_do_ru": "Заменить место и количество.",
+  "prerequisites": [
+   "it-grammar-014",
+   "it-grammar-015",
+   "it-grammar-026",
+   "it-grammar-027"
+  ],
+  "scope_notes": "ci = там/туда (ci vado); ci vuole/ci vogliono; ne = о нём, количество (ne prendo due); ce n’è, ce ne sono",
+  "recommended_vocab_topic_ids": [
+   "10",
+   "11"
+  ]
+ },
+ {
+  "id": "it-grammar-029",
+  "order": 29,
+  "stage": "A2",
+  "suggested_week": 20,
+  "priority": "core",
+  "title_ru": "Piacere и похожие глаголы",
+  "can_do_ru": "Сказать, что нравится, нужно, не хватает.",
+  "prerequisites": [
+   "it-grammar-027"
+  ],
+  "scope_notes": "mi piace + ед. ч./инфинитив; mi piacciono + мн. ч.; mi è piaciuto/a; servire, mancare, bastare, sembrare",
+  "recommended_vocab_topic_ids": [
+   "19",
+   "07"
+  ]
+ },
+ {
+  "id": "it-grammar-030",
+  "order": 30,
+  "stage": "A2",
+  "suggested_week": 20,
+  "priority": "core",
+  "title_ru": "Сравнение и превосходная степень",
+  "can_do_ru": "Сравнить цены, места и людей.",
+  "prerequisites": [
+   "it-grammar-005",
+   "it-grammar-006",
+   "it-grammar-015"
+  ],
+  "scope_notes": "più/meno… di/che; tanto… quanto; il più…; -issimo; migliore, peggiore, maggiore, minore; meglio/peggio",
+  "recommended_vocab_topic_ids": [
+   "18"
+  ]
+ },
+ {
+  "id": "it-grammar-031",
+  "order": 31,
+  "stage": "A2",
+  "suggested_week": 22,
+  "priority": "core",
+  "title_ru": "Наречия: образование, место, степень",
+  "can_do_ru": "Сказать, как и насколько.",
+  "prerequisites": [
+   "it-grammar-006",
+   "it-grammar-019",
+   "it-grammar-025"
+  ],
+  "scope_notes": "-mente (lentamente, facilmente); bene, male, presto, tardi, già, ancora, appena; molto/poco/troppo/abbastanza; место с passato prossimo: ho già mangiato",
+  "recommended_vocab_topic_ids": [
+   "17",
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-032",
+  "order": 32,
+  "stage": "A2",
+  "suggested_week": 22,
+  "priority": "core",
+  "title_ru": "Время: da, fa, tra/fra, per; stare + gerundio, stare per",
+  "can_do_ru": "Сказать, как долго, как давно и когда.",
+  "prerequisites": [
+   "it-grammar-018",
+   "it-grammar-019",
+   "it-grammar-020",
+   "it-grammar-023"
+  ],
+  "scope_notes": "abito qui da due anni (presente!); due giorni fa; tra un’ora; per tre notti; sto mangiando; sto per partire",
+  "recommended_vocab_topic_ids": [
+   "15",
+   "16"
+  ]
+ },
+ {
+  "id": "it-grammar-033",
+  "order": 33,
+  "stage": "A2",
+  "suggested_week": 23,
+  "priority": "core",
+  "title_ru": "Относительные: che, cui, dove",
+  "can_do_ru": "Соединить два предложения.",
+  "prerequisites": [
+   "it-grammar-011",
+   "it-grammar-014",
+   "it-grammar-026"
+  ],
+  "scope_notes": "che (подлежащее и прямое дополнение); preposizione + cui (con cui, di cui, in cui); dove; il ristorante dove/in cui abbiamo mangiato",
+  "recommended_vocab_topic_ids": [
+   "10"
+  ]
+ },
+ {
+  "id": "it-grammar-034",
+  "order": 34,
+  "stage": "A2",
+  "suggested_week": 23,
+  "priority": "core",
+  "title_ru": "Расширенное отрицание",
+  "can_do_ru": "Сказать «больше не», «никто», «ни… ни».",
+  "prerequisites": [
+   "it-grammar-010",
+   "it-grammar-019",
+   "it-grammar-026"
+  ],
+  "scope_notes": "non… più, non… ancora, non… nessuno, non… nulla, né… né, neanche; Nessuno è venuto (без non перед глаголом)",
+  "recommended_vocab_topic_ids": [
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-035",
+  "order": 35,
+  "stage": "A2",
+  "suggested_week": 24,
+  "priority": "core",
+  "title_ru": "Инфинитив и управление: a, di, da, per",
+  "can_do_ru": "Связать два глагола верным предлогом.",
+  "prerequisites": [
+   "it-grammar-016",
+   "it-grammar-017",
+   "it-grammar-026"
+  ],
+  "scope_notes": "cominciare a, imparare a, provare a; finire di, decidere di, cercare di; prima di + inf; per + inf; niente da fare",
+  "recommended_vocab_topic_ids": [
+   "02",
+   "04"
+  ]
+ },
+ {
+  "id": "it-grammar-036",
+  "order": 36,
+  "stage": "A2",
+  "suggested_week": 24,
+  "priority": "core",
+  "title_ru": "Неопределённые слова: tutto, ogni, qualche, alcuni",
+  "can_do_ru": "Говорить о количестве людей и вещей в общем.",
+  "prerequisites": [
+   "it-grammar-005",
+   "it-grammar-006",
+   "it-grammar-015",
+   "it-grammar-034"
+  ],
+  "scope_notes": "tutto il giorno, tutti i giorni; ogni + ед. ч.; qualche + ед. ч.; alcuni/alcune; qualcuno, qualcosa, ognuno, nessuno, niente",
+  "recommended_vocab_topic_ids": [
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-037",
+  "order": 37,
+  "stage": "B1",
+  "suggested_week": 27,
+  "priority": "core",
+  "title_ru": "Trapassato prossimo",
+  "can_do_ru": "Сказать, что случилось раньше другого прошлого.",
+  "prerequisites": [
+   "it-grammar-019",
+   "it-grammar-020",
+   "it-grammar-021"
+  ],
+  "scope_notes": "avevo/ero + participio: quando sono arrivata, il treno era già partito",
+  "recommended_vocab_topic_ids": [
+   "09"
+  ]
+ },
+ {
+  "id": "it-grammar-038",
+  "order": 38,
+  "stage": "B1",
+  "suggested_week": 27,
+  "priority": "core",
+  "title_ru": "Связный рассказ: три прошедших времени",
+  "can_do_ru": "Рассказать историю с фоном, событиями и предысторией.",
+  "prerequisites": [
+   "it-grammar-022",
+   "it-grammar-032",
+   "it-grammar-037"
+  ],
+  "scope_notes": "passato prossimo + imperfetto + trapassato; связки: prima, poi, dopo, alla fine, mentre, all’improvviso",
+  "recommended_vocab_topic_ids": [
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-039",
+  "order": 39,
+  "stage": "B1",
+  "suggested_week": 28,
+  "priority": "extension",
+  "title_ru": "Futuro anteriore: знакомство",
+  "can_do_ru": "Сказать, что будет сделано к моменту в будущем.",
+  "prerequisites": [
+   "it-grammar-020",
+   "it-grammar-023",
+   "it-grammar-037"
+  ],
+  "scope_notes": "avrò finito, sarò arrivata; dopo che/quando/appena + futuro anteriore; предположение о прошлом: avrà perso il treno",
+  "recommended_vocab_topic_ids": [
+   "15"
+  ]
+ },
+ {
+  "id": "it-grammar-040",
+  "order": 40,
+  "stage": "B1",
+  "suggested_week": 28,
+  "priority": "core",
+  "title_ru": "Condizionale passato",
+  "can_do_ru": "Выразить сожаление и «будущее в прошлом».",
+  "prerequisites": [
+   "it-grammar-020",
+   "it-grammar-024",
+   "it-grammar-037"
+  ],
+  "scope_notes": "avrei voluto, sarei andata; Ha detto che sarebbe venuto (а не verrebbe)",
+  "recommended_vocab_topic_ids": [
+   "04",
+   "19"
+  ]
+ },
+ {
+  "id": "it-grammar-041",
+  "order": 41,
+  "stage": "B1",
+  "suggested_week": 29,
+  "priority": "core",
+  "title_ru": "Congiuntivo presente: образование",
+  "can_do_ru": "Образовать congiuntivo правильных и частых неправильных глаголов.",
+  "prerequisites": [
+   "it-grammar-007",
+   "it-grammar-008",
+   "it-grammar-009",
+   "it-grammar-016"
+  ],
+  "scope_notes": "che io parli, prenda, dorma, capisca; sia, abbia, vada, faccia, venga, possa, voglia, debba, stia, dia; одинаковые формы ед. ч. — нужен субъект",
+  "recommended_vocab_topic_ids": [
+   "02"
+  ]
+ },
+ {
+  "id": "it-grammar-042",
+  "order": 42,
+  "stage": "B1",
+  "suggested_week": 29,
+  "priority": "core",
+  "title_ru": "Congiuntivo: мнение, желание, сомнение, чувство",
+  "can_do_ru": "Выразить мнение и желание с congiuntivo.",
+  "prerequisites": [
+   "it-grammar-035",
+   "it-grammar-041"
+  ],
+  "scope_notes": "penso/credo che + cong.; voglio che; spero che; bisogna/è necessario che; mi dispiace che; если субъект тот же — инфинитив: spero di venire",
+  "recommended_vocab_topic_ids": [
+   "19",
+   "04"
+  ]
+ },
+ {
+  "id": "it-grammar-043",
+  "order": 43,
+  "stage": "B1",
+  "suggested_week": 31,
+  "priority": "core",
+  "title_ru": "Congiuntivo passato",
+  "can_do_ru": "Выразить мнение о прошедшем.",
+  "prerequisites": [
+   "it-grammar-020",
+   "it-grammar-042"
+  ],
+  "scope_notes": "penso che abbia ragione → penso che sia già partito; abbia/sia + participio",
+  "recommended_vocab_topic_ids": [
+   "19"
+  ]
+ },
+ {
+  "id": "it-grammar-044",
+  "order": 44,
+  "stage": "B1",
+  "suggested_week": 31,
+  "priority": "core",
+  "title_ru": "Congiuntivo imperfetto",
+  "can_do_ru": "Выразить желание и предположение в прошлом и нереальное.",
+  "prerequisites": [
+   "it-grammar-021",
+   "it-grammar-042"
+  ],
+  "scope_notes": "parlassi, prendessi, dormissi; fossi, avessi, facessi, dicessi, dessi, stessi; pensavo che fosse; vorrei che tu venissi",
+  "recommended_vocab_topic_ids": [
+   "19"
+  ]
+ },
+ {
+  "id": "it-grammar-045",
+  "order": 45,
+  "stage": "B1",
+  "suggested_week": 32,
+  "priority": "core",
+  "title_ru": "Periodo ipotetico: реальное и возможное",
+  "can_do_ru": "Строить условия: если… то.",
+  "prerequisites": [
+   "it-grammar-023",
+   "it-grammar-024",
+   "it-grammar-044"
+  ],
+  "scope_notes": "se + presente → presente/futuro; se + congiuntivo imperfetto → condizionale presente: Se avessi tempo, verrei",
+  "recommended_vocab_topic_ids": [
+   "04",
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-046",
+  "order": 46,
+  "stage": "B1",
+  "suggested_week": 32,
+  "priority": "extension",
+  "title_ru": "Periodo ipotetico: нереальное прошлое",
+  "can_do_ru": "Сказать, что было бы, если бы…",
+  "prerequisites": [
+   "it-grammar-040",
+   "it-grammar-045"
+  ],
+  "scope_notes": "se + congiuntivo trapassato → condizionale passato: Se avessi saputo, sarei venuta; разговорное imperfetto: Se lo sapevo, venivo (узнавание)",
+  "recommended_vocab_topic_ids": [
+   "04"
+  ]
+ },
+ {
+  "id": "it-grammar-047",
+  "order": 47,
+  "stage": "B1",
+  "suggested_week": 33,
+  "priority": "core",
+  "title_ru": "Сочетания местоимений: me lo, glielo, ce ne",
+  "can_do_ru": "Сказать «дам тебе это», «скажу ему об этом».",
+  "prerequisites": [
+   "it-grammar-026",
+   "it-grammar-027",
+   "it-grammar-028"
+  ],
+  "scope_notes": "mi/ti/ci/vi → me/te/ce/ve + lo/la/li/le/ne; gli/le → glie-: glielo, gliela, gliene; согласование причастия: Te l’ho data",
+  "recommended_vocab_topic_ids": [
+   "11"
+  ]
+ },
+ {
+  "id": "it-grammar-048",
+  "order": 48,
+  "stage": "B1",
+  "suggested_week": 33,
+  "priority": "core",
+  "title_ru": "Местоимения с инфинитивом, модальными и imperativo",
+  "can_do_ru": "Поставить местоимение на правильное место.",
+  "prerequisites": [
+   "it-grammar-025",
+   "it-grammar-026",
+   "it-grammar-047"
+  ],
+  "scope_notes": "devo farlo = lo devo fare; dimmi, fallo, dammelo, vacci; non farlo / non lo fare; Lei: Me lo dia",
+  "recommended_vocab_topic_ids": [
+   "02"
+  ]
+ },
+ {
+  "id": "it-grammar-049",
+  "order": 49,
+  "stage": "B1",
+  "suggested_week": 35,
+  "priority": "core",
+  "title_ru": "Относительные: il quale, chi, quello che, ciò che",
+  "can_do_ru": "Строить сложные определения.",
+  "prerequisites": [
+   "it-grammar-033",
+   "it-grammar-047"
+  ],
+  "scope_notes": "il quale/la quale/i quali/le quali (официально, с предлогами); chi = тот, кто; quello che/ciò che = то, что",
+  "recommended_vocab_topic_ids": [
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-050",
+  "order": 50,
+  "stage": "B1",
+  "suggested_week": 35,
+  "priority": "core",
+  "title_ru": "Пассив и si passivante",
+  "can_do_ru": "Сказать, что что-то делается/сделано.",
+  "prerequisites": [
+   "it-grammar-002",
+   "it-grammar-019",
+   "it-grammar-020"
+  ],
+  "scope_notes": "essere + participio + da; venire + participio (действие); si passivante: si vendono biglietti; andare + participio = должно (va fatto)",
+  "recommended_vocab_topic_ids": [
+   "11",
+   "13"
+  ]
+ },
+ {
+  "id": "it-grammar-051",
+  "order": 51,
+  "stage": "B1",
+  "suggested_week": 36,
+  "priority": "core",
+  "title_ru": "Si impersonale и безличные конструкции",
+  "can_do_ru": "Сказать «здесь едят», «говорят, что».",
+  "prerequisites": [
+   "it-grammar-017",
+   "it-grammar-049"
+  ],
+  "scope_notes": "si mangia bene; si è + прил. во мн. ч.: si è stanchi; ci si alza (возвратные); bisogna, conviene, basta",
+  "recommended_vocab_topic_ids": [
+   "10",
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-052",
+  "order": 52,
+  "stage": "B1",
+  "suggested_week": 36,
+  "priority": "core",
+  "title_ru": "Косвенная речь и косвенные вопросы",
+  "can_do_ru": "Пересказать, что сказали и спросили.",
+  "prerequisites": [
+   "it-grammar-011",
+   "it-grammar-027",
+   "it-grammar-035"
+  ],
+  "scope_notes": "dice che…; mi chiede se/dove/quando…; смена лиц и указателей (qui→lì, oggi→quel giorno) в настоящем времени",
+  "recommended_vocab_topic_ids": [
+   "04"
+  ]
+ },
+ {
+  "id": "it-grammar-053",
+  "order": 53,
+  "stage": "B1",
+  "suggested_week": 37,
+  "priority": "core",
+  "title_ru": "Gerundio: время, способ, причина",
+  "can_do_ru": "Сократить придаточное с помощью gerundio.",
+  "prerequisites": [
+   "it-grammar-007",
+   "it-grammar-008",
+   "it-grammar-032"
+  ],
+  "scope_notes": "parlando, prendendo, partendo; essendo, avendo, facendo, dicendo; gerundio composto: avendo finito; местоимения присоединяются: vedendolo",
+  "recommended_vocab_topic_ids": [
+   "03"
+  ]
+ },
+ {
+  "id": "it-grammar-054",
+  "order": 54,
+  "stage": "B1",
+  "suggested_week": 37,
+  "priority": "core",
+  "title_ru": "Связки: причина, следствие, цель, противопоставление",
+  "can_do_ru": "Аргументировать и связывать мысли.",
+  "prerequisites": [
+   "it-grammar-018",
+   "it-grammar-030",
+   "it-grammar-035",
+   "it-grammar-042"
+  ],
+  "scope_notes": "perché, siccome, dato che, poiché; quindi, perciò, così; per + inf, perché/affinché + cong.; invece, mentre, però, tuttavia",
+  "recommended_vocab_topic_ids": [
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-055",
+  "order": 55,
+  "stage": "B2",
+  "suggested_week": 40,
+  "priority": "core",
+  "title_ru": "Согласование времён с congiuntivo",
+  "can_do_ru": "Выбрать время congiuntivo после главного глагола.",
+  "prerequisites": [
+   "it-grammar-043",
+   "it-grammar-044",
+   "it-grammar-045"
+  ],
+  "scope_notes": "penso che sia / pensavo che fosse / pensavo che fosse stato; congiuntivo trapassato: avessi/fossi + participio",
+  "recommended_vocab_topic_ids": [
+   "19"
+  ]
+ },
+ {
+  "id": "it-grammar-056",
+  "order": 56,
+  "stage": "B2",
+  "suggested_week": 40,
+  "priority": "core",
+  "title_ru": "Indicativo или congiuntivo: смысл и уверенность",
+  "can_do_ru": "Различить уверенность и мнение в выборе наклонения.",
+  "prerequisites": [
+   "it-grammar-042",
+   "it-grammar-055"
+  ],
+  "scope_notes": "so che è / non so se sia; è vero che + ind.; il primo che + cong.; superlativo + cong.; разговорная тенденция к indicativo — узнавание",
+  "recommended_vocab_topic_ids": [
+   "19",
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-057",
+  "order": 57,
+  "stage": "B2",
+  "suggested_week": 41,
+  "priority": "core",
+  "title_ru": "Уступка: benché, sebbene, nonostante, anche se, pur",
+  "can_do_ru": "Выразить уступку и контраст.",
+  "prerequisites": [
+   "it-grammar-044",
+   "it-grammar-054",
+   "it-grammar-056"
+  ],
+  "scope_notes": "benché/sebbene/nonostante (che) + cong.; anche se + ind.; pur + gerundio; comunque, eppure",
+  "recommended_vocab_topic_ids": [
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-058",
+  "order": 58,
+  "stage": "B2",
+  "suggested_week": 41,
+  "priority": "core",
+  "title_ru": "Условие: purché, a condizione che, a meno che, qualora, nel caso in cui",
+  "can_do_ru": "Выразить условие разными союзами.",
+  "prerequisites": [
+   "it-grammar-045",
+   "it-grammar-046",
+   "it-grammar-057"
+  ],
+  "scope_notes": "purché/a condizione che + cong.; a meno che non + cong.; qualora, nel caso (in cui) + cong.; in caso di + сущ.",
+  "recommended_vocab_topic_ids": [
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-059",
+  "order": 59,
+  "stage": "B2",
+  "suggested_week": 42,
+  "priority": "core",
+  "title_ru": "Косвенная речь в прошлом: согласование времён",
+  "can_do_ru": "Пересказать сказанное в прошлом.",
+  "prerequisites": [
+   "it-grammar-040",
+   "it-grammar-051",
+   "it-grammar-055"
+  ],
+  "scope_notes": "ha detto che era stanca / che sarebbe venuta / che aveva finito; imperativo → di + inf.; domande → se + ind./cong.",
+  "recommended_vocab_topic_ids": [
+   "04"
+  ]
+ },
+ {
+  "id": "it-grammar-060",
+  "order": 60,
+  "stage": "B2",
+  "suggested_week": 42,
+  "priority": "core",
+  "title_ru": "Выделение и порядок слов: è… che, dislocazione",
+  "can_do_ru": "Выделить главное в фразе.",
+  "prerequisites": [
+   "it-grammar-026",
+   "it-grammar-028",
+   "it-grammar-033"
+  ],
+  "scope_notes": "È Marco che ha chiamato; Il caffè lo prendo dopo (дислокация с местоимением); Ne ho già parlato, di questo",
+  "recommended_vocab_topic_ids": [
+   "04"
+  ]
+ },
+ {
+  "id": "it-grammar-061",
+  "order": 61,
+  "stage": "B2",
+  "suggested_week": 44,
+  "priority": "core",
+  "title_ru": "Participio как оборот",
+  "can_do_ru": "Сократить придаточное причастием.",
+  "prerequisites": [
+   "it-grammar-020",
+   "it-grammar-053"
+  ],
+  "scope_notes": "Finito il lavoro, siamo usciti; Arrivata a Roma, ha chiamato; participio presente как прилагательное: interessante, cantante",
+  "recommended_vocab_topic_ids": [
+   "13"
+  ]
+ },
+ {
+  "id": "it-grammar-062",
+  "order": 62,
+  "stage": "B2",
+  "suggested_week": 44,
+  "priority": "core",
+  "title_ru": "Инфинитив прошедший: dopo aver…, prima di",
+  "can_do_ru": "Упорядочить действия инфинитивом.",
+  "prerequisites": [
+   "it-grammar-020",
+   "it-grammar-035",
+   "it-grammar-061"
+  ],
+  "scope_notes": "dopo aver mangiato, dopo essere arrivata; prima di partire; согласование с essere",
+  "recommended_vocab_topic_ids": [
+   "03"
+  ]
+ },
+ {
+  "id": "it-grammar-063",
+  "order": 63,
+  "stage": "B2",
+  "suggested_week": 45,
+  "priority": "core",
+  "title_ru": "Fare + infinito; farsi; lasciare + infinito",
+  "can_do_ru": "Сказать «заставить, дать сделать, сделать себе».",
+  "prerequisites": [
+   "it-grammar-017",
+   "it-grammar-026",
+   "it-grammar-035"
+  ],
+  "scope_notes": "faccio riparare la macchina; me la faccio portare; mi sono fatta tagliare i capelli; lascia stare; lasciami parlare",
+  "recommended_vocab_topic_ids": [
+   "03",
+   "12"
+  ]
+ },
+ {
+  "id": "it-grammar-064",
+  "order": 64,
+  "stage": "B2",
+  "suggested_week": 45,
+  "priority": "core",
+  "title_ru": "Местоименные глаголы: andarsene, farcela, cavarsela…",
+  "can_do_ru": "Понимать и использовать идиоматичные глаголы с ci/ne/la.",
+  "prerequisites": [
+   "it-grammar-028",
+   "it-grammar-047"
+  ],
+  "scope_notes": "andarsene (me ne vado), farcela (ce la faccio), cavarsela, metterci (ci metto un’ora), volerci, prendersela, smetterla",
+  "recommended_vocab_topic_ids": [
+   "04",
+   "19"
+  ]
+ },
+ {
+  "id": "it-grammar-065",
+  "order": 65,
+  "stage": "B2",
+  "suggested_week": 46,
+  "priority": "core",
+  "title_ru": "Управление глаголов и предлогов: тонкости",
+  "can_do_ru": "Выбрать предлог по значению глагола.",
+  "prerequisites": [
+   "it-grammar-035",
+   "it-grammar-047"
+  ],
+  "scope_notes": "pensare a / pensare di; credere a / in; parlare di / con; interessarsi di/a; dipendere da; servire a",
+  "recommended_vocab_topic_ids": [
+   "02",
+   "04"
+  ]
+ },
+ {
+  "id": "it-grammar-066",
+  "order": 66,
+  "stage": "B2",
+  "suggested_week": 46,
+  "priority": "core",
+  "title_ru": "Артикли: тонкости употребления",
+  "can_do_ru": "Решить, нужен ли артикль.",
+  "prerequisites": [
+   "it-grammar-005",
+   "it-grammar-012",
+   "it-grammar-014",
+   "it-grammar-036"
+  ],
+  "scope_notes": "география (in Italia / nell’Italia del Sud), даты, профессии (fa il medico), притяжательные с родственниками, нулевой артикль в списках и после di/in в устойчивых сочетаниях",
+  "recommended_vocab_topic_ids": [
+   "10",
+   "13"
+  ]
+ },
+ {
+  "id": "it-grammar-067",
+  "order": 67,
+  "stage": "B2",
+  "suggested_week": 48,
+  "priority": "core",
+  "title_ru": "Отрицание: тонкости",
+  "can_do_ru": "Использовать усилители и ограничители отрицания.",
+  "prerequisites": [
+   "it-grammar-034",
+   "it-grammar-056"
+  ],
+  "scope_notes": "mica, neanche/nemmeno/neppure, non… che (= только), affatto, per niente, non espletivo: a meno che non, finché non",
+  "recommended_vocab_topic_ids": [
+   "19",
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-068",
+  "order": 68,
+  "stage": "B2",
+  "suggested_week": 48,
+  "priority": "core",
+  "title_ru": "Временные придаточные: prima che, finché, appena, dopo che",
+  "can_do_ru": "Построить сложное предложение со временем.",
+  "prerequisites": [
+   "it-grammar-039",
+   "it-grammar-043",
+   "it-grammar-063"
+  ],
+  "scope_notes": "prima che + cong. (prima di + inf. при том же лице); dopo che + ind.; finché (non); appena + futuro anteriore; mentre",
+  "recommended_vocab_topic_ids": [
+   "15",
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-069",
+  "order": 69,
+  "stage": "B2",
+  "suggested_week": 49,
+  "priority": "core",
+  "title_ru": "Модальность: вероятность и неподтверждённая информация",
+  "can_do_ru": "Предположить и смягчить утверждение.",
+  "prerequisites": [
+   "it-grammar-023",
+   "it-grammar-039",
+   "it-grammar-040",
+   "it-grammar-042"
+  ],
+  "scope_notes": "futuro di probabilità (sarà vero), futuro anteriore (avrà dimenticato); condizionale giornalistico: secondo il giornale, il ministro avrebbe detto; dovere/potere эпистемически",
+  "recommended_vocab_topic_ids": [
+   "19",
+   "14"
+  ]
+ },
+ {
+  "id": "it-grammar-070",
+  "order": 70,
+  "stage": "B2",
+  "suggested_week": 49,
+  "priority": "core",
+  "title_ru": "Номинализация и связность текста",
+  "can_do_ru": "Писать связный аргументированный текст.",
+  "prerequisites": [
+   "it-grammar-054",
+   "it-grammar-057",
+   "it-grammar-058"
+  ],
+  "scope_notes": "il fatto che + cong.; nominalizzazione (la partenza, l’arrivo); inoltre, tuttavia, pertanto, infatti, in primo luogo, in conclusione",
+  "recommended_vocab_topic_ids": [
+   "20",
+   "13"
+  ]
+ },
+ {
+  "id": "it-grammar-071",
+  "order": 71,
+  "stage": "B2",
+  "suggested_week": 50,
+  "priority": "core",
+  "title_ru": "Регистр: разговор, вежливое письмо, Lei и voi",
+  "can_do_ru": "Писать вежливое письмо и выбирать стиль.",
+  "prerequisites": [
+   "it-grammar-001",
+   "it-grammar-024",
+   "it-grammar-049",
+   "it-grammar-061"
+  ],
+  "scope_notes": "Gentile signora / Egregio dottore; La ringrazio, Le scrivo per…; Distinti saluti / Cordiali saluti; разговорные сокращения; Lei с заглавной буквой",
+  "recommended_vocab_topic_ids": [
+   "13",
+   "04"
+  ]
+ },
+ {
+  "id": "it-grammar-072",
+  "order": 72,
+  "stage": "B2",
+  "suggested_week": 50,
+  "priority": "optional_reading",
+  "title_ru": "Passato remoto: узнавание",
+  "can_do_ru": "Узнавать passato remoto в книгах и на табличках.",
+  "prerequisites": [
+   "it-grammar-019",
+   "it-grammar-021",
+   "it-grammar-038"
+  ],
+  "scope_notes": "parlò, prese, fu, ebbe, fece, disse, venne, nacque, morì; литература и история; на юге — в речи",
+  "recommended_vocab_topic_ids": [
+   "14"
+  ]
+ }
+]

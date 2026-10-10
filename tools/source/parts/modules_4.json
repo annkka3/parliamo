@@ -1,0 +1,1446 @@
+[
+ {
+  "id": "it-grammar-037",
+  "order": 37,
+  "stage": "B1",
+  "cefr_band_author": "B1",
+  "priority": "core",
+  "title_ru": "Trapassato prossimo",
+  "can_do_ru": "Сказать, что случилось раньше другого прошлого.",
+  "prerequisites": [
+   "it-grammar-019",
+   "it-grammar-020",
+   "it-grammar-021"
+  ],
+  "rules_ru": [
+   "Trapassato prossimo = avere или essere в imperfetto + participio: avevo visto, avevamo prenotato; ero partita, erano arrivati. Вспомогательный глагол тот же, что в passato prossimo, и с essere причастие согласуется: ero uscita, si erano alzati.",
+   "Это «прошлое до прошлого»: действие закончилось раньше другого момента в прошлом. Quando siamo arrivati al porto, il traghetto era già partito — сначала ушёл паром, потом пришли мы. По-русски в обеих частях простое прошедшее («паром уже ушёл»), поэтому тянет сказать è già partito — в рассказе о прошлом это ошибка.",
+   "Часто стоит с già, mai, appena, ancora и после perché: Ero stanca perché avevo dormito poco. Наречие ставится между вспомогательным глаголом и причастием: era già partito, avevo appena finito, non avevo mai visto."
+  ],
+  "examples": [
+   {
+    "it": "Quando sono arrivata in stazione, il treno era già partito.",
+    "ru": "Когда я пришла на вокзал, поезд уже ушёл.",
+    "tts_text": "Quando sono arrivata in stazione, il treno era già partito.",
+    "audio_url": null
+   },
+   {
+    "it": "Non avevo mai visto Venezia prima di quel viaggio.",
+    "ru": "До той поездки я никогда не видела Венецию.",
+    "tts_text": "Non avevo mai visto Venezia prima di quel viaggio.",
+    "audio_url": null
+   },
+   {
+    "it": "Ho riconosciuto subito la piazza: l’avevo vista in un film.",
+    "ru": "Я сразу узнала площадь: я видела её в фильме.",
+    "tts_text": "Ho riconosciuto subito la piazza: l’avevo vista in un film.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в trapassato prossimo (говорит женщина).",
+    "stimulus_it": "Ero stanchissima perché ___ alle cinque. (alzarsi)",
+    "accepted_answers": [
+     "mi ero alzata"
+    ],
+    "feedback_ru": "Alzarsi — возвратный глагол, значит essere: mi ero alzata; окончание -a, потому что говорит женщина.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-037-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать: «Когда я позвонила Лауре, она уже вышла из дома»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Quando ho chiamato Laura, è già uscita di casa."
+     },
+     {
+      "id": "o2",
+      "text": "Quando ho chiamato Laura, era già uscita di casa."
+     },
+     {
+      "id": "o3",
+      "text": "Quando ho chiamato Laura, aveva già uscito di casa."
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "Лаура вышла раньше звонка, поэтому trapassato; uscire спрягается с essere: era uscita.",
+    "grading": "option_id",
+    "id": "it-grammar-037-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Перенеси фразу в прошлое, начав с «Non trovavo…»: «Non trovo il portafoglio perché l’ho lasciato in albergo.»",
+    "accepted_answers": [
+     "Non trovavo il portafoglio perché l’avevo lasciato in albergo.",
+     "Non trovavo il portafoglio perché lo avevo lasciato in albergo."
+    ],
+    "feedback_ru": "Обе части сдвигаются на шаг назад: trovo → trovavo (состояние в прошлом), l’ho lasciato → l’avevo lasciato (случилось ещё раньше).",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-037-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-037-e4",
+    "type": "production",
+    "prompt_ru": "Ты опоздала на экскурсию. Напиши 2–3 фразы: что ты увидела, когда пришла, и что случилось ещё раньше.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Quando sono arrivata al punto d’incontro, il pullman era già partito. Avevo sbagliato strada e avevo perso venti minuti. Per fortuna la guida mi aveva dato il suo numero di telefono.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Trapassato prossimo использован хотя бы дважды для того, что случилось раньше другого момента в прошлом.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 27,
+  "recommended_vocab_topic_ids": [
+   "09"
+  ]
+ },
+ {
+  "id": "it-grammar-038",
+  "order": 38,
+  "stage": "B1",
+  "cefr_band_author": "B1",
+  "priority": "core",
+  "title_ru": "Связный рассказ: три прошедших времени",
+  "can_do_ru": "Рассказать историю с фоном, событиями и предысторией.",
+  "prerequisites": [
+   "it-grammar-022",
+   "it-grammar-032",
+   "it-grammar-037"
+  ],
+  "rules_ru": [
+   "В рассказе о прошлом у каждого времени своя роль: imperfetto — фон, обстановка, состояние (era tardi, pioveva, ero stanca); passato prossimo — события, которые двигают сюжет (ho preso un taxi, sono arrivata in centro); trapassato prossimo — то, что случилось ещё раньше (avevo perso la mappa).",
+   "Mentre + imperfetto — длительный фон. Событие, которое его прерывает, ставится в passato prossimo: Mentre aspettavo il treno, mi ha chiamato Marco. Если два действия идут параллельно, оба в imperfetto: Mentre io guidavo, lui dormiva.",
+   "Порядок событий задают связки prima, poi, dopo, alla fine; all’improvviso вводит неожиданное событие, почти всегда в passato prossimo: All’improvviso è arrivato un temporale. Не выбирай время по русскому виду: «я ждала два часа» — закрытый отрезок, поэтому Ho aspettato due ore, а не aspettavo."
+  ],
+  "examples": [
+   {
+    "it": "Mentre cercavamo l’albergo, abbiamo incontrato una signora gentilissima.",
+    "ru": "Пока мы искали гостиницу, мы встретили очень любезную синьору.",
+    "tts_text": "Mentre cercavamo l’albergo, abbiamo incontrato una signora gentilissima.",
+    "audio_url": null
+   },
+   {
+    "it": "Ero nervosa perché avevo dimenticato il passaporto in albergo.",
+    "ru": "Я нервничала, потому что забыла паспорт в гостинице.",
+    "tts_text": "Ero nervosa perché avevo dimenticato il passaporto in albergo.",
+    "audio_url": null
+   },
+   {
+    "it": "Prima abbiamo visitato il Duomo, poi siamo andati al mercato e alla fine abbiamo cenato in riva al lago.",
+    "ru": "Сначала мы осмотрели собор, потом пошли на рынок, а в конце поужинали на берегу озера.",
+    "tts_text": "Prima abbiamo visitato il Duomo, poi siamo andati al mercato e alla fine abbiamo cenato in riva al lago.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в нужной форме.",
+    "stimulus_it": "Mentre io ___ la valigia, è arrivato un messaggio dalla compagnia aerea. (fare)",
+    "accepted_answers": [
+     "facevo",
+     "stavo facendo"
+    ],
+    "feedback_ru": "Длительный фон после mentre — imperfetto (facevo) или stare + gerundio (stavo facendo); сообщение — событие, оно в passato prossimo.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-038-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать: «Пока мы ужинали, вдруг погас свет»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Mentre cenavamo, all’improvviso andava via la luce."
+     },
+     {
+      "id": "o2",
+      "text": "Mentre abbiamo cenato, all’improvviso è andata via la luce."
+     },
+     {
+      "id": "o3",
+      "text": "Mentre cenavamo, all’improvviso è andata via la luce."
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "Ужин — фон (cenavamo), внезапное событие — passato prossimo (è andata via la luce).",
+    "grading": "option_id",
+    "id": "it-grammar-038-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Перескажи в прошлом (говорит Анна): «Arrivo in albergo, ma la camera non è pronta perché gli ospiti non sono ancora partiti.»",
+    "accepted_answers": [
+     "Sono arrivata in albergo, ma la camera non era pronta perché gli ospiti non erano ancora partiti.",
+     "Sono arrivata in albergo ma la camera non era pronta perché gli ospiti non erano ancora partiti.",
+     "Io sono arrivata in albergo, ma la camera non era pronta perché gli ospiti non erano ancora partiti.",
+     "Io sono arrivata in albergo ma la camera non era pronta perché gli ospiti non erano ancora partiti."
+    ],
+    "feedback_ru": "Событие — passato prossimo (sono arrivata), состояние — imperfetto (non era pronta), то, что должно было случиться ещё раньше, — trapassato (non erano ancora partiti).",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-038-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-038-e4",
+    "type": "production",
+    "prompt_ru": "Расскажи в 4–5 фразах о маленьком приключении в поездке: обстановка, что случилось, что произошло ещё раньше и чем всё закончилось. Используй хотя бы две связки (prima, poi, mentre, all’improvviso, alla fine).",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Era domenica e faceva molto caldo. Mentre camminavo verso la spiaggia, mi sono accorta che avevo lasciato il telefono al bar. Prima sono tornata indietro di corsa, poi ho chiesto al cameriere. Alla fine il telefono era lì, sul tavolo.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Есть фон в imperfetto, события в passato prossimo, хотя бы одна предыстория в trapassato prossimo и две связки.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 27,
+  "recommended_vocab_topic_ids": [
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-039",
+  "order": 39,
+  "stage": "B1",
+  "cefr_band_author": "B1",
+  "priority": "extension",
+  "title_ru": "Futuro anteriore: знакомство",
+  "can_do_ru": "Сказать, что будет сделано к моменту в будущем.",
+  "prerequisites": [
+   "it-grammar-020",
+   "it-grammar-023",
+   "it-grammar-037"
+  ],
+  "rules_ru": [
+   "Futuro anteriore = avere или essere в futuro + participio: avrò finito, avremo visto; sarò arrivata, saranno partiti. Вспомогательный глагол и согласование — как в passato prossimo.",
+   "Оно показывает, что действие завершится раньше другого будущего действия или к сроку: Quando avrò finito, ti chiamerò. Entro le otto sarò arrivata. По-русски «когда закончу» — просто будущее время; по-итальянски завершённость после quando, appena, dopo che передаёт futuro anteriore. В разговоре часто обходятся простым futuro или presente (Appena arrivo, ti scrivo), поэтому форму важно прежде всего узнавать.",
+   "Второе значение — догадка о прошлом: Non risponde? Avrà dimenticato il telefono in albergo. = Наверное, забыл телефон в гостинице. Сравни: простое futuro — догадка о настоящем: Sarà stanca. = Наверное, она устала."
+  ],
+  "examples": [
+   {
+    "it": "Appena avrò finito di lavorare, partirò per il mare.",
+    "ru": "Как только закончу работать, уеду на море.",
+    "tts_text": "Appena avrò finito di lavorare, partirò per il mare.",
+    "audio_url": null
+   },
+   {
+    "it": "Entro domenica avremo visitato tutti i musei della città.",
+    "ru": "К воскресенью мы обойдём все музеи города.",
+    "tts_text": "Entro domenica avremo visitato tutti i musei della città.",
+    "audio_url": null
+   },
+   {
+    "it": "Sono già le dieci: Laura sarà arrivata a casa.",
+    "ru": "Уже десять: Лаура, наверное, уже добралась до дома.",
+    "tts_text": "Sono già le dieci: Laura sarà arrivata a casa.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в futuro anteriore (говорит Анна).",
+    "stimulus_it": "Appena ___ in albergo, ti scriverò. (arrivare)",
+    "accepted_answers": [
+     "sarò arrivata"
+    ],
+    "feedback_ru": "Arrivare спрягается с essere: sarò + arrivata, с окончанием -a, потому что говорит женщина.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-039-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Друг опаздывает на встречу. Как сказать: «Наверное, он опоздал на автобус»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Avrà perso l’autobus."
+     },
+     {
+      "id": "o2",
+      "text": "Perderà l’autobus."
+     },
+     {
+      "id": "o3",
+      "text": "Avrebbe perso l’autobus."
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "Догадка о прошлом — futuro anteriore: avrà perso. Perderà говорит о будущем, avrebbe perso — «опоздал бы», а не «наверное, опоздал».",
+    "grading": "option_id",
+    "id": "it-grammar-039-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Соедини в одну фразу: начни с «Appena» и поставь первое действие в futuro anteriore. «Troverò un albergo. Poi ti manderò l’indirizzo.»",
+    "accepted_answers": [
+     "Appena avrò trovato un albergo, ti manderò l’indirizzo.",
+     "Appena avrò trovato un albergo ti manderò l’indirizzo."
+    ],
+    "feedback_ru": "Сначала найду гостиницу — это действие завершится раньше, поэтому avrò trovato; второе действие остаётся в простом futuro: ti manderò.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-039-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-039-e4",
+    "type": "production",
+    "prompt_ru": "Подруга пишет: «Quando ci vediamo?» Ответь 2–3 фразами: что ты успеешь сделать к определённому времени и когда сможешь встретиться.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Domani mattina sono occupata, ma per mezzogiorno avrò finito tutto. Appena avrò fatto la spesa, ti chiamerò. Ci vediamo alle due in piazza?",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Futuro anteriore использовано хотя бы один раз для действия, которое завершится раньше другого будущего момента.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 28,
+  "recommended_vocab_topic_ids": [
+   "15"
+  ]
+ },
+ {
+  "id": "it-grammar-040",
+  "order": 40,
+  "stage": "B1",
+  "cefr_band_author": "B1",
+  "priority": "core",
+  "title_ru": "Condizionale passato",
+  "can_do_ru": "Выразить сожаление и «будущее в прошлом».",
+  "prerequisites": [
+   "it-grammar-020",
+   "it-grammar-024",
+   "it-grammar-037"
+  ],
+  "rules_ru": [
+   "Condizionale passato = avere или essere в condizionale + participio: avrei voluto, avresti potuto; sarei andata, saremmo partiti. Вспомогательный глагол и согласование — как в passato prossimo.",
+   "Сожаление и упрёк о прошлом, которое уже не изменить: Avrei voluto vedere Capri, ma pioveva. Avresti dovuto prenotare prima! (= надо было…) Avrei potuto chiedere aiuto. (= могла бы, но не сделала).",
+   "«Будущее в прошлом»: после ha detto che, ha promesso che, ero sicura che итальянский ставит condizionale passato: Ha detto che sarebbe venuto. По-русски «сказал, что придёт», поэтому тянет сказать verrebbe — это ошибка. Futuro (verrà) возможно, только если событие ещё впереди и сейчас; в рассказе о прошлом нужен sarebbe venuto. В разговоре слышно и imperfetto (ha detto che veniva), но нормой остаётся condizionale passato."
+  ],
+  "examples": [
+   {
+    "it": "Avrei voluto restare un altro giorno a Firenze, ma avevo già il volo.",
+    "ru": "Мне хотелось остаться во Флоренции ещё на день, но у меня уже был билет на самолёт.",
+    "tts_text": "Avrei voluto restare un altro giorno a Firenze, ma avevo già il volo.",
+    "audio_url": null
+   },
+   {
+    "it": "Avremmo potuto prendere il treno, ma abbiamo scelto la macchina.",
+    "ru": "Мы могли бы поехать поездом, но выбрали машину.",
+    "tts_text": "Avremmo potuto prendere il treno, ma abbiamo scelto la macchina.",
+    "audio_url": null
+   },
+   {
+    "it": "Il tassista ha detto che sarebbe arrivato in cinque minuti.",
+    "ru": "Таксист сказал, что приедет через пять минут.",
+    "tts_text": "Il tassista ha detto che sarebbe arrivato in cinque minuti.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в condizionale passato.",
+    "stimulus_it": "Laura ha scritto che ___ a prenderci, ma poi non è venuta. (venire)",
+    "accepted_answers": [
+     "sarebbe venuta"
+    ],
+    "feedback_ru": "Приезд был будущим по отношению к прошлому (ha scritto), поэтому condizionale passato; venire спрягается с essere и согласуется с Лаурой: sarebbe venuta.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-040-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать: «Надо было мне взять зонт»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Dovrei prendere l’ombrello."
+     },
+     {
+      "id": "o2",
+      "text": "Avevo dovuto prendere l’ombrello."
+     },
+     {
+      "id": "o3",
+      "text": "Avrei dovuto prendere l’ombrello."
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "Упрёк себе о прошлом — avrei dovuto + инфинитив. Dovrei — совет на сейчас, avevo dovuto — «мне (раньше) пришлось».",
+    "grading": "option_id",
+    "id": "it-grammar-040-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Скажи то же как желание, которое не сбылось в прошлом: «Vorrei vedere il Colosseo di notte.»",
+    "accepted_answers": [
+     "Avrei voluto vedere il Colosseo di notte.",
+     "Io avrei voluto vedere il Colosseo di notte."
+    ],
+    "feedback_ru": "Vorrei → avrei voluto: avere в condizionale + participio, инфинитив остаётся.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-040-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-040-e4",
+    "type": "production",
+    "prompt_ru": "Вспомни поездку, где не всё получилось. Напиши 2–3 фразы: что тебе хотелось бы сделать иначе и что тебе обещали, но не сделали.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Avrei voluto restare più a lungo a Napoli. Avrei dovuto prenotare il treno prima, perché era tutto pieno. L’albergo aveva promesso che ci avrebbe dato una camera con vista, ma non l’ha fatto.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Condizionale passato использован и для сожаления (avrei voluto, avrei dovuto), и для «будущего в прошлом» (ha detto che sarebbe…).",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 28,
+  "recommended_vocab_topic_ids": [
+   "04",
+   "19"
+  ]
+ },
+ {
+  "id": "it-grammar-041",
+  "order": 41,
+  "stage": "B1",
+  "cefr_band_author": "B1",
+  "priority": "core",
+  "title_ru": "Congiuntivo presente: образование",
+  "can_do_ru": "Образовать congiuntivo правильных и частых неправильных глаголов.",
+  "prerequisites": [
+   "it-grammar-007",
+   "it-grammar-008",
+   "it-grammar-009",
+   "it-grammar-016"
+  ],
+  "rules_ru": [
+   "Правильные глаголы: у -are окончание -i, у -ere и -ire — -a. Che io/tu/lui parli, prenda, dorma; noi parliamo, prendiamo, dormiamo; voi parliate, prendiate, dormiate; loro parlino, prendano, dormano. Глаголы с -isc-: capisca, capiamo, capiate, capiscano. Гласная «наоборот» по сравнению с presente: lui parla → che lui parli, lui prende → che lui prenda.",
+   "Частые неправильные: essere — sia, siamo, siate, siano; avere — abbia, abbiamo, abbiate, abbiano; andare — vada; fare — faccia; venire — venga; potere — possa; volere — voglia; dovere — debba; stare — stia; dare — dia. Многие образуются от формы io в presente: faccio → faccia, vengo → venga, vado → vada, dico → dica, esco → esca.",
+   "Три формы единственного числа совпадают (che io/tu/lei prenda), поэтому подлежащее обычно называют: È meglio che tu dorma un po’. Форма noi совпадает с presente, voi кончается на -iate. Когда именно нужен congiuntivo, разберём в следующей теме; пока тренируем формы после È meglio che…, È importante che… и Penso che…"
+  ],
+  "examples": [
+   {
+    "it": "È meglio che tu prenda un taxi.",
+    "ru": "Тебе лучше взять такси.",
+    "tts_text": "È meglio che tu prenda un taxi.",
+    "audio_url": null
+   },
+   {
+    "it": "Penso che il museo sia chiuso il lunedì.",
+    "ru": "Думаю, музей по понедельникам закрыт.",
+    "tts_text": "Penso che il museo sia chiuso il lunedì.",
+    "audio_url": null
+   },
+   {
+    "it": "È importante che voi arriviate in orario.",
+    "ru": "Важно, чтобы вы приехали вовремя.",
+    "tts_text": "È importante che voi arriviate in orario.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в congiuntivo presente.",
+    "stimulus_it": "È meglio che lui ___ il treno delle otto. (prendere)",
+    "accepted_answers": [
+     "prenda"
+    ],
+    "feedback_ru": "Prendere — глагол на -ere, значит окончание -a: che lui prenda.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-041-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "«È importante che lui ___ il check-in online.» Какая форма fare нужна?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "fa"
+     },
+     {
+      "id": "o2",
+      "text": "faccia"
+     },
+     {
+      "id": "o3",
+      "text": "fai"
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "Fare — неправильный: faccio → che lui faccia. Fa и fai — формы presente.",
+    "grading": "option_id",
+    "id": "it-grammar-041-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Замени tu на loro и измени глагол: «È meglio che tu venga presto.»",
+    "accepted_answers": [
+     "È meglio che loro vengano presto.",
+     "È meglio che vengano presto."
+    ],
+    "feedback_ru": "Venire: vengo → venga, для loro — vengano.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-041-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-041-e4",
+    "type": "production",
+    "prompt_ru": "Подруга собирается в поездку. Дай ей 3 совета, каждый начиная с «È meglio che tu…», с тремя разными глаголами.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "È meglio che tu prenda il treno delle sette. È meglio che tu porti una giacca, perché la sera fa freddo. È meglio che tu vada al museo di mattina, quando c’è meno gente.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Три формы congiuntivo presente образованы верно, хотя бы одна из них — от неправильного глагола (vada, faccia, sia…).",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 29,
+  "recommended_vocab_topic_ids": [
+   "02"
+  ]
+ },
+ {
+  "id": "it-grammar-042",
+  "order": 42,
+  "stage": "B1",
+  "cefr_band_author": "B1",
+  "priority": "core",
+  "title_ru": "Congiuntivo: мнение, желание, сомнение, чувство",
+  "can_do_ru": "Выразить мнение и желание с congiuntivo.",
+  "prerequisites": [
+   "it-grammar-035",
+   "it-grammar-041"
+  ],
+  "rules_ru": [
+   "Congiuntivo ставится после che, если главный глагол выражает мнение или сомнение (penso, credo, non sono sicura, dubito), желание или надежду (voglio, preferisco, spero) или чувство (sono contenta, mi dispiace, ho paura): Spero che il volo parta in orario. По-русски здесь обычное «что» или «чтобы», поэтому легко сказать spero che parte ×, voglio che tu vieni ×.",
+   "То же после безличных выражений необходимости и оценки: bisogna che, è necessario che, è importante che, è meglio che, è possibile che: Bisogna che tu compri il biglietto prima di salire.",
+   "Если субъект в обеих частях один и тот же, вместо che + congiuntivo — инфинитив с di: Spero di tornare presto (а не spero che io torni). Penso di partire domani. Ho paura di perdere il treno. После volere и preferire инфинитив без di: Voglio partire. После безличного выражения без конкретного лица — тоже инфинитив: Bisogna prenotare."
+  ],
+  "examples": [
+   {
+    "it": "Spero che domani faccia bel tempo.",
+    "ru": "Надеюсь, завтра будет хорошая погода.",
+    "tts_text": "Spero che domani faccia bel tempo.",
+    "audio_url": null
+   },
+   {
+    "it": "Penso che questo treno sia più veloce.",
+    "ru": "Думаю, этот поезд быстрее.",
+    "tts_text": "Penso che questo treno sia più veloce.",
+    "audio_url": null
+   },
+   {
+    "it": "Mi dispiace che tu non possa venire con noi.",
+    "ru": "Жаль, что ты не можешь поехать с нами.",
+    "tts_text": "Mi dispiace che tu non possa venire con noi.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в нужной форме.",
+    "stimulus_it": "Voglio che tu ___ questa pasta: è buonissima! (assaggiare)",
+    "accepted_answers": [
+     "assaggi"
+    ],
+    "feedback_ru": "После voglio che нужен congiuntivo; assaggiare — глагол на -are, значит che tu assaggi.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-042-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать: «Я рада, что я в Риме»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Sono contenta di essere a Roma."
+     },
+     {
+      "id": "o2",
+      "text": "Sono contenta che io sia a Roma."
+     },
+     {
+      "id": "o3",
+      "text": "Sono contenta che sono a Roma."
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "Субъект один и тот же (я рада, я в Риме), поэтому di + инфинитив, а не che.",
+    "grading": "option_id",
+    "id": "it-grammar-042-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Начни фразу с «Penso che…»: «Il ristorante è chiuso la domenica.»",
+    "accepted_answers": [
+     "Penso che il ristorante sia chiuso la domenica."
+    ],
+    "feedback_ru": "Penso che выражает мнение, поэтому è → sia.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-042-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-042-e4",
+    "type": "production",
+    "prompt_ru": "Друзья спрашивают, куда поехать на выходные. Ответь 3 фразами: мнение (Penso che…), надежда (Spero che…) и совет (Bisogna che… или È meglio che…).",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Penso che Verona sia perfetta per un weekend. Spero che faccia bel tempo, così potete passeggiare in centro. Bisogna che prenotiate l’albergo subito, perché in estate c’è molta gente.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "После каждого из трёх выражений стоит congiuntivo; если субъект тот же — инфинитив с di.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 29,
+  "recommended_vocab_topic_ids": [
+   "19",
+   "04"
+  ]
+ },
+ {
+  "id": "it-grammar-043",
+  "order": 43,
+  "stage": "B1",
+  "cefr_band_author": "B1",
+  "priority": "core",
+  "title_ru": "Congiuntivo passato",
+  "can_do_ru": "Выразить мнение о прошедшем.",
+  "prerequisites": [
+   "it-grammar-020",
+   "it-grammar-042"
+  ],
+  "rules_ru": [
+   "Congiuntivo passato = avere или essere в congiuntivo presente + participio: (che) io abbia visto, noi abbiamo capito; lui sia partito, lei sia arrivata, loro siano usciti. Вспомогательный глагол и согласование — как в passato prossimo.",
+   "Он нужен после тех же выражений, что congiuntivo presente (penso che, spero che, mi dispiace che, è possibile che), когда главный глагол в настоящем, а действие уже произошло: È possibile che abbiano cambiato binario. Spero che tu abbia dormito bene.",
+   "Сравни: Penso che arrivi oggi (сейчас или позже) — Penso che sia arrivata ieri (раньше). Типичная ошибка — passato prossimo после penso che: penso che è partito ×. Если главный глагол сам в прошлом (pensavo che…), нужны другие времена — это отдельная тема."
+  ],
+  "examples": [
+   {
+    "it": "Penso che Giulia sia già partita.",
+    "ru": "Думаю, Джулия уже уехала.",
+    "tts_text": "Penso che Giulia sia già partita.",
+    "audio_url": null
+   },
+   {
+    "it": "Spero che tu abbia trovato l’albergo senza problemi.",
+    "ru": "Надеюсь, ты без проблем нашёл гостиницу.",
+    "tts_text": "Spero che tu abbia trovato l’albergo senza problemi.",
+    "audio_url": null
+   },
+   {
+    "it": "È strano che il tassista non sia ancora arrivato.",
+    "ru": "Странно, что таксист ещё не приехал.",
+    "tts_text": "È strano che il tassista non sia ancora arrivato.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в нужной форме.",
+    "stimulus_it": "Giulia non è in camera: penso che ___ un’ora fa. (uscire)",
+    "accepted_answers": [
+     "sia uscita"
+    ],
+    "feedback_ru": "Действие уже произошло (un’ora fa), главный глагол в настоящем — congiuntivo passato: sia uscita, с согласованием по Джулии.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-043-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать: «Надеюсь, вам понравился ужин»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Spero che vi piaccia la cena."
+     },
+     {
+      "id": "o2",
+      "text": "Spero che vi è piaciuta la cena."
+     },
+     {
+      "id": "o3",
+      "text": "Spero che vi sia piaciuta la cena."
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "Ужин уже был — congiuntivo passato: sia piaciuta (piacere спрягается с essere и согласуется с la cena). Vi piaccia — «понравится».",
+    "grading": "option_id",
+    "id": "it-grammar-043-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Начни фразу с «Mi dispiace che…»: «Avete perso la coincidenza.»",
+    "accepted_answers": [
+     "Mi dispiace che abbiate perso la coincidenza.",
+     "Mi dispiace che voi abbiate perso la coincidenza."
+    ],
+    "feedback_ru": "Avete perso → abbiate perso: avere в congiuntivo presente + participio.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-043-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-043-e4",
+    "type": "production",
+    "prompt_ru": "Подруга вернулась из поездки, но ещё ничего не рассказала. Напиши ей 2–3 фразы о том, что, как ты думаешь или надеешься, уже произошло.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Spero che il viaggio sia andato bene e che tu abbia visto il mare. Penso che tu sia stanca, quindi ti chiamo domani. Mi dispiace che abbia piovuto il primo giorno!",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Congiuntivo passato (abbia/sia + participio) использован хотя бы дважды после penso che, spero che или mi dispiace che.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 31,
+  "recommended_vocab_topic_ids": [
+   "19"
+  ]
+ },
+ {
+  "id": "it-grammar-044",
+  "order": 44,
+  "stage": "B1",
+  "cefr_band_author": "B1",
+  "priority": "core",
+  "title_ru": "Congiuntivo imperfetto",
+  "can_do_ru": "Выразить желание и предположение в прошлом и нереальное.",
+  "prerequisites": [
+   "it-grammar-021",
+   "it-grammar-042"
+  ],
+  "rules_ru": [
+   "Образование: основа imperfetto + -ssi, -ssi, -sse, -ssimo, -ste, -ssero: parlare → parlassi, parlasse, parlassimo, parlaste, parlassero; prendere → prendessi; dormire → dormissi; avere → avessi. Особые формы: essere → fossi, fosse, fossimo, foste, fossero; fare → facessi, dire → dicessi, bere → bevessi, dare → dessi, stare → stessi.",
+   "Он нужен после тех же выражений, что congiuntivo presente, если главный глагол в прошлом: Pensavo che il museo fosse aperto. Speravo che tu venissi. После vorrei che — тоже congiuntivo imperfetto, хотя vorrei не в прошлом: Vorrei che mi chiamassi più spesso (а не mi chiami ×).",
+   "Нереальное желание: magari + congiuntivo imperfetto = «вот бы…»: Magari fosse sempre estate! Come se + congiuntivo imperfetto = «как будто»: Parla come se fosse di qui. Не путай похожие формы: io fossi — noi fossimo, tu fossi — voi foste."
+  ],
+  "examples": [
+   {
+    "it": "Credevo che il viaggio durasse meno.",
+    "ru": "Я думала, что поездка займёт меньше времени.",
+    "tts_text": "Credevo che il viaggio durasse meno.",
+    "audio_url": null
+   },
+   {
+    "it": "Vorrei che tu venissi con me a Napoli.",
+    "ru": "Мне бы хотелось, чтобы ты поехал со мной в Неаполь.",
+    "tts_text": "Vorrei che tu venissi con me a Napoli.",
+    "audio_url": null
+   },
+   {
+    "it": "Magari avessi una settimana in più!",
+    "ru": "Вот бы у меня была ещё неделя!",
+    "tts_text": "Magari avessi una settimana in più!",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в congiuntivo imperfetto.",
+    "stimulus_it": "Pensavo che il treno ___ alle nove, invece è partito alle otto. (partire)",
+    "accepted_answers": [
+     "partisse"
+    ],
+    "feedback_ru": "Главный глагол в прошлом (pensavo), поэтому congiuntivo imperfetto: partire → partisse.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-044-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать: «Я бы хотела, чтобы ты остался ещё на день»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Vorrei che tu resti ancora un giorno."
+     },
+     {
+      "id": "o2",
+      "text": "Vorrei che tu restassi ancora un giorno."
+     },
+     {
+      "id": "o3",
+      "text": "Vorrei che tu resteresti ancora un giorno."
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "После vorrei che — congiuntivo imperfetto: restassi. Resti — congiuntivo presente, resteresti — condizionale: после che так нельзя.",
+    "grading": "option_id",
+    "id": "it-grammar-044-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Перенеси фразу в прошлое, начав с «Pensavo che…»: «Penso che l’albergo sia in centro.»",
+    "accepted_answers": [
+     "Pensavo che l’albergo fosse in centro."
+    ],
+    "feedback_ru": "Pensavo в прошлом требует congiuntivo imperfetto: sia → fosse.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-044-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-044-e4",
+    "type": "production",
+    "prompt_ru": "Опиши 2–3 фразами поездку, где реальность не совпала с ожиданиями: что ты думала заранее и чего тебе хотелось бы теперь.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Pensavo che Milano fosse una città grigia, invece mi è piaciuta moltissimo. Credevo che i musei costassero poco, ma i biglietti erano cari. Magari potessi tornare a Natale!",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Congiuntivo imperfetto стоит после главного глагола в прошлом (pensavo che, credevo che) или после vorrei che / magari.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 31,
+  "recommended_vocab_topic_ids": [
+   "19"
+  ]
+ },
+ {
+  "id": "it-grammar-045",
+  "order": 45,
+  "stage": "B1",
+  "cefr_band_author": "B1",
+  "priority": "core",
+  "title_ru": "Periodo ipotetico: реальное и возможное",
+  "can_do_ru": "Строить условия: если… то.",
+  "prerequisites": [
+   "it-grammar-023",
+   "it-grammar-024",
+   "it-grammar-044"
+  ],
+  "rules_ru": [
+   "Реальное условие: se + presente → presente, futuro или imperativo: Se piove, restiamo in albergo. Se hai fame, mangia qualcosa! Можно и se + futuro → futuro: Se farà bello, andremo al mare.",
+   "Возможное или воображаемое условие сейчас или в будущем: se + congiuntivo imperfetto → condizionale presente: Se fossi in te, prenderei il treno. = На твоём месте я бы поехала поездом.",
+   "Главная ошибка русскоговорящих: из-за «если бы» хочется поставить condizionale после se: se avrei ×, se potrei ×. Condizionale — только в главной части: Se potessi, resterei. Части можно менять местами: Resterei ancora, se potessi."
+  ],
+  "examples": [
+   {
+    "it": "Se piove, visitiamo un museo.",
+    "ru": "Если пойдёт дождь, сходим в музей.",
+    "tts_text": "Se piove, visitiamo un museo.",
+    "audio_url": null
+   },
+   {
+    "it": "Se avessi più soldi, farei il giro del mondo.",
+    "ru": "Если бы у меня было больше денег, я бы объехала весь мир.",
+    "tts_text": "Se avessi più soldi, farei il giro del mondo.",
+    "audio_url": null
+   },
+   {
+    "it": "Se il volo costasse meno, partiremmo domani.",
+    "ru": "Если бы перелёт стоил меньше, мы бы улетели завтра.",
+    "tts_text": "Se il volo costasse meno, partiremmo domani.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в нужной форме.",
+    "stimulus_it": "Se ___ la macchina, andrei in Toscana. (avere)",
+    "accepted_answers": [
+     "avessi"
+    ],
+    "feedback_ru": "Главная часть в condizionale (andrei), значит условие воображаемое: se + congiuntivo imperfetto — avessi.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-045-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать: «Если завтра будет хорошая погода, мы пойдём на пляж»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Se domani fa bello, andiamo in spiaggia."
+     },
+     {
+      "id": "o2",
+      "text": "Se domani farebbe bello, andremmo in spiaggia."
+     },
+     {
+      "id": "o3",
+      "text": "Se domani facesse bello, andiamo in spiaggia."
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "Реальное условие: se + presente → presente. Condizionale после se не ставят, а congiuntivo imperfetto делает условие воображаемым и требует condizionale в главной части.",
+    "grading": "option_id",
+    "id": "it-grammar-045-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Сделай условие воображаемым, сохранив порядок частей: «Se ho tempo, vengo con voi.»",
+    "accepted_answers": [
+     "Se avessi tempo, verrei con voi.",
+     "Se avessi tempo verrei con voi.",
+     "Se io avessi tempo, verrei con voi.",
+     "Se io avessi tempo verrei con voi."
+    ],
+    "feedback_ru": "Ho → avessi (congiuntivo imperfetto после se), vengo → verrei (condizionale presente в главной части).",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-045-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-045-e4",
+    "type": "production",
+    "prompt_ru": "Подруга зовёт тебя в поездку на следующей неделе, а у тебя много работы. Ответь 2–3 фразами: что ты сделаешь при реальном условии и что сделала бы, если бы могла.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Se finisco il lavoro entro giovedì, vengo con te. Se avessi più giorni di ferie, resterei tutta la settimana. Se non riesco, ti chiamo venerdì.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Есть хотя бы одно реальное условие (se + presente) и одно воображаемое (se + congiuntivo imperfetto → condizionale presente).",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 32,
+  "recommended_vocab_topic_ids": [
+   "04",
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-046",
+  "order": 46,
+  "stage": "B1",
+  "cefr_band_author": "B1",
+  "priority": "extension",
+  "title_ru": "Periodo ipotetico: нереальное прошлое",
+  "can_do_ru": "Сказать, что было бы, если бы…",
+  "prerequisites": [
+   "it-grammar-040",
+   "it-grammar-045"
+  ],
+  "rules_ru": [
+   "Нереальное условие в прошлом: se + congiuntivo trapassato → condizionale passato. Congiuntivo trapassato = avessi/fossi + participio: Se avessi saputo, sarei venuta. = Если бы я знала, я бы пришла.",
+   "Вспомогательный глагол выбирается для каждого глагола отдельно, как в passato prossimo, и с essere причастие согласуется: Se fossi arrivata in tempo (essere), avrei visto lo spettacolo (avere). После se condizionale не ставят: se avrei saputo ×.",
+   "В разговоре обе части часто заменяют на imperfetto: Se lo sapevo, venivo. = Если бы я знала, пришла бы. Это нужно узнавать на слух, а самой лучше говорить по норме: Se l’avessi saputo, sarei venuta."
+  ],
+  "examples": [
+   {
+    "it": "Se avessi saputo dello sciopero, avrei preso un taxi.",
+    "ru": "Если бы я знала о забастовке, я бы взяла такси.",
+    "tts_text": "Se avessi saputo dello sciopero, avrei preso un taxi.",
+    "audio_url": null
+   },
+   {
+    "it": "Se fossimo partiti prima, non avremmo perso il traghetto.",
+    "ru": "Если бы мы выехали раньше, мы бы не опоздали на паром.",
+    "tts_text": "Se fossimo partiti prima, non avremmo perso il traghetto.",
+    "audio_url": null
+   },
+   {
+    "it": "Se avessi controllato l’orario, non sarei arrivata in ritardo.",
+    "ru": "Если бы я проверила расписание, я бы не опоздала.",
+    "tts_text": "Se avessi controllato l’orario, non sarei arrivata in ritardo.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в нужной форме.",
+    "stimulus_it": "Se ___ prima, avremmo trovato posto. (prenotare)",
+    "accepted_answers": [
+     "avessimo prenotato"
+    ],
+    "feedback_ru": "Нереальное прошлое: se + congiuntivo trapassato (avessimo prenotato) → condizionale passato (avremmo trovato).",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-046-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать: «Если бы мы это знали, мы бы не уехали»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Se l’avremmo saputo, non saremmo partiti."
+     },
+     {
+      "id": "o2",
+      "text": "Se l’avessimo saputo, non saremmo partiti."
+     },
+     {
+      "id": "o3",
+      "text": "Se l’avessimo saputo, non eravamo partiti."
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "После se — congiuntivo trapassato (avessimo saputo), в главной части — condizionale passato (saremmo partiti).",
+    "grading": "option_id",
+    "id": "it-grammar-046-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Преврати в условие о прошлом, которое уже не изменить: «Se prendiamo il treno delle sette, arriviamo in tempo.»",
+    "accepted_answers": [
+     "Se avessimo preso il treno delle sette, saremmo arrivati in tempo.",
+     "Se avessimo preso il treno delle sette saremmo arrivati in tempo.",
+     "Se avessimo preso il treno delle sette, saremmo arrivate in tempo.",
+     "Se avessimo preso il treno delle sette saremmo arrivate in tempo."
+    ],
+    "feedback_ru": "Prendiamo → avessimo preso, arriviamo → saremmo arrivati (arrivare с essere; arrivate — если все женщины).",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-046-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-046-e4",
+    "type": "production",
+    "prompt_ru": "Вспомни неудачный момент в поездке. Напиши 2–3 фразы о том, что было бы иначе, если бы ты поступила по-другому.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Se avessi letto le recensioni, non avrei scelto quell’albergo. Se fossi andata a Capri di lunedì, avrei trovato meno gente. Se avessi portato le scarpe comode, avrei camminato di più.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "В каждой фразе se + congiuntivo trapassato и condizionale passato; вспомогательные глаголы выбраны верно.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 32,
+  "recommended_vocab_topic_ids": [
+   "04"
+  ]
+ },
+ {
+  "id": "it-grammar-047",
+  "order": 47,
+  "stage": "B1",
+  "cefr_band_author": "B1",
+  "priority": "core",
+  "title_ru": "Сочетания местоимений: me lo, glielo, ce ne",
+  "can_do_ru": "Сказать «дам тебе это», «скажу ему об этом».",
+  "prerequisites": [
+   "it-grammar-026",
+   "it-grammar-027",
+   "it-grammar-028"
+  ],
+  "rules_ru": [
+   "Если рядом два безударных местоимения, косвенное («кому») идёт первым, и его i меняется на e: mi → me, ti → te, ci → ce, vi → ve + lo, la, li, le, ne. Me lo dai? Te la porto domani. Ve ne lascio due.",
+   "Gli («ему»), le («ей») и вежливое Le сливаются с прямым местоимением в одно слово: glielo, gliela, glieli, gliele, gliene. Glielo spiego io = объясню это ему / ей / Вам. Типичная ошибка — дословно le lo ×, gli la ×.",
+   "В passato prossimo lo и la перед avere превращаются в l’, и причастие согласуется с прямым дополнением: (la chiave) Te l’ho data; (la verità) Gliel’ho detta; (i soldi) Me li hai restituiti? С ne причастие согласуется с количеством: (biglietti) Ce ne hanno dati tre."
+  ],
+  "examples": [
+   {
+    "it": "Hai la chiave della camera? Me la dai, per favore?",
+    "ru": "У тебя ключ от номера? Дашь мне его, пожалуйста?",
+    "tts_text": "Hai la chiave della camera? Me la dai, per favore?",
+    "audio_url": null
+   },
+   {
+    "it": "Il biglietto? Gliel’ho già dato.",
+    "ru": "Билет? Я ему его уже отдала.",
+    "tts_text": "Il biglietto? Gliel’ho già dato.",
+    "audio_url": null
+   },
+   {
+    "it": "Vuole delle cartoline? Gliene porto tre.",
+    "ru": "Хотите открытки? Я принесу Вам три.",
+    "tts_text": "Vuole delle cartoline? Gliene porto tre.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь сочетание местоимений (одно слово).",
+    "stimulus_it": "La ricevuta? ___ mando per email, signora. (Le + la)",
+    "accepted_answers": [
+     "gliela"
+    ],
+    "feedback_ru": "Вежливое Le + la сливаются в одно слово: gliela.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-047-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Ты отдала подруге ключи (le chiavi). Как сказать: «Я их ей уже отдала»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Le le ho già date."
+     },
+     {
+      "id": "o2",
+      "text": "Gliele ho già dato."
+     },
+     {
+      "id": "o3",
+      "text": "Gliele ho già date."
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "Le («ей») + le («их») → gliele; причастие согласуется с le chiavi: date.",
+    "grading": "option_id",
+    "id": "it-grammar-047-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Замени «la cartolina» и «a mia madre» местоимениями: «Ho mandato la cartolina a mia madre.»",
+    "accepted_answers": [
+     "Gliel’ho mandata."
+    ],
+    "feedback_ru": "A mia madre → le → glie-, la cartolina → la; перед ho — gliel’ho, причастие согласуется: mandata.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-047-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-047-e4",
+    "type": "production",
+    "prompt_ru": "Подруга в поездке просит у тебя зарядку, зонт и карту. Ответь на каждую просьбу короткой фразой с двумя местоимениями.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Il caricabatterie? Te lo presto volentieri. L’ombrello? Te lo porto domani mattina. La mappa? Te l’ho già data ieri!",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Сочетания местоимений построены верно (te lo, te la…), в passato prossimo причастие согласовано.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 33,
+  "recommended_vocab_topic_ids": [
+   "11"
+  ]
+ },
+ {
+  "id": "it-grammar-048",
+  "order": 48,
+  "stage": "B1",
+  "cefr_band_author": "B1",
+  "priority": "core",
+  "title_ru": "Местоимения с инфинитивом, модальными и imperativo",
+  "can_do_ru": "Поставить местоимение на правильное место.",
+  "prerequisites": [
+   "it-grammar-025",
+   "it-grammar-026",
+   "it-grammar-047"
+  ],
+  "rules_ru": [
+   "С инфинитивом местоимения пишутся слитно в конце, а конечное -e отпадает: fare → farlo, dire → dirgli, dare → darmelo. После potere, volere, dovere, sapere возможны оба места: Devo farlo = Lo devo fare; Posso dirtelo = Te lo posso dire. Ставить между ними нельзя: devo lo fare ×.",
+   "С imperativo на tu, noi, voi местоимения тоже пишутся слитно: Prendilo! Aspettateci! Andiamoci! У коротких форм va’, fa’, da’, di’, sta’ согласная местоимения удваивается: dimmi, fallo, dammelo, vacci (кроме gli: digli).",
+   "Отрицание на tu: non + инфинитив, местоимение в любом из двух мест: Non farlo! = Non lo fare! С вежливым Lei местоимения всегда стоят перед глаголом: Mi dica, Me lo dia, per favore. Типичная ошибка — прицепить их, как с tu: Scusimi ×, правильно Mi scusi."
+  ],
+  "examples": [
+   {
+    "it": "Il biglietto? Devo stamparlo o basta il telefono?",
+    "ru": "Билет? Мне нужно его распечатать или хватит телефона?",
+    "tts_text": "Il biglietto? Devo stamparlo o basta il telefono?",
+    "audio_url": null
+   },
+   {
+    "it": "Dimmi dove sei, vengo a prenderti.",
+    "ru": "Скажи, где ты, я за тобой приеду.",
+    "tts_text": "Dimmi dove sei, vengo a prenderti.",
+    "audio_url": null
+   },
+   {
+    "it": "Questa borsa è bellissima. Me la può mostrare, per favore?",
+    "ru": "Эта сумка очень красивая. Можете мне её показать?",
+    "tts_text": "Questa borsa è bellissima. Me la può mostrare, per favore?",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь imperativo на tu вместе с местоимениями (одно слово).",
+    "stimulus_it": "La mia guida? ___ subito, per favore! (dare + mi + la)",
+    "accepted_answers": [
+     "dammela"
+    ],
+    "feedback_ru": "Imperativo на tu от dare — da’; согласная удваивается, mi → me перед la: dammela.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-048-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Il conto? Как вежливо (на Lei) попросить официанта принести его тебе?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Me lo porti, per favore."
+     },
+     {
+      "id": "o2",
+      "text": "Portimelo, per favore."
+     },
+     {
+      "id": "o3",
+      "text": "Portamelo, per favore."
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "С Lei местоимения стоят перед глаголом: Me lo porti. Portamelo — это обращение на tu.",
+    "grading": "option_id",
+    "id": "it-grammar-048-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Замени «il museo» местоимением: «Vogliamo visitare il museo domani.»",
+    "accepted_answers": [
+     "Vogliamo visitarlo domani.",
+     "Lo vogliamo visitare domani."
+    ],
+    "feedback_ru": "С volere местоимение можно прицепить к инфинитиву (visitarlo) или поставить перед модальным глаголом (lo vogliamo visitare).",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-048-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-048-e4",
+    "type": "production",
+    "prompt_ru": "Ты в гостинице. Напиши 3 фразы: просьбу к администратору на Lei с местоимением, вопрос с posso или devo + местоимение и совет подруге на tu с местоимением.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "La valigia? Me la tenga fino alle sei, per favore. Posso lasciarla qui anche domani mattina? Giulia, se trovi un biglietto per gli Uffizi, prendilo subito!",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Местоимения стоят на верном месте: перед глаголом с Lei, слитно с инфинитивом и с imperativo на tu.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 33,
+  "recommended_vocab_topic_ids": [
+   "02"
+  ]
+ }
+]

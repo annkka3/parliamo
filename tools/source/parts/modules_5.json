@@ -1,0 +1,1451 @@
+[
+  {
+    "id": "it-grammar-049",
+    "order": 49,
+    "stage": "B1",
+    "cefr_band_author": "B1",
+    "priority": "core",
+    "title_ru": "Относительные: il quale, chi, quello che, ciò che",
+    "can_do_ru": "Строить сложные определения.",
+    "prerequisites": [
+      "it-grammar-033",
+      "it-grammar-047"
+    ],
+    "rules_ru": [
+      "Il quale / la quale / i quali / le quali — книжная замена che и cui. Артикль согласуется с существительным, предлог сливается с ним: la città nella quale vivo, l’amica alla quale ho scritto, il motivo per il quale sono qui. В разговоре чаще cui (in cui, a cui), а il quale выручает в официальном письме и там, где нужно ясно показать, о ком речь.",
+      "Chi = «тот, кто / те, кто». Глагол после chi всегда в единственном числе: Chi viaggia molto impara molto. Не бывает «quello chi» или «quelli chi»: либо chi, либо quelli che.",
+      "Quello che / ciò che = «то, что» (ciò che звучит книжнее): Quello che mi piace è il mare. «Всё, что» — tutto quello che или tutto ciò che, а не «tutto che»."
+    ],
+    "examples": [
+      {
+        "it": "Chi prenota prima paga meno.",
+        "ru": "Кто бронирует заранее, платит меньше.",
+        "tts_text": "Chi prenota prima paga meno.",
+        "audio_url": null
+      },
+      {
+        "it": "Questo è l’albergo nel quale abbiamo dormito l’anno scorso.",
+        "ru": "Это гостиница, в которой мы ночевали в прошлом году.",
+        "tts_text": "Questo è l’albergo nel quale abbiamo dormito l’anno scorso.",
+        "audio_url": null
+      },
+      {
+        "it": "Quello che mi piace di più di Napoli è il cibo.",
+        "ru": "Больше всего мне в Неаполе нравится еда.",
+        "tts_text": "Quello che mi piace di più di Napoli è il cibo.",
+        "audio_url": null
+      }
+    ],
+    "exercises": [
+      {
+        "type": "cloze",
+        "prompt_ru": "Вставь пропущенное: «В этом магазине ты найдёшь всё, что тебе нужно в дорогу».",
+        "stimulus_it": "In questo negozio trovi tutto ___ ti serve per il viaggio.",
+        "accepted_answers": [
+          "quello che",
+          "ciò che",
+          "quanto"
+        ],
+        "feedback_ru": "«Всё, что» — tutto quello che или tutto ciò che; одного che после tutto не хватает.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-049-e1",
+        "is_held_out": false
+      },
+      {
+        "type": "choice",
+        "prompt_ru": "«Те, кто приезжает в Неаполь, всегда пробуют пиццу». Выбери правильный вариант.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Chi arrivano a Napoli assaggiano sempre la pizza."
+          },
+          {
+            "id": "o2",
+            "text": "Chi arriva a Napoli assaggia sempre la pizza."
+          },
+          {
+            "id": "o3",
+            "text": "Quelli chi arrivano a Napoli assaggiano sempre la pizza."
+          }
+        ],
+        "correct_option_id": "o2",
+        "feedback_ru": "После chi глагол всегда в единственном числе: chi arriva… assaggia. «Quelli chi» не бывает — только quelli che.",
+        "grading": "option_id",
+        "id": "it-grammar-049-e2",
+        "is_held_out": false
+      },
+      {
+        "type": "transform",
+        "prompt_ru": "Замени «in cui» на форму с il quale: «La casa in cui abito è vicino al mare.»",
+        "accepted_answers": [
+          "La casa nella quale abito è vicino al mare."
+        ],
+        "feedback_ru": "Casa — женский род, единственное число: in + la quale = nella quale.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-049-e3",
+        "is_held_out": false
+      },
+      {
+        "id": "it-grammar-049-e4",
+        "type": "production",
+        "prompt_ru": "Ты пишешь отзыв о поездке в Болонью. Напиши 2–3 фразы с chi и quello che / ciò che: что тебе понравилось больше всего и что ты советуешь тем, кто туда поедет.",
+        "grading": "manual_rubric",
+        "is_held_out": false,
+        "model_answer_it": "Quello che mi è piaciuto di più è il centro storico con i portici. Chi visita Bologna deve assaggiare i tortellini. Ciò che non mi è piaciuto è il traffico.",
+        "model_is_exhaustive": false,
+        "rubric_ru": [
+          "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+          "Есть chi с глаголом в единственном числе и quello che или ciò che в значении «то, что».",
+          "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+        ],
+        "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+        "model_answer_scope": "one_possible_response_not_exhaustive"
+      }
+    ],
+    "reference_ids": [],
+    "grammar_reference_paths": [],
+    "estimated_sessions": {
+      "count": 3,
+      "minutes_each": [
+        8,
+        15
+      ]
+    },
+    "mastery_status_initial": "not_started",
+    "suggested_week": 35,
+    "recommended_vocab_topic_ids": [
+      "20"
+    ]
+  },
+  {
+    "id": "it-grammar-050",
+    "order": 50,
+    "stage": "B1",
+    "cefr_band_author": "B1",
+    "priority": "core",
+    "title_ru": "Пассив и si passivante",
+    "can_do_ru": "Сказать, что что-то делается/сделано.",
+    "prerequisites": [
+      "it-grammar-002",
+      "it-grammar-019",
+      "it-grammar-020"
+    ],
+    "rules_ru": [
+      "Пассив: essere + participio, причастие согласуется с подлежащим. Исполнитель вводится через da (с артиклем — dal, dalla, dai…): Il ristorante è gestito da una famiglia di Napoli. В passato prossimo два причастия, и вспомогательный — только essere: La chiesa è stata restaurata l’anno scorso (не «ha stata»).",
+      "Venire + participio — тоже пассив, но он подчёркивает действие или регулярность: La colazione viene servita dalle sette. Venire используют только в простых временах (viene, veniva, verrà); в passato prossimo — только essere: è stata servita, а не «è venuta servita».",
+      "Si passivante — самый частый пассив в объявлениях: si + глагол в 3-м лице, и глагол согласуется с существительным: Si vende la casa, но Si vendono biglietti. Частая ошибка — «si vende biglietti».",
+      "Andare + participio = «должно быть сделано»: Il biglietto va convalidato (Билет нужно прокомпостировать), Questi moduli vanno firmati. Причастие согласуется с подлежащим."
+    ],
+    "examples": [
+      {
+        "it": "Il Colosseo è visitato da milioni di turisti ogni anno.",
+        "ru": "Колизей каждый год посещают миллионы туристов.",
+        "tts_text": "Il Colosseo è visitato da milioni di turisti ogni anno.",
+        "audio_url": null
+      },
+      {
+        "it": "In tabaccheria si vendono i biglietti dell’autobus.",
+        "ru": "В табачной лавке продаются билеты на автобус.",
+        "tts_text": "In tabaccheria si vendono i biglietti dell’autobus.",
+        "audio_url": null
+      },
+      {
+        "it": "Il biglietto del treno va convalidato prima di salire.",
+        "ru": "Билет на поезд нужно прокомпостировать перед посадкой.",
+        "tts_text": "Il biglietto del treno va convalidato prima di salire.",
+        "audio_url": null
+      }
+    ],
+    "exercises": [
+      {
+        "type": "cloze",
+        "prompt_ru": "Вставь глагол: «В этом ресторане принимают только кредитные карты».",
+        "stimulus_it": "In questo ristorante si ___ solo carte di credito. (accettare)",
+        "accepted_answers": [
+          "accettano"
+        ],
+        "feedback_ru": "Si passivante: глагол согласуется с carte (множественное число) — si accettano.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-050-e1",
+        "is_held_out": false
+      },
+      {
+        "type": "choice",
+        "prompt_ru": "«Этот мост был построен в 1890 году». Выбери правильный вариант.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Questo ponte ha stato costruito nel 1890."
+          },
+          {
+            "id": "o2",
+            "text": "Questo ponte è venuto costruito nel 1890."
+          },
+          {
+            "id": "o3",
+            "text": "Questo ponte è stato costruito nel 1890."
+          }
+        ],
+        "correct_option_id": "o3",
+        "feedback_ru": "Пассив в passato prossimo: è + stato + costruito. Avere в пассиве не используется, а venire — только в простых временах.",
+        "grading": "option_id",
+        "id": "it-grammar-050-e2",
+        "is_held_out": false
+      },
+      {
+        "type": "transform",
+        "prompt_ru": "Перепиши в пассиве, начав с «Il museo»: «Molti turisti visitano il museo.»",
+        "accepted_answers": [
+          "Il museo è visitato da molti turisti.",
+          "Il museo viene visitato da molti turisti."
+        ],
+        "feedback_ru": "Дополнение становится подлежащим, исполнитель вводится через da. Подходят и essere, и venire.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-050-e3",
+        "is_held_out": false
+      },
+      {
+        "id": "it-grammar-050-e4",
+        "type": "production",
+        "prompt_ru": "Составь записку для гостей съёмной квартиры: 3 правила или подсказки — с si passivante, с va/vanno + participio и с essere или venire + participio.",
+        "grading": "manual_rubric",
+        "is_held_out": false,
+        "model_answer_it": "Le chiavi vanno lasciate sul tavolo il giorno della partenza. La colazione viene servita al bar sotto casa. Al bar all’angolo si vendono anche i biglietti dell’autobus.",
+        "model_is_exhaustive": false,
+        "rubric_ru": [
+          "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+          "Использованы si passivante с согласованием глагола, andare + participio и пассив с essere или venire.",
+          "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+        ],
+        "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+        "model_answer_scope": "one_possible_response_not_exhaustive"
+      }
+    ],
+    "reference_ids": [],
+    "grammar_reference_paths": [],
+    "estimated_sessions": {
+      "count": 3,
+      "minutes_each": [
+        8,
+        15
+      ]
+    },
+    "mastery_status_initial": "not_started",
+    "suggested_week": 35,
+    "recommended_vocab_topic_ids": [
+      "11",
+      "13"
+    ]
+  },
+  {
+    "id": "it-grammar-051",
+    "order": 51,
+    "stage": "B1",
+    "cefr_band_author": "B1",
+    "priority": "core",
+    "title_ru": "Si impersonale и безличные конструкции",
+    "can_do_ru": "Сказать «здесь едят», «говорят, что».",
+    "prerequisites": [
+      "it-grammar-017",
+      "it-grammar-049"
+    ],
+    "rules_ru": [
+      "Si + глагол в 3-м лице единственного числа = «люди вообще», как русское «здесь едят», «говорят»: Qui si mangia bene. In Italia si cena tardi. Si dice che… = говорят, что… Подлежащее не нужно.",
+      "С essere, diventare, sembrare прилагательное после si ставится во множественное число: Quando si è in vacanza, si è più rilassati (если речь только о женщинах — rilassate). В passato prossimo вспомогательный — essere: Si è mangiato bene.",
+      "С возвратными глаголами вместо «si si» говорят ci si: Ci si alza presto, ci si diverte. Ошибка «si si alza» — одна из самых частых.",
+      "Безличные bisogna (нужно), conviene (выгодно, лучше), basta (достаточно) + инфинитив не меняются по лицам: Bisogna prenotare. Conviene prendere il treno. Basta chiedere. Не «bisogniamo prenotare»."
+    ],
+    "examples": [
+      {
+        "it": "In Italia si cena più tardi che in Russia.",
+        "ru": "В Италии ужинают позже, чем в России.",
+        "tts_text": "In Italia si cena più tardi che in Russia.",
+        "audio_url": null
+      },
+      {
+        "it": "In montagna ci si alza presto.",
+        "ru": "В горах встают рано.",
+        "tts_text": "In montagna ci si alza presto.",
+        "audio_url": null
+      },
+      {
+        "it": "Conviene prenotare il tavolo in anticipo.",
+        "ru": "Столик лучше забронировать заранее.",
+        "tts_text": "Conviene prenotare il tavolo in anticipo.",
+        "audio_url": null
+      }
+    ],
+    "exercises": [
+      {
+        "type": "cloze",
+        "prompt_ru": "Вставь безличную форму с si: «В отпуске встают поздно».",
+        "stimulus_it": "In vacanza ___ alza tardi. (alzarsi)",
+        "accepted_answers": [
+          "ci si"
+        ],
+        "feedback_ru": "Возвратный глагол в безличной форме: ci si alza, а не «si si alza».",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-051-e1",
+        "is_held_out": false
+      },
+      {
+        "type": "choice",
+        "prompt_ru": "Выбери прилагательное: «Dopo una lunga camminata si è ___.»",
+        "options": [
+          {
+            "id": "o1",
+            "text": "stanchi"
+          },
+          {
+            "id": "o2",
+            "text": "stanco"
+          },
+          {
+            "id": "o3",
+            "text": "stanca"
+          }
+        ],
+        "correct_option_id": "o1",
+        "feedback_ru": "После si è прилагательное ставится во множественное число: si è stanchi.",
+        "grading": "option_id",
+        "id": "it-grammar-051-e2",
+        "is_held_out": false
+      },
+      {
+        "type": "transform",
+        "prompt_ru": "Перепиши безлично с si, убрав «la gente»: «In questo quartiere la gente vive bene.»",
+        "accepted_answers": [
+          "In questo quartiere si vive bene.",
+          "Si vive bene in questo quartiere."
+        ],
+        "feedback_ru": "Si + глагол в 3-м лице заменяет «людей вообще»: si vive bene.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-051-e3",
+        "is_held_out": false
+      },
+      {
+        "id": "it-grammar-051-e4",
+        "type": "production",
+        "prompt_ru": "Подруга впервые едет в Италию. Дай ей 3 совета о местных привычках: используй si, ci si и одно из bisogna / conviene / basta.",
+        "grading": "manual_rubric",
+        "is_held_out": false,
+        "model_answer_it": "In Italia si cena tardi, verso le nove. Al bar ci si ferma pochi minuti e si beve il caffè in piedi. Conviene comprare i biglietti dell’autobus in tabaccheria.",
+        "model_is_exhaustive": false,
+        "rubric_ru": [
+          "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+          "Есть безличное si, ci si с возвратным глаголом и bisogna, conviene или basta с инфинитивом.",
+          "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+        ],
+        "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+        "model_answer_scope": "one_possible_response_not_exhaustive"
+      }
+    ],
+    "reference_ids": [],
+    "grammar_reference_paths": [],
+    "estimated_sessions": {
+      "count": 3,
+      "minutes_each": [
+        8,
+        15
+      ]
+    },
+    "mastery_status_initial": "not_started",
+    "suggested_week": 36,
+    "recommended_vocab_topic_ids": [
+      "10",
+      "20"
+    ]
+  },
+  {
+    "id": "it-grammar-052",
+    "order": 52,
+    "stage": "B1",
+    "cefr_band_author": "B1",
+    "priority": "core",
+    "title_ru": "Косвенная речь и косвенные вопросы",
+    "can_do_ru": "Пересказать, что сказали и спросили.",
+    "prerequisites": [
+      "it-grammar-011",
+      "it-grammar-027",
+      "it-grammar-035"
+    ],
+    "rules_ru": [
+      "Если вводящий глагол в настоящем (dice, scrive, risponde), время в пересказе не меняется, а лица и притяжательные меняются: «Sono stanca» → Dice che è stanca; «È la mia valigia» → Dice che è la sua valigia.",
+      "Вопрос без вопросительного слова передают через se (= «ли»): «Hai fame?» → Mi chiede se ho fame. Вопросительное слово сохраняется: «Dove vai?» → Mi chiede dove vado. Русское «ли» отдельным словом не переводится — его роль играет se в начале придаточного.",
+      "Если пересказ звучит в другом месте или в другой день, меняются и указатели: qui → lì, questo → quello, oggi → quel giorno, domani → il giorno dopo."
+    ],
+    "examples": [
+      {
+        "it": "Marco dice che arriva domani.",
+        "ru": "Марко говорит, что приедет завтра.",
+        "tts_text": "Marco dice che arriva domani.",
+        "audio_url": null
+      },
+      {
+        "it": "La signora mi chiede se parlo italiano.",
+        "ru": "Синьора спрашивает, говорю ли я по-итальянски.",
+        "tts_text": "La signora mi chiede se parlo italiano.",
+        "audio_url": null
+      },
+      {
+        "it": "Il tassista chiede dove vogliamo andare.",
+        "ru": "Таксист спрашивает, куда мы хотим поехать.",
+        "tts_text": "Il tassista chiede dove vogliamo andare.",
+        "audio_url": null
+      }
+    ],
+    "exercises": [
+      {
+        "type": "cloze",
+        "prompt_ru": "Вставь пропущенное слово: «Официант спрашивает, хочу ли я десерт».",
+        "stimulus_it": "Il cameriere mi chiede ___ voglio un dolce.",
+        "accepted_answers": [
+          "se"
+        ],
+        "feedback_ru": "«Ли» в косвенном вопросе передаётся через se.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-052-e1",
+        "is_held_out": false
+      },
+      {
+        "type": "choice",
+        "prompt_ru": "Джулия говорит: «Sono stanca». Как это пересказать?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Giulia dice che sono stanca."
+          },
+          {
+            "id": "o2",
+            "text": "Giulia dice se è stanca."
+          },
+          {
+            "id": "o3",
+            "text": "Giulia dice che è stanca."
+          }
+        ],
+        "correct_option_id": "o3",
+        "feedback_ru": "Лицо меняется: sono → è. Утверждение вводится через che, а se — только для вопросов.",
+        "grading": "option_id",
+        "id": "it-grammar-052-e2",
+        "is_held_out": false
+      },
+      {
+        "type": "transform",
+        "prompt_ru": "Перескажи вопрос, начав с «Lucia mi chiede…»: «Dove hai comprato la tua borsa?»",
+        "accepted_answers": [
+          "Lucia mi chiede dove ho comprato la mia borsa.",
+          "Lucia mi chiede dove abbia comprato la mia borsa."
+        ],
+        "feedback_ru": "Вопросительное слово остаётся, лицо и притяжательное меняются: hai → ho, la tua → la mia. Вариант с congiuntivo (abbia) звучит книжнее.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-052-e3",
+        "is_held_out": false
+      },
+      {
+        "id": "it-grammar-052-e4",
+        "type": "production",
+        "prompt_ru": "Ты звонишь подруге из гостиницы и пересказываешь, что говорит и спрашивает администратор: две фразы с dice che и одна с chiede se / dove / quando.",
+        "grading": "manual_rubric",
+        "is_held_out": false,
+        "model_answer_it": "La receptionist dice che la camera è pronta alle due. Dice anche che la colazione è inclusa. Mi chiede se ho bisogno di un taxi per l’aeroporto.",
+        "model_is_exhaustive": false,
+        "rubric_ru": [
+          "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+          "Есть dice che без смены времени и косвенный вопрос с se или вопросительным словом; лица изменены правильно.",
+          "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+        ],
+        "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+        "model_answer_scope": "one_possible_response_not_exhaustive"
+      }
+    ],
+    "reference_ids": [],
+    "grammar_reference_paths": [],
+    "estimated_sessions": {
+      "count": 3,
+      "minutes_each": [
+        8,
+        15
+      ]
+    },
+    "mastery_status_initial": "not_started",
+    "suggested_week": 36,
+    "recommended_vocab_topic_ids": [
+      "04"
+    ]
+  },
+  {
+    "id": "it-grammar-053",
+    "order": 53,
+    "stage": "B1",
+    "cefr_band_author": "B1",
+    "priority": "core",
+    "title_ru": "Gerundio: время, способ, причина",
+    "can_do_ru": "Сократить придаточное с помощью gerundio.",
+    "prerequisites": [
+      "it-grammar-007",
+      "it-grammar-008",
+      "it-grammar-032"
+    ],
+    "rules_ru": [
+      "Gerundio: -are → -ando (parlando), -ere и -ire → -endo (prendendo, partendo). Fare → facendo, dire → dicendo, bere → bevendo; essere → essendo, avere → avendo. Форма не меняется по родам и числам.",
+      "Gerundio заменяет придаточное времени (Tornando a casa, ho incontrato Paolo — когда возвращалась), способа (Ho imparato l’italiano viaggiando) и причины (Essendo stanca, sono rimasta in albergo). Как и русское деепричастие, оно относится к подлежащему главного предложения.",
+      "Gerundio composto — avendo/essendo + participio — показывает, что действие было раньше: Avendo già visitato il museo, sono andata al mare. С essere причастие согласуется: Essendo arrivata tardi, ho perso la cena.",
+      "Местоимения пишутся слитно в конце gerundio: vedendolo, parlandogli, alzandomi, avendolo visto. Ошибка — ставить их перед ним: «lo vedendo»."
+    ],
+    "examples": [
+      {
+        "it": "Ho imparato l’italiano viaggiando.",
+        "ru": "Я выучила итальянский, путешествуя.",
+        "tts_text": "Ho imparato l’italiano viaggiando.",
+        "audio_url": null
+      },
+      {
+        "it": "Passeggiando per Roma, ho trovato una piccola trattoria.",
+        "ru": "Гуляя по Риму, я нашла маленькую тратторию.",
+        "tts_text": "Passeggiando per Roma, ho trovato una piccola trattoria.",
+        "audio_url": null
+      },
+      {
+        "it": "Avendo perso il treno, abbiamo preso un taxi.",
+        "ru": "Опоздав на поезд, мы взяли такси.",
+        "tts_text": "Avendo perso il treno, abbiamo preso un taxi.",
+        "audio_url": null
+      }
+    ],
+    "exercises": [
+      {
+        "type": "cloze",
+        "prompt_ru": "Вставь gerundio: «Я потеряла ключи, собирая чемодан».",
+        "stimulus_it": "Ho perso le chiavi ___ la valigia. (fare)",
+        "accepted_answers": [
+          "facendo"
+        ],
+        "feedback_ru": "Fare образует gerundio от старой основы fac-: facendo.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-053-e1",
+        "is_held_out": false
+      },
+      {
+        "type": "choice",
+        "prompt_ru": "«Увидев его, я улыбнулась». Где местоимение стоит правильно?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Lo vedendo, ho sorriso."
+          },
+          {
+            "id": "o2",
+            "text": "Vedendolo, ho sorriso."
+          },
+          {
+            "id": "o3",
+            "text": "Vedendo lo, ho sorriso."
+          }
+        ],
+        "correct_option_id": "o2",
+        "feedback_ru": "Местоимение пишется слитно в конце gerundio: vedendolo.",
+        "grading": "option_id",
+        "id": "it-grammar-053-e2",
+        "is_held_out": false
+      },
+      {
+        "type": "transform",
+        "prompt_ru": "Замени придаточное на gerundio composto: «Dopo che ho finito il lavoro, sono uscita.»",
+        "accepted_answers": [
+          "Avendo finito il lavoro, sono uscita.",
+          "Avendo finito il lavoro sono uscita."
+        ],
+        "feedback_ru": "Avendo + participio передаёт действие, которое произошло раньше главного.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-053-e3",
+        "is_held_out": false
+      },
+      {
+        "id": "it-grammar-053-e4",
+        "type": "production",
+        "prompt_ru": "Расскажи, как ты учишь итальянский в поездках: 3 фразы с gerundio — способ, время и причина.",
+        "grading": "manual_rubric",
+        "is_held_out": false,
+        "model_answer_it": "Imparo parole nuove ascoltando podcast in treno. Viaggiando da sola, parlo molto con la gente del posto. Essendo curiosa, faccio sempre tante domande.",
+        "model_is_exhaustive": false,
+        "rubric_ru": [
+          "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+          "Gerundio образован правильно и относится к подлежащему главного предложения; есть разные значения (способ, время, причина).",
+          "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+        ],
+        "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+        "model_answer_scope": "one_possible_response_not_exhaustive"
+      }
+    ],
+    "reference_ids": [],
+    "grammar_reference_paths": [],
+    "estimated_sessions": {
+      "count": 3,
+      "minutes_each": [
+        8,
+        15
+      ]
+    },
+    "mastery_status_initial": "not_started",
+    "suggested_week": 37,
+    "recommended_vocab_topic_ids": [
+      "03"
+    ]
+  },
+  {
+    "id": "it-grammar-054",
+    "order": 54,
+    "stage": "B1",
+    "cefr_band_author": "B1",
+    "priority": "core",
+    "title_ru": "Связки: причина, следствие, цель, противопоставление",
+    "can_do_ru": "Аргументировать и связывать мысли.",
+    "prerequisites": [
+      "it-grammar-018",
+      "it-grammar-030",
+      "it-grammar-035",
+      "it-grammar-042"
+    ],
+    "rules_ru": [
+      "Причина: perché (потому что; обычно после главного), siccome (так как; в начале фразы), dato che, visto che, poiché (книжнее). Siccome piove, restiamo a casa. Начинать фразу с perché в значении «так как» не стоит — лучше siccome.",
+      "Следствие: quindi, perciò, così (поэтому, так что) — после главной мысли: Il museo è chiuso, quindi andiamo al parco.",
+      "Цель: per + инфинитив, если действует одно лицо (Sono venuta per imparare); perché или affinché + congiuntivo, если лица разные (Te lo spiego perché tu capisca). Perché + indicativo — причина, perché + congiuntivo — цель.",
+      "Противопоставление: ma, però (но), invece (а, напротив; часто после подлежащего: Io invece…), mentre (тогда как), tuttavia (однако; книжно)."
+    ],
+    "examples": [
+      {
+        "it": "Siccome il treno era in ritardo, abbiamo preso un caffè.",
+        "ru": "Так как поезд опаздывал, мы выпили кофе.",
+        "tts_text": "Siccome il treno era in ritardo, abbiamo preso un caffè.",
+        "audio_url": null
+      },
+      {
+        "it": "Ti mando l’indirizzo affinché tu possa trovarci.",
+        "ru": "Я пришлю тебе адрес, чтобы ты смогла нас найти.",
+        "tts_text": "Ti mando l’indirizzo affinché tu possa trovarci.",
+        "audio_url": null
+      },
+      {
+        "it": "Il mio amico ama la montagna, io invece preferisco il mare.",
+        "ru": "Мой друг любит горы, а я предпочитаю море.",
+        "tts_text": "Il mio amico ama la montagna, io invece preferisco il mare.",
+        "audio_url": null
+      }
+    ],
+    "exercises": [
+      {
+        "type": "cloze",
+        "prompt_ru": "Вставь одно слово со значением «чтобы».",
+        "stimulus_it": "Ti scrivo il numero dell’autobus ___ tu non ti perda.",
+        "accepted_answers": [
+          "perché",
+          "affinché",
+          "cosicché"
+        ],
+        "feedback_ru": "Цель при разных лицах: perché или affinché + congiuntivo (tu ti perda).",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-054-e1",
+        "is_held_out": false
+      },
+      {
+        "type": "choice",
+        "prompt_ru": "Выбери связку: «Sono venuta in Italia ___ studiare l’italiano.»",
+        "options": [
+          {
+            "id": "o1",
+            "text": "per"
+          },
+          {
+            "id": "o2",
+            "text": "perché"
+          },
+          {
+            "id": "o3",
+            "text": "siccome"
+          }
+        ],
+        "correct_option_id": "o1",
+        "feedback_ru": "Действует одно лицо, дальше инфинитив — значит per + инфинитив.",
+        "grading": "option_id",
+        "id": "it-grammar-054-e2",
+        "is_held_out": false
+      },
+      {
+        "type": "transform",
+        "prompt_ru": "Соедини две фразы в одну, начав с «Siccome»: «Pioveva. Siamo rimasti in albergo.»",
+        "accepted_answers": [
+          "Siccome pioveva, siamo rimasti in albergo.",
+          "Siccome pioveva siamo rimasti in albergo."
+        ],
+        "feedback_ru": "Siccome вводит причину в начале фразы, главное предложение идёт после запятой.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-054-e3",
+        "is_held_out": false
+      },
+      {
+        "id": "it-grammar-054-e4",
+        "type": "production",
+        "prompt_ru": "Объясни подруге, почему в этом году ты едешь на море, а не в город: используй причину (siccome / perché), следствие (quindi / perciò), цель (per + инфинитив) и противопоставление (però / invece).",
+        "grading": "manual_rubric",
+        "is_held_out": false,
+        "model_answer_it": "Siccome lavoro molto in città, ho bisogno di riposo, quindi quest’anno vado al mare. Ci vado per leggere e nuotare. Le città d’arte sono bellissime, però d’estate sono troppo affollate.",
+        "model_is_exhaustive": false,
+        "rubric_ru": [
+          "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+          "Есть связки причины, следствия, цели и противопоставления, и каждая стоит на своём месте.",
+          "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+        ],
+        "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+        "model_answer_scope": "one_possible_response_not_exhaustive"
+      }
+    ],
+    "reference_ids": [],
+    "grammar_reference_paths": [],
+    "estimated_sessions": {
+      "count": 3,
+      "minutes_each": [
+        8,
+        15
+      ]
+    },
+    "mastery_status_initial": "not_started",
+    "suggested_week": 37,
+    "recommended_vocab_topic_ids": [
+      "20"
+    ]
+  },
+  {
+    "id": "it-grammar-055",
+    "order": 55,
+    "stage": "B2",
+    "cefr_band_author": "B2",
+    "priority": "core",
+    "title_ru": "Согласование времён с congiuntivo",
+    "can_do_ru": "Выбрать время congiuntivo после главного глагола.",
+    "prerequisites": [
+      "it-grammar-043",
+      "it-grammar-044",
+      "it-grammar-045"
+    ],
+    "rules_ru": [
+      "Главный глагол в настоящем (penso, credo, spero, è possibile) → congiuntivo presente для одновременного действия (Penso che sia aperto) и congiuntivo passato для предшествующего (Penso che sia già partito). Для будущего часто просто futuro: Spero che verrai.",
+      "Главный глагол в прошедшем (pensavo, credevo, ho sperato) или в condizionale (vorrei, preferirei) → congiuntivo imperfetto для одновременного действия (Pensavo che fosse aperto) и congiuntivo trapassato для предшествующего (Pensavo che fosse già partito). Частая ошибка — «pensavo che sia».",
+      "Congiuntivo trapassato = avessi/fossi + participio: avessi visto, fossi arrivata (с essere причастие согласуется). Будущее относительно прошлого передаёт condizionale passato: Pensavo che sarebbe venuta."
+    ],
+    "examples": [
+      {
+        "it": "Penso che il museo sia aperto.",
+        "ru": "Думаю, что музей открыт.",
+        "tts_text": "Penso che il museo sia aperto.",
+        "audio_url": null
+      },
+      {
+        "it": "Pensavo che il museo fosse aperto.",
+        "ru": "Я думала, что музей открыт.",
+        "tts_text": "Pensavo che il museo fosse aperto.",
+        "audio_url": null
+      },
+      {
+        "it": "Pensavo che Luca fosse già partito.",
+        "ru": "Я думала, что Лука уже уехал.",
+        "tts_text": "Pensavo che Luca fosse già partito.",
+        "audio_url": null
+      }
+    ],
+    "exercises": [
+      {
+        "type": "cloze",
+        "prompt_ru": "Вставь глагол в congiuntivo: «Я думала, что поезд отправляется в восемь».",
+        "stimulus_it": "Credevo che il treno ___ alle otto. (partire)",
+        "accepted_answers": [
+          "partisse"
+        ],
+        "feedback_ru": "Credevo — прошедшее, действие одновременное → congiuntivo imperfetto: partisse.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-055-e1",
+        "is_held_out": false
+      },
+      {
+        "type": "choice",
+        "prompt_ru": "«Я надеялась, что ты уже приехал». Выбери правильный вариант.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Speravo che sia già arrivato."
+          },
+          {
+            "id": "o2",
+            "text": "Speravo che sei già arrivato."
+          },
+          {
+            "id": "o3",
+            "text": "Speravo che fossi già arrivato."
+          }
+        ],
+        "correct_option_id": "o3",
+        "feedback_ru": "Speravo — прошедшее, действие было раньше → congiuntivo trapassato: fossi arrivato.",
+        "grading": "option_id",
+        "id": "it-grammar-055-e2",
+        "is_held_out": false
+      },
+      {
+        "type": "transform",
+        "prompt_ru": "Замени «Penso» на «Pensavo» и согласуй время: «Penso che Marta abbia già prenotato.»",
+        "accepted_answers": [
+          "Pensavo che Marta avesse già prenotato."
+        ],
+        "feedback_ru": "После прошедшего congiuntivo passato (abbia prenotato) превращается в trapassato (avesse prenotato).",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-055-e3",
+        "is_held_out": false
+      },
+      {
+        "id": "it-grammar-055-e4",
+        "type": "production",
+        "prompt_ru": "Расскажи о поездке, где всё оказалось не так, как ты ожидала: 3 фразы с pensavo / credevo / speravo che + congiuntivo imperfetto или trapassato.",
+        "grading": "manual_rubric",
+        "is_held_out": false,
+        "model_answer_it": "Pensavo che Venezia fosse tranquilla a novembre, invece c’era tanta gente. Credevo che l’albergo fosse vicino alla stazione. Speravo che avessero già preparato la camera, ma non era pronta.",
+        "model_is_exhaustive": false,
+        "rubric_ru": [
+          "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+          "После глагола в прошедшем стоит congiuntivo imperfetto или trapassato, выбранный по смыслу (одновременно или раньше).",
+          "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+        ],
+        "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+        "model_answer_scope": "one_possible_response_not_exhaustive"
+      }
+    ],
+    "reference_ids": [],
+    "grammar_reference_paths": [],
+    "estimated_sessions": {
+      "count": 3,
+      "minutes_each": [
+        8,
+        15
+      ]
+    },
+    "mastery_status_initial": "not_started",
+    "suggested_week": 40,
+    "recommended_vocab_topic_ids": [
+      "19"
+    ]
+  },
+  {
+    "id": "it-grammar-056",
+    "order": 56,
+    "stage": "B2",
+    "cefr_band_author": "B2",
+    "priority": "core",
+    "title_ru": "Indicativo или congiuntivo: смысл и уверенность",
+    "can_do_ru": "Различить уверенность и мнение в выборе наклонения.",
+    "prerequisites": [
+      "it-grammar-042",
+      "it-grammar-055"
+    ],
+    "rules_ru": [
+      "Знание, уверенность, факт → indicativo: so che, sono sicura che, è vero che, è chiaro che, vedo che: So che il volo è in ritardo. Мнение, сомнение, желание → congiuntivo: penso che, dubito che. С отрицанием факт превращается в сомнение: Non è vero che sia caro.",
+      "Non so se: в книжной речи — congiuntivo, в разговорной — indicativo: Non so se il negozio sia aperto / è aperto. Оба варианта правильные, но в письме лучше congiuntivo.",
+      "После превосходной степени и слов il primo, l’ultimo, l’unico в относительном придаточном обычно congiuntivo: È la città più bella che io abbia mai visto. Sei l’unica persona che mi capisca.",
+      "В разговоре итальянцы часто ставят indicativo вместо congiuntivo (Penso che è vero) — это нужно узнавать на слух, но в письме и в вежливой речи лучше congiuntivo."
+    ],
+    "examples": [
+      {
+        "it": "So che il treno parte alle nove.",
+        "ru": "Я знаю, что поезд отходит в девять.",
+        "tts_text": "So che il treno parte alle nove.",
+        "audio_url": null
+      },
+      {
+        "it": "Non so se il ristorante sia aperto a pranzo.",
+        "ru": "Не знаю, открыт ли ресторан в обед.",
+        "tts_text": "Non so se il ristorante sia aperto a pranzo.",
+        "audio_url": null
+      },
+      {
+        "it": "È il posto più bello che io abbia mai visto.",
+        "ru": "Это самое красивое место, какое я когда-либо видела.",
+        "tts_text": "È il posto più bello che io abbia mai visto.",
+        "audio_url": null
+      }
+    ],
+    "exercises": [
+      {
+        "type": "cloze",
+        "prompt_ru": "Вставь глагол: «Я знаю, что по понедельникам музей закрыт».",
+        "stimulus_it": "So che il museo ___ chiuso il lunedì. (essere)",
+        "accepted_answers": [
+          "è"
+        ],
+        "feedback_ru": "So che выражает знание, факт → indicativo: è.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-056-e1",
+        "is_held_out": false
+      },
+      {
+        "type": "choice",
+        "prompt_ru": "«Это лучший кофе, какой я когда-либо пила». Какой вариант подходит для аккуратной письменной речи?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "È il miglior caffè che io ho mai bevuto."
+          },
+          {
+            "id": "o2",
+            "text": "È il miglior caffè che io abbia mai bevuto."
+          },
+          {
+            "id": "o3",
+            "text": "È il miglior caffè che io avessi mai bevuto."
+          }
+        ],
+        "correct_option_id": "o2",
+        "feedback_ru": "После превосходной степени — congiuntivo, а главный глагол в настоящем → abbia bevuto. Вариант с ho встречается в разговоре, avessi нарушает согласование времён.",
+        "grading": "option_id",
+        "id": "it-grammar-056-e2",
+        "is_held_out": false
+      },
+      {
+        "type": "transform",
+        "prompt_ru": "Замени «Penso» на «So» и выбери нужное наклонение: «Penso che il negozio sia aperto.»",
+        "accepted_answers": [
+          "So che il negozio è aperto."
+        ],
+        "feedback_ru": "So che выражает знание → indicativo: è.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-056-e3",
+        "is_held_out": false
+      },
+      {
+        "id": "it-grammar-056-e4",
+        "type": "production",
+        "prompt_ru": "Ты планируешь день в незнакомом городе. Напиши 3 фразы: что ты знаешь точно (so che / è vero che), в чём не уверена (non so se / non sono sicura che) и о самом красивом, что ты здесь видела (il più… che + congiuntivo).",
+        "grading": "manual_rubric",
+        "is_held_out": false,
+        "model_answer_it": "So che il castello apre alle dieci. Non sono sicura che il ristorante sul lago sia aperto a pranzo. È il panorama più bello che io abbia mai visto.",
+        "model_is_exhaustive": false,
+        "rubric_ru": [
+          "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+          "Наклонение выбрано по смыслу: indicativo для знания, congiuntivo для сомнения и после превосходной степени.",
+          "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+        ],
+        "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+        "model_answer_scope": "one_possible_response_not_exhaustive"
+      }
+    ],
+    "reference_ids": [],
+    "grammar_reference_paths": [],
+    "estimated_sessions": {
+      "count": 3,
+      "minutes_each": [
+        8,
+        15
+      ]
+    },
+    "mastery_status_initial": "not_started",
+    "suggested_week": 40,
+    "recommended_vocab_topic_ids": [
+      "19",
+      "20"
+    ]
+  },
+  {
+    "id": "it-grammar-057",
+    "order": 57,
+    "stage": "B2",
+    "cefr_band_author": "B2",
+    "priority": "core",
+    "title_ru": "Уступка: benché, sebbene, nonostante, anche se, pur",
+    "can_do_ru": "Выразить уступку и контраст.",
+    "prerequisites": [
+      "it-grammar-044",
+      "it-grammar-054",
+      "it-grammar-056"
+    ],
+    "rules_ru": [
+      "Benché, sebbene, nonostante (che) = «хотя, несмотря на то что» → всегда congiuntivo, время по правилам согласования: Benché piova, usciamo. Sebbene fosse tardi, il bar era aperto.",
+      "Anche se = «хотя, даже если» о реальном факте → indicativo: Anche se piove, usciamo. Не «anche se piova». Nonostante + существительное = «несмотря на»: nonostante la pioggia.",
+      "Pur + gerundio = «хотя» при общем подлежащем: Pur essendo stanca, sono uscita. Eppure (и всё же) и comunque (всё равно) — наречия, после них обычное indicativo: È caro, eppure ci torno sempre."
+    ],
+    "examples": [
+      {
+        "it": "Benché fossi stanca, ho visitato tutto il museo.",
+        "ru": "Хотя я устала, я обошла весь музей.",
+        "tts_text": "Benché fossi stanca, ho visitato tutto il museo.",
+        "audio_url": null
+      },
+      {
+        "it": "Anche se piove, usciamo lo stesso.",
+        "ru": "Хоть и идёт дождь, мы всё равно выходим.",
+        "tts_text": "Anche se piove, usciamo lo stesso.",
+        "audio_url": null
+      },
+      {
+        "it": "Pur conoscendo poco la città, non mi sono mai persa.",
+        "ru": "Хотя я плохо знаю город, я ни разу не заблудилась.",
+        "tts_text": "Pur conoscendo poco la città, non mi sono mai persa.",
+        "audio_url": null
+      }
+    ],
+    "exercises": [
+      {
+        "type": "cloze",
+        "prompt_ru": "Вставь глагол: «Хотя было холодно, мы поели на террасе».",
+        "stimulus_it": "Sebbene ___ freddo, abbiamo mangiato in terrazza. (fare)",
+        "accepted_answers": [
+          "facesse"
+        ],
+        "feedback_ru": "Sebbene требует congiuntivo; в рассказе о прошлом — imperfetto: facesse.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-057-e1",
+        "is_held_out": false
+      },
+      {
+        "type": "choice",
+        "prompt_ru": "Какой союз подходит? «___ il ristorante è caro, ci torniamo sempre.»",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Anche se"
+          },
+          {
+            "id": "o2",
+            "text": "Benché"
+          },
+          {
+            "id": "o3",
+            "text": "Nonostante"
+          }
+        ],
+        "correct_option_id": "o1",
+        "feedback_ru": "Глагол стоит в indicativo (è), значит нужен anche se. Benché и nonostante требуют congiuntivo (sia).",
+        "grading": "option_id",
+        "id": "it-grammar-057-e2",
+        "is_held_out": false
+      },
+      {
+        "type": "transform",
+        "prompt_ru": "Замени «anche se» на «benché» и измени наклонение: «Anche se è tardi, il museo è ancora aperto.»",
+        "accepted_answers": [
+          "Benché sia tardi, il museo è ancora aperto.",
+          "Benché sia tardi il museo è ancora aperto."
+        ],
+        "feedback_ru": "После benché — congiuntivo: è → sia. Главное предложение не меняется.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-057-e3",
+        "is_held_out": false
+      },
+      {
+        "id": "it-grammar-057-e4",
+        "type": "production",
+        "prompt_ru": "Напиши короткий отзыв об отеле с плюсами и минусами: 3 фразы — с benché или sebbene, с anche se и с pur + gerundio или eppure.",
+        "grading": "manual_rubric",
+        "is_held_out": false,
+        "model_answer_it": "Benché la camera fosse piccola, era molto pulita. Anche se l’albergo è lontano dal centro, l’autobus passa ogni dieci minuti. Pur essendo un po’ caro, lo consiglio.",
+        "model_is_exhaustive": false,
+        "rubric_ru": [
+          "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+          "После benché/sebbene стоит congiuntivo, после anche se — indicativo; pur + gerundio или eppure использованы по смыслу.",
+          "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+        ],
+        "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+        "model_answer_scope": "one_possible_response_not_exhaustive"
+      }
+    ],
+    "reference_ids": [],
+    "grammar_reference_paths": [],
+    "estimated_sessions": {
+      "count": 3,
+      "minutes_each": [
+        8,
+        15
+      ]
+    },
+    "mastery_status_initial": "not_started",
+    "suggested_week": 41,
+    "recommended_vocab_topic_ids": [
+      "20"
+    ]
+  },
+  {
+    "id": "it-grammar-058",
+    "order": 58,
+    "stage": "B2",
+    "cefr_band_author": "B2",
+    "priority": "core",
+    "title_ru": "Условие: purché, a condizione che, a meno che, qualora, nel caso in cui",
+    "can_do_ru": "Выразить условие разными союзами.",
+    "prerequisites": [
+      "it-grammar-045",
+      "it-grammar-046",
+      "it-grammar-057"
+    ],
+    "rules_ru": [
+      "Purché, a condizione che, a patto che = «при условии, что; лишь бы» → congiuntivo: Ti presto la macchina, purché tu la riporti domani.",
+      "A meno che (non) = «если только не» → congiuntivo. Non здесь лишнее по смыслу и фразу отрицательной не делает: Prendiamo il treno, a meno che non ci sia uno sciopero (= если только не будет забастовки).",
+      "Qualora, nel caso in cui, nel caso che = «в случае если» → congiuntivo, в отличие от se: Nel caso in cui piova, la cena sarà al coperto. In caso di + существительное без артикля: in caso di pioggia, in caso di emergenza."
+    ],
+    "examples": [
+      {
+        "it": "Puoi venire con noi, purché tu sia pronta alle sette.",
+        "ru": "Ты можешь поехать с нами, если будешь готова к семи.",
+        "tts_text": "Puoi venire con noi, purché tu sia pronta alle sette.",
+        "audio_url": null
+      },
+      {
+        "it": "Andiamo a piedi, a meno che non piova.",
+        "ru": "Пойдём пешком, если только не будет дождя.",
+        "tts_text": "Andiamo a piedi, a meno che non piova.",
+        "audio_url": null
+      },
+      {
+        "it": "In caso di ritardo, La preghiamo di avvisare la reception.",
+        "ru": "В случае опоздания просим Вас предупредить ресепшен.",
+        "tts_text": "In caso di ritardo, La preghiamo di avvisare la reception.",
+        "audio_url": null
+      }
+    ],
+    "exercises": [
+      {
+        "type": "cloze",
+        "prompt_ru": "Вставь глагол: «Если рейс отменят, Вы получите возмещение».",
+        "stimulus_it": "Nel caso in cui il volo ___ cancellato, Lei riceverà un rimborso. (essere)",
+        "accepted_answers": [
+          "sia",
+          "fosse"
+        ],
+        "feedback_ru": "Nel caso in cui требует congiuntivo: sia (fosse — если случай кажется маловероятным).",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-058-e1",
+        "is_held_out": false
+      },
+      {
+        "type": "choice",
+        "prompt_ru": "Выбери форму: «Ci vediamo alle otto, a meno che il treno non ___ in ritardo.»",
+        "options": [
+          {
+            "id": "o1",
+            "text": "è"
+          },
+          {
+            "id": "o2",
+            "text": "sia"
+          },
+          {
+            "id": "o3",
+            "text": "sarà"
+          }
+        ],
+        "correct_option_id": "o2",
+        "feedback_ru": "A meno che (non) требует congiuntivo: sia.",
+        "grading": "option_id",
+        "id": "it-grammar-058-e2",
+        "is_held_out": false
+      },
+      {
+        "type": "transform",
+        "prompt_ru": "Замени «se» на «purché» и измени наклонение: «Il cane può entrare se sta al guinzaglio.»",
+        "accepted_answers": [
+          "Il cane può entrare purché stia al guinzaglio.",
+          "Il cane può entrare, purché stia al guinzaglio."
+        ],
+        "feedback_ru": "После purché — congiuntivo: sta → stia.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-058-e3",
+        "is_held_out": false
+      },
+      {
+        "id": "it-grammar-058-e4",
+        "type": "production",
+        "prompt_ru": "Подруга поживёт в твоей квартире, пока ты в отъезде. Поставь ей 3 условия: с purché или a condizione che, с a meno che non и с in caso di или nel caso in cui.",
+        "grading": "manual_rubric",
+        "is_held_out": false,
+        "model_answer_it": "Puoi stare da me a condizione che tu innaffi le piante. Lascia le chiavi al vicino, a meno che io non torni prima di te. In caso di problemi con il riscaldamento, chiama il tecnico.",
+        "model_is_exhaustive": false,
+        "rubric_ru": [
+          "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+          "После союзов условия стоит congiuntivo; in caso di употреблено с существительным.",
+          "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+        ],
+        "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+        "model_answer_scope": "one_possible_response_not_exhaustive"
+      }
+    ],
+    "reference_ids": [],
+    "grammar_reference_paths": [],
+    "estimated_sessions": {
+      "count": 3,
+      "minutes_each": [
+        8,
+        15
+      ]
+    },
+    "mastery_status_initial": "not_started",
+    "suggested_week": 41,
+    "recommended_vocab_topic_ids": [
+      "20"
+    ]
+  },
+  {
+    "id": "it-grammar-059",
+    "order": 59,
+    "stage": "B2",
+    "cefr_band_author": "B2",
+    "priority": "core",
+    "title_ru": "Косвенная речь в прошлом: согласование времён",
+    "can_do_ru": "Пересказать сказанное в прошлом.",
+    "prerequisites": [
+      "it-grammar-040",
+      "it-grammar-051",
+      "it-grammar-055"
+    ],
+    "rules_ru": [
+      "Если вводящий глагол в прошедшем (ha detto, diceva, ha scritto), время в пересказе сдвигается: presente → imperfetto («Sono stanca» → Ha detto che era stanca), passato prossimo → trapassato («Ho finito» → Ha detto che aveva finito).",
+      "Будущее → condizionale passato: «Verrò» → Ha detto che sarebbe venuta. Condizionale presente («che verrebbe») здесь — ошибка. Указатели тоже меняются: domani → il giorno dopo, ieri → il giorno prima, qui → lì.",
+      "Просьба или приказ (imperativo) → di + инфинитив: «Aspetta!» → Mi ha detto di aspettare. Вопрос → se или вопросительное слово + imperfetto (в книжной речи — congiuntivo imperfetto): Mi ha chiesto se ero (fossi) stanca; Mi ha chiesto dove andavo."
+    ],
+    "examples": [
+      {
+        "it": "Giulia ha detto che era stanca.",
+        "ru": "Джулия сказала, что устала.",
+        "tts_text": "Giulia ha detto che era stanca.",
+        "audio_url": null
+      },
+      {
+        "it": "Il tassista ha detto che sarebbe arrivato subito.",
+        "ru": "Таксист сказал, что сейчас приедет.",
+        "tts_text": "Il tassista ha detto che sarebbe arrivato subito.",
+        "audio_url": null
+      },
+      {
+        "it": "La guida ci ha detto di non toccare niente.",
+        "ru": "Гид сказал нам ничего не трогать.",
+        "tts_text": "La guida ci ha detto di non toccare niente.",
+        "audio_url": null
+      }
+    ],
+    "exercises": [
+      {
+        "type": "cloze",
+        "prompt_ru": "Вставь глагол в форме «будущего в прошедшем» (два слова): «Марко сказал мне, что уедет на следующий день».",
+        "stimulus_it": "Marco mi ha detto che ___ il giorno dopo. (partire)",
+        "accepted_answers": [
+          "sarebbe partito"
+        ],
+        "feedback_ru": "Будущее в пересказе после ha detto → condizionale passato: sarebbe partito.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-059-e1",
+        "is_held_out": false
+      },
+      {
+        "type": "choice",
+        "prompt_ru": "Хозяйка квартиры сказала тебе: «Chiudi la finestra!» Как это пересказать?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Mi ha detto che chiudevo la finestra."
+          },
+          {
+            "id": "o2",
+            "text": "Mi ha detto chiudere la finestra."
+          },
+          {
+            "id": "o3",
+            "text": "Mi ha detto di chiudere la finestra."
+          }
+        ],
+        "correct_option_id": "o3",
+        "feedback_ru": "Imperativo в косвенной речи → di + инфинитив: mi ha detto di chiudere.",
+        "grading": "option_id",
+        "id": "it-grammar-059-e2",
+        "is_held_out": false
+      },
+      {
+        "type": "transform",
+        "prompt_ru": "Перескажи в прошлом, начав с «Elena ha detto che…»: «Ho già prenotato l’albergo.»",
+        "accepted_answers": [
+          "Elena ha detto che aveva già prenotato l’albergo."
+        ],
+        "feedback_ru": "Passato prossimo после ha detto превращается в trapassato: aveva prenotato.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-059-e3",
+        "is_held_out": false
+      },
+      {
+        "id": "it-grammar-059-e4",
+        "type": "production",
+        "prompt_ru": "Вчера тебе звонил хозяин квартиры, которую ты сняла. Перескажи подруге его слова: 3 фразы — с imperfetto, с condizionale passato и с di + инфинитив.",
+        "grading": "manual_rubric",
+        "is_held_out": false,
+        "model_answer_it": "Il proprietario ha detto che l’appartamento era pronto. Ha detto che ci avrebbe lasciato le chiavi nella cassetta della posta. Ci ha detto di non perdere il codice del portone.",
+        "model_is_exhaustive": false,
+        "rubric_ru": [
+          "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+          "Времена сдвинуты по правилам: presente → imperfetto, futuro → condizionale passato, imperativo → di + инфинитив.",
+          "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+        ],
+        "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+        "model_answer_scope": "one_possible_response_not_exhaustive"
+      }
+    ],
+    "reference_ids": [],
+    "grammar_reference_paths": [],
+    "estimated_sessions": {
+      "count": 3,
+      "minutes_each": [
+        8,
+        15
+      ]
+    },
+    "mastery_status_initial": "not_started",
+    "suggested_week": 42,
+    "recommended_vocab_topic_ids": [
+      "04"
+    ]
+  },
+  {
+    "id": "it-grammar-060",
+    "order": 60,
+    "stage": "B2",
+    "cefr_band_author": "B2",
+    "priority": "core",
+    "title_ru": "Выделение и порядок слов: è… che, dislocazione",
+    "can_do_ru": "Выделить главное в фразе.",
+    "prerequisites": [
+      "it-grammar-026",
+      "it-grammar-028",
+      "it-grammar-033"
+    ],
+    "rules_ru": [
+      "Конструкция è … che выделяет главное, как русское «именно»: È Marco che ha chiamato (Звонил именно Марко). È a Roma che ci siamo conosciuti. С личным местоимением essere согласуется с ним: Sono io che pago, Siete voi che decidete.",
+      "Дислокация влево: дополнение выносят в начало как тему и повторяют местоимением: Il caffè lo prendo dopo. I biglietti li ho comprati online (причастие согласуется). Без местоимения («Il caffè prendo dopo») звучит неестественно — частая ошибка русскоговорящих, привыкших к свободному порядку слов.",
+      "Дислокация вправо (разговорная): сначала местоимение, а тема — в конце, после запятой: Ne ho già parlato, di questo. L’hai visto, il film? С ci и ne предлог сохраняется: A Roma ci vado domani. Di vino ne prendiamo una bottiglia."
+    ],
+    "examples": [
+      {
+        "it": "È Marco che ha prenotato il tavolo.",
+        "ru": "Столик забронировал именно Марко.",
+        "tts_text": "È Marco che ha prenotato il tavolo.",
+        "audio_url": null
+      },
+      {
+        "it": "Il caffè lo prendo dopo, grazie.",
+        "ru": "Кофе я возьму потом, спасибо.",
+        "tts_text": "Il caffè lo prendo dopo, grazie.",
+        "audio_url": null
+      },
+      {
+        "it": "Ne abbiamo già parlato, di questo.",
+        "ru": "Об этом мы уже говорили.",
+        "tts_text": "Ne abbiamo già parlato, di questo.",
+        "audio_url": null
+      }
+    ],
+    "exercises": [
+      {
+        "type": "cloze",
+        "prompt_ru": "Вставь местоимение: «Ключи я оставила на ресепшене».",
+        "stimulus_it": "Le chiavi ___ ho lasciate alla reception.",
+        "accepted_answers": [
+          "le"
+        ],
+        "feedback_ru": "Вынесенное вперёд дополнение повторяется местоимением: le chiavi → le; причастие согласуется (lasciate).",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-060-e1",
+        "is_held_out": false
+      },
+      {
+        "type": "choice",
+        "prompt_ru": "Выбери правильную фразу со значением «Плачу именно я».",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Sono io che pago."
+          },
+          {
+            "id": "o2",
+            "text": "È io che pago."
+          },
+          {
+            "id": "o3",
+            "text": "Sono me che pago."
+          }
+        ],
+        "correct_option_id": "o1",
+        "feedback_ru": "С личным местоимением essere согласуется с ним: sono io, sei tu, siamo noi.",
+        "grading": "option_id",
+        "id": "it-grammar-060-e2",
+        "is_held_out": false
+      },
+      {
+        "type": "transform",
+        "prompt_ru": "Вынеси «la pizza» в начало фразы и добавь нужное местоимение: «Ordiniamo la pizza più tardi.»",
+        "accepted_answers": [
+          "La pizza la ordiniamo più tardi.",
+          "La pizza l’ordiniamo più tardi.",
+          "La pizza, la ordiniamo più tardi.",
+          "La pizza, l’ordiniamo più tardi."
+        ],
+        "feedback_ru": "Вынесенное дополнение повторяется местоимением: la pizza → la ordiniamo.",
+        "grading": "exact_normalized",
+        "target_language": "it",
+        "id": "it-grammar-060-e3",
+        "is_held_out": false
+      },
+      {
+        "id": "it-grammar-060-e4",
+        "type": "production",
+        "prompt_ru": "Вы с друзьями в ресторане обсуждаете заказ. Напиши 3 реплики: одну с è/sono … che и две с вынесенным дополнением и местоимением (lo, la, li, le или ne).",
+        "grading": "manual_rubric",
+        "is_held_out": false,
+        "model_answer_it": "È Giulia che ha trovato questo ristorante. Il vino lo sceglie Paolo. Di antipasti ne prendiamo due da dividere.",
+        "model_is_exhaustive": false,
+        "rubric_ru": [
+          "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+          "Есть выделение è/sono … che и вынесенное дополнение, повторённое подходящим местоимением.",
+          "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+        ],
+        "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+        "model_answer_scope": "one_possible_response_not_exhaustive"
+      }
+    ],
+    "reference_ids": [],
+    "grammar_reference_paths": [],
+    "estimated_sessions": {
+      "count": 3,
+      "minutes_each": [
+        8,
+        15
+      ]
+    },
+    "mastery_status_initial": "not_started",
+    "suggested_week": 42,
+    "recommended_vocab_topic_ids": [
+      "04"
+    ]
+  }
+]

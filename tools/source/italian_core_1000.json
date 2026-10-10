@@ -1,0 +1,10182 @@
+{
+ "schema_version": "2.0.0",
+ "deck_id": "italian-core-1000-ru-en-it-v1",
+ "title_ru": "Итальянский: 1000 базовых карточек — к B1",
+ "created_at": "2026-10-10",
+ "card_count": 1000,
+ "display_fields": [
+  "ru",
+  "en",
+  "it"
+ ],
+ "target_language": "it-IT",
+ "default_prompt_language": "ru",
+ "scope_ru": "Авторская подборка базовой лексики A1–A2 и слов, полезных на пути к B1, построенная по темам французской колоды того же приложения. Не полный словарь B1, не официальный список CEFR/CILS/CELI и не частотный рейтинг.",
+ "format_ru": "Поля: русский, английский, итальянский, IPA с ударением, род, эмодзи. Существительные с определённым артиклем; прилагательные в формах м. / ж. р.; глаголы в инфинитиве.",
+ "topics": [
+  {
+   "id": "01",
+   "name_ru": "Местоимения, вопросы и базовое общение",
+   "card_count": 50,
+   "first_card_id": "it-core-0001",
+   "last_card_id": "it-core-0050"
+  },
+  {
+   "id": "02",
+   "name_ru": "Основные глаголы",
+   "card_count": 50,
+   "first_card_id": "it-core-0051",
+   "last_card_id": "it-core-0100"
+  },
+  {
+   "id": "03",
+   "name_ru": "Повседневные действия и передвижение",
+   "card_count": 50,
+   "first_card_id": "it-core-0101",
+   "last_card_id": "it-core-0150"
+  },
+  {
+   "id": "04",
+   "name_ru": "Общение, решения и сложные действия",
+   "card_count": 50,
+   "first_card_id": "it-core-0151",
+   "last_card_id": "it-core-0200"
+  },
+  {
+   "id": "05",
+   "name_ru": "Люди, семья и отношения",
+   "card_count": 50,
+   "first_card_id": "it-core-0201",
+   "last_card_id": "it-core-0250"
+  },
+  {
+   "id": "06",
+   "name_ru": "Дом и повседневные предметы",
+   "card_count": 50,
+   "first_card_id": "it-core-0251",
+   "last_card_id": "it-core-0300"
+  },
+  {
+   "id": "07",
+   "name_ru": "Продукты питания",
+   "card_count": 50,
+   "first_card_id": "it-core-0301",
+   "last_card_id": "it-core-0350"
+  },
+  {
+   "id": "08",
+   "name_ru": "Напитки, ресторан и покупки еды",
+   "card_count": 50,
+   "first_card_id": "it-core-0351",
+   "last_card_id": "it-core-0400"
+  },
+  {
+   "id": "09",
+   "name_ru": "Путешествия и транспорт",
+   "card_count": 50,
+   "first_card_id": "it-core-0401",
+   "last_card_id": "it-core-0450"
+  },
+  {
+   "id": "10",
+   "name_ru": "Город, места и гостиница",
+   "card_count": 50,
+   "first_card_id": "it-core-0451",
+   "last_card_id": "it-core-0500"
+  },
+  {
+   "id": "11",
+   "name_ru": "Покупки, одежда и деньги",
+   "card_count": 50,
+   "first_card_id": "it-core-0501",
+   "last_card_id": "it-core-0550"
+  },
+  {
+   "id": "12",
+   "name_ru": "Тело, здоровье и помощь",
+   "card_count": 50,
+   "first_card_id": "it-core-0551",
+   "last_card_id": "it-core-0600"
+  },
+  {
+   "id": "13",
+   "name_ru": "Работа и учёба",
+   "card_count": 50,
+   "first_card_id": "it-core-0601",
+   "last_card_id": "it-core-0650"
+  },
+  {
+   "id": "14",
+   "name_ru": "Связь, технологии, культура и досуг",
+   "card_count": 50,
+   "first_card_id": "it-core-0651",
+   "last_card_id": "it-core-0700"
+  },
+  {
+   "id": "15",
+   "name_ru": "Природа, погода и единицы времени",
+   "card_count": 50,
+   "first_card_id": "it-core-0701",
+   "last_card_id": "it-core-0750"
+  },
+  {
+   "id": "16",
+   "name_ru": "Числа, дни недели и месяцы",
+   "card_count": 50,
+   "first_card_id": "it-core-0751",
+   "last_card_id": "it-core-0800"
+  },
+  {
+   "id": "17",
+   "name_ru": "Предлоги, расположение и частотность",
+   "card_count": 50,
+   "first_card_id": "it-core-0801",
+   "last_card_id": "it-core-0850"
+  },
+  {
+   "id": "18",
+   "name_ru": "Размер, внешний вид и свойства",
+   "card_count": 50,
+   "first_card_id": "it-core-0851",
+   "last_card_id": "it-core-0900"
+  },
+  {
+   "id": "19",
+   "name_ru": "Состояния, характер и оценки",
+   "card_count": 50,
+   "first_card_id": "it-core-0901",
+   "last_card_id": "it-core-0950"
+  },
+  {
+   "id": "20",
+   "name_ru": "Связки, количество и выражение мыслей",
+   "card_count": 50,
+   "first_card_id": "it-core-0951",
+   "last_card_id": "it-core-1000"
+  }
+ ],
+ "cards": [
+  {
+   "id": "it-core-0001",
+   "topic_id": "01",
+   "ru": "я",
+   "en": "I",
+   "it": "io",
+   "ipa": "ˈio",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0002",
+   "topic_id": "01",
+   "ru": "ты",
+   "en": "you (informal singular)",
+   "it": "tu",
+   "ipa": "tu",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0003",
+   "topic_id": "01",
+   "ru": "он",
+   "en": "he",
+   "it": "lui",
+   "ipa": "ˈlui",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0004",
+   "topic_id": "01",
+   "ru": "она; Вы (вежливое обращение, пишется Lei)",
+   "en": "she; you (formal, written Lei)",
+   "it": "lei",
+   "ipa": "ˈlɛi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0005",
+   "topic_id": "01",
+   "ru": "мы",
+   "en": "we",
+   "it": "noi",
+   "ipa": "ˈnoi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0006",
+   "topic_id": "01",
+   "ru": "вы (к нескольким людям)",
+   "en": "you (plural)",
+   "it": "voi",
+   "ipa": "ˈvoi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0007",
+   "topic_id": "01",
+   "ru": "они",
+   "en": "they",
+   "it": "loro",
+   "ipa": "ˈloro",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0008",
+   "topic_id": "01",
+   "ru": "привет; пока",
+   "en": "hi; bye",
+   "it": "ciao",
+   "ipa": "ˈtʃao",
+   "g": "",
+   "e": "👋"
+  },
+  {
+   "id": "it-core-0009",
+   "topic_id": "01",
+   "ru": "пожалуйста (в ответ на «спасибо»); прошу",
+   "en": "you’re welcome; please, go ahead",
+   "it": "prego",
+   "ipa": "ˈprɛgo",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0010",
+   "topic_id": "01",
+   "ru": "меня; мне",
+   "en": "me; to me",
+   "it": "mi",
+   "ipa": "mi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0011",
+   "topic_id": "01",
+   "ru": "тебя; тебе",
+   "en": "you; to you (informal singular)",
+   "it": "ti",
+   "ipa": "ti",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0012",
+   "topic_id": "01",
+   "ru": "ему; ей",
+   "en": "to him; to her",
+   "it": "gli / le",
+   "ipa": "ʎi / le",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0013",
+   "topic_id": "01",
+   "ru": "до свидания",
+   "en": "goodbye",
+   "it": "arrivederci",
+   "ipa": "arriveˈdertʃi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0014",
+   "topic_id": "01",
+   "ru": "вот (ecco il biglietto — вот билет)",
+   "en": "here is; here are",
+   "it": "ecco",
+   "ipa": "ˈɛkko",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0015",
+   "topic_id": "01",
+   "ru": "то; это (дальше)",
+   "en": "that",
+   "it": "quello",
+   "ipa": "ˈkwello",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0016",
+   "topic_id": "01",
+   "ru": "весь; всё",
+   "en": "all; everything",
+   "it": "tutto",
+   "ipa": "ˈtutto",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0017",
+   "topic_id": "01",
+   "ru": "что-то",
+   "en": "something",
+   "it": "qualcosa",
+   "ipa": "kwalˈkɔsa",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0018",
+   "topic_id": "01",
+   "ru": "кто-то",
+   "en": "someone",
+   "it": "qualcuno",
+   "ipa": "kwalˈkuno",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0019",
+   "topic_id": "01",
+   "ru": "ничего",
+   "en": "nothing",
+   "it": "niente",
+   "ipa": "ˈnjɛnte",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0020",
+   "topic_id": "01",
+   "ru": "никто",
+   "en": "nobody",
+   "it": "nessuno",
+   "ipa": "nesˈsuno",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0021",
+   "topic_id": "01",
+   "ru": "каждый (самостоятельно)",
+   "en": "each one",
+   "it": "ognuno",
+   "ipa": "oɲˈɲuno",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0022",
+   "topic_id": "01",
+   "ru": "несколько; какой-нибудь (с ед. числом: qualche giorno)",
+   "en": "some; a few (with a singular noun)",
+   "it": "qualche",
+   "ipa": "ˈkwalke",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0023",
+   "topic_id": "01",
+   "ru": "каждый (перед существительным)",
+   "en": "each; every",
+   "it": "ogni",
+   "ipa": "ˈoɲɲi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0024",
+   "topic_id": "01",
+   "ru": "другой",
+   "en": "other",
+   "it": "altro / altra",
+   "ipa": "ˈaltro / ˈaltra",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0025",
+   "topic_id": "01",
+   "ru": "тот же; одинаковый",
+   "en": "same",
+   "it": "stesso / stessa",
+   "ipa": "ˈstesso / ˈstessa",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0026",
+   "topic_id": "01",
+   "ru": "мой",
+   "en": "my",
+   "it": "mio / mia / miei / mie",
+   "ipa": "ˈmio / ˈmia / ˈmjɛi / ˈmie",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0027",
+   "topic_id": "01",
+   "ru": "твой",
+   "en": "your (informal singular)",
+   "it": "tuo / tua / tuoi / tue",
+   "ipa": "ˈtuo / ˈtua / ˈtwɔi / ˈtue",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0028",
+   "topic_id": "01",
+   "ru": "его; её",
+   "en": "his; her",
+   "it": "suo / sua / suoi / sue",
+   "ipa": "ˈsuo / ˈsua / ˈswɔi / ˈsue",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0029",
+   "topic_id": "01",
+   "ru": "наш",
+   "en": "our",
+   "it": "nostro / nostra / nostri / nostre",
+   "ipa": "ˈnɔstro / ˈnɔstra / ˈnɔstri / ˈnɔstre",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0030",
+   "topic_id": "01",
+   "ru": "ваш (нескольких людей)",
+   "en": "your (plural)",
+   "it": "vostro / vostra / vostri / vostre",
+   "ipa": "ˈvɔstro / ˈvɔstra / ˈvɔstri / ˈvɔstre",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0031",
+   "topic_id": "01",
+   "ru": "их",
+   "en": "their",
+   "it": "il loro / la loro",
+   "ipa": "il ˈloro / la ˈloro",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0032",
+   "topic_id": "01",
+   "ru": "этот; эта; эти",
+   "en": "this; these",
+   "it": "questo / questa / questi / queste",
+   "ipa": "ˈkwesto / ˈkwesta / ˈkwesti / ˈkweste",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0033",
+   "topic_id": "01",
+   "ru": "неопределённый артикль",
+   "en": "a; an",
+   "it": "un / uno / una / un’",
+   "ipa": "un / ˈuno / ˈuna / un",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0034",
+   "topic_id": "01",
+   "ru": "определённый артикль",
+   "en": "the",
+   "it": "il / lo / la / l’ / i / gli / le",
+   "ipa": "il / lo / la / l / i / ʎi / le",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0035",
+   "topic_id": "01",
+   "ru": "кто",
+   "en": "who",
+   "it": "chi",
+   "ipa": "ki",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0036",
+   "topic_id": "01",
+   "ru": "что (перед глаголом)",
+   "en": "what (before a verb)",
+   "it": "che",
+   "ipa": "ke",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0037",
+   "topic_id": "01",
+   "ru": "что (самостоятельно)",
+   "en": "what (standalone)",
+   "it": "cosa",
+   "ipa": "ˈkɔsa",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0038",
+   "topic_id": "01",
+   "ru": "какой",
+   "en": "which; what",
+   "it": "quale / quali",
+   "ipa": "ˈkwale / ˈkwali",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0039",
+   "topic_id": "01",
+   "ru": "сколько",
+   "en": "how much; how many",
+   "it": "quanto",
+   "ipa": "ˈkwanto",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0040",
+   "topic_id": "01",
+   "ru": "как",
+   "en": "how",
+   "it": "come",
+   "ipa": "ˈkome",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0041",
+   "topic_id": "01",
+   "ru": "почему",
+   "en": "why",
+   "it": "perché",
+   "ipa": "perˈke",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0042",
+   "topic_id": "01",
+   "ru": "где; куда",
+   "en": "where",
+   "it": "dove",
+   "ipa": "ˈdove",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0043",
+   "topic_id": "01",
+   "ru": "когда",
+   "en": "when",
+   "it": "quando",
+   "ipa": "ˈkwando",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0044",
+   "topic_id": "01",
+   "ru": "да",
+   "en": "yes",
+   "it": "sì",
+   "ipa": "si",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0045",
+   "topic_id": "01",
+   "ru": "нет",
+   "en": "no",
+   "it": "no",
+   "ipa": "nɔ",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0046",
+   "topic_id": "01",
+   "ru": "если",
+   "en": "if",
+   "it": "se",
+   "ipa": "se",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0047",
+   "topic_id": "01",
+   "ru": "здравствуйте",
+   "en": "hello",
+   "it": "buongiorno",
+   "ipa": "bwonˈdʒorno",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0048",
+   "topic_id": "01",
+   "ru": "спасибо",
+   "en": "thank you",
+   "it": "grazie",
+   "ipa": "ˈgrattsje",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0049",
+   "topic_id": "01",
+   "ru": "извините",
+   "en": "sorry; pardon",
+   "it": "scusi",
+   "ipa": "ˈskuzi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0050",
+   "topic_id": "01",
+   "ru": "пожалуйста (при просьбе)",
+   "en": "please",
+   "it": "per favore",
+   "ipa": "per faˈvore",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0051",
+   "topic_id": "02",
+   "ru": "быть",
+   "en": "to be",
+   "it": "essere",
+   "ipa": "ˈɛssere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0052",
+   "topic_id": "02",
+   "ru": "иметь",
+   "en": "to have",
+   "it": "avere",
+   "ipa": "aˈvere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0053",
+   "topic_id": "02",
+   "ru": "делать",
+   "en": "to do; to make",
+   "it": "fare",
+   "ipa": "ˈfare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0054",
+   "topic_id": "02",
+   "ru": "идти; ехать",
+   "en": "to go",
+   "it": "andare",
+   "ipa": "anˈdare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0055",
+   "topic_id": "02",
+   "ru": "приходить",
+   "en": "to come",
+   "it": "venire",
+   "ipa": "veˈnire",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0056",
+   "topic_id": "02",
+   "ru": "мочь",
+   "en": "can; to be able to",
+   "it": "potere",
+   "ipa": "poˈtere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0057",
+   "topic_id": "02",
+   "ru": "хотеть",
+   "en": "to want",
+   "it": "volere",
+   "ipa": "voˈlere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0058",
+   "topic_id": "02",
+   "ru": "быть должным; быть обязанным",
+   "en": "must; to have to",
+   "it": "dovere",
+   "ipa": "doˈvere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0059",
+   "topic_id": "02",
+   "ru": "знать; уметь",
+   "en": "to know; to know how",
+   "it": "sapere",
+   "ipa": "saˈpere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0060",
+   "topic_id": "02",
+   "ru": "знать; быть знакомым с",
+   "en": "to know; to be familiar with",
+   "it": "conoscere",
+   "ipa": "koˈnoʃʃere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0061",
+   "topic_id": "02",
+   "ru": "брать",
+   "en": "to take",
+   "it": "prendere",
+   "ipa": "ˈprɛndere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0062",
+   "topic_id": "02",
+   "ru": "давать",
+   "en": "to give",
+   "it": "dare",
+   "ipa": "ˈdare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0063",
+   "topic_id": "02",
+   "ru": "класть; ставить; надевать",
+   "en": "to put",
+   "it": "mettere",
+   "ipa": "ˈmettere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0064",
+   "topic_id": "02",
+   "ru": "говорить; сказать",
+   "en": "to say; to tell",
+   "it": "dire",
+   "ipa": "ˈdire",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0065",
+   "topic_id": "02",
+   "ru": "разговаривать",
+   "en": "to speak; to talk",
+   "it": "parlare",
+   "ipa": "parˈlare",
+   "g": "",
+   "e": "🗣️"
+  },
+  {
+   "id": "it-core-0066",
+   "topic_id": "02",
+   "ru": "видеть",
+   "en": "to see",
+   "it": "vedere",
+   "ipa": "veˈdere",
+   "g": "",
+   "e": "👀"
+  },
+  {
+   "id": "it-core-0067",
+   "topic_id": "02",
+   "ru": "смотреть",
+   "en": "to look at; to watch",
+   "it": "guardare",
+   "ipa": "gwarˈdare",
+   "g": "",
+   "e": "👀"
+  },
+  {
+   "id": "it-core-0068",
+   "topic_id": "02",
+   "ru": "слышать",
+   "en": "to hear",
+   "it": "sentire",
+   "ipa": "senˈtire",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0069",
+   "topic_id": "02",
+   "ru": "слушать",
+   "en": "to listen",
+   "it": "ascoltare",
+   "ipa": "askolˈtare",
+   "g": "",
+   "e": "👂"
+  },
+  {
+   "id": "it-core-0070",
+   "topic_id": "02",
+   "ru": "понимать",
+   "en": "to understand",
+   "it": "capire",
+   "ipa": "kaˈpire",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0071",
+   "topic_id": "02",
+   "ru": "учить; узнавать новое",
+   "en": "to learn",
+   "it": "imparare",
+   "ipa": "impaˈrare",
+   "g": "",
+   "e": "📚"
+  },
+  {
+   "id": "it-core-0072",
+   "topic_id": "02",
+   "ru": "читать",
+   "en": "to read",
+   "it": "leggere",
+   "ipa": "ˈlɛddʒere",
+   "g": "",
+   "e": "📖"
+  },
+  {
+   "id": "it-core-0073",
+   "topic_id": "02",
+   "ru": "писать",
+   "en": "to write",
+   "it": "scrivere",
+   "ipa": "ˈskrivere",
+   "g": "",
+   "e": "✍️"
+  },
+  {
+   "id": "it-core-0074",
+   "topic_id": "02",
+   "ru": "спрашивать; просить",
+   "en": "to ask",
+   "it": "chiedere",
+   "ipa": "ˈkjɛdere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0075",
+   "topic_id": "02",
+   "ru": "отвечать",
+   "en": "to answer",
+   "it": "rispondere",
+   "ipa": "riˈspondere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0076",
+   "topic_id": "02",
+   "ru": "находить",
+   "en": "to find",
+   "it": "trovare",
+   "ipa": "troˈvare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0077",
+   "topic_id": "02",
+   "ru": "искать",
+   "en": "to look for",
+   "it": "cercare",
+   "ipa": "tʃerˈkare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0078",
+   "topic_id": "02",
+   "ru": "думать",
+   "en": "to think",
+   "it": "pensare",
+   "ipa": "penˈsare",
+   "g": "",
+   "e": "🤔"
+  },
+  {
+   "id": "it-core-0079",
+   "topic_id": "02",
+   "ru": "считать; верить",
+   "en": "to believe",
+   "it": "credere",
+   "ipa": "ˈkredere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0080",
+   "topic_id": "02",
+   "ru": "нравиться (mi piace — мне нравится)",
+   "en": "to like; to be pleasing (mi piace — I like it)",
+   "it": "piacere",
+   "ipa": "pjaˈtʃere",
+   "g": "",
+   "e": "👍"
+  },
+  {
+   "id": "it-core-0081",
+   "topic_id": "02",
+   "ru": "предпочитать",
+   "en": "to prefer",
+   "it": "preferire",
+   "ipa": "prefeˈrire",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0082",
+   "topic_id": "02",
+   "ru": "играть",
+   "en": "to play",
+   "it": "giocare",
+   "ipa": "dʒoˈkare",
+   "g": "",
+   "e": "🎮"
+  },
+  {
+   "id": "it-core-0083",
+   "topic_id": "02",
+   "ru": "быть необходимым (bisogna — нужно, надо)",
+   "en": "to be necessary (bisogna — one must)",
+   "it": "bisognare",
+   "ipa": "bizoɲˈɲare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0084",
+   "topic_id": "02",
+   "ru": "есть; кушать",
+   "en": "to eat",
+   "it": "mangiare",
+   "ipa": "manˈdʒare",
+   "g": "",
+   "e": "🍽️"
+  },
+  {
+   "id": "it-core-0085",
+   "topic_id": "02",
+   "ru": "пить",
+   "en": "to drink",
+   "it": "bere",
+   "ipa": "ˈbere",
+   "g": "",
+   "e": "🥤"
+  },
+  {
+   "id": "it-core-0086",
+   "topic_id": "02",
+   "ru": "спать",
+   "en": "to sleep",
+   "it": "dormire",
+   "ipa": "dorˈmire",
+   "g": "",
+   "e": "😴"
+  },
+  {
+   "id": "it-core-0087",
+   "topic_id": "02",
+   "ru": "жить; проживать",
+   "en": "to live; to experience",
+   "it": "vivere",
+   "ipa": "ˈvivere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0088",
+   "topic_id": "02",
+   "ru": "проживать по адресу",
+   "en": "to live; to reside",
+   "it": "abitare",
+   "ipa": "abiˈtare",
+   "g": "",
+   "e": "🏠"
+  },
+  {
+   "id": "it-core-0089",
+   "topic_id": "02",
+   "ru": "работать",
+   "en": "to work",
+   "it": "lavorare",
+   "ipa": "lavoˈrare",
+   "g": "",
+   "e": "💼"
+  },
+  {
+   "id": "it-core-0090",
+   "topic_id": "02",
+   "ru": "учиться; изучать",
+   "en": "to study",
+   "it": "studiare",
+   "ipa": "stuˈdjare",
+   "g": "",
+   "e": "📚"
+  },
+  {
+   "id": "it-core-0091",
+   "topic_id": "02",
+   "ru": "покупать",
+   "en": "to buy",
+   "it": "comprare",
+   "ipa": "komˈprare",
+   "g": "",
+   "e": "🛍️"
+  },
+  {
+   "id": "it-core-0092",
+   "topic_id": "02",
+   "ru": "платить",
+   "en": "to pay",
+   "it": "pagare",
+   "ipa": "paˈgare",
+   "g": "",
+   "e": "💳"
+  },
+  {
+   "id": "it-core-0093",
+   "topic_id": "02",
+   "ru": "стоить",
+   "en": "to cost",
+   "it": "costare",
+   "ipa": "koˈstare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0094",
+   "topic_id": "02",
+   "ru": "продавать",
+   "en": "to sell",
+   "it": "vendere",
+   "ipa": "ˈvendere",
+   "g": "",
+   "e": "🏪"
+  },
+  {
+   "id": "it-core-0095",
+   "topic_id": "02",
+   "ru": "открывать",
+   "en": "to open",
+   "it": "aprire",
+   "ipa": "aˈprire",
+   "g": "",
+   "e": "🔓"
+  },
+  {
+   "id": "it-core-0096",
+   "topic_id": "02",
+   "ru": "закрывать",
+   "en": "to close",
+   "it": "chiudere",
+   "ipa": "ˈkjudere",
+   "g": "",
+   "e": "🔒"
+  },
+  {
+   "id": "it-core-0097",
+   "topic_id": "02",
+   "ru": "начинать",
+   "en": "to start",
+   "it": "cominciare",
+   "ipa": "kominˈtʃare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0098",
+   "topic_id": "02",
+   "ru": "заканчивать",
+   "en": "to finish",
+   "it": "finire",
+   "ipa": "fiˈnire",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0099",
+   "topic_id": "02",
+   "ru": "ждать",
+   "en": "to wait",
+   "it": "aspettare",
+   "ipa": "aspetˈtare",
+   "g": "",
+   "e": "⏳"
+  },
+  {
+   "id": "it-core-0100",
+   "topic_id": "02",
+   "ru": "оставаться",
+   "en": "to stay",
+   "it": "restare",
+   "ipa": "reˈstare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0101",
+   "topic_id": "03",
+   "ru": "уходить; уезжать",
+   "en": "to leave; to depart",
+   "it": "partire",
+   "ipa": "parˈtire",
+   "g": "",
+   "e": "🚶"
+  },
+  {
+   "id": "it-core-0102",
+   "topic_id": "03",
+   "ru": "прибывать",
+   "en": "to arrive",
+   "it": "arrivare",
+   "ipa": "arriˈvare",
+   "g": "",
+   "e": "🏁"
+  },
+  {
+   "id": "it-core-0103",
+   "topic_id": "03",
+   "ru": "входить",
+   "en": "to enter",
+   "it": "entrare",
+   "ipa": "enˈtrare",
+   "g": "",
+   "e": "🚪"
+  },
+  {
+   "id": "it-core-0104",
+   "topic_id": "03",
+   "ru": "выходить",
+   "en": "to go out",
+   "it": "uscire",
+   "ipa": "uʃˈʃire",
+   "g": "",
+   "e": "🚪"
+  },
+  {
+   "id": "it-core-0105",
+   "topic_id": "03",
+   "ru": "возвращаться домой",
+   "en": "to go home; to come back home",
+   "it": "tornare a casa",
+   "ipa": "torˈnare a ˈkasa",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0106",
+   "topic_id": "03",
+   "ru": "возвращаться",
+   "en": "to go back; to return",
+   "it": "tornare",
+   "ipa": "torˈnare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0107",
+   "topic_id": "03",
+   "ru": "переходить; проходить",
+   "en": "to pass; to go through",
+   "it": "passare",
+   "ipa": "pasˈsare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0108",
+   "topic_id": "03",
+   "ru": "подниматься",
+   "en": "to go up",
+   "it": "salire",
+   "ipa": "saˈlire",
+   "g": "",
+   "e": "⬆️"
+  },
+  {
+   "id": "it-core-0109",
+   "topic_id": "03",
+   "ru": "спускаться",
+   "en": "to go down",
+   "it": "scendere",
+   "ipa": "ˈʃendere",
+   "g": "",
+   "e": "⬇️"
+  },
+  {
+   "id": "it-core-0110",
+   "topic_id": "03",
+   "ru": "ходить пешком",
+   "en": "to walk",
+   "it": "camminare",
+   "ipa": "kammiˈnare",
+   "g": "",
+   "e": "🚶"
+  },
+  {
+   "id": "it-core-0111",
+   "topic_id": "03",
+   "ru": "бежать",
+   "en": "to run",
+   "it": "correre",
+   "ipa": "ˈkorrere",
+   "g": "",
+   "e": "🏃"
+  },
+  {
+   "id": "it-core-0112",
+   "topic_id": "03",
+   "ru": "водить машину",
+   "en": "to drive",
+   "it": "guidare",
+   "ipa": "gwiˈdare",
+   "g": "",
+   "e": "🚗"
+  },
+  {
+   "id": "it-core-0113",
+   "topic_id": "03",
+   "ru": "путешествовать",
+   "en": "to travel",
+   "it": "viaggiare",
+   "ipa": "vjadˈdʒare",
+   "g": "",
+   "e": "✈️"
+  },
+  {
+   "id": "it-core-0114",
+   "topic_id": "03",
+   "ru": "посещать место",
+   "en": "to visit a place",
+   "it": "visitare",
+   "ipa": "viziˈtare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0115",
+   "topic_id": "03",
+   "ru": "следовать за",
+   "en": "to follow",
+   "it": "seguire",
+   "ipa": "seˈgwire",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0116",
+   "topic_id": "03",
+   "ru": "поворачивать",
+   "en": "to turn",
+   "it": "girare",
+   "ipa": "dʒiˈrare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0117",
+   "topic_id": "03",
+   "ru": "пересекать",
+   "en": "to cross",
+   "it": "attraversare",
+   "ipa": "attraverˈsare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0118",
+   "topic_id": "03",
+   "ru": "останавливать",
+   "en": "to stop",
+   "it": "fermare",
+   "ipa": "ferˈmare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0119",
+   "topic_id": "03",
+   "ru": "нести; носить; приносить",
+   "en": "to carry; to wear; to bring",
+   "it": "portare",
+   "ipa": "porˈtare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0120",
+   "topic_id": "03",
+   "ru": "брать напрокат (машину, велосипед)",
+   "en": "to rent (a car, a bike)",
+   "it": "noleggiare",
+   "ipa": "noledˈdʒare",
+   "g": "",
+   "e": "🚗"
+  },
+  {
+   "id": "it-core-0121",
+   "topic_id": "03",
+   "ru": "провожать; отвозить, приводить (кого-то)",
+   "en": "to accompany; to take someone somewhere",
+   "it": "accompagnare",
+   "ipa": "akkompaɲˈɲare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0122",
+   "topic_id": "03",
+   "ru": "уносить; забирать с собой (da portare via — навынос)",
+   "en": "to take away (da portare via — to go, takeaway)",
+   "it": "portare via",
+   "ipa": "porˈtare ˈvia",
+   "g": "",
+   "e": "🥡"
+  },
+  {
+   "id": "it-core-0123",
+   "topic_id": "03",
+   "ru": "оставлять; позволять",
+   "en": "to leave; to let",
+   "it": "lasciare",
+   "ipa": "laʃˈʃare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0124",
+   "topic_id": "03",
+   "ru": "менять",
+   "en": "to change",
+   "it": "cambiare",
+   "ipa": "kamˈbjare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0125",
+   "topic_id": "03",
+   "ru": "выбирать",
+   "en": "to choose",
+   "it": "scegliere",
+   "ipa": "ˈʃeʎʎere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0126",
+   "topic_id": "03",
+   "ru": "использовать",
+   "en": "to use",
+   "it": "usare",
+   "ipa": "uˈzare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0127",
+   "topic_id": "03",
+   "ru": "нуждаться в",
+   "en": "to need",
+   "it": "avere bisogno di",
+   "ipa": "aˈvere biˈzoɲɲo di",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0128",
+   "topic_id": "03",
+   "ru": "хранить; оставлять у себя",
+   "en": "to keep",
+   "it": "tenere",
+   "ipa": "teˈnere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0129",
+   "topic_id": "03",
+   "ru": "терять",
+   "en": "to lose",
+   "it": "perdere",
+   "ipa": "ˈpɛrdere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0130",
+   "topic_id": "03",
+   "ru": "забывать",
+   "en": "to forget",
+   "it": "dimenticare",
+   "ipa": "dimentiˈkare",
+   "g": "",
+   "e": "🤷"
+  },
+  {
+   "id": "it-core-0131",
+   "topic_id": "03",
+   "ru": "вспоминать; помнить",
+   "en": "to remember",
+   "it": "ricordare",
+   "ipa": "rikorˈdare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0132",
+   "topic_id": "03",
+   "ru": "помогать",
+   "en": "to help",
+   "it": "aiutare",
+   "ipa": "ajuˈtare",
+   "g": "",
+   "e": "🤝"
+  },
+  {
+   "id": "it-core-0133",
+   "topic_id": "03",
+   "ru": "готовить; подготавливать",
+   "en": "to prepare",
+   "it": "preparare",
+   "ipa": "prepaˈrare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0134",
+   "topic_id": "03",
+   "ru": "готовить еду",
+   "en": "to cook",
+   "it": "cucinare",
+   "ipa": "kutʃiˈnare",
+   "g": "",
+   "e": "🍳"
+  },
+  {
+   "id": "it-core-0135",
+   "topic_id": "03",
+   "ru": "мыть",
+   "en": "to wash",
+   "it": "lavare",
+   "ipa": "laˈvare",
+   "g": "",
+   "e": "🧼"
+  },
+  {
+   "id": "it-core-0136",
+   "topic_id": "03",
+   "ru": "чистить; убирать",
+   "en": "to clean",
+   "it": "pulire",
+   "ipa": "puˈlire",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0137",
+   "topic_id": "03",
+   "ru": "убирать на место",
+   "en": "to tidy away",
+   "it": "mettere a posto",
+   "ipa": "ˈmettere a ˈposto",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0138",
+   "topic_id": "03",
+   "ru": "одеваться",
+   "en": "to get dressed",
+   "it": "vestirsi",
+   "ipa": "veˈstirsi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0139",
+   "topic_id": "03",
+   "ru": "вставать",
+   "en": "to get up",
+   "it": "alzarsi",
+   "ipa": "alˈtsarsi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0140",
+   "topic_id": "03",
+   "ru": "ложиться спать",
+   "en": "to go to bed",
+   "it": "andare a letto",
+   "ipa": "anˈdare a ˈlɛtto",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0141",
+   "topic_id": "03",
+   "ru": "просыпаться",
+   "en": "to wake up",
+   "it": "svegliarsi",
+   "ipa": "zveʎˈʎarsi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0142",
+   "topic_id": "03",
+   "ru": "отдыхать",
+   "en": "to rest",
+   "it": "riposarsi",
+   "ipa": "ripoˈsarsi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0143",
+   "topic_id": "03",
+   "ru": "садиться",
+   "en": "to sit down",
+   "it": "sedersi",
+   "ipa": "seˈdersi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0144",
+   "topic_id": "03",
+   "ru": "встречать",
+   "en": "to meet",
+   "it": "incontrare",
+   "ipa": "inkonˈtrare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0145",
+   "topic_id": "03",
+   "ru": "звонить; звать",
+   "en": "to call",
+   "it": "chiamare",
+   "ipa": "kjaˈmare",
+   "g": "",
+   "e": "📞"
+  },
+  {
+   "id": "it-core-0146",
+   "topic_id": "03",
+   "ru": "отправлять",
+   "en": "to send",
+   "it": "mandare",
+   "ipa": "manˈdare",
+   "g": "",
+   "e": "📤"
+  },
+  {
+   "id": "it-core-0147",
+   "topic_id": "03",
+   "ru": "получать",
+   "en": "to receive",
+   "it": "ricevere",
+   "ipa": "riˈtʃevere",
+   "g": "",
+   "e": "📥"
+  },
+  {
+   "id": "it-core-0148",
+   "topic_id": "03",
+   "ru": "заказывать",
+   "en": "to order",
+   "it": "ordinare",
+   "ipa": "ordiˈnare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0149",
+   "topic_id": "03",
+   "ru": "бронировать",
+   "en": "to book; to reserve",
+   "it": "prenotare",
+   "ipa": "prenoˈtare",
+   "g": "",
+   "e": "📅"
+  },
+  {
+   "id": "it-core-0150",
+   "topic_id": "03",
+   "ru": "снимать; сдавать в аренду (жильё)",
+   "en": "to rent (a flat, a room)",
+   "it": "affittare",
+   "ipa": "affitˈtare",
+   "g": "",
+   "e": "🔑"
+  },
+  {
+   "id": "it-core-0151",
+   "topic_id": "04",
+   "ru": "объяснять",
+   "en": "to explain",
+   "it": "spiegare",
+   "ipa": "spjeˈgare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0152",
+   "topic_id": "04",
+   "ru": "рассказывать",
+   "en": "to tell; to recount",
+   "it": "raccontare",
+   "ipa": "rakkonˈtare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0153",
+   "topic_id": "04",
+   "ru": "описывать",
+   "en": "to describe",
+   "it": "descrivere",
+   "ipa": "deˈskrivere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0154",
+   "topic_id": "04",
+   "ru": "повторять",
+   "en": "to repeat",
+   "it": "ripetere",
+   "ipa": "riˈpɛtere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0155",
+   "topic_id": "04",
+   "ru": "выигрывать; побеждать",
+   "en": "to win",
+   "it": "vincere",
+   "ipa": "ˈvintʃere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0156",
+   "topic_id": "04",
+   "ru": "переводить",
+   "en": "to translate",
+   "it": "tradurre",
+   "ipa": "traˈdurre",
+   "g": "",
+   "e": "🌐"
+  },
+  {
+   "id": "it-core-0157",
+   "topic_id": "04",
+   "ru": "становиться",
+   "en": "to become",
+   "it": "diventare",
+   "ipa": "divenˈtare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0158",
+   "topic_id": "04",
+   "ru": "обсуждать",
+   "en": "to discuss",
+   "it": "discutere",
+   "ipa": "diˈskutere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0159",
+   "topic_id": "04",
+   "ru": "предлагать",
+   "en": "to suggest; to propose",
+   "it": "proporre",
+   "ipa": "proˈporre",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0160",
+   "topic_id": "04",
+   "ru": "советовать",
+   "en": "to advise",
+   "it": "consigliare",
+   "ipa": "konsiʎˈʎare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0161",
+   "topic_id": "04",
+   "ru": "принимать; соглашаться",
+   "en": "to accept",
+   "it": "accettare",
+   "ipa": "attʃetˈtare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0162",
+   "topic_id": "04",
+   "ru": "отказываться",
+   "en": "to refuse",
+   "it": "rifiutare",
+   "ipa": "rifjuˈtare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0163",
+   "topic_id": "04",
+   "ru": "решать; принимать решение",
+   "en": "to decide",
+   "it": "decidere",
+   "ipa": "deˈtʃidere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0164",
+   "topic_id": "04",
+   "ru": "надеяться",
+   "en": "to hope",
+   "it": "sperare",
+   "ipa": "speˈrare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0165",
+   "topic_id": "04",
+   "ru": "желать (кому-то чего-то)",
+   "en": "to wish (someone something)",
+   "it": "augurare",
+   "ipa": "auguˈrare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0166",
+   "topic_id": "04",
+   "ru": "обещать",
+   "en": "to promise",
+   "it": "promettere",
+   "ipa": "proˈmettere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0167",
+   "topic_id": "04",
+   "ru": "быть согласным",
+   "en": "to agree",
+   "it": "essere d’accordo",
+   "ipa": "ˈɛssere dakˈkɔrdo",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0168",
+   "topic_id": "04",
+   "ru": "извиняться",
+   "en": "to apologize",
+   "it": "scusarsi",
+   "ipa": "skuˈzarsi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0169",
+   "topic_id": "04",
+   "ru": "благодарить",
+   "en": "to thank",
+   "it": "ringraziare",
+   "ipa": "ringratˈtsjare",
+   "g": "",
+   "e": "🙏"
+  },
+  {
+   "id": "it-core-0170",
+   "topic_id": "04",
+   "ru": "приглашать",
+   "en": "to invite",
+   "it": "invitare",
+   "ipa": "inviˈtare",
+   "g": "",
+   "e": "💌"
+  },
+  {
+   "id": "it-core-0171",
+   "topic_id": "04",
+   "ru": "представлять; знакомить",
+   "en": "to introduce; to present",
+   "it": "presentare",
+   "ipa": "prezenˈtare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0172",
+   "topic_id": "04",
+   "ru": "сравнивать",
+   "en": "to compare",
+   "it": "confrontare",
+   "ipa": "konfronˈtare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0173",
+   "topic_id": "04",
+   "ru": "замечать",
+   "en": "to notice",
+   "it": "notare",
+   "ipa": "noˈtare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0174",
+   "topic_id": "04",
+   "ru": "проверять",
+   "en": "to check",
+   "it": "controllare",
+   "ipa": "kontrolˈlare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0175",
+   "topic_id": "04",
+   "ru": "обдумывать",
+   "en": "to think over",
+   "it": "riflettere",
+   "ipa": "riˈflɛttere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0176",
+   "topic_id": "04",
+   "ru": "представлять себе",
+   "en": "to imagine",
+   "it": "immaginare",
+   "ipa": "immadʒiˈnare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0177",
+   "topic_id": "04",
+   "ru": "считать; подсчитывать",
+   "en": "to count",
+   "it": "contare",
+   "ipa": "konˈtare",
+   "g": "",
+   "e": "🔢"
+  },
+  {
+   "id": "it-core-0178",
+   "topic_id": "04",
+   "ru": "добавлять",
+   "en": "to add",
+   "it": "aggiungere",
+   "ipa": "adˈdʒundʒere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0179",
+   "topic_id": "04",
+   "ru": "удалять; убирать",
+   "en": "to remove",
+   "it": "togliere",
+   "ipa": "ˈtɔʎʎere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0180",
+   "topic_id": "04",
+   "ru": "заполнять",
+   "en": "to fill",
+   "it": "riempire",
+   "ipa": "riemˈpire",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0181",
+   "topic_id": "04",
+   "ru": "чинить",
+   "en": "to repair",
+   "it": "riparare",
+   "ipa": "ripaˈrare",
+   "g": "",
+   "e": "🔧"
+  },
+  {
+   "id": "it-core-0182",
+   "topic_id": "04",
+   "ru": "пробовать; примерять",
+   "en": "to try; to try on",
+   "it": "provare",
+   "ipa": "proˈvare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0183",
+   "topic_id": "04",
+   "ru": "добиваться успеха",
+   "en": "to succeed",
+   "it": "riuscire",
+   "ipa": "riuʃˈʃire",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0184",
+   "topic_id": "04",
+   "ru": "ошибаться; делать неправильно",
+   "en": "to make a mistake; to get wrong",
+   "it": "sbagliare",
+   "ipa": "zbaʎˈʎare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0185",
+   "topic_id": "04",
+   "ru": "продолжать",
+   "en": "to continue",
+   "it": "continuare",
+   "ipa": "kontiˈnware",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0186",
+   "topic_id": "04",
+   "ru": "улучшать",
+   "en": "to improve",
+   "it": "migliorare",
+   "ipa": "miʎʎoˈrare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0187",
+   "topic_id": "04",
+   "ru": "участвовать",
+   "en": "to participate",
+   "it": "partecipare",
+   "ipa": "partetʃiˈpare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0188",
+   "topic_id": "04",
+   "ru": "организовывать",
+   "en": "to organize",
+   "it": "organizzare",
+   "ipa": "organidˈdzare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0189",
+   "topic_id": "04",
+   "ru": "отменять",
+   "en": "to cancel",
+   "it": "annullare",
+   "ipa": "annulˈlare",
+   "g": "",
+   "e": "❌"
+  },
+  {
+   "id": "it-core-0190",
+   "topic_id": "04",
+   "ru": "подтверждать",
+   "en": "to confirm",
+   "it": "confermare",
+   "ipa": "konferˈmare",
+   "g": "",
+   "e": "✅"
+  },
+  {
+   "id": "it-core-0191",
+   "topic_id": "04",
+   "ru": "подписывать",
+   "en": "to sign",
+   "it": "firmare",
+   "ipa": "firˈmare",
+   "g": "",
+   "e": "✍️"
+  },
+  {
+   "id": "it-core-0192",
+   "topic_id": "04",
+   "ru": "одалживать кому-то",
+   "en": "to lend",
+   "it": "prestare",
+   "ipa": "preˈstare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0193",
+   "topic_id": "04",
+   "ru": "брать взаймы",
+   "en": "to borrow",
+   "it": "prendere in prestito",
+   "ipa": "ˈprɛndere in ˈprɛstito",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0194",
+   "topic_id": "04",
+   "ru": "возвращать вещь",
+   "en": "to give back",
+   "it": "restituire",
+   "ipa": "restituˈire",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0195",
+   "topic_id": "04",
+   "ru": "возмещать деньги",
+   "en": "to reimburse; to refund",
+   "it": "rimborsare",
+   "ipa": "rimborˈsare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0196",
+   "topic_id": "04",
+   "ru": "недоставать; пропускать",
+   "en": "to be lacking; to miss",
+   "it": "mancare",
+   "ipa": "manˈkare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0197",
+   "topic_id": "04",
+   "ru": "избегать",
+   "en": "to avoid",
+   "it": "evitare",
+   "ipa": "eviˈtare",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0198",
+   "topic_id": "04",
+   "ru": "решать проблему",
+   "en": "to solve",
+   "it": "risolvere",
+   "ipa": "riˈsɔlvere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0199",
+   "topic_id": "04",
+   "ru": "чувствовать себя",
+   "en": "to feel",
+   "it": "sentirsi",
+   "ipa": "senˈtirsi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0200",
+   "topic_id": "04",
+   "ru": "выражать",
+   "en": "to express",
+   "it": "esprimere",
+   "ipa": "eˈsprimere",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0201",
+   "topic_id": "05",
+   "ru": "человек",
+   "en": "person",
+   "it": "la persona",
+   "ipa": "la perˈsona",
+   "g": "f",
+   "e": "🧑"
+  },
+  {
+   "id": "it-core-0202",
+   "topic_id": "05",
+   "ru": "люди (в итальянском — ед. число: la gente è…)",
+   "en": "people (singular in Italian)",
+   "it": "la gente",
+   "ipa": "la ˈdʒɛnte",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0203",
+   "topic_id": "05",
+   "ru": "мужчина",
+   "en": "man",
+   "it": "l’uomo",
+   "ipa": "ˈlwɔmo",
+   "g": "m",
+   "e": "👨"
+  },
+  {
+   "id": "it-core-0204",
+   "topic_id": "05",
+   "ru": "женщина",
+   "en": "woman",
+   "it": "la donna",
+   "ipa": "la ˈdɔnna",
+   "g": "f",
+   "e": "👩"
+  },
+  {
+   "id": "it-core-0205",
+   "topic_id": "05",
+   "ru": "ребёнок",
+   "en": "child",
+   "it": "il bambino / la bambina",
+   "ipa": "il bamˈbino / la bamˈbina",
+   "g": "",
+   "e": "🧒"
+  },
+  {
+   "id": "it-core-0206",
+   "topic_id": "05",
+   "ru": "младенец; малыш",
+   "en": "baby; newborn",
+   "it": "il neonato",
+   "ipa": "il neoˈnato",
+   "g": "m",
+   "e": "👶"
+  },
+  {
+   "id": "it-core-0207",
+   "topic_id": "05",
+   "ru": "мальчик; парень",
+   "en": "boy; young man",
+   "it": "il ragazzo",
+   "ipa": "il raˈgattso",
+   "g": "m",
+   "e": "👦"
+  },
+  {
+   "id": "it-core-0208",
+   "topic_id": "05",
+   "ru": "девочка; девушка",
+   "en": "girl; young woman",
+   "it": "la ragazza",
+   "ipa": "la raˈgattsa",
+   "g": "f",
+   "e": "👧"
+  },
+  {
+   "id": "it-core-0209",
+   "topic_id": "05",
+   "ru": "подросток",
+   "en": "teenager",
+   "it": "l’adolescente",
+   "ipa": "ladoleʃˈʃɛnte",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0210",
+   "topic_id": "05",
+   "ru": "взрослый человек",
+   "en": "adult",
+   "it": "l’adulto / l’adulta",
+   "ipa": "laˈdulto / laˈdulta",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0211",
+   "topic_id": "05",
+   "ru": "семья",
+   "en": "family",
+   "it": "la famiglia",
+   "ipa": "la faˈmiʎʎa",
+   "g": "f",
+   "e": "👪"
+  },
+  {
+   "id": "it-core-0212",
+   "topic_id": "05",
+   "ru": "родители",
+   "en": "parents",
+   "it": "i genitori",
+   "ipa": "i dʒeniˈtori",
+   "g": "pl",
+   "e": "👪"
+  },
+  {
+   "id": "it-core-0213",
+   "topic_id": "05",
+   "ru": "мать",
+   "en": "mother",
+   "it": "la madre",
+   "ipa": "la ˈmadre",
+   "g": "f",
+   "e": "👩"
+  },
+  {
+   "id": "it-core-0214",
+   "topic_id": "05",
+   "ru": "отец",
+   "en": "father",
+   "it": "il padre",
+   "ipa": "il ˈpadre",
+   "g": "m",
+   "e": "👨"
+  },
+  {
+   "id": "it-core-0215",
+   "topic_id": "05",
+   "ru": "сын; дочь",
+   "en": "son; daughter",
+   "it": "il figlio / la figlia",
+   "ipa": "il ˈfiʎʎo / la ˈfiʎʎa",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0216",
+   "topic_id": "05",
+   "ru": "сестра",
+   "en": "sister",
+   "it": "la sorella",
+   "ipa": "la soˈrɛlla",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0217",
+   "topic_id": "05",
+   "ru": "брат",
+   "en": "brother",
+   "it": "il fratello",
+   "ipa": "il fraˈtɛllo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0218",
+   "topic_id": "05",
+   "ru": "бабушка",
+   "en": "grandmother",
+   "it": "la nonna",
+   "ipa": "la ˈnɔnna",
+   "g": "f",
+   "e": "👵"
+  },
+  {
+   "id": "it-core-0219",
+   "topic_id": "05",
+   "ru": "дедушка",
+   "en": "grandfather",
+   "it": "il nonno",
+   "ipa": "il ˈnɔnno",
+   "g": "m",
+   "e": "👴"
+  },
+  {
+   "id": "it-core-0220",
+   "topic_id": "05",
+   "ru": "внук; племянник",
+   "en": "grandson; nephew",
+   "it": "il nipote",
+   "ipa": "il niˈpote",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0221",
+   "topic_id": "05",
+   "ru": "внучка; племянница",
+   "en": "granddaughter; niece",
+   "it": "la nipote",
+   "ipa": "la niˈpote",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0222",
+   "topic_id": "05",
+   "ru": "муж; жена",
+   "en": "husband; wife",
+   "it": "il marito / la moglie",
+   "ipa": "il maˈrito / la ˈmoʎʎe",
+   "g": "",
+   "e": "💍"
+  },
+  {
+   "id": "it-core-0223",
+   "topic_id": "05",
+   "ru": "пара",
+   "en": "couple",
+   "it": "la coppia",
+   "ipa": "la ˈkɔppja",
+   "g": "f",
+   "e": "👫"
+  },
+  {
+   "id": "it-core-0224",
+   "topic_id": "05",
+   "ru": "друг; подруга",
+   "en": "friend",
+   "it": "l’amico / l’amica",
+   "ipa": "laˈmiko / laˈmika",
+   "g": "",
+   "e": "🧑‍🤝‍🧑"
+  },
+  {
+   "id": "it-core-0225",
+   "topic_id": "05",
+   "ru": "сосед; соседка",
+   "en": "neighbor",
+   "it": "il vicino / la vicina",
+   "ipa": "il viˈtʃino / la viˈtʃina",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0226",
+   "topic_id": "05",
+   "ru": "коллега",
+   "en": "colleague",
+   "it": "il collega / la collega",
+   "ipa": "il kolˈlɛga / la kolˈlɛga",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0227",
+   "topic_id": "05",
+   "ru": "партнёр; спутник жизни; товарищ",
+   "en": "partner; companion",
+   "it": "il compagno / la compagna",
+   "ipa": "il komˈpaɲɲo / la komˈpaɲɲa",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0228",
+   "topic_id": "05",
+   "ru": "гость; гостья",
+   "en": "guest",
+   "it": "l’invitato / l’invitata",
+   "ipa": "linviˈtato / linviˈtata",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0229",
+   "topic_id": "05",
+   "ru": "имя; название",
+   "en": "first name; name",
+   "it": "il nome",
+   "ipa": "il ˈnome",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0230",
+   "topic_id": "05",
+   "ru": "фамилия",
+   "en": "surname",
+   "it": "il cognome",
+   "ipa": "il koɲˈɲome",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0231",
+   "topic_id": "05",
+   "ru": "возраст",
+   "en": "age",
+   "it": "l’età",
+   "ipa": "leˈta",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0232",
+   "topic_id": "05",
+   "ru": "дата рождения",
+   "en": "date of birth",
+   "it": "la data di nascita",
+   "ipa": "la ˈdata di ˈnaʃʃita",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0233",
+   "topic_id": "05",
+   "ru": "национальность; гражданство",
+   "en": "nationality",
+   "it": "la nazionalità",
+   "ipa": "la nattsjonaliˈta",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0234",
+   "topic_id": "05",
+   "ru": "адрес",
+   "en": "address",
+   "it": "l’indirizzo",
+   "ipa": "lindiˈrittso",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0235",
+   "topic_id": "05",
+   "ru": "профессия",
+   "en": "profession",
+   "it": "la professione",
+   "ipa": "la profesˈsjone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0236",
+   "topic_id": "05",
+   "ru": "господин",
+   "en": "Mr.; sir",
+   "it": "signore",
+   "ipa": "siɲˈɲore",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0237",
+   "topic_id": "05",
+   "ru": "госпожа",
+   "en": "Mrs.; Ms.; madam",
+   "it": "signora",
+   "ipa": "siɲˈɲora",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0238",
+   "topic_id": "05",
+   "ru": "свадьба; брак",
+   "en": "wedding; marriage",
+   "it": "il matrimonio",
+   "ipa": "il matriˈmɔnjo",
+   "g": "m",
+   "e": "💒"
+  },
+  {
+   "id": "it-core-0239",
+   "topic_id": "05",
+   "ru": "развод",
+   "en": "divorce",
+   "it": "il divorzio",
+   "ipa": "il diˈvɔrtsjo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0240",
+   "topic_id": "05",
+   "ru": "дружба",
+   "en": "friendship",
+   "it": "l’amicizia",
+   "ipa": "lamiˈtʃittsja",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0241",
+   "topic_id": "05",
+   "ru": "любовь",
+   "en": "love",
+   "it": "l’amore",
+   "ipa": "laˈmore",
+   "g": "m",
+   "e": "❤️"
+  },
+  {
+   "id": "it-core-0242",
+   "topic_id": "05",
+   "ru": "отношения; связь",
+   "en": "relationship",
+   "it": "la relazione",
+   "ipa": "la relatˈtsjone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0243",
+   "topic_id": "05",
+   "ru": "встреча; знакомство",
+   "en": "meeting; encounter",
+   "it": "l’incontro",
+   "ipa": "linˈkontro",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0244",
+   "topic_id": "05",
+   "ru": "приглашение",
+   "en": "invitation",
+   "it": "l’invito",
+   "ipa": "linˈvito",
+   "g": "m",
+   "e": "💌"
+  },
+  {
+   "id": "it-core-0245",
+   "topic_id": "05",
+   "ru": "подарок",
+   "en": "gift",
+   "it": "il regalo",
+   "ipa": "il reˈgalo",
+   "g": "m",
+   "e": "🎁"
+  },
+  {
+   "id": "it-core-0246",
+   "topic_id": "05",
+   "ru": "праздник; вечеринка",
+   "en": "celebration; party",
+   "it": "la festa",
+   "ipa": "la ˈfɛsta",
+   "g": "f",
+   "e": "🎉"
+  },
+  {
+   "id": "it-core-0247",
+   "topic_id": "05",
+   "ru": "день рождения",
+   "en": "birthday",
+   "it": "il compleanno",
+   "ipa": "il kompleˈanno",
+   "g": "m",
+   "e": "🎂"
+  },
+  {
+   "id": "it-core-0248",
+   "topic_id": "05",
+   "ru": "двоюродный брат; двоюродная сестра",
+   "en": "cousin",
+   "it": "il cugino / la cugina",
+   "ipa": "il kuˈdʒino / la kuˈdʒina",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0249",
+   "topic_id": "05",
+   "ru": "дядя",
+   "en": "uncle",
+   "it": "lo zio",
+   "ipa": "lo ˈtsio",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0250",
+   "topic_id": "05",
+   "ru": "тётя",
+   "en": "aunt",
+   "it": "la zia",
+   "ipa": "la ˈtsia",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0251",
+   "topic_id": "06",
+   "ru": "дом",
+   "en": "house",
+   "it": "la casa",
+   "ipa": "la ˈkasa",
+   "g": "f",
+   "e": "🏠"
+  },
+  {
+   "id": "it-core-0252",
+   "topic_id": "06",
+   "ru": "квартира",
+   "en": "apartment",
+   "it": "l’appartamento",
+   "ipa": "lappartaˈmento",
+   "g": "m",
+   "e": "🏢"
+  },
+  {
+   "id": "it-core-0253",
+   "topic_id": "06",
+   "ru": "комната",
+   "en": "room",
+   "it": "la stanza",
+   "ipa": "la ˈstantsa",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0254",
+   "topic_id": "06",
+   "ru": "спальня; гостиничный номер",
+   "en": "bedroom; hotel room",
+   "it": "la camera",
+   "ipa": "la ˈkamera",
+   "g": "f",
+   "e": "🛏️"
+  },
+  {
+   "id": "it-core-0255",
+   "topic_id": "06",
+   "ru": "гостиная",
+   "en": "living room",
+   "it": "il salotto",
+   "ipa": "il saˈlɔtto",
+   "g": "m",
+   "e": "🛋️"
+  },
+  {
+   "id": "it-core-0256",
+   "topic_id": "06",
+   "ru": "кухня",
+   "en": "kitchen",
+   "it": "la cucina",
+   "ipa": "la kuˈtʃina",
+   "g": "f",
+   "e": "🍳"
+  },
+  {
+   "id": "it-core-0257",
+   "topic_id": "06",
+   "ru": "ванная комната",
+   "en": "bathroom",
+   "it": "il bagno",
+   "ipa": "il ˈbaɲɲo",
+   "g": "m",
+   "e": "🛁"
+  },
+  {
+   "id": "it-core-0258",
+   "topic_id": "06",
+   "ru": "туалет",
+   "en": "toilet; restroom",
+   "it": "la toilette",
+   "ipa": "la twaˈlɛt",
+   "g": "f",
+   "e": "🚻"
+  },
+  {
+   "id": "it-core-0259",
+   "topic_id": "06",
+   "ru": "вход; прихожая",
+   "en": "entrance; hallway",
+   "it": "l’ingresso",
+   "ipa": "linˈgrɛsso",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0260",
+   "topic_id": "06",
+   "ru": "коридор",
+   "en": "corridor",
+   "it": "il corridoio",
+   "ipa": "il korriˈdojo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0261",
+   "topic_id": "06",
+   "ru": "лестница",
+   "en": "stairs",
+   "it": "le scale",
+   "ipa": "le ˈskale",
+   "g": "pl",
+   "e": "🪜"
+  },
+  {
+   "id": "it-core-0262",
+   "topic_id": "06",
+   "ru": "этаж",
+   "en": "floor; story",
+   "it": "il piano",
+   "ipa": "il ˈpjano",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0263",
+   "topic_id": "06",
+   "ru": "лифт",
+   "en": "elevator",
+   "it": "l’ascensore",
+   "ipa": "laʃʃenˈsore",
+   "g": "m",
+   "e": "🛗"
+  },
+  {
+   "id": "it-core-0264",
+   "topic_id": "06",
+   "ru": "дверь",
+   "en": "door",
+   "it": "la porta",
+   "ipa": "la ˈpɔrta",
+   "g": "f",
+   "e": "🚪"
+  },
+  {
+   "id": "it-core-0265",
+   "topic_id": "06",
+   "ru": "окно",
+   "en": "window",
+   "it": "la finestra",
+   "ipa": "la fiˈnɛstra",
+   "g": "f",
+   "e": "🪟"
+  },
+  {
+   "id": "it-core-0266",
+   "topic_id": "06",
+   "ru": "стена",
+   "en": "wall",
+   "it": "il muro",
+   "ipa": "il ˈmuro",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0267",
+   "topic_id": "06",
+   "ru": "пол",
+   "en": "floor (of a room)",
+   "it": "il pavimento",
+   "ipa": "il paviˈmento",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0268",
+   "topic_id": "06",
+   "ru": "потолок",
+   "en": "ceiling",
+   "it": "il soffitto",
+   "ipa": "il sofˈfitto",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0269",
+   "topic_id": "06",
+   "ru": "крыша",
+   "en": "roof",
+   "it": "il tetto",
+   "ipa": "il ˈtetto",
+   "g": "m",
+   "e": "🏠"
+  },
+  {
+   "id": "it-core-0270",
+   "topic_id": "06",
+   "ru": "балкон",
+   "en": "balcony",
+   "it": "il balcone",
+   "ipa": "il balˈkone",
+   "g": "m",
+   "e": "🌇"
+  },
+  {
+   "id": "it-core-0271",
+   "topic_id": "06",
+   "ru": "сад",
+   "en": "garden",
+   "it": "il giardino",
+   "ipa": "il dʒarˈdino",
+   "g": "m",
+   "e": "🌳"
+  },
+  {
+   "id": "it-core-0272",
+   "topic_id": "06",
+   "ru": "гараж",
+   "en": "garage",
+   "it": "il garage",
+   "ipa": "il gaˈraʒ",
+   "g": "m",
+   "e": "🚗"
+  },
+  {
+   "id": "it-core-0273",
+   "topic_id": "06",
+   "ru": "ключ",
+   "en": "key",
+   "it": "la chiave",
+   "ipa": "la ˈkjave",
+   "g": "f",
+   "e": "🔑"
+  },
+  {
+   "id": "it-core-0274",
+   "topic_id": "06",
+   "ru": "замок дверной",
+   "en": "door lock",
+   "it": "la serratura",
+   "ipa": "la serraˈtura",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0275",
+   "topic_id": "06",
+   "ru": "кровать",
+   "en": "bed",
+   "it": "il letto",
+   "ipa": "il ˈlɛtto",
+   "g": "m",
+   "e": "🛏️"
+  },
+  {
+   "id": "it-core-0276",
+   "topic_id": "06",
+   "ru": "матрас",
+   "en": "mattress",
+   "it": "il materasso",
+   "ipa": "il mateˈrasso",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0277",
+   "topic_id": "06",
+   "ru": "простыня",
+   "en": "sheet",
+   "it": "il lenzuolo",
+   "ipa": "il lenˈtswɔlo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0278",
+   "topic_id": "06",
+   "ru": "подушка",
+   "en": "pillow",
+   "it": "il cuscino",
+   "ipa": "il kuʃˈʃino",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0279",
+   "topic_id": "06",
+   "ru": "одеяло",
+   "en": "blanket",
+   "it": "la coperta",
+   "ipa": "la koˈpɛrta",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0280",
+   "topic_id": "06",
+   "ru": "шкаф для одежды",
+   "en": "wardrobe",
+   "it": "l’armadio",
+   "ipa": "larˈmadjo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0281",
+   "topic_id": "06",
+   "ru": "встроенный шкаф",
+   "en": "cupboard",
+   "it": "l’armadio a muro",
+   "ipa": "larˈmadjo a ˈmuro",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0282",
+   "topic_id": "06",
+   "ru": "стол",
+   "en": "table",
+   "it": "il tavolo",
+   "ipa": "il ˈtavolo",
+   "g": "m",
+   "e": "🪑"
+  },
+  {
+   "id": "it-core-0283",
+   "topic_id": "06",
+   "ru": "стул",
+   "en": "chair",
+   "it": "la sedia",
+   "ipa": "la ˈsɛdja",
+   "g": "f",
+   "e": "🪑"
+  },
+  {
+   "id": "it-core-0284",
+   "topic_id": "06",
+   "ru": "диван",
+   "en": "sofa",
+   "it": "il divano",
+   "ipa": "il diˈvano",
+   "g": "m",
+   "e": "🛋️"
+  },
+  {
+   "id": "it-core-0285",
+   "topic_id": "06",
+   "ru": "кресло",
+   "en": "armchair",
+   "it": "la poltrona",
+   "ipa": "la polˈtrona",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0286",
+   "topic_id": "06",
+   "ru": "письменный стол",
+   "en": "desk",
+   "it": "la scrivania",
+   "ipa": "la skrivaˈnia",
+   "g": "f",
+   "e": "🖥️"
+  },
+  {
+   "id": "it-core-0287",
+   "topic_id": "06",
+   "ru": "полка; стеллаж",
+   "en": "shelf; shelving unit",
+   "it": "lo scaffale",
+   "ipa": "lo skafˈfale",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0288",
+   "topic_id": "06",
+   "ru": "лампа",
+   "en": "lamp",
+   "it": "la lampada",
+   "ipa": "la ˈlampada",
+   "g": "f",
+   "e": "💡"
+  },
+  {
+   "id": "it-core-0289",
+   "topic_id": "06",
+   "ru": "свет",
+   "en": "light",
+   "it": "la luce",
+   "ipa": "la ˈlutʃe",
+   "g": "f",
+   "e": "💡"
+  },
+  {
+   "id": "it-core-0290",
+   "topic_id": "06",
+   "ru": "зеркало",
+   "en": "mirror",
+   "it": "lo specchio",
+   "ipa": "lo ˈspɛkkjo",
+   "g": "m",
+   "e": "🪞"
+  },
+  {
+   "id": "it-core-0291",
+   "topic_id": "06",
+   "ru": "душ",
+   "en": "shower",
+   "it": "la doccia",
+   "ipa": "la ˈdottʃa",
+   "g": "f",
+   "e": "🚿"
+  },
+  {
+   "id": "it-core-0292",
+   "topic_id": "06",
+   "ru": "ванна",
+   "en": "bathtub",
+   "it": "la vasca da bagno",
+   "ipa": "la ˈvaska da ˈbaɲɲo",
+   "g": "f",
+   "e": "🛁"
+  },
+  {
+   "id": "it-core-0293",
+   "topic_id": "06",
+   "ru": "умывальник",
+   "en": "washbasin",
+   "it": "il lavandino",
+   "ipa": "il lavanˈdino",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0294",
+   "topic_id": "06",
+   "ru": "полотенце",
+   "en": "towel",
+   "it": "l’asciugamano",
+   "ipa": "laʃʃugaˈmano",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0295",
+   "topic_id": "06",
+   "ru": "мыло",
+   "en": "soap",
+   "it": "il sapone",
+   "ipa": "il saˈpone",
+   "g": "m",
+   "e": "🧼"
+  },
+  {
+   "id": "it-core-0296",
+   "topic_id": "06",
+   "ru": "холодильник",
+   "en": "refrigerator",
+   "it": "il frigorifero",
+   "ipa": "il frigoˈrifero",
+   "g": "m",
+   "e": "🧊"
+  },
+  {
+   "id": "it-core-0297",
+   "topic_id": "06",
+   "ru": "духовка",
+   "en": "oven",
+   "it": "il forno",
+   "ipa": "il ˈforno",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0298",
+   "topic_id": "06",
+   "ru": "стиральная машина",
+   "en": "washing machine",
+   "it": "la lavatrice",
+   "ipa": "la lavaˈtritʃe",
+   "g": "f",
+   "e": "🧺"
+  },
+  {
+   "id": "it-core-0299",
+   "topic_id": "06",
+   "ru": "отопление",
+   "en": "heating",
+   "it": "il riscaldamento",
+   "ipa": "il riskaldaˈmento",
+   "g": "m",
+   "e": "♨️"
+  },
+  {
+   "id": "it-core-0300",
+   "topic_id": "06",
+   "ru": "электрическая розетка",
+   "en": "power socket",
+   "it": "la presa",
+   "ipa": "la ˈpresa",
+   "g": "f",
+   "e": "🔌"
+  },
+  {
+   "id": "it-core-0301",
+   "topic_id": "07",
+   "ru": "вода",
+   "en": "water",
+   "it": "l’acqua",
+   "ipa": "ˈlakkwa",
+   "g": "f",
+   "e": "💧"
+  },
+  {
+   "id": "it-core-0302",
+   "topic_id": "07",
+   "ru": "хлеб",
+   "en": "bread",
+   "it": "il pane",
+   "ipa": "il ˈpane",
+   "g": "m",
+   "e": "🍞"
+  },
+  {
+   "id": "it-core-0303",
+   "topic_id": "07",
+   "ru": "молоко",
+   "en": "milk",
+   "it": "il latte",
+   "ipa": "il ˈlatte",
+   "g": "m",
+   "e": "🥛"
+  },
+  {
+   "id": "it-core-0304",
+   "topic_id": "07",
+   "ru": "сыр",
+   "en": "cheese",
+   "it": "il formaggio",
+   "ipa": "il forˈmaddʒo",
+   "g": "m",
+   "e": "🧀"
+  },
+  {
+   "id": "it-core-0305",
+   "topic_id": "07",
+   "ru": "сливочное масло",
+   "en": "butter",
+   "it": "il burro",
+   "ipa": "il ˈburro",
+   "g": "m",
+   "e": "🧈"
+  },
+  {
+   "id": "it-core-0306",
+   "topic_id": "07",
+   "ru": "яйцо",
+   "en": "egg",
+   "it": "l’uovo",
+   "ipa": "ˈlwɔvo",
+   "g": "m",
+   "e": "🥚"
+  },
+  {
+   "id": "it-core-0307",
+   "topic_id": "07",
+   "ru": "йогурт",
+   "en": "yogurt",
+   "it": "lo yogurt",
+   "ipa": "lo ˈjɔgurt",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0308",
+   "topic_id": "07",
+   "ru": "сливки",
+   "en": "cream (dairy)",
+   "it": "la panna",
+   "ipa": "la ˈpanna",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0309",
+   "topic_id": "07",
+   "ru": "мясо",
+   "en": "meat",
+   "it": "la carne",
+   "ipa": "la ˈkarne",
+   "g": "f",
+   "e": "🥩"
+  },
+  {
+   "id": "it-core-0310",
+   "topic_id": "07",
+   "ru": "говядина",
+   "en": "beef",
+   "it": "il manzo",
+   "ipa": "il ˈmandzo",
+   "g": "m",
+   "e": "🥩"
+  },
+  {
+   "id": "it-core-0311",
+   "topic_id": "07",
+   "ru": "свинина",
+   "en": "pork",
+   "it": "il maiale",
+   "ipa": "il maˈjale",
+   "g": "m",
+   "e": "🐖"
+  },
+  {
+   "id": "it-core-0312",
+   "topic_id": "07",
+   "ru": "курица; курятина",
+   "en": "chicken",
+   "it": "il pollo",
+   "ipa": "il ˈpollo",
+   "g": "m",
+   "e": "🍗"
+  },
+  {
+   "id": "it-core-0313",
+   "topic_id": "07",
+   "ru": "рыба",
+   "en": "fish",
+   "it": "il pesce",
+   "ipa": "il ˈpeʃʃe",
+   "g": "m",
+   "e": "🐟"
+  },
+  {
+   "id": "it-core-0314",
+   "topic_id": "07",
+   "ru": "фрукты",
+   "en": "fruit",
+   "it": "la frutta",
+   "ipa": "la ˈfrutta",
+   "g": "f",
+   "e": "🍎"
+  },
+  {
+   "id": "it-core-0315",
+   "topic_id": "07",
+   "ru": "овощи",
+   "en": "vegetables",
+   "it": "la verdura",
+   "ipa": "la verˈdura",
+   "g": "f",
+   "e": "🥦"
+  },
+  {
+   "id": "it-core-0316",
+   "topic_id": "07",
+   "ru": "яблоко",
+   "en": "apple",
+   "it": "la mela",
+   "ipa": "la ˈmela",
+   "g": "f",
+   "e": "🍎"
+  },
+  {
+   "id": "it-core-0317",
+   "topic_id": "07",
+   "ru": "груша",
+   "en": "pear",
+   "it": "la pera",
+   "ipa": "la ˈpera",
+   "g": "f",
+   "e": "🍐"
+  },
+  {
+   "id": "it-core-0318",
+   "topic_id": "07",
+   "ru": "банан",
+   "en": "banana",
+   "it": "la banana",
+   "ipa": "la baˈnana",
+   "g": "f",
+   "e": "🍌"
+  },
+  {
+   "id": "it-core-0319",
+   "topic_id": "07",
+   "ru": "апельсин",
+   "en": "orange",
+   "it": "l’arancia",
+   "ipa": "laˈrantʃa",
+   "g": "f",
+   "e": "🍊"
+  },
+  {
+   "id": "it-core-0320",
+   "topic_id": "07",
+   "ru": "лимон",
+   "en": "lemon",
+   "it": "il limone",
+   "ipa": "il liˈmone",
+   "g": "m",
+   "e": "🍋"
+  },
+  {
+   "id": "it-core-0321",
+   "topic_id": "07",
+   "ru": "клубника",
+   "en": "strawberry",
+   "it": "la fragola",
+   "ipa": "la ˈfragola",
+   "g": "f",
+   "e": "🍓"
+  },
+  {
+   "id": "it-core-0322",
+   "topic_id": "07",
+   "ru": "виноград",
+   "en": "grapes",
+   "it": "l’uva",
+   "ipa": "ˈluva",
+   "g": "f",
+   "e": "🍇"
+  },
+  {
+   "id": "it-core-0323",
+   "topic_id": "07",
+   "ru": "персик",
+   "en": "peach",
+   "it": "la pesca",
+   "ipa": "la ˈpɛska",
+   "g": "f",
+   "e": "🍑"
+  },
+  {
+   "id": "it-core-0324",
+   "topic_id": "07",
+   "ru": "абрикос",
+   "en": "apricot",
+   "it": "l’albicocca",
+   "ipa": "lalbiˈkɔkka",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0325",
+   "topic_id": "07",
+   "ru": "помидор",
+   "en": "tomato",
+   "it": "il pomodoro",
+   "ipa": "il pomoˈdɔro",
+   "g": "m",
+   "e": "🍅"
+  },
+  {
+   "id": "it-core-0326",
+   "topic_id": "07",
+   "ru": "картофель",
+   "en": "potato",
+   "it": "la patata",
+   "ipa": "la paˈtata",
+   "g": "f",
+   "e": "🥔"
+  },
+  {
+   "id": "it-core-0327",
+   "topic_id": "07",
+   "ru": "морковь",
+   "en": "carrot",
+   "it": "la carota",
+   "ipa": "la kaˈrɔta",
+   "g": "f",
+   "e": "🥕"
+  },
+  {
+   "id": "it-core-0328",
+   "topic_id": "07",
+   "ru": "салат; листья салата",
+   "en": "salad; lettuce",
+   "it": "l’insalata",
+   "ipa": "linsaˈlata",
+   "g": "f",
+   "e": "🥗"
+  },
+  {
+   "id": "it-core-0329",
+   "topic_id": "07",
+   "ru": "лук репчатый",
+   "en": "onion",
+   "it": "la cipolla",
+   "ipa": "la tʃiˈpolla",
+   "g": "f",
+   "e": "🧅"
+  },
+  {
+   "id": "it-core-0330",
+   "topic_id": "07",
+   "ru": "чеснок",
+   "en": "garlic",
+   "it": "l’aglio",
+   "ipa": "ˈlaʎʎo",
+   "g": "m",
+   "e": "🧄"
+  },
+  {
+   "id": "it-core-0331",
+   "topic_id": "07",
+   "ru": "гриб",
+   "en": "mushroom",
+   "it": "il fungo",
+   "ipa": "il ˈfungo",
+   "g": "m",
+   "e": "🍄"
+  },
+  {
+   "id": "it-core-0332",
+   "topic_id": "07",
+   "ru": "фасоль",
+   "en": "bean",
+   "it": "il fagiolo",
+   "ipa": "il faˈdʒɔlo",
+   "g": "m",
+   "e": "🫘"
+  },
+  {
+   "id": "it-core-0333",
+   "topic_id": "07",
+   "ru": "зелёный горошек",
+   "en": "pea",
+   "it": "il pisello",
+   "ipa": "il piˈsɛllo",
+   "g": "m",
+   "e": "🫛"
+  },
+  {
+   "id": "it-core-0334",
+   "topic_id": "07",
+   "ru": "огурец",
+   "en": "cucumber",
+   "it": "il cetriolo",
+   "ipa": "il tʃetriˈɔlo",
+   "g": "m",
+   "e": "🥒"
+  },
+  {
+   "id": "it-core-0335",
+   "topic_id": "07",
+   "ru": "кабачок",
+   "en": "zucchini",
+   "it": "la zucchina",
+   "ipa": "la dzukˈkina",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0336",
+   "topic_id": "07",
+   "ru": "баклажан",
+   "en": "eggplant",
+   "it": "la melanzana",
+   "ipa": "la melanˈdzana",
+   "g": "f",
+   "e": "🍆"
+  },
+  {
+   "id": "it-core-0337",
+   "topic_id": "07",
+   "ru": "рис",
+   "en": "rice",
+   "it": "il riso",
+   "ipa": "il ˈriso",
+   "g": "m",
+   "e": "🍚"
+  },
+  {
+   "id": "it-core-0338",
+   "topic_id": "07",
+   "ru": "макароны",
+   "en": "pasta",
+   "it": "la pasta",
+   "ipa": "la ˈpasta",
+   "g": "f",
+   "e": "🍝"
+  },
+  {
+   "id": "it-core-0339",
+   "topic_id": "07",
+   "ru": "мука",
+   "en": "flour",
+   "it": "la farina",
+   "ipa": "la faˈrina",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0340",
+   "topic_id": "07",
+   "ru": "сахар",
+   "en": "sugar",
+   "it": "lo zucchero",
+   "ipa": "lo ˈdzukkero",
+   "g": "m",
+   "e": "🍬"
+  },
+  {
+   "id": "it-core-0341",
+   "topic_id": "07",
+   "ru": "соль",
+   "en": "salt",
+   "it": "il sale",
+   "ipa": "il ˈsale",
+   "g": "m",
+   "e": "🧂"
+  },
+  {
+   "id": "it-core-0342",
+   "topic_id": "07",
+   "ru": "чёрный перец",
+   "en": "black pepper",
+   "it": "il pepe",
+   "ipa": "il ˈpepe",
+   "g": "m",
+   "e": "🌶️"
+  },
+  {
+   "id": "it-core-0343",
+   "topic_id": "07",
+   "ru": "растительное масло",
+   "en": "oil",
+   "it": "l’olio",
+   "ipa": "ˈlɔljo",
+   "g": "m",
+   "e": "🫒"
+  },
+  {
+   "id": "it-core-0344",
+   "topic_id": "07",
+   "ru": "уксус",
+   "en": "vinegar",
+   "it": "l’aceto",
+   "ipa": "laˈtʃeto",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0345",
+   "topic_id": "07",
+   "ru": "мёд",
+   "en": "honey",
+   "it": "il miele",
+   "ipa": "il ˈmjɛle",
+   "g": "m",
+   "e": "🍯"
+  },
+  {
+   "id": "it-core-0346",
+   "topic_id": "07",
+   "ru": "варенье; джем",
+   "en": "jam",
+   "it": "la marmellata",
+   "ipa": "la marmelˈlata",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0347",
+   "topic_id": "07",
+   "ru": "шоколад",
+   "en": "chocolate",
+   "it": "il cioccolato",
+   "ipa": "il tʃokkoˈlato",
+   "g": "m",
+   "e": "🍫"
+  },
+  {
+   "id": "it-core-0348",
+   "topic_id": "07",
+   "ru": "грецкий орех",
+   "en": "walnut",
+   "it": "la noce",
+   "ipa": "la ˈnotʃe",
+   "g": "f",
+   "e": "🌰"
+  },
+  {
+   "id": "it-core-0349",
+   "topic_id": "07",
+   "ru": "миндаль",
+   "en": "almond",
+   "it": "la mandorla",
+   "ipa": "la ˈmandorla",
+   "g": "f",
+   "e": "🌰"
+  },
+  {
+   "id": "it-core-0350",
+   "topic_id": "07",
+   "ru": "злаки; сухие завтраки",
+   "en": "cereals; breakfast cereal",
+   "it": "i cereali",
+   "ipa": "i tʃereˈali",
+   "g": "pl",
+   "e": "🥣"
+  },
+  {
+   "id": "it-core-0351",
+   "topic_id": "08",
+   "ru": "кофе; кафе",
+   "en": "coffee; café",
+   "it": "il caffè",
+   "ipa": "il kafˈfɛ",
+   "g": "m",
+   "e": "☕"
+  },
+  {
+   "id": "it-core-0352",
+   "topic_id": "08",
+   "ru": "чай",
+   "en": "tea",
+   "it": "il tè",
+   "ipa": "il tɛ",
+   "g": "m",
+   "e": "🍵"
+  },
+  {
+   "id": "it-core-0353",
+   "topic_id": "08",
+   "ru": "сок",
+   "en": "juice",
+   "it": "il succo",
+   "ipa": "il ˈsukko",
+   "g": "m",
+   "e": "🧃"
+  },
+  {
+   "id": "it-core-0354",
+   "topic_id": "08",
+   "ru": "вино",
+   "en": "wine",
+   "it": "il vino",
+   "ipa": "il ˈvino",
+   "g": "m",
+   "e": "🍷"
+  },
+  {
+   "id": "it-core-0355",
+   "topic_id": "08",
+   "ru": "пиво",
+   "en": "beer",
+   "it": "la birra",
+   "ipa": "la ˈbirra",
+   "g": "f",
+   "e": "🍺"
+  },
+  {
+   "id": "it-core-0356",
+   "topic_id": "08",
+   "ru": "напиток",
+   "en": "drink",
+   "it": "la bevanda",
+   "ipa": "la beˈvanda",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0357",
+   "topic_id": "08",
+   "ru": "бутылка",
+   "en": "bottle",
+   "it": "la bottiglia",
+   "ipa": "la botˈtiʎʎa",
+   "g": "f",
+   "e": "🍾"
+  },
+  {
+   "id": "it-core-0358",
+   "topic_id": "08",
+   "ru": "стакан; бокал",
+   "en": "glass",
+   "it": "il bicchiere",
+   "ipa": "il bikˈkjɛre",
+   "g": "m",
+   "e": "🥂"
+  },
+  {
+   "id": "it-core-0359",
+   "topic_id": "08",
+   "ru": "чашка",
+   "en": "cup",
+   "it": "la tazza",
+   "ipa": "la ˈtattsa",
+   "g": "f",
+   "e": "☕"
+  },
+  {
+   "id": "it-core-0360",
+   "topic_id": "08",
+   "ru": "кувшин",
+   "en": "jug; carafe",
+   "it": "la caraffa",
+   "ipa": "la kaˈraffa",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0361",
+   "topic_id": "08",
+   "ru": "тарелка; блюдо",
+   "en": "plate; dish",
+   "it": "il piatto",
+   "ipa": "il ˈpjatto",
+   "g": "m",
+   "e": "🍽️"
+  },
+  {
+   "id": "it-core-0362",
+   "topic_id": "08",
+   "ru": "миска",
+   "en": "bowl",
+   "it": "la ciotola",
+   "ipa": "la ˈtʃɔtola",
+   "g": "f",
+   "e": "🥣"
+  },
+  {
+   "id": "it-core-0363",
+   "topic_id": "08",
+   "ru": "вилка",
+   "en": "fork",
+   "it": "la forchetta",
+   "ipa": "la forˈketta",
+   "g": "f",
+   "e": "🍴"
+  },
+  {
+   "id": "it-core-0364",
+   "topic_id": "08",
+   "ru": "нож",
+   "en": "knife",
+   "it": "il coltello",
+   "ipa": "il kolˈtɛllo",
+   "g": "m",
+   "e": "🔪"
+  },
+  {
+   "id": "it-core-0365",
+   "topic_id": "08",
+   "ru": "ложка",
+   "en": "spoon",
+   "it": "il cucchiaio",
+   "ipa": "il kukˈkjajo",
+   "g": "m",
+   "e": "🥄"
+  },
+  {
+   "id": "it-core-0366",
+   "topic_id": "08",
+   "ru": "ресторан",
+   "en": "restaurant",
+   "it": "il ristorante",
+   "ipa": "il ristoˈrante",
+   "g": "m",
+   "e": "🍽️"
+  },
+  {
+   "id": "it-core-0367",
+   "topic_id": "08",
+   "ru": "меню",
+   "en": "menu",
+   "it": "il menù",
+   "ipa": "il meˈnu",
+   "g": "m",
+   "e": "📖"
+  },
+  {
+   "id": "it-core-0368",
+   "topic_id": "08",
+   "ru": "комплексное меню",
+   "en": "set menu",
+   "it": "il menù fisso",
+   "ipa": "il meˈnu ˈfisso",
+   "g": "m",
+   "e": "📋"
+  },
+  {
+   "id": "it-core-0369",
+   "topic_id": "08",
+   "ru": "закуска (первая подача, антипасто)",
+   "en": "starter; appetizer",
+   "it": "l’antipasto",
+   "ipa": "lantiˈpasto",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0370",
+   "topic_id": "08",
+   "ru": "десерт",
+   "en": "dessert",
+   "it": "il dolce",
+   "ipa": "il ˈdoltʃe",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0371",
+   "topic_id": "08",
+   "ru": "суп",
+   "en": "soup",
+   "it": "la zuppa",
+   "ipa": "la ˈdzuppa",
+   "g": "f",
+   "e": "🍲"
+  },
+  {
+   "id": "it-core-0372",
+   "topic_id": "08",
+   "ru": "соус",
+   "en": "sauce",
+   "it": "la salsa",
+   "ipa": "la ˈsalsa",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0373",
+   "topic_id": "08",
+   "ru": "сэндвич; булочка",
+   "en": "sandwich; bread roll",
+   "it": "il panino",
+   "ipa": "il paˈnino",
+   "g": "m",
+   "e": "🥪"
+  },
+  {
+   "id": "it-core-0374",
+   "topic_id": "08",
+   "ru": "пицца",
+   "en": "pizza",
+   "it": "la pizza",
+   "ipa": "la ˈpittsa",
+   "g": "f",
+   "e": "🍕"
+  },
+  {
+   "id": "it-core-0375",
+   "topic_id": "08",
+   "ru": "торт",
+   "en": "cake",
+   "it": "la torta",
+   "ipa": "la ˈtorta",
+   "g": "f",
+   "e": "🍰"
+  },
+  {
+   "id": "it-core-0376",
+   "topic_id": "08",
+   "ru": "пирог открытый",
+   "en": "tart",
+   "it": "la crostata",
+   "ipa": "la kroˈstata",
+   "g": "f",
+   "e": "🥧"
+  },
+  {
+   "id": "it-core-0377",
+   "topic_id": "08",
+   "ru": "мороженое",
+   "en": "ice cream",
+   "it": "il gelato",
+   "ipa": "il dʒeˈlato",
+   "g": "m",
+   "e": "🍦"
+  },
+  {
+   "id": "it-core-0378",
+   "topic_id": "08",
+   "ru": "круассан (итальянский cornetto)",
+   "en": "croissant (Italian cornetto)",
+   "it": "il cornetto",
+   "ipa": "il korˈnetto",
+   "g": "m",
+   "e": "🥐"
+  },
+  {
+   "id": "it-core-0379",
+   "topic_id": "08",
+   "ru": "фокачча (итальянская лепёшка)",
+   "en": "focaccia (Italian flatbread)",
+   "it": "la focaccia",
+   "ipa": "la foˈkattʃa",
+   "g": "f",
+   "e": "🫓"
+  },
+  {
+   "id": "it-core-0380",
+   "topic_id": "08",
+   "ru": "завтрак",
+   "en": "breakfast",
+   "it": "la colazione",
+   "ipa": "la kolatˈtsjone",
+   "g": "f",
+   "e": "🍳"
+  },
+  {
+   "id": "it-core-0381",
+   "topic_id": "08",
+   "ru": "обед",
+   "en": "lunch",
+   "it": "il pranzo",
+   "ipa": "il ˈprandzo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0382",
+   "topic_id": "08",
+   "ru": "ужин",
+   "en": "dinner",
+   "it": "la cena",
+   "ipa": "la ˈtʃena",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0383",
+   "topic_id": "08",
+   "ru": "приём пищи",
+   "en": "meal",
+   "it": "il pasto",
+   "ipa": "il ˈpasto",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0384",
+   "topic_id": "08",
+   "ru": "голод",
+   "en": "hunger",
+   "it": "la fame",
+   "ipa": "la ˈfame",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0385",
+   "topic_id": "08",
+   "ru": "жажда",
+   "en": "thirst",
+   "it": "la sete",
+   "ipa": "la ˈsete",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0386",
+   "topic_id": "08",
+   "ru": "счёт в ресторане",
+   "en": "restaurant bill",
+   "it": "il conto",
+   "ipa": "il ˈkonto",
+   "g": "m",
+   "e": "🧾"
+  },
+  {
+   "id": "it-core-0387",
+   "topic_id": "08",
+   "ru": "чаевые",
+   "en": "tip; gratuity",
+   "it": "la mancia",
+   "ipa": "la ˈmantʃa",
+   "g": "f",
+   "e": "💶"
+  },
+  {
+   "id": "it-core-0388",
+   "topic_id": "08",
+   "ru": "официант; официантка",
+   "en": "waiter; waitress",
+   "it": "il cameriere / la cameriera",
+   "ipa": "il kameˈrjɛre / la kameˈrjɛra",
+   "g": "",
+   "e": "🤵"
+  },
+  {
+   "id": "it-core-0389",
+   "topic_id": "08",
+   "ru": "заказ",
+   "en": "order",
+   "it": "l’ordinazione",
+   "ipa": "lordinatˈtsjone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0390",
+   "topic_id": "08",
+   "ru": "порция",
+   "en": "portion",
+   "it": "la porzione",
+   "ipa": "la porˈtsjone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0391",
+   "topic_id": "08",
+   "ru": "кусок",
+   "en": "piece",
+   "it": "il pezzo",
+   "ipa": "il ˈpɛttso",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0392",
+   "topic_id": "08",
+   "ru": "ломтик",
+   "en": "slice",
+   "it": "la fetta",
+   "ipa": "la ˈfetta",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0393",
+   "topic_id": "08",
+   "ru": "вкус",
+   "en": "taste; flavor",
+   "it": "il gusto",
+   "ipa": "il ˈgusto",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0394",
+   "topic_id": "08",
+   "ru": "ингредиент",
+   "en": "ingredient",
+   "it": "l’ingrediente",
+   "ipa": "lingreˈdjɛnte",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0395",
+   "topic_id": "08",
+   "ru": "устрица",
+   "en": "oyster",
+   "it": "l’ostrica",
+   "ipa": "ˈlɔstrika",
+   "g": "f",
+   "e": "🦪"
+  },
+  {
+   "id": "it-core-0396",
+   "topic_id": "08",
+   "ru": "мидия",
+   "en": "mussel",
+   "it": "la cozza",
+   "ipa": "la ˈkɔttsa",
+   "g": "f",
+   "e": "🦪"
+  },
+  {
+   "id": "it-core-0397",
+   "topic_id": "08",
+   "ru": "креветка",
+   "en": "shrimp; prawn",
+   "it": "il gambero",
+   "ipa": "il ˈgambero",
+   "g": "m",
+   "e": "🦐"
+  },
+  {
+   "id": "it-core-0398",
+   "topic_id": "08",
+   "ru": "морской гребешок",
+   "en": "scallop",
+   "it": "la capasanta",
+   "ipa": "la kapaˈsanta",
+   "g": "f",
+   "e": "🐚"
+  },
+  {
+   "id": "it-core-0399",
+   "topic_id": "08",
+   "ru": "морепродукты",
+   "en": "seafood",
+   "it": "i frutti di mare",
+   "ipa": "i ˈfrutti di ˈmare",
+   "g": "pl",
+   "e": "🦞"
+  },
+  {
+   "id": "it-core-0400",
+   "topic_id": "08",
+   "ru": "пекарня",
+   "en": "bakery",
+   "it": "la panetteria",
+   "ipa": "la panetteˈria",
+   "g": "f",
+   "e": "🥖"
+  },
+  {
+   "id": "it-core-0401",
+   "topic_id": "09",
+   "ru": "путешествие",
+   "en": "trip; journey",
+   "it": "il viaggio",
+   "ipa": "il ˈvjaddʒo",
+   "g": "m",
+   "e": "🧳"
+  },
+  {
+   "id": "it-core-0402",
+   "topic_id": "09",
+   "ru": "отпуск; каникулы",
+   "en": "vacation; holidays",
+   "it": "le vacanze",
+   "ipa": "le vaˈkantse",
+   "g": "pl",
+   "e": "🏖️"
+  },
+  {
+   "id": "it-core-0403",
+   "topic_id": "09",
+   "ru": "отправление; отъезд",
+   "en": "departure",
+   "it": "la partenza",
+   "ipa": "la parˈtɛntsa",
+   "g": "f",
+   "e": "🛫"
+  },
+  {
+   "id": "it-core-0404",
+   "topic_id": "09",
+   "ru": "прибытие",
+   "en": "arrival",
+   "it": "l’arrivo",
+   "ipa": "larˈrivo",
+   "g": "m",
+   "e": "🛬"
+  },
+  {
+   "id": "it-core-0405",
+   "topic_id": "09",
+   "ru": "пункт назначения",
+   "en": "destination",
+   "it": "la destinazione",
+   "ipa": "la destinatˈtsjone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0406",
+   "topic_id": "09",
+   "ru": "путь; поездка по маршруту",
+   "en": "journey; route taken",
+   "it": "il tragitto",
+   "ipa": "il traˈdʒitto",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0407",
+   "topic_id": "09",
+   "ru": "маршрут; план поездки",
+   "en": "itinerary",
+   "it": "l’itinerario",
+   "ipa": "litineˈrarjo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0408",
+   "topic_id": "09",
+   "ru": "билет",
+   "en": "ticket",
+   "it": "il biglietto",
+   "ipa": "il biʎˈʎetto",
+   "g": "m",
+   "e": "🎫"
+  },
+  {
+   "id": "it-core-0409",
+   "topic_id": "09",
+   "ru": "билет в одну сторону",
+   "en": "one-way ticket",
+   "it": "solo andata",
+   "ipa": "ˈsolo anˈdata",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0410",
+   "topic_id": "09",
+   "ru": "билет туда и обратно",
+   "en": "round-trip ticket",
+   "it": "andata e ritorno",
+   "ipa": "anˈdata e riˈtorno",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0411",
+   "topic_id": "09",
+   "ru": "бронирование",
+   "en": "reservation; booking",
+   "it": "la prenotazione",
+   "ipa": "la prenotatˈtsjone",
+   "g": "f",
+   "e": "📅"
+  },
+  {
+   "id": "it-core-0412",
+   "topic_id": "09",
+   "ru": "паспорт",
+   "en": "passport",
+   "it": "il passaporto",
+   "ipa": "il passaˈpɔrto",
+   "g": "m",
+   "e": "🛂"
+  },
+  {
+   "id": "it-core-0413",
+   "topic_id": "09",
+   "ru": "виза",
+   "en": "visa",
+   "it": "il visto",
+   "ipa": "il ˈvisto",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0414",
+   "topic_id": "09",
+   "ru": "багаж",
+   "en": "luggage",
+   "it": "i bagagli",
+   "ipa": "i baˈgaʎʎi",
+   "g": "pl",
+   "e": "🧳"
+  },
+  {
+   "id": "it-core-0415",
+   "topic_id": "09",
+   "ru": "чемодан",
+   "en": "suitcase",
+   "it": "la valigia",
+   "ipa": "la vaˈlidʒa",
+   "g": "f",
+   "e": "🧳"
+  },
+  {
+   "id": "it-core-0416",
+   "topic_id": "09",
+   "ru": "сумка",
+   "en": "bag",
+   "it": "la borsa",
+   "ipa": "la ˈborsa",
+   "g": "f",
+   "e": "👜"
+  },
+  {
+   "id": "it-core-0417",
+   "topic_id": "09",
+   "ru": "рюкзак",
+   "en": "backpack",
+   "it": "lo zaino",
+   "ipa": "lo ˈdzaino",
+   "g": "m",
+   "e": "🎒"
+  },
+  {
+   "id": "it-core-0418",
+   "topic_id": "09",
+   "ru": "аэропорт",
+   "en": "airport",
+   "it": "l’aeroporto",
+   "ipa": "laeroˈpɔrto",
+   "g": "m",
+   "e": "🛫"
+  },
+  {
+   "id": "it-core-0419",
+   "topic_id": "09",
+   "ru": "самолёт",
+   "en": "airplane",
+   "it": "l’aereo",
+   "ipa": "laˈɛreo",
+   "g": "m",
+   "e": "✈️"
+  },
+  {
+   "id": "it-core-0420",
+   "topic_id": "09",
+   "ru": "рейс; полёт",
+   "en": "flight",
+   "it": "il volo",
+   "ipa": "il ˈvolo",
+   "g": "m",
+   "e": "🛫"
+  },
+  {
+   "id": "it-core-0421",
+   "topic_id": "09",
+   "ru": "посадка на транспорт",
+   "en": "boarding",
+   "it": "l’imbarco",
+   "ipa": "limˈbarko",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0422",
+   "topic_id": "09",
+   "ru": "таможня",
+   "en": "customs",
+   "it": "la dogana",
+   "ipa": "la doˈgana",
+   "g": "f",
+   "e": "🛃"
+  },
+  {
+   "id": "it-core-0423",
+   "topic_id": "09",
+   "ru": "вокзал",
+   "en": "train station",
+   "it": "la stazione",
+   "ipa": "la statˈtsjone",
+   "g": "f",
+   "e": "🚉"
+  },
+  {
+   "id": "it-core-0424",
+   "topic_id": "09",
+   "ru": "поезд",
+   "en": "train",
+   "it": "il treno",
+   "ipa": "il ˈtrɛno",
+   "g": "m",
+   "e": "🚆"
+  },
+  {
+   "id": "it-core-0425",
+   "topic_id": "09",
+   "ru": "платформа; набережная",
+   "en": "platform; quayside",
+   "it": "la banchina",
+   "ipa": "la banˈkina",
+   "g": "f",
+   "e": "🚉"
+  },
+  {
+   "id": "it-core-0426",
+   "topic_id": "09",
+   "ru": "железнодорожный путь (номер платформы)",
+   "en": "railway track (platform number)",
+   "it": "il binario",
+   "ipa": "il biˈnarjo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0427",
+   "topic_id": "09",
+   "ru": "автобус городской",
+   "en": "city bus",
+   "it": "l’autobus",
+   "ipa": "ˈlautobus",
+   "g": "m",
+   "e": "🚌"
+  },
+  {
+   "id": "it-core-0428",
+   "topic_id": "09",
+   "ru": "автобус междугородний",
+   "en": "coach; intercity bus",
+   "it": "il pullman",
+   "ipa": "il ˈpulman",
+   "g": "m",
+   "e": "🚌"
+  },
+  {
+   "id": "it-core-0429",
+   "topic_id": "09",
+   "ru": "метро",
+   "en": "subway; metro",
+   "it": "la metropolitana",
+   "ipa": "la metropoliˈtana",
+   "g": "f",
+   "e": "🚇"
+  },
+  {
+   "id": "it-core-0430",
+   "topic_id": "09",
+   "ru": "трамвай",
+   "en": "tram",
+   "it": "il tram",
+   "ipa": "il tram",
+   "g": "m",
+   "e": "🚋"
+  },
+  {
+   "id": "it-core-0431",
+   "topic_id": "09",
+   "ru": "такси",
+   "en": "taxi",
+   "it": "il taxi",
+   "ipa": "il ˈtaksi",
+   "g": "m",
+   "e": "🚕"
+  },
+  {
+   "id": "it-core-0432",
+   "topic_id": "09",
+   "ru": "автомобиль",
+   "en": "car",
+   "it": "la macchina",
+   "ipa": "la ˈmakkina",
+   "g": "f",
+   "e": "🚗"
+  },
+  {
+   "id": "it-core-0433",
+   "topic_id": "09",
+   "ru": "велосипед",
+   "en": "bicycle",
+   "it": "la bicicletta",
+   "ipa": "la bitʃiˈkletta",
+   "g": "f",
+   "e": "🚲"
+  },
+  {
+   "id": "it-core-0434",
+   "topic_id": "09",
+   "ru": "мотоцикл",
+   "en": "motorcycle",
+   "it": "la moto",
+   "ipa": "la ˈmɔto",
+   "g": "f",
+   "e": "🏍️"
+  },
+  {
+   "id": "it-core-0435",
+   "topic_id": "09",
+   "ru": "лодка; судно",
+   "en": "boat",
+   "it": "la barca",
+   "ipa": "la ˈbarka",
+   "g": "f",
+   "e": "🚢"
+  },
+  {
+   "id": "it-core-0436",
+   "topic_id": "09",
+   "ru": "паром",
+   "en": "ferry",
+   "it": "il traghetto",
+   "ipa": "il traˈgetto",
+   "g": "m",
+   "e": "⛴️"
+  },
+  {
+   "id": "it-core-0437",
+   "topic_id": "09",
+   "ru": "водитель",
+   "en": "driver",
+   "it": "l’autista",
+   "ipa": "lauˈtista",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0438",
+   "topic_id": "09",
+   "ru": "пассажир",
+   "en": "passenger",
+   "it": "il passeggero / la passeggera",
+   "ipa": "il passedˈdʒɛro / la passedˈdʒɛra",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0439",
+   "topic_id": "09",
+   "ru": "дорога",
+   "en": "road",
+   "it": "la strada",
+   "ipa": "la ˈstrada",
+   "g": "f",
+   "e": "🛣️"
+  },
+  {
+   "id": "it-core-0440",
+   "topic_id": "09",
+   "ru": "автомагистраль",
+   "en": "highway; motorway",
+   "it": "l’autostrada",
+   "ipa": "lautoˈstrada",
+   "g": "f",
+   "e": "🛣️"
+  },
+  {
+   "id": "it-core-0441",
+   "topic_id": "09",
+   "ru": "перекрёсток",
+   "en": "intersection",
+   "it": "l’incrocio",
+   "ipa": "linˈkrotʃo",
+   "g": "m",
+   "e": "🚦"
+  },
+  {
+   "id": "it-core-0442",
+   "topic_id": "09",
+   "ru": "светофор",
+   "en": "traffic light",
+   "it": "il semaforo",
+   "ipa": "il seˈmaforo",
+   "g": "m",
+   "e": "🚦"
+  },
+  {
+   "id": "it-core-0443",
+   "topic_id": "09",
+   "ru": "мост",
+   "en": "bridge",
+   "it": "il ponte",
+   "ipa": "il ˈponte",
+   "g": "m",
+   "e": "🌉"
+  },
+  {
+   "id": "it-core-0444",
+   "topic_id": "09",
+   "ru": "туннель; галерея",
+   "en": "tunnel; gallery",
+   "it": "la galleria",
+   "ipa": "la galleˈria",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0445",
+   "topic_id": "09",
+   "ru": "парковка",
+   "en": "parking lot",
+   "it": "il parcheggio",
+   "ipa": "il parˈkeddʒo",
+   "g": "m",
+   "e": "🅿️"
+  },
+  {
+   "id": "it-core-0446",
+   "topic_id": "09",
+   "ru": "автозаправка",
+   "en": "gas station",
+   "it": "il distributore di benzina",
+   "ipa": "il distribuˈtore di benˈdzina",
+   "g": "m",
+   "e": "⛽"
+  },
+  {
+   "id": "it-core-0447",
+   "topic_id": "09",
+   "ru": "бензин",
+   "en": "gasoline; petrol",
+   "it": "la benzina",
+   "ipa": "la benˈdzina",
+   "g": "f",
+   "e": "⛽"
+  },
+  {
+   "id": "it-core-0448",
+   "topic_id": "09",
+   "ru": "водительские права",
+   "en": "driving license",
+   "it": "la patente",
+   "ipa": "la paˈtɛnte",
+   "g": "f",
+   "e": "🪪"
+  },
+  {
+   "id": "it-core-0449",
+   "topic_id": "09",
+   "ru": "опоздание; задержка",
+   "en": "delay; lateness",
+   "it": "il ritardo",
+   "ipa": "il riˈtardo",
+   "g": "m",
+   "e": "⏰"
+  },
+  {
+   "id": "it-core-0450",
+   "topic_id": "09",
+   "ru": "отмена",
+   "en": "cancellation",
+   "it": "la cancellazione",
+   "ipa": "la kantʃellatˈtsjone",
+   "g": "f",
+   "e": "🚫"
+  },
+  {
+   "id": "it-core-0451",
+   "topic_id": "10",
+   "ru": "город",
+   "en": "city; town",
+   "it": "la città",
+   "ipa": "la tʃitˈta",
+   "g": "f",
+   "e": "🏙️"
+  },
+  {
+   "id": "it-core-0452",
+   "topic_id": "10",
+   "ru": "деревня; старинный городок",
+   "en": "village; historic small town",
+   "it": "il borgo",
+   "ipa": "il ˈborgo",
+   "g": "m",
+   "e": "🏘️"
+  },
+  {
+   "id": "it-core-0453",
+   "topic_id": "10",
+   "ru": "район",
+   "en": "neighborhood; district",
+   "it": "il quartiere",
+   "ipa": "il kwarˈtjɛre",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0454",
+   "topic_id": "10",
+   "ru": "улица (в адресах)",
+   "en": "street (in addresses)",
+   "it": "la via",
+   "ipa": "la ˈvia",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0455",
+   "topic_id": "10",
+   "ru": "набережная у моря",
+   "en": "seafront promenade",
+   "it": "il lungomare",
+   "ipa": "il lungoˈmare",
+   "g": "m",
+   "e": "🌊"
+  },
+  {
+   "id": "it-core-0456",
+   "topic_id": "10",
+   "ru": "бульвар; аллея",
+   "en": "boulevard; tree-lined avenue",
+   "it": "il viale",
+   "ipa": "il viˈale",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0457",
+   "topic_id": "10",
+   "ru": "тротуар",
+   "en": "sidewalk",
+   "it": "il marciapiede",
+   "ipa": "il martʃaˈpjɛde",
+   "g": "m",
+   "e": "🚶"
+  },
+  {
+   "id": "it-core-0458",
+   "topic_id": "10",
+   "ru": "площадь",
+   "en": "square",
+   "it": "la piazza",
+   "ipa": "la ˈpjattsa",
+   "g": "f",
+   "e": "⛲"
+  },
+  {
+   "id": "it-core-0459",
+   "topic_id": "10",
+   "ru": "центр города",
+   "en": "city center",
+   "it": "il centro",
+   "ipa": "il ˈtʃɛntro",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0460",
+   "topic_id": "10",
+   "ru": "пригород; окраина",
+   "en": "suburbs; outskirts",
+   "it": "la periferia",
+   "ipa": "la perifeˈria",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0461",
+   "topic_id": "10",
+   "ru": "указатель; табличка",
+   "en": "sign; signboard",
+   "it": "il cartello",
+   "ipa": "il karˈtɛllo",
+   "g": "m",
+   "e": "🪧"
+  },
+  {
+   "id": "it-core-0462",
+   "topic_id": "10",
+   "ru": "план; схема",
+   "en": "plan; map",
+   "it": "la piantina",
+   "ipa": "la pjanˈtina",
+   "g": "f",
+   "e": "🗺️"
+  },
+  {
+   "id": "it-core-0463",
+   "topic_id": "10",
+   "ru": "здание",
+   "en": "building",
+   "it": "l’edificio",
+   "ipa": "lediˈfitʃo",
+   "g": "m",
+   "e": "🏢"
+  },
+  {
+   "id": "it-core-0464",
+   "topic_id": "10",
+   "ru": "многоэтажный дом; дворец",
+   "en": "apartment building; palace",
+   "it": "il palazzo",
+   "ipa": "il palˈlattso",
+   "g": "m",
+   "e": "🏢"
+  },
+  {
+   "id": "it-core-0465",
+   "topic_id": "10",
+   "ru": "магазин",
+   "en": "shop; store",
+   "it": "il negozio",
+   "ipa": "il neˈgɔttsjo",
+   "g": "m",
+   "e": "🏪"
+  },
+  {
+   "id": "it-core-0466",
+   "topic_id": "10",
+   "ru": "рынок",
+   "en": "market",
+   "it": "il mercato",
+   "ipa": "il merˈkato",
+   "g": "m",
+   "e": "🧺"
+  },
+  {
+   "id": "it-core-0467",
+   "topic_id": "10",
+   "ru": "супермаркет",
+   "en": "supermarket",
+   "it": "il supermercato",
+   "ipa": "il supermerˈkato",
+   "g": "m",
+   "e": "🛒"
+  },
+  {
+   "id": "it-core-0468",
+   "topic_id": "10",
+   "ru": "лавка; небольшой магазин",
+   "en": "small shop; workshop",
+   "it": "la bottega",
+   "ipa": "la botˈtega",
+   "g": "f",
+   "e": "🛍️"
+  },
+  {
+   "id": "it-core-0469",
+   "topic_id": "10",
+   "ru": "торговый центр",
+   "en": "shopping mall",
+   "it": "il centro commerciale",
+   "ipa": "il ˈtʃɛntro kommerˈtʃale",
+   "g": "m",
+   "e": "🏬"
+  },
+  {
+   "id": "it-core-0470",
+   "topic_id": "10",
+   "ru": "аптека",
+   "en": "pharmacy",
+   "it": "la farmacia",
+   "ipa": "la farmaˈtʃia",
+   "g": "f",
+   "e": "💊"
+  },
+  {
+   "id": "it-core-0471",
+   "topic_id": "10",
+   "ru": "больница",
+   "en": "hospital",
+   "it": "l’ospedale",
+   "ipa": "lospeˈdale",
+   "g": "m",
+   "e": "🏥"
+  },
+  {
+   "id": "it-core-0472",
+   "topic_id": "10",
+   "ru": "банк",
+   "en": "bank",
+   "it": "la banca",
+   "ipa": "la ˈbanka",
+   "g": "f",
+   "e": "🏦"
+  },
+  {
+   "id": "it-core-0473",
+   "topic_id": "10",
+   "ru": "почта; почтовое отделение",
+   "en": "post office; postal service",
+   "it": "la posta",
+   "ipa": "la ˈpɔsta",
+   "g": "f",
+   "e": "📮"
+  },
+  {
+   "id": "it-core-0474",
+   "topic_id": "10",
+   "ru": "мэрия",
+   "en": "town hall",
+   "it": "il municipio",
+   "ipa": "il muniˈtʃipjo",
+   "g": "m",
+   "e": "🏛️"
+  },
+  {
+   "id": "it-core-0475",
+   "topic_id": "10",
+   "ru": "полицейский участок",
+   "en": "police station",
+   "it": "il commissariato",
+   "ipa": "il kommissaˈrjato",
+   "g": "m",
+   "e": "👮"
+  },
+  {
+   "id": "it-core-0476",
+   "topic_id": "10",
+   "ru": "библиотека",
+   "en": "library",
+   "it": "la biblioteca",
+   "ipa": "la biblioˈtɛka",
+   "g": "f",
+   "e": "📚"
+  },
+  {
+   "id": "it-core-0477",
+   "topic_id": "10",
+   "ru": "музей",
+   "en": "museum",
+   "it": "il museo",
+   "ipa": "il muˈzɛo",
+   "g": "m",
+   "e": "🖼️"
+  },
+  {
+   "id": "it-core-0478",
+   "topic_id": "10",
+   "ru": "театр",
+   "en": "theater",
+   "it": "il teatro",
+   "ipa": "il teˈatro",
+   "g": "m",
+   "e": "🎭"
+  },
+  {
+   "id": "it-core-0479",
+   "topic_id": "10",
+   "ru": "кинотеатр; кино",
+   "en": "cinema",
+   "it": "il cinema",
+   "ipa": "il ˈtʃinema",
+   "g": "m",
+   "e": "🎬"
+  },
+  {
+   "id": "it-core-0480",
+   "topic_id": "10",
+   "ru": "парк",
+   "en": "park",
+   "it": "il parco",
+   "ipa": "il ˈparko",
+   "g": "m",
+   "e": "🌳"
+  },
+  {
+   "id": "it-core-0481",
+   "topic_id": "10",
+   "ru": "бассейн",
+   "en": "swimming pool",
+   "it": "la piscina",
+   "ipa": "la piʃˈʃina",
+   "g": "f",
+   "e": "🏊"
+  },
+  {
+   "id": "it-core-0482",
+   "topic_id": "10",
+   "ru": "стадион",
+   "en": "stadium",
+   "it": "lo stadio",
+   "ipa": "lo ˈstadjo",
+   "g": "m",
+   "e": "🏟️"
+  },
+  {
+   "id": "it-core-0483",
+   "topic_id": "10",
+   "ru": "церковь",
+   "en": "church",
+   "it": "la chiesa",
+   "ipa": "la ˈkjɛza",
+   "g": "f",
+   "e": "⛪"
+  },
+  {
+   "id": "it-core-0484",
+   "topic_id": "10",
+   "ru": "замок (крепость)",
+   "en": "castle",
+   "it": "il castello",
+   "ipa": "il kaˈstɛllo",
+   "g": "m",
+   "e": "🏰"
+  },
+  {
+   "id": "it-core-0485",
+   "topic_id": "10",
+   "ru": "памятник",
+   "en": "monument",
+   "it": "il monumento",
+   "ipa": "il monuˈmento",
+   "g": "m",
+   "e": "🗽"
+  },
+  {
+   "id": "it-core-0486",
+   "topic_id": "10",
+   "ru": "пляж",
+   "en": "beach",
+   "it": "la spiaggia",
+   "ipa": "la ˈspjaddʒa",
+   "g": "f",
+   "e": "🏖️"
+  },
+  {
+   "id": "it-core-0487",
+   "topic_id": "10",
+   "ru": "порт",
+   "en": "port; harbor",
+   "it": "il porto",
+   "ipa": "il ˈpɔrto",
+   "g": "m",
+   "e": "⚓"
+  },
+  {
+   "id": "it-core-0488",
+   "topic_id": "10",
+   "ru": "отель",
+   "en": "hotel",
+   "it": "l’albergo",
+   "ipa": "lalˈbɛrgo",
+   "g": "m",
+   "e": "🏨"
+  },
+  {
+   "id": "it-core-0489",
+   "topic_id": "10",
+   "ru": "стойка регистрации",
+   "en": "reception desk",
+   "it": "la reception",
+   "ipa": "la riˈsɛpʃon",
+   "g": "f",
+   "e": "🛎️"
+  },
+  {
+   "id": "it-core-0490",
+   "topic_id": "10",
+   "ru": "приём; встреча гостей",
+   "en": "welcome; reception",
+   "it": "l’accoglienza",
+   "ipa": "lakkoʎˈʎɛntsa",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0491",
+   "topic_id": "10",
+   "ru": "персонал",
+   "en": "staff",
+   "it": "il personale",
+   "ipa": "il persoˈnale",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0492",
+   "topic_id": "10",
+   "ru": "пребывание",
+   "en": "stay",
+   "it": "il soggiorno",
+   "ipa": "il sodˈdʒorno",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0493",
+   "topic_id": "10",
+   "ru": "ночь",
+   "en": "night",
+   "it": "la notte",
+   "ipa": "la ˈnɔtte",
+   "g": "f",
+   "e": "🌙"
+  },
+  {
+   "id": "it-core-0494",
+   "topic_id": "10",
+   "ru": "наличие свободных мест",
+   "en": "availability",
+   "it": "la disponibilità",
+   "ipa": "la disponibiliˈta",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0495",
+   "topic_id": "10",
+   "ru": "кондиционирование воздуха",
+   "en": "air conditioning",
+   "it": "l’aria condizionata",
+   "ipa": "ˈlarja kondittsjoˈnata",
+   "g": "f",
+   "e": "❄️"
+  },
+  {
+   "id": "it-core-0496",
+   "topic_id": "10",
+   "ru": "подключение; соединение",
+   "en": "connection",
+   "it": "la connessione",
+   "ipa": "la konnesˈsjone",
+   "g": "f",
+   "e": "📶"
+  },
+  {
+   "id": "it-core-0497",
+   "topic_id": "10",
+   "ru": "уборка",
+   "en": "cleaning; housekeeping",
+   "it": "le pulizie",
+   "ipa": "le pulitˈtsie",
+   "g": "pl",
+   "e": ""
+  },
+  {
+   "id": "it-core-0498",
+   "topic_id": "10",
+   "ru": "выход",
+   "en": "exit",
+   "it": "l’uscita",
+   "ipa": "luʃˈʃita",
+   "g": "f",
+   "e": "🚪"
+  },
+  {
+   "id": "it-core-0499",
+   "topic_id": "10",
+   "ru": "остановка",
+   "en": "stop",
+   "it": "la fermata",
+   "ipa": "la ferˈmata",
+   "g": "f",
+   "e": "🚏"
+  },
+  {
+   "id": "it-core-0500",
+   "topic_id": "10",
+   "ru": "доплата",
+   "en": "extra charge",
+   "it": "il supplemento",
+   "ipa": "il suppleˈmento",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0501",
+   "topic_id": "11",
+   "ru": "покупка",
+   "en": "purchase",
+   "it": "l’acquisto",
+   "ipa": "lakˈkwisto",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0502",
+   "topic_id": "11",
+   "ru": "продажа",
+   "en": "sale",
+   "it": "la vendita",
+   "ipa": "la ˈvendita",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0503",
+   "topic_id": "11",
+   "ru": "цена",
+   "en": "price",
+   "it": "il prezzo",
+   "ipa": "il ˈprɛttso",
+   "g": "m",
+   "e": "🏷️"
+  },
+  {
+   "id": "it-core-0504",
+   "topic_id": "11",
+   "ru": "деньги",
+   "en": "money",
+   "it": "i soldi",
+   "ipa": "i ˈsɔldi",
+   "g": "pl",
+   "e": "💶"
+  },
+  {
+   "id": "it-core-0505",
+   "topic_id": "11",
+   "ru": "наличные",
+   "en": "cash",
+   "it": "i contanti",
+   "ipa": "i konˈtanti",
+   "g": "pl",
+   "e": "💵"
+  },
+  {
+   "id": "it-core-0506",
+   "topic_id": "11",
+   "ru": "сдача",
+   "en": "change (money given back)",
+   "it": "il resto",
+   "ipa": "il ˈrɛsto",
+   "g": "m",
+   "e": "🪙"
+  },
+  {
+   "id": "it-core-0507",
+   "topic_id": "11",
+   "ru": "банковская карта",
+   "en": "bank card",
+   "it": "la carta bancaria",
+   "ipa": "la ˈkarta banˈkarja",
+   "g": "f",
+   "e": "💳"
+  },
+  {
+   "id": "it-core-0508",
+   "topic_id": "11",
+   "ru": "банковский счёт",
+   "en": "bank account",
+   "it": "il conto in banca",
+   "ipa": "il ˈkonto in ˈbanka",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0509",
+   "topic_id": "11",
+   "ru": "счёт на оплату",
+   "en": "invoice",
+   "it": "la fattura",
+   "ipa": "la fatˈtura",
+   "g": "f",
+   "e": "🧾"
+  },
+  {
+   "id": "it-core-0510",
+   "topic_id": "11",
+   "ru": "кассовый чек",
+   "en": "receipt",
+   "it": "lo scontrino",
+   "ipa": "lo skonˈtrino",
+   "g": "m",
+   "e": "🧾"
+  },
+  {
+   "id": "it-core-0511",
+   "topic_id": "11",
+   "ru": "касса",
+   "en": "checkout; cash register",
+   "it": "la cassa",
+   "ipa": "la ˈkassa",
+   "g": "f",
+   "e": "🛒"
+  },
+  {
+   "id": "it-core-0512",
+   "topic_id": "11",
+   "ru": "кошелёк",
+   "en": "wallet",
+   "it": "il portafoglio",
+   "ipa": "il portaˈfɔʎʎo",
+   "g": "m",
+   "e": "👛"
+  },
+  {
+   "id": "it-core-0513",
+   "topic_id": "11",
+   "ru": "скидка",
+   "en": "discount",
+   "it": "lo sconto",
+   "ipa": "lo ˈskonto",
+   "g": "m",
+   "e": "🏷️"
+  },
+  {
+   "id": "it-core-0514",
+   "topic_id": "11",
+   "ru": "акция; продвижение по службе",
+   "en": "special offer; promotion",
+   "it": "la promozione",
+   "ipa": "la promotˈtsjone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0515",
+   "topic_id": "11",
+   "ru": "распродажа",
+   "en": "sales; sale period",
+   "it": "i saldi",
+   "ipa": "i ˈsaldi",
+   "g": "pl",
+   "e": "🏷️"
+  },
+  {
+   "id": "it-core-0516",
+   "topic_id": "11",
+   "ru": "бюджет",
+   "en": "budget",
+   "it": "il budget",
+   "ipa": "il ˈbadʒet",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0517",
+   "topic_id": "11",
+   "ru": "расход; покупка продуктов",
+   "en": "expense; grocery shopping",
+   "it": "la spesa",
+   "ipa": "la ˈspesa",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0518",
+   "topic_id": "11",
+   "ru": "возврат денег",
+   "en": "refund",
+   "it": "il rimborso",
+   "ipa": "il rimˈborso",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0519",
+   "topic_id": "11",
+   "ru": "гарантия",
+   "en": "warranty; guarantee",
+   "it": "la garanzia",
+   "ipa": "la garanˈtsia",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0520",
+   "topic_id": "11",
+   "ru": "товар; продукт",
+   "en": "product",
+   "it": "il prodotto",
+   "ipa": "il proˈdotto",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0521",
+   "topic_id": "11",
+   "ru": "бренд; марка",
+   "en": "brand",
+   "it": "la marca",
+   "ipa": "la ˈmarka",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0522",
+   "topic_id": "11",
+   "ru": "качество",
+   "en": "quality",
+   "it": "la qualità",
+   "ipa": "la kwaliˈta",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0523",
+   "topic_id": "11",
+   "ru": "количество",
+   "en": "quantity",
+   "it": "la quantità",
+   "ipa": "la kwantiˈta",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0524",
+   "topic_id": "11",
+   "ru": "размер одежды",
+   "en": "clothing size",
+   "it": "la taglia",
+   "ipa": "la ˈtaʎʎa",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0525",
+   "topic_id": "11",
+   "ru": "размер обуви",
+   "en": "shoe size",
+   "it": "il numero di scarpe",
+   "ipa": "il ˈnumero di ˈskarpe",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0526",
+   "topic_id": "11",
+   "ru": "вес",
+   "en": "weight",
+   "it": "il peso",
+   "ipa": "il ˈpeso",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0527",
+   "topic_id": "11",
+   "ru": "килограмм",
+   "en": "kilogram",
+   "it": "il chilo",
+   "ipa": "il ˈkilo",
+   "g": "m",
+   "e": "⚖️"
+  },
+  {
+   "id": "it-core-0528",
+   "topic_id": "11",
+   "ru": "литр",
+   "en": "liter",
+   "it": "il litro",
+   "ipa": "il ˈlitro",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0529",
+   "topic_id": "11",
+   "ru": "пачка; пакет",
+   "en": "packet; package",
+   "it": "il pacchetto",
+   "ipa": "il pakˈketto",
+   "g": "m",
+   "e": "📦"
+  },
+  {
+   "id": "it-core-0530",
+   "topic_id": "11",
+   "ru": "коробка",
+   "en": "box",
+   "it": "la scatola",
+   "ipa": "la ˈskatola",
+   "g": "f",
+   "e": "📦"
+  },
+  {
+   "id": "it-core-0531",
+   "topic_id": "11",
+   "ru": "пакетик",
+   "en": "small bag; sachet",
+   "it": "il sacchetto",
+   "ipa": "il sakˈketto",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0532",
+   "topic_id": "11",
+   "ru": "упаковка",
+   "en": "packaging",
+   "it": "la confezione",
+   "ipa": "la konfetˈtsjone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0533",
+   "topic_id": "11",
+   "ru": "одежда",
+   "en": "clothing",
+   "it": "l’abbigliamento",
+   "ipa": "labbiʎʎaˈmento",
+   "g": "m",
+   "e": "👚"
+  },
+  {
+   "id": "it-core-0534",
+   "topic_id": "11",
+   "ru": "брюки",
+   "en": "trousers; pants",
+   "it": "i pantaloni",
+   "ipa": "i pantaˈloni",
+   "g": "pl",
+   "e": "👖"
+  },
+  {
+   "id": "it-core-0535",
+   "topic_id": "11",
+   "ru": "джинсы",
+   "en": "jeans",
+   "it": "i jeans",
+   "ipa": "i dʒins",
+   "g": "pl",
+   "e": "👖"
+  },
+  {
+   "id": "it-core-0536",
+   "topic_id": "11",
+   "ru": "платье",
+   "en": "dress",
+   "it": "il vestito",
+   "ipa": "il veˈstito",
+   "g": "m",
+   "e": "👗"
+  },
+  {
+   "id": "it-core-0537",
+   "topic_id": "11",
+   "ru": "юбка",
+   "en": "skirt",
+   "it": "la gonna",
+   "ipa": "la ˈgonna",
+   "g": "f",
+   "e": "👗"
+  },
+  {
+   "id": "it-core-0538",
+   "topic_id": "11",
+   "ru": "рубашка",
+   "en": "shirt",
+   "it": "la camicia",
+   "ipa": "la kaˈmitʃa",
+   "g": "f",
+   "e": "👔"
+  },
+  {
+   "id": "it-core-0539",
+   "topic_id": "11",
+   "ru": "футболка",
+   "en": "T-shirt",
+   "it": "la maglietta",
+   "ipa": "la maʎˈʎetta",
+   "g": "f",
+   "e": "👕"
+  },
+  {
+   "id": "it-core-0540",
+   "topic_id": "11",
+   "ru": "свитер",
+   "en": "sweater",
+   "it": "il maglione",
+   "ipa": "il maʎˈʎone",
+   "g": "m",
+   "e": "🧶"
+  },
+  {
+   "id": "it-core-0541",
+   "topic_id": "11",
+   "ru": "куртка; пиджак",
+   "en": "jacket",
+   "it": "la giacca",
+   "ipa": "la ˈdʒakka",
+   "g": "f",
+   "e": "🧥"
+  },
+  {
+   "id": "it-core-0542",
+   "topic_id": "11",
+   "ru": "пальто",
+   "en": "coat",
+   "it": "il cappotto",
+   "ipa": "il kapˈpɔtto",
+   "g": "m",
+   "e": "🧥"
+  },
+  {
+   "id": "it-core-0543",
+   "topic_id": "11",
+   "ru": "обувь; туфля",
+   "en": "shoe",
+   "it": "la scarpa",
+   "ipa": "la ˈskarpa",
+   "g": "f",
+   "e": "👟"
+  },
+  {
+   "id": "it-core-0544",
+   "topic_id": "11",
+   "ru": "носок",
+   "en": "sock",
+   "it": "il calzino",
+   "ipa": "il kalˈtsino",
+   "g": "m",
+   "e": "🧦"
+  },
+  {
+   "id": "it-core-0545",
+   "topic_id": "11",
+   "ru": "головной убор; шляпа",
+   "en": "hat",
+   "it": "il cappello",
+   "ipa": "il kapˈpɛllo",
+   "g": "m",
+   "e": "🎩"
+  },
+  {
+   "id": "it-core-0546",
+   "topic_id": "11",
+   "ru": "шарф",
+   "en": "scarf",
+   "it": "la sciarpa",
+   "ipa": "la ˈʃarpa",
+   "g": "f",
+   "e": "🧣"
+  },
+  {
+   "id": "it-core-0547",
+   "topic_id": "11",
+   "ru": "перчатка",
+   "en": "glove",
+   "it": "il guanto",
+   "ipa": "il ˈgwanto",
+   "g": "m",
+   "e": "🧤"
+  },
+  {
+   "id": "it-core-0548",
+   "topic_id": "11",
+   "ru": "ремень",
+   "en": "belt",
+   "it": "la cintura",
+   "ipa": "la tʃinˈtura",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0549",
+   "topic_id": "11",
+   "ru": "очки",
+   "en": "glasses",
+   "it": "gli occhiali",
+   "ipa": "ʎi okˈkjali",
+   "g": "pl",
+   "e": "👓"
+  },
+  {
+   "id": "it-core-0550",
+   "topic_id": "11",
+   "ru": "зонт",
+   "en": "umbrella",
+   "it": "l’ombrello",
+   "ipa": "lomˈbrɛllo",
+   "g": "m",
+   "e": "☂️"
+  },
+  {
+   "id": "it-core-0551",
+   "topic_id": "12",
+   "ru": "тело",
+   "en": "body",
+   "it": "il corpo",
+   "ipa": "il ˈkɔrpo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0552",
+   "topic_id": "12",
+   "ru": "голова",
+   "en": "head",
+   "it": "la testa",
+   "ipa": "la ˈtɛsta",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0553",
+   "topic_id": "12",
+   "ru": "лицо",
+   "en": "face",
+   "it": "il viso",
+   "ipa": "il ˈvizo",
+   "g": "m",
+   "e": "🙂"
+  },
+  {
+   "id": "it-core-0554",
+   "topic_id": "12",
+   "ru": "глаз; глаза",
+   "en": "eye; eyes",
+   "it": "l’occhio / gli occhi",
+   "ipa": "ˈlɔkkjo / ʎi ˈɔkki",
+   "g": "m",
+   "e": "👁️"
+  },
+  {
+   "id": "it-core-0555",
+   "topic_id": "12",
+   "ru": "нос",
+   "en": "nose",
+   "it": "il naso",
+   "ipa": "il ˈnaso",
+   "g": "m",
+   "e": "👃"
+  },
+  {
+   "id": "it-core-0556",
+   "topic_id": "12",
+   "ru": "рот",
+   "en": "mouth",
+   "it": "la bocca",
+   "ipa": "la ˈbokka",
+   "g": "f",
+   "e": "👄"
+  },
+  {
+   "id": "it-core-0557",
+   "topic_id": "12",
+   "ru": "зуб",
+   "en": "tooth",
+   "it": "il dente",
+   "ipa": "il ˈdɛnte",
+   "g": "m",
+   "e": "🦷"
+  },
+  {
+   "id": "it-core-0558",
+   "topic_id": "12",
+   "ru": "язык",
+   "en": "tongue; language",
+   "it": "la lingua",
+   "ipa": "la ˈlingwa",
+   "g": "f",
+   "e": "👅"
+  },
+  {
+   "id": "it-core-0559",
+   "topic_id": "12",
+   "ru": "ухо",
+   "en": "ear",
+   "it": "l’orecchio",
+   "ipa": "loˈrekkjo",
+   "g": "m",
+   "e": "👂"
+  },
+  {
+   "id": "it-core-0560",
+   "topic_id": "12",
+   "ru": "волосы",
+   "en": "hair",
+   "it": "i capelli",
+   "ipa": "i kaˈpelli",
+   "g": "pl",
+   "e": "💇"
+  },
+  {
+   "id": "it-core-0561",
+   "topic_id": "12",
+   "ru": "шея",
+   "en": "neck",
+   "it": "il collo",
+   "ipa": "il ˈkɔllo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0562",
+   "topic_id": "12",
+   "ru": "плечо",
+   "en": "shoulder",
+   "it": "la spalla",
+   "ipa": "la ˈspalla",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0563",
+   "topic_id": "12",
+   "ru": "рука от плеча",
+   "en": "arm",
+   "it": "il braccio",
+   "ipa": "il ˈbrattʃo",
+   "g": "m",
+   "e": "💪"
+  },
+  {
+   "id": "it-core-0564",
+   "topic_id": "12",
+   "ru": "кисть руки",
+   "en": "hand",
+   "it": "la mano",
+   "ipa": "la ˈmano",
+   "g": "f",
+   "e": "✋"
+  },
+  {
+   "id": "it-core-0565",
+   "topic_id": "12",
+   "ru": "палец руки",
+   "en": "finger",
+   "it": "il dito",
+   "ipa": "il ˈdito",
+   "g": "m",
+   "e": "☝️"
+  },
+  {
+   "id": "it-core-0566",
+   "topic_id": "12",
+   "ru": "ноготь",
+   "en": "nail",
+   "it": "l’unghia",
+   "ipa": "ˈlungja",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0567",
+   "topic_id": "12",
+   "ru": "спина",
+   "en": "back",
+   "it": "la schiena",
+   "ipa": "la ˈskjɛna",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0568",
+   "topic_id": "12",
+   "ru": "живот",
+   "en": "belly; abdomen",
+   "it": "la pancia",
+   "ipa": "la ˈpantʃa",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0569",
+   "topic_id": "12",
+   "ru": "нога",
+   "en": "leg",
+   "it": "la gamba",
+   "ipa": "la ˈgamba",
+   "g": "f",
+   "e": "🦵"
+  },
+  {
+   "id": "it-core-0570",
+   "topic_id": "12",
+   "ru": "ступня",
+   "en": "foot",
+   "it": "il piede",
+   "ipa": "il ˈpjɛde",
+   "g": "m",
+   "e": "🦶"
+  },
+  {
+   "id": "it-core-0571",
+   "topic_id": "12",
+   "ru": "колено",
+   "en": "knee",
+   "it": "il ginocchio",
+   "ipa": "il dʒiˈnɔkkjo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0572",
+   "topic_id": "12",
+   "ru": "сердце",
+   "en": "heart",
+   "it": "il cuore",
+   "ipa": "il ˈkwɔre",
+   "g": "m",
+   "e": "❤️"
+  },
+  {
+   "id": "it-core-0573",
+   "topic_id": "12",
+   "ru": "кожа",
+   "en": "skin",
+   "it": "la pelle",
+   "ipa": "la ˈpɛlle",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0574",
+   "topic_id": "12",
+   "ru": "кровь",
+   "en": "blood",
+   "it": "il sangue",
+   "ipa": "il ˈsangwe",
+   "g": "m",
+   "e": "🩸"
+  },
+  {
+   "id": "it-core-0575",
+   "topic_id": "12",
+   "ru": "дыхание",
+   "en": "breathing",
+   "it": "il respiro",
+   "ipa": "il reˈspiro",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0576",
+   "topic_id": "12",
+   "ru": "здоровье",
+   "en": "health",
+   "it": "la salute",
+   "ipa": "la saˈlute",
+   "g": "f",
+   "e": "🩺"
+  },
+  {
+   "id": "it-core-0577",
+   "topic_id": "12",
+   "ru": "болезнь",
+   "en": "illness",
+   "it": "la malattia",
+   "ipa": "la malatˈtia",
+   "g": "f",
+   "e": "🤒"
+  },
+  {
+   "id": "it-core-0578",
+   "topic_id": "12",
+   "ru": "боль",
+   "en": "pain",
+   "it": "il dolore",
+   "ipa": "il doˈlore",
+   "g": "m",
+   "e": "😖"
+  },
+  {
+   "id": "it-core-0579",
+   "topic_id": "12",
+   "ru": "повышенная температура",
+   "en": "fever",
+   "it": "la febbre",
+   "ipa": "la ˈfɛbbre",
+   "g": "f",
+   "e": "🤒"
+  },
+  {
+   "id": "it-core-0580",
+   "topic_id": "12",
+   "ru": "простуда",
+   "en": "cold; common cold",
+   "it": "il raffreddore",
+   "ipa": "il raffredˈdore",
+   "g": "m",
+   "e": "🤧"
+  },
+  {
+   "id": "it-core-0581",
+   "topic_id": "12",
+   "ru": "кашель",
+   "en": "cough",
+   "it": "la tosse",
+   "ipa": "la ˈtosse",
+   "g": "f",
+   "e": "😷"
+  },
+  {
+   "id": "it-core-0582",
+   "topic_id": "12",
+   "ru": "аллергия",
+   "en": "allergy",
+   "it": "l’allergia",
+   "ipa": "lallerˈdʒia",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0583",
+   "topic_id": "12",
+   "ru": "рана; травма",
+   "en": "wound; injury",
+   "it": "la ferita",
+   "ipa": "la feˈrita",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0584",
+   "topic_id": "12",
+   "ru": "несчастный случай; авария",
+   "en": "accident",
+   "it": "l’incidente",
+   "ipa": "lintʃiˈdɛnte",
+   "g": "m",
+   "e": "💥"
+  },
+  {
+   "id": "it-core-0585",
+   "topic_id": "12",
+   "ru": "экстренная ситуация",
+   "en": "emergency",
+   "it": "l’emergenza",
+   "ipa": "lemerˈdʒɛntsa",
+   "g": "f",
+   "e": "🚑"
+  },
+  {
+   "id": "it-core-0586",
+   "topic_id": "12",
+   "ru": "врач",
+   "en": "doctor",
+   "it": "il medico",
+   "ipa": "il ˈmɛdiko",
+   "g": "m",
+   "e": "🧑‍⚕️"
+  },
+  {
+   "id": "it-core-0587",
+   "topic_id": "12",
+   "ru": "медбрат; медсестра",
+   "en": "nurse",
+   "it": "l’infermiere / l’infermiera",
+   "ipa": "linferˈmjɛre / linferˈmjɛra",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0588",
+   "topic_id": "12",
+   "ru": "стоматолог",
+   "en": "dentist",
+   "it": "il dentista / la dentista",
+   "ipa": "il denˈtista / la denˈtista",
+   "g": "",
+   "e": "🦷"
+  },
+  {
+   "id": "it-core-0589",
+   "topic_id": "12",
+   "ru": "пациент; пациентка",
+   "en": "patient",
+   "it": "il paziente / la paziente",
+   "ipa": "il patˈtsjɛnte / la patˈtsjɛnte",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0590",
+   "topic_id": "12",
+   "ru": "назначенная встреча; приём",
+   "en": "appointment",
+   "it": "l’appuntamento",
+   "ipa": "lappuntaˈmento",
+   "g": "m",
+   "e": "📅"
+  },
+  {
+   "id": "it-core-0591",
+   "topic_id": "12",
+   "ru": "рецепт (врача; кулинарный)",
+   "en": "prescription; recipe",
+   "it": "la ricetta",
+   "ipa": "la riˈtʃɛtta",
+   "g": "f",
+   "e": "📝"
+  },
+  {
+   "id": "it-core-0592",
+   "topic_id": "12",
+   "ru": "лекарство; медицина",
+   "en": "medicine; medication",
+   "it": "la medicina",
+   "ipa": "la mediˈtʃina",
+   "g": "f",
+   "e": "💊"
+  },
+  {
+   "id": "it-core-0593",
+   "topic_id": "12",
+   "ru": "таблетка",
+   "en": "tablet; pill",
+   "it": "la pastiglia",
+   "ipa": "la paˈstiʎʎa",
+   "g": "f",
+   "e": "💊"
+  },
+  {
+   "id": "it-core-0594",
+   "topic_id": "12",
+   "ru": "пластырь",
+   "en": "plaster; adhesive bandage",
+   "it": "il cerotto",
+   "ipa": "il tʃeˈrɔtto",
+   "g": "m",
+   "e": "🩹"
+  },
+  {
+   "id": "it-core-0595",
+   "topic_id": "12",
+   "ru": "страхование; страховка",
+   "en": "insurance",
+   "it": "l’assicurazione",
+   "ipa": "lassikuratˈtsjone",
+   "g": "f",
+   "e": "📄"
+  },
+  {
+   "id": "it-core-0596",
+   "topic_id": "12",
+   "ru": "неотложная помощь; приёмный покой",
+   "en": "first aid; emergency room",
+   "it": "il pronto soccorso",
+   "ipa": "il ˈpronto sokˈkorso",
+   "g": "m",
+   "e": "🏥"
+  },
+  {
+   "id": "it-core-0597",
+   "topic_id": "12",
+   "ru": "усталость",
+   "en": "fatigue; tiredness",
+   "it": "la stanchezza",
+   "ipa": "la stanˈkettsa",
+   "g": "f",
+   "e": "🥱"
+  },
+  {
+   "id": "it-core-0598",
+   "topic_id": "12",
+   "ru": "сон",
+   "en": "sleep",
+   "it": "il sonno",
+   "ipa": "il ˈsonno",
+   "g": "m",
+   "e": "😴"
+  },
+  {
+   "id": "it-core-0599",
+   "topic_id": "12",
+   "ru": "стресс",
+   "en": "stress",
+   "it": "lo stress",
+   "ipa": "lo strɛs",
+   "g": "m",
+   "e": "😰"
+  },
+  {
+   "id": "it-core-0600",
+   "topic_id": "12",
+   "ru": "инвалидность",
+   "en": "disability",
+   "it": "la disabilità",
+   "ipa": "la dizabiliˈta",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0601",
+   "topic_id": "13",
+   "ru": "работа; труд",
+   "en": "work",
+   "it": "il lavoro",
+   "ipa": "il laˈvoro",
+   "g": "m",
+   "e": "💼"
+  },
+  {
+   "id": "it-core-0602",
+   "topic_id": "13",
+   "ru": "работа; занятость",
+   "en": "job; employment",
+   "it": "l’impiego",
+   "ipa": "limˈpjɛgo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0603",
+   "topic_id": "13",
+   "ru": "ремесло; профессия",
+   "en": "trade; occupation",
+   "it": "il mestiere",
+   "ipa": "il meˈstjɛre",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0604",
+   "topic_id": "13",
+   "ru": "предприятие; компания",
+   "en": "company; business",
+   "it": "l’azienda",
+   "ipa": "ladˈdzjɛnda",
+   "g": "f",
+   "e": "🏢"
+  },
+  {
+   "id": "it-core-0605",
+   "topic_id": "13",
+   "ru": "завод",
+   "en": "factory",
+   "it": "la fabbrica",
+   "ipa": "la ˈfabbrika",
+   "g": "f",
+   "e": "🏭"
+  },
+  {
+   "id": "it-core-0606",
+   "topic_id": "13",
+   "ru": "команда",
+   "en": "team",
+   "it": "la squadra",
+   "ipa": "la ˈskwadra",
+   "g": "f",
+   "e": "👥"
+  },
+  {
+   "id": "it-core-0607",
+   "topic_id": "13",
+   "ru": "руководитель; начальник",
+   "en": "boss; leader",
+   "it": "il capo",
+   "ipa": "il ˈkapo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0608",
+   "topic_id": "13",
+   "ru": "директор",
+   "en": "director; manager",
+   "it": "il direttore / la direttrice",
+   "ipa": "il diretˈtore / la diretˈtritʃe",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0609",
+   "topic_id": "13",
+   "ru": "сотрудник; сотрудница",
+   "en": "employee",
+   "it": "l’impiegato / l’impiegata",
+   "ipa": "limpjeˈgato / limpjeˈgata",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0610",
+   "topic_id": "13",
+   "ru": "клиент; клиентка",
+   "en": "customer; client",
+   "it": "il cliente / la cliente",
+   "ipa": "il kliˈɛnte / la kliˈɛnte",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0611",
+   "topic_id": "13",
+   "ru": "собрание; совещание",
+   "en": "meeting",
+   "it": "la riunione",
+   "ipa": "la riuˈnjone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0612",
+   "topic_id": "13",
+   "ru": "проект",
+   "en": "project",
+   "it": "il progetto",
+   "ipa": "il proˈdʒɛtto",
+   "g": "m",
+   "e": "📋"
+  },
+  {
+   "id": "it-core-0613",
+   "topic_id": "13",
+   "ru": "задача; домашнее задание",
+   "en": "task; homework",
+   "it": "il compito",
+   "ipa": "il ˈkompito",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0614",
+   "topic_id": "13",
+   "ru": "ответственность",
+   "en": "responsibility",
+   "it": "la responsabilità",
+   "ipa": "la responsabiliˈta",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0615",
+   "topic_id": "13",
+   "ru": "договор",
+   "en": "contract",
+   "it": "il contratto",
+   "ipa": "il konˈtratto",
+   "g": "m",
+   "e": "📄"
+  },
+  {
+   "id": "it-core-0616",
+   "topic_id": "13",
+   "ru": "зарплата",
+   "en": "salary",
+   "it": "lo stipendio",
+   "ipa": "lo stiˈpɛndjo",
+   "g": "m",
+   "e": "💰"
+  },
+  {
+   "id": "it-core-0617",
+   "topic_id": "13",
+   "ru": "заявка на должность",
+   "en": "job application",
+   "it": "la candidatura",
+   "ipa": "la kandidaˈtura",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0618",
+   "topic_id": "13",
+   "ru": "собеседование",
+   "en": "job interview",
+   "it": "il colloquio",
+   "ipa": "il kolˈlɔkwjo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0619",
+   "topic_id": "13",
+   "ru": "диплом",
+   "en": "diploma; qualification",
+   "it": "il diploma",
+   "ipa": "il diˈplɔma",
+   "g": "m",
+   "e": "🎓"
+  },
+  {
+   "id": "it-core-0620",
+   "topic_id": "13",
+   "ru": "опыт",
+   "en": "experience",
+   "it": "l’esperienza",
+   "ipa": "lespeˈrjɛntsa",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0621",
+   "topic_id": "13",
+   "ru": "навык; компетенция",
+   "en": "skill; competence",
+   "it": "la competenza",
+   "ipa": "la kompeˈtɛntsa",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0622",
+   "topic_id": "13",
+   "ru": "профессиональное обучение",
+   "en": "training",
+   "it": "la formazione",
+   "ipa": "la formatˈtsjone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0623",
+   "topic_id": "13",
+   "ru": "стажировка",
+   "en": "internship",
+   "it": "il tirocinio",
+   "ipa": "il tiroˈtʃinjo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0624",
+   "topic_id": "13",
+   "ru": "безработица",
+   "en": "unemployment",
+   "it": "la disoccupazione",
+   "ipa": "la dizokkupatˈtsjone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0625",
+   "topic_id": "13",
+   "ru": "пенсия; пансион (небольшая гостиница)",
+   "en": "retirement; pension; guesthouse",
+   "it": "la pensione",
+   "ipa": "la penˈsjone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0626",
+   "topic_id": "13",
+   "ru": "школа",
+   "en": "school",
+   "it": "la scuola",
+   "ipa": "la ˈskwɔla",
+   "g": "f",
+   "e": "🏫"
+  },
+  {
+   "id": "it-core-0627",
+   "topic_id": "13",
+   "ru": "средняя школа первой ступени",
+   "en": "lower secondary school",
+   "it": "la scuola media",
+   "ipa": "la ˈskwɔla ˈmɛdja",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0628",
+   "topic_id": "13",
+   "ru": "старшая школа; лицей",
+   "en": "upper secondary school",
+   "it": "il liceo",
+   "ipa": "il liˈtʃɛo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0629",
+   "topic_id": "13",
+   "ru": "университет",
+   "en": "university",
+   "it": "l’università",
+   "ipa": "luniversiˈta",
+   "g": "f",
+   "e": "🎓"
+  },
+  {
+   "id": "it-core-0630",
+   "topic_id": "13",
+   "ru": "класс; учебная группа",
+   "en": "class",
+   "it": "la classe",
+   "ipa": "la ˈklasse",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0631",
+   "topic_id": "13",
+   "ru": "курс; занятие",
+   "en": "course; class",
+   "it": "il corso",
+   "ipa": "il ˈkorso",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0632",
+   "topic_id": "13",
+   "ru": "урок",
+   "en": "lesson",
+   "it": "la lezione",
+   "ipa": "la letˈtsjone",
+   "g": "f",
+   "e": "📖"
+  },
+  {
+   "id": "it-core-0633",
+   "topic_id": "13",
+   "ru": "инструкция; указания",
+   "en": "instructions",
+   "it": "le istruzioni",
+   "ipa": "le istrutˈtsjoni",
+   "g": "pl",
+   "e": ""
+  },
+  {
+   "id": "it-core-0634",
+   "topic_id": "13",
+   "ru": "упражнение",
+   "en": "exercise",
+   "it": "l’esercizio",
+   "ipa": "lezerˈtʃittsjo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0635",
+   "topic_id": "13",
+   "ru": "экзамен",
+   "en": "exam",
+   "it": "l’esame",
+   "ipa": "leˈzame",
+   "g": "m",
+   "e": "📝"
+  },
+  {
+   "id": "it-core-0636",
+   "topic_id": "13",
+   "ru": "оценка; голос на выборах",
+   "en": "grade; vote",
+   "it": "il voto",
+   "ipa": "il ˈvoto",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0637",
+   "topic_id": "13",
+   "ru": "результат",
+   "en": "result",
+   "it": "il risultato",
+   "ipa": "il rizulˈtato",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0638",
+   "topic_id": "13",
+   "ru": "студент; студентка",
+   "en": "student",
+   "it": "lo studente / la studentessa",
+   "ipa": "lo stuˈdɛnte / la studenˈtessa",
+   "g": "",
+   "e": "🧑‍🎓"
+  },
+  {
+   "id": "it-core-0639",
+   "topic_id": "13",
+   "ru": "преподаватель",
+   "en": "teacher; professor",
+   "it": "il professore / la professoressa",
+   "ipa": "il profesˈsore / la professoˈressa",
+   "g": "",
+   "e": "🧑‍🏫"
+  },
+  {
+   "id": "it-core-0640",
+   "topic_id": "13",
+   "ru": "ученик; ученица",
+   "en": "pupil",
+   "it": "l’alunno / l’alunna",
+   "ipa": "laˈlunno / laˈlunna",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0641",
+   "topic_id": "13",
+   "ru": "книга",
+   "en": "book",
+   "it": "il libro",
+   "ipa": "il ˈlibro",
+   "g": "m",
+   "e": "📖"
+  },
+  {
+   "id": "it-core-0642",
+   "topic_id": "13",
+   "ru": "тетрадь",
+   "en": "notebook",
+   "it": "il quaderno",
+   "ipa": "il kwaˈdɛrno",
+   "g": "m",
+   "e": "📓"
+  },
+  {
+   "id": "it-core-0643",
+   "topic_id": "13",
+   "ru": "ручка для письма",
+   "en": "pen",
+   "it": "la penna",
+   "ipa": "la ˈpenna",
+   "g": "f",
+   "e": "🖊️"
+  },
+  {
+   "id": "it-core-0644",
+   "topic_id": "13",
+   "ru": "карандаш",
+   "en": "pencil",
+   "it": "la matita",
+   "ipa": "la maˈtita",
+   "g": "f",
+   "e": "✏️"
+  },
+  {
+   "id": "it-core-0645",
+   "topic_id": "13",
+   "ru": "лист бумаги",
+   "en": "sheet of paper",
+   "it": "il foglio",
+   "ipa": "il ˈfɔʎʎo",
+   "g": "m",
+   "e": "📄"
+  },
+  {
+   "id": "it-core-0646",
+   "topic_id": "13",
+   "ru": "бумага",
+   "en": "paper",
+   "it": "la carta",
+   "ipa": "la ˈkarta",
+   "g": "f",
+   "e": "📄"
+  },
+  {
+   "id": "it-core-0647",
+   "topic_id": "13",
+   "ru": "словарь",
+   "en": "dictionary",
+   "it": "il dizionario",
+   "ipa": "il dittsjoˈnarjo",
+   "g": "m",
+   "e": "📚"
+  },
+  {
+   "id": "it-core-0648",
+   "topic_id": "13",
+   "ru": "ошибка",
+   "en": "mistake",
+   "it": "l’errore",
+   "ipa": "lerˈrore",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0649",
+   "topic_id": "13",
+   "ru": "прогресс",
+   "en": "progress",
+   "it": "il progresso",
+   "ipa": "il proˈgrɛsso",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0650",
+   "topic_id": "13",
+   "ru": "цель",
+   "en": "goal; objective",
+   "it": "l’obiettivo",
+   "ipa": "lobjetˈtivo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0651",
+   "topic_id": "14",
+   "ru": "телефон",
+   "en": "telephone; phone",
+   "it": "il telefono",
+   "ipa": "il teˈlɛfono",
+   "g": "m",
+   "e": "📱"
+  },
+  {
+   "id": "it-core-0652",
+   "topic_id": "14",
+   "ru": "номер",
+   "en": "number",
+   "it": "il numero",
+   "ipa": "il ˈnumero",
+   "g": "m",
+   "e": "🔢"
+  },
+  {
+   "id": "it-core-0653",
+   "topic_id": "14",
+   "ru": "компьютер",
+   "en": "computer",
+   "it": "il computer",
+   "ipa": "il komˈpjuter",
+   "g": "m",
+   "e": "💻"
+  },
+  {
+   "id": "it-core-0654",
+   "topic_id": "14",
+   "ru": "экран",
+   "en": "screen",
+   "it": "lo schermo",
+   "ipa": "lo ˈskermo",
+   "g": "m",
+   "e": "🖥️"
+  },
+  {
+   "id": "it-core-0655",
+   "topic_id": "14",
+   "ru": "вопрос",
+   "en": "question",
+   "it": "la domanda",
+   "ipa": "la doˈmanda",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0656",
+   "topic_id": "14",
+   "ru": "ответ",
+   "en": "answer",
+   "it": "la risposta",
+   "ipa": "la riˈsposta",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0657",
+   "topic_id": "14",
+   "ru": "приложение",
+   "en": "app; application",
+   "it": "l’app",
+   "ipa": "lɛp",
+   "g": "f",
+   "e": "📲"
+  },
+  {
+   "id": "it-core-0658",
+   "topic_id": "14",
+   "ru": "сайт",
+   "en": "website",
+   "it": "il sito",
+   "ipa": "il ˈsito",
+   "g": "m",
+   "e": "🌐"
+  },
+  {
+   "id": "it-core-0659",
+   "topic_id": "14",
+   "ru": "интернет",
+   "en": "Internet",
+   "it": "internet",
+   "ipa": "ˈinternet",
+   "g": "",
+   "e": "🌐"
+  },
+  {
+   "id": "it-core-0660",
+   "topic_id": "14",
+   "ru": "пароль",
+   "en": "password",
+   "it": "la password",
+   "ipa": "la ˈpaswɔrd",
+   "g": "f",
+   "e": "🔐"
+  },
+  {
+   "id": "it-core-0661",
+   "topic_id": "14",
+   "ru": "электронное письмо",
+   "en": "email",
+   "it": "l’e-mail",
+   "ipa": "liˈmeil",
+   "g": "f",
+   "e": "📧"
+  },
+  {
+   "id": "it-core-0662",
+   "topic_id": "14",
+   "ru": "сообщение",
+   "en": "message",
+   "it": "il messaggio",
+   "ipa": "il mesˈsaddʒo",
+   "g": "m",
+   "e": "💬"
+  },
+  {
+   "id": "it-core-0663",
+   "topic_id": "14",
+   "ru": "файл",
+   "en": "file",
+   "it": "il file",
+   "ipa": "il fail",
+   "g": "m",
+   "e": "📁"
+  },
+  {
+   "id": "it-core-0664",
+   "topic_id": "14",
+   "ru": "документ",
+   "en": "document",
+   "it": "il documento",
+   "ipa": "il dokuˈmento",
+   "g": "m",
+   "e": "📄"
+  },
+  {
+   "id": "it-core-0665",
+   "topic_id": "14",
+   "ru": "событие",
+   "en": "event",
+   "it": "l’evento",
+   "ipa": "leˈvɛnto",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0666",
+   "topic_id": "14",
+   "ru": "ссылка; связь",
+   "en": "link; connection",
+   "it": "il collegamento",
+   "ipa": "il kollegaˈmento",
+   "g": "m",
+   "e": "🔗"
+  },
+  {
+   "id": "it-core-0667",
+   "topic_id": "14",
+   "ru": "сеть",
+   "en": "network",
+   "it": "la rete",
+   "ipa": "la ˈrete",
+   "g": "f",
+   "e": "📡"
+  },
+  {
+   "id": "it-core-0668",
+   "topic_id": "14",
+   "ru": "фотография",
+   "en": "photo",
+   "it": "la foto",
+   "ipa": "la ˈfɔto",
+   "g": "f",
+   "e": "📷"
+  },
+  {
+   "id": "it-core-0669",
+   "topic_id": "14",
+   "ru": "информация",
+   "en": "information",
+   "it": "l’informazione",
+   "ipa": "linformatˈtsjone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0670",
+   "topic_id": "14",
+   "ru": "видео",
+   "en": "video",
+   "it": "il video",
+   "ipa": "il ˈvideo",
+   "g": "m",
+   "e": "🎥"
+  },
+  {
+   "id": "it-core-0671",
+   "topic_id": "14",
+   "ru": "новости",
+   "en": "news",
+   "it": "le notizie",
+   "ipa": "le noˈtittsje",
+   "g": "pl",
+   "e": ""
+  },
+  {
+   "id": "it-core-0672",
+   "topic_id": "14",
+   "ru": "газета",
+   "en": "newspaper",
+   "it": "il giornale",
+   "ipa": "il dʒorˈnale",
+   "g": "m",
+   "e": "📰"
+  },
+  {
+   "id": "it-core-0673",
+   "topic_id": "14",
+   "ru": "журнал",
+   "en": "magazine",
+   "it": "la rivista",
+   "ipa": "la riˈvista",
+   "g": "f",
+   "e": "📰"
+  },
+  {
+   "id": "it-core-0674",
+   "topic_id": "14",
+   "ru": "статья",
+   "en": "article",
+   "it": "l’articolo",
+   "ipa": "larˈtikolo",
+   "g": "m",
+   "e": "📰"
+  },
+  {
+   "id": "it-core-0675",
+   "topic_id": "14",
+   "ru": "письмо",
+   "en": "letter",
+   "it": "la lettera",
+   "ipa": "la ˈlɛttera",
+   "g": "f",
+   "e": "✉️"
+  },
+  {
+   "id": "it-core-0676",
+   "topic_id": "14",
+   "ru": "страница",
+   "en": "page",
+   "it": "la pagina",
+   "ipa": "la ˈpadʒina",
+   "g": "f",
+   "e": "📄"
+  },
+  {
+   "id": "it-core-0677",
+   "topic_id": "14",
+   "ru": "слово",
+   "en": "word",
+   "it": "la parola",
+   "ipa": "la paˈrɔla",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0678",
+   "topic_id": "14",
+   "ru": "предложение; фраза",
+   "en": "sentence",
+   "it": "la frase",
+   "ipa": "la ˈfraze",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0679",
+   "topic_id": "14",
+   "ru": "история; рассказ",
+   "en": "history; story",
+   "it": "la storia",
+   "ipa": "la ˈstɔrja",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0680",
+   "topic_id": "14",
+   "ru": "фильм",
+   "en": "film; movie",
+   "it": "il film",
+   "ipa": "il film",
+   "g": "m",
+   "e": "🎬"
+  },
+  {
+   "id": "it-core-0681",
+   "topic_id": "14",
+   "ru": "сериал",
+   "en": "series; TV series",
+   "it": "la serie",
+   "ipa": "la ˈsɛrje",
+   "g": "f",
+   "e": "📺"
+  },
+  {
+   "id": "it-core-0682",
+   "topic_id": "14",
+   "ru": "музыка",
+   "en": "music",
+   "it": "la musica",
+   "ipa": "la ˈmuzika",
+   "g": "f",
+   "e": "🎵"
+  },
+  {
+   "id": "it-core-0683",
+   "topic_id": "14",
+   "ru": "песня",
+   "en": "song",
+   "it": "la canzone",
+   "ipa": "la kanˈtsone",
+   "g": "f",
+   "e": "🎶"
+  },
+  {
+   "id": "it-core-0684",
+   "topic_id": "14",
+   "ru": "концерт",
+   "en": "concert",
+   "it": "il concerto",
+   "ipa": "il konˈtʃɛrto",
+   "g": "m",
+   "e": "🎤"
+  },
+  {
+   "id": "it-core-0685",
+   "topic_id": "14",
+   "ru": "спектакль; представление",
+   "en": "show; performance",
+   "it": "lo spettacolo",
+   "ipa": "lo spetˈtakolo",
+   "g": "m",
+   "e": "🎭"
+  },
+  {
+   "id": "it-core-0686",
+   "topic_id": "14",
+   "ru": "выставка",
+   "en": "exhibition",
+   "it": "la mostra",
+   "ipa": "la ˈmostra",
+   "g": "f",
+   "e": "🖼️"
+  },
+  {
+   "id": "it-core-0687",
+   "topic_id": "14",
+   "ru": "искусство",
+   "en": "art",
+   "it": "l’arte",
+   "ipa": "ˈlarte",
+   "g": "f",
+   "e": "🎨"
+  },
+  {
+   "id": "it-core-0688",
+   "topic_id": "14",
+   "ru": "культура",
+   "en": "culture",
+   "it": "la cultura",
+   "ipa": "la kulˈtura",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0689",
+   "topic_id": "14",
+   "ru": "рисунок",
+   "en": "drawing",
+   "it": "il disegno",
+   "ipa": "il diˈseɲɲo",
+   "g": "m",
+   "e": "✏️"
+  },
+  {
+   "id": "it-core-0690",
+   "topic_id": "14",
+   "ru": "живопись; краска",
+   "en": "painting; paint",
+   "it": "la pittura",
+   "ipa": "la pitˈtura",
+   "g": "f",
+   "e": "🎨"
+  },
+  {
+   "id": "it-core-0691",
+   "topic_id": "14",
+   "ru": "танец",
+   "en": "dance",
+   "it": "la danza",
+   "ipa": "la ˈdantsa",
+   "g": "f",
+   "e": "💃"
+  },
+  {
+   "id": "it-core-0692",
+   "topic_id": "14",
+   "ru": "игра",
+   "en": "game",
+   "it": "il gioco",
+   "ipa": "il ˈdʒɔko",
+   "g": "m",
+   "e": "🎲"
+  },
+  {
+   "id": "it-core-0693",
+   "topic_id": "14",
+   "ru": "спорт",
+   "en": "sport",
+   "it": "lo sport",
+   "ipa": "lo spɔrt",
+   "g": "m",
+   "e": "🏅"
+  },
+  {
+   "id": "it-core-0694",
+   "topic_id": "14",
+   "ru": "свободное время; досуг",
+   "en": "free time; leisure",
+   "it": "il tempo libero",
+   "ipa": "il ˈtɛmpo ˈlibero",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0695",
+   "topic_id": "14",
+   "ru": "прогулка",
+   "en": "walk; stroll",
+   "it": "la passeggiata",
+   "ipa": "la passedˈdʒata",
+   "g": "f",
+   "e": "🚶"
+  },
+  {
+   "id": "it-core-0696",
+   "topic_id": "14",
+   "ru": "пеший поход",
+   "en": "hike",
+   "it": "l’escursione",
+   "ipa": "leskurˈsjone",
+   "g": "f",
+   "e": "🥾"
+  },
+  {
+   "id": "it-core-0697",
+   "topic_id": "14",
+   "ru": "плавание",
+   "en": "swimming",
+   "it": "il nuoto",
+   "ipa": "il ˈnwɔto",
+   "g": "m",
+   "e": "🏊"
+  },
+  {
+   "id": "it-core-0698",
+   "topic_id": "14",
+   "ru": "футбол",
+   "en": "football; soccer",
+   "it": "il calcio",
+   "ipa": "il ˈkaltʃo",
+   "g": "m",
+   "e": "⚽"
+  },
+  {
+   "id": "it-core-0699",
+   "topic_id": "14",
+   "ru": "велоспорт",
+   "en": "cycling",
+   "it": "il ciclismo",
+   "ipa": "il tʃiˈklizmo",
+   "g": "m",
+   "e": "🚴"
+  },
+  {
+   "id": "it-core-0700",
+   "topic_id": "14",
+   "ru": "чтение",
+   "en": "reading",
+   "it": "la lettura",
+   "ipa": "la letˈtura",
+   "g": "f",
+   "e": "📖"
+  },
+  {
+   "id": "it-core-0701",
+   "topic_id": "15",
+   "ru": "природа",
+   "en": "nature",
+   "it": "la natura",
+   "ipa": "la naˈtura",
+   "g": "f",
+   "e": "🌿"
+  },
+  {
+   "id": "it-core-0702",
+   "topic_id": "15",
+   "ru": "мир",
+   "en": "world",
+   "it": "il mondo",
+   "ipa": "il ˈmondo",
+   "g": "m",
+   "e": "🌍"
+  },
+  {
+   "id": "it-core-0703",
+   "topic_id": "15",
+   "ru": "страна; городок, деревня",
+   "en": "country; small town, village",
+   "it": "il paese",
+   "ipa": "il paˈese",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0704",
+   "topic_id": "15",
+   "ru": "регион",
+   "en": "region",
+   "it": "la regione",
+   "ipa": "la reˈdʒone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0705",
+   "topic_id": "15",
+   "ru": "пейзаж",
+   "en": "landscape",
+   "it": "il paesaggio",
+   "ipa": "il paeˈzaddʒo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0706",
+   "topic_id": "15",
+   "ru": "гора",
+   "en": "mountain",
+   "it": "la montagna",
+   "ipa": "la monˈtaɲɲa",
+   "g": "f",
+   "e": "⛰️"
+  },
+  {
+   "id": "it-core-0707",
+   "topic_id": "15",
+   "ru": "лес",
+   "en": "forest; woods",
+   "it": "il bosco",
+   "ipa": "il ˈbɔsko",
+   "g": "m",
+   "e": "🌲"
+  },
+  {
+   "id": "it-core-0708",
+   "topic_id": "15",
+   "ru": "дерево",
+   "en": "tree",
+   "it": "l’albero",
+   "ipa": "ˈlalbero",
+   "g": "m",
+   "e": "🌳"
+  },
+  {
+   "id": "it-core-0709",
+   "topic_id": "15",
+   "ru": "цветок",
+   "en": "flower",
+   "it": "il fiore",
+   "ipa": "il ˈfjore",
+   "g": "m",
+   "e": "🌸"
+  },
+  {
+   "id": "it-core-0710",
+   "topic_id": "15",
+   "ru": "животное",
+   "en": "animal",
+   "it": "l’animale",
+   "ipa": "laniˈmale",
+   "g": "m",
+   "e": "🐾"
+  },
+  {
+   "id": "it-core-0711",
+   "topic_id": "15",
+   "ru": "собака",
+   "en": "dog",
+   "it": "il cane",
+   "ipa": "il ˈkane",
+   "g": "m",
+   "e": "🐕"
+  },
+  {
+   "id": "it-core-0712",
+   "topic_id": "15",
+   "ru": "кот; кошка",
+   "en": "cat",
+   "it": "il gatto / la gatta",
+   "ipa": "il ˈgatto / la ˈgatta",
+   "g": "",
+   "e": "🐈"
+  },
+  {
+   "id": "it-core-0713",
+   "topic_id": "15",
+   "ru": "птица",
+   "en": "bird",
+   "it": "l’uccello",
+   "ipa": "lutˈtʃɛllo",
+   "g": "m",
+   "e": "🐦"
+  },
+  {
+   "id": "it-core-0714",
+   "topic_id": "15",
+   "ru": "море",
+   "en": "sea",
+   "it": "il mare",
+   "ipa": "il ˈmare",
+   "g": "m",
+   "e": "🌊"
+  },
+  {
+   "id": "it-core-0715",
+   "topic_id": "15",
+   "ru": "океан",
+   "en": "ocean",
+   "it": "l’oceano",
+   "ipa": "loˈtʃɛano",
+   "g": "m",
+   "e": "🌊"
+  },
+  {
+   "id": "it-core-0716",
+   "topic_id": "15",
+   "ru": "озеро",
+   "en": "lake",
+   "it": "il lago",
+   "ipa": "il ˈlago",
+   "g": "m",
+   "e": "🏞️"
+  },
+  {
+   "id": "it-core-0717",
+   "topic_id": "15",
+   "ru": "река",
+   "en": "river",
+   "it": "il fiume",
+   "ipa": "il ˈfjume",
+   "g": "m",
+   "e": "🏞️"
+  },
+  {
+   "id": "it-core-0718",
+   "topic_id": "15",
+   "ru": "остров",
+   "en": "island",
+   "it": "l’isola",
+   "ipa": "ˈlizola",
+   "g": "f",
+   "e": "🏝️"
+  },
+  {
+   "id": "it-core-0719",
+   "topic_id": "15",
+   "ru": "сельская местность",
+   "en": "countryside",
+   "it": "la campagna",
+   "ipa": "la kamˈpaɲɲa",
+   "g": "f",
+   "e": "🌾"
+  },
+  {
+   "id": "it-core-0720",
+   "topic_id": "15",
+   "ru": "небо",
+   "en": "sky",
+   "it": "il cielo",
+   "ipa": "il ˈtʃɛlo",
+   "g": "m",
+   "e": "🌤️"
+  },
+  {
+   "id": "it-core-0721",
+   "topic_id": "15",
+   "ru": "солнце",
+   "en": "sun",
+   "it": "il sole",
+   "ipa": "il ˈsole",
+   "g": "m",
+   "e": "☀️"
+  },
+  {
+   "id": "it-core-0722",
+   "topic_id": "15",
+   "ru": "луна",
+   "en": "moon",
+   "it": "la luna",
+   "ipa": "la ˈluna",
+   "g": "f",
+   "e": "🌙"
+  },
+  {
+   "id": "it-core-0723",
+   "topic_id": "15",
+   "ru": "звезда",
+   "en": "star",
+   "it": "la stella",
+   "ipa": "la ˈstella",
+   "g": "f",
+   "e": "⭐"
+  },
+  {
+   "id": "it-core-0724",
+   "topic_id": "15",
+   "ru": "облако",
+   "en": "cloud",
+   "it": "la nuvola",
+   "ipa": "la ˈnuvola",
+   "g": "f",
+   "e": "☁️"
+  },
+  {
+   "id": "it-core-0725",
+   "topic_id": "15",
+   "ru": "дождь",
+   "en": "rain",
+   "it": "la pioggia",
+   "ipa": "la ˈpjɔddʒa",
+   "g": "f",
+   "e": "🌧️"
+  },
+  {
+   "id": "it-core-0726",
+   "topic_id": "15",
+   "ru": "снег",
+   "en": "snow",
+   "it": "la neve",
+   "ipa": "la ˈneve",
+   "g": "f",
+   "e": "❄️"
+  },
+  {
+   "id": "it-core-0727",
+   "topic_id": "15",
+   "ru": "ветер",
+   "en": "wind",
+   "it": "il vento",
+   "ipa": "il ˈvɛnto",
+   "g": "m",
+   "e": "💨"
+  },
+  {
+   "id": "it-core-0728",
+   "topic_id": "15",
+   "ru": "гроза",
+   "en": "thunderstorm",
+   "it": "il temporale",
+   "ipa": "il tempoˈrale",
+   "g": "m",
+   "e": "⛈️"
+  },
+  {
+   "id": "it-core-0729",
+   "topic_id": "15",
+   "ru": "температура",
+   "en": "temperature",
+   "it": "la temperatura",
+   "ipa": "la temperaˈtura",
+   "g": "f",
+   "e": "🌡️"
+  },
+  {
+   "id": "it-core-0730",
+   "topic_id": "15",
+   "ru": "климат",
+   "en": "climate",
+   "it": "il clima",
+   "ipa": "il ˈklima",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0731",
+   "topic_id": "15",
+   "ru": "окружающая среда",
+   "en": "environment",
+   "it": "l’ambiente",
+   "ipa": "lamˈbjɛnte",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0732",
+   "topic_id": "15",
+   "ru": "загрязнение",
+   "en": "pollution",
+   "it": "l’inquinamento",
+   "ipa": "linkwinaˈmento",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0733",
+   "topic_id": "15",
+   "ru": "время года",
+   "en": "season",
+   "it": "la stagione",
+   "ipa": "la staˈdʒone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0734",
+   "topic_id": "15",
+   "ru": "весна",
+   "en": "spring",
+   "it": "la primavera",
+   "ipa": "la primaˈvɛra",
+   "g": "f",
+   "e": "🌷"
+  },
+  {
+   "id": "it-core-0735",
+   "topic_id": "15",
+   "ru": "лето",
+   "en": "summer",
+   "it": "l’estate",
+   "ipa": "leˈstate",
+   "g": "f",
+   "e": "🏖️"
+  },
+  {
+   "id": "it-core-0736",
+   "topic_id": "15",
+   "ru": "осень",
+   "en": "autumn; fall",
+   "it": "l’autunno",
+   "ipa": "lauˈtunno",
+   "g": "m",
+   "e": "🍂"
+  },
+  {
+   "id": "it-core-0737",
+   "topic_id": "15",
+   "ru": "зима",
+   "en": "winter",
+   "it": "l’inverno",
+   "ipa": "linˈvɛrno",
+   "g": "m",
+   "e": "⛄"
+  },
+  {
+   "id": "it-core-0738",
+   "topic_id": "15",
+   "ru": "время; погода",
+   "en": "time; weather",
+   "it": "il tempo",
+   "ipa": "il ˈtɛmpo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0739",
+   "topic_id": "15",
+   "ru": "момент",
+   "en": "moment",
+   "it": "il momento",
+   "ipa": "il moˈmento",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0740",
+   "topic_id": "15",
+   "ru": "день; сутки",
+   "en": "day",
+   "it": "il giorno",
+   "ipa": "il ˈdʒorno",
+   "g": "m",
+   "e": "🌞"
+  },
+  {
+   "id": "it-core-0741",
+   "topic_id": "15",
+   "ru": "день как период",
+   "en": "daytime; whole day",
+   "it": "la giornata",
+   "ipa": "la dʒorˈnata",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0742",
+   "topic_id": "15",
+   "ru": "неделя",
+   "en": "week",
+   "it": "la settimana",
+   "ipa": "la settiˈmana",
+   "g": "f",
+   "e": "📆"
+  },
+  {
+   "id": "it-core-0743",
+   "topic_id": "15",
+   "ru": "месяц",
+   "en": "month",
+   "it": "il mese",
+   "ipa": "il ˈmese",
+   "g": "m",
+   "e": "🗓️"
+  },
+  {
+   "id": "it-core-0744",
+   "topic_id": "15",
+   "ru": "год",
+   "en": "year",
+   "it": "l’anno",
+   "ipa": "ˈlanno",
+   "g": "m",
+   "e": "📅"
+  },
+  {
+   "id": "it-core-0745",
+   "topic_id": "15",
+   "ru": "утро",
+   "en": "morning",
+   "it": "la mattina",
+   "ipa": "la matˈtina",
+   "g": "f",
+   "e": "🌅"
+  },
+  {
+   "id": "it-core-0746",
+   "topic_id": "15",
+   "ru": "полдень",
+   "en": "noon",
+   "it": "mezzogiorno",
+   "ipa": "meddzoˈdʒorno",
+   "g": "m",
+   "e": "🕛"
+  },
+  {
+   "id": "it-core-0747",
+   "topic_id": "15",
+   "ru": "послеобеденное время",
+   "en": "afternoon",
+   "it": "il pomeriggio",
+   "ipa": "il pomeˈriddʒo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0748",
+   "topic_id": "15",
+   "ru": "вечер",
+   "en": "evening",
+   "it": "la sera",
+   "ipa": "la ˈsera",
+   "g": "f",
+   "e": "🌆"
+  },
+  {
+   "id": "it-core-0749",
+   "topic_id": "15",
+   "ru": "час",
+   "en": "hour",
+   "it": "l’ora",
+   "ipa": "ˈlora",
+   "g": "f",
+   "e": "🕐"
+  },
+  {
+   "id": "it-core-0750",
+   "topic_id": "15",
+   "ru": "минута",
+   "en": "minute",
+   "it": "il minuto",
+   "ipa": "il miˈnuto",
+   "g": "m",
+   "e": "⏱️"
+  },
+  {
+   "id": "it-core-0751",
+   "topic_id": "16",
+   "ru": "ноль",
+   "en": "zero",
+   "it": "zero",
+   "ipa": "ˈdzɛro",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0752",
+   "topic_id": "16",
+   "ru": "один",
+   "en": "one",
+   "it": "uno",
+   "ipa": "ˈuno",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0753",
+   "topic_id": "16",
+   "ru": "два",
+   "en": "two",
+   "it": "due",
+   "ipa": "ˈdue",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0754",
+   "topic_id": "16",
+   "ru": "три",
+   "en": "three",
+   "it": "tre",
+   "ipa": "tre",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0755",
+   "topic_id": "16",
+   "ru": "четыре",
+   "en": "four",
+   "it": "quattro",
+   "ipa": "ˈkwattro",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0756",
+   "topic_id": "16",
+   "ru": "пять",
+   "en": "five",
+   "it": "cinque",
+   "ipa": "ˈtʃinkwe",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0757",
+   "topic_id": "16",
+   "ru": "шесть",
+   "en": "six",
+   "it": "sei",
+   "ipa": "sɛi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0758",
+   "topic_id": "16",
+   "ru": "семь",
+   "en": "seven",
+   "it": "sette",
+   "ipa": "ˈsɛtte",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0759",
+   "topic_id": "16",
+   "ru": "восемь",
+   "en": "eight",
+   "it": "otto",
+   "ipa": "ˈɔtto",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0760",
+   "topic_id": "16",
+   "ru": "девять",
+   "en": "nine",
+   "it": "nove",
+   "ipa": "ˈnɔve",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0761",
+   "topic_id": "16",
+   "ru": "десять",
+   "en": "ten",
+   "it": "dieci",
+   "ipa": "ˈdjɛtʃi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0762",
+   "topic_id": "16",
+   "ru": "одиннадцать",
+   "en": "eleven",
+   "it": "undici",
+   "ipa": "ˈunditʃi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0763",
+   "topic_id": "16",
+   "ru": "двенадцать",
+   "en": "twelve",
+   "it": "dodici",
+   "ipa": "ˈdoditʃi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0764",
+   "topic_id": "16",
+   "ru": "тринадцать",
+   "en": "thirteen",
+   "it": "tredici",
+   "ipa": "ˈtreditʃi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0765",
+   "topic_id": "16",
+   "ru": "четырнадцать",
+   "en": "fourteen",
+   "it": "quattordici",
+   "ipa": "kwatˈtorditʃi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0766",
+   "topic_id": "16",
+   "ru": "пятнадцать",
+   "en": "fifteen",
+   "it": "quindici",
+   "ipa": "ˈkwinditʃi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0767",
+   "topic_id": "16",
+   "ru": "шестнадцать",
+   "en": "sixteen",
+   "it": "sedici",
+   "ipa": "ˈseditʃi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0768",
+   "topic_id": "16",
+   "ru": "семнадцать",
+   "en": "seventeen",
+   "it": "diciassette",
+   "ipa": "ditʃasˈsɛtte",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0769",
+   "topic_id": "16",
+   "ru": "восемнадцать",
+   "en": "eighteen",
+   "it": "diciotto",
+   "ipa": "diˈtʃɔtto",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0770",
+   "topic_id": "16",
+   "ru": "девятнадцать",
+   "en": "nineteen",
+   "it": "diciannove",
+   "ipa": "ditʃanˈnɔve",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0771",
+   "topic_id": "16",
+   "ru": "двадцать",
+   "en": "twenty",
+   "it": "venti",
+   "ipa": "ˈventi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0772",
+   "topic_id": "16",
+   "ru": "тридцать",
+   "en": "thirty",
+   "it": "trenta",
+   "ipa": "ˈtrenta",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0773",
+   "topic_id": "16",
+   "ru": "сорок",
+   "en": "forty",
+   "it": "quaranta",
+   "ipa": "kwaˈranta",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0774",
+   "topic_id": "16",
+   "ru": "пятьдесят",
+   "en": "fifty",
+   "it": "cinquanta",
+   "ipa": "tʃinˈkwanta",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0775",
+   "topic_id": "16",
+   "ru": "шестьдесят",
+   "en": "sixty",
+   "it": "sessanta",
+   "ipa": "sesˈsanta",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0776",
+   "topic_id": "16",
+   "ru": "семьдесят",
+   "en": "seventy",
+   "it": "settanta",
+   "ipa": "setˈtanta",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0777",
+   "topic_id": "16",
+   "ru": "восемьдесят",
+   "en": "eighty",
+   "it": "ottanta",
+   "ipa": "otˈtanta",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0778",
+   "topic_id": "16",
+   "ru": "девяносто",
+   "en": "ninety",
+   "it": "novanta",
+   "ipa": "noˈvanta",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0779",
+   "topic_id": "16",
+   "ru": "сто",
+   "en": "one hundred",
+   "it": "cento",
+   "ipa": "ˈtʃɛnto",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0780",
+   "topic_id": "16",
+   "ru": "тысяча",
+   "en": "one thousand",
+   "it": "mille",
+   "ipa": "ˈmille",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0781",
+   "topic_id": "16",
+   "ru": "понедельник",
+   "en": "Monday",
+   "it": "lunedì",
+   "ipa": "luneˈdi",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0782",
+   "topic_id": "16",
+   "ru": "вторник",
+   "en": "Tuesday",
+   "it": "martedì",
+   "ipa": "marteˈdi",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0783",
+   "topic_id": "16",
+   "ru": "среда",
+   "en": "Wednesday",
+   "it": "mercoledì",
+   "ipa": "merkoleˈdi",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0784",
+   "topic_id": "16",
+   "ru": "четверг",
+   "en": "Thursday",
+   "it": "giovedì",
+   "ipa": "dʒoveˈdi",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0785",
+   "topic_id": "16",
+   "ru": "пятница",
+   "en": "Friday",
+   "it": "venerdì",
+   "ipa": "venerˈdi",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0786",
+   "topic_id": "16",
+   "ru": "суббота",
+   "en": "Saturday",
+   "it": "sabato",
+   "ipa": "ˈsabato",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0787",
+   "topic_id": "16",
+   "ru": "воскресенье",
+   "en": "Sunday",
+   "it": "domenica",
+   "ipa": "doˈmenika",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0788",
+   "topic_id": "16",
+   "ru": "январь",
+   "en": "January",
+   "it": "gennaio",
+   "ipa": "dʒenˈnajo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0789",
+   "topic_id": "16",
+   "ru": "февраль",
+   "en": "February",
+   "it": "febbraio",
+   "ipa": "febˈbrajo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0790",
+   "topic_id": "16",
+   "ru": "март",
+   "en": "March",
+   "it": "marzo",
+   "ipa": "ˈmartso",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0791",
+   "topic_id": "16",
+   "ru": "апрель",
+   "en": "April",
+   "it": "aprile",
+   "ipa": "aˈprile",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0792",
+   "topic_id": "16",
+   "ru": "май",
+   "en": "May",
+   "it": "maggio",
+   "ipa": "ˈmaddʒo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0793",
+   "topic_id": "16",
+   "ru": "июнь",
+   "en": "June",
+   "it": "giugno",
+   "ipa": "ˈdʒuɲɲo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0794",
+   "topic_id": "16",
+   "ru": "июль",
+   "en": "July",
+   "it": "luglio",
+   "ipa": "ˈluʎʎo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0795",
+   "topic_id": "16",
+   "ru": "август",
+   "en": "August",
+   "it": "agosto",
+   "ipa": "aˈgosto",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0796",
+   "topic_id": "16",
+   "ru": "сентябрь",
+   "en": "September",
+   "it": "settembre",
+   "ipa": "setˈtɛmbre",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0797",
+   "topic_id": "16",
+   "ru": "октябрь",
+   "en": "October",
+   "it": "ottobre",
+   "ipa": "otˈtobre",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0798",
+   "topic_id": "16",
+   "ru": "ноябрь",
+   "en": "November",
+   "it": "novembre",
+   "ipa": "noˈvɛmbre",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0799",
+   "topic_id": "16",
+   "ru": "декабрь",
+   "en": "December",
+   "it": "dicembre",
+   "ipa": "diˈtʃɛmbre",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0800",
+   "topic_id": "16",
+   "ru": "миллион",
+   "en": "million",
+   "it": "un milione",
+   "ipa": "un miˈljone",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0801",
+   "topic_id": "17",
+   "ru": "в; к; на (направление или место)",
+   "en": "to; at; in",
+   "it": "a",
+   "ipa": "a",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0802",
+   "topic_id": "17",
+   "ru": "из (происхождение); принадлежность",
+   "en": "of; from (origin)",
+   "it": "di",
+   "ipa": "di",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0803",
+   "topic_id": "17",
+   "ru": "в; на; из материала",
+   "en": "in; by; made of",
+   "it": "in",
+   "ipa": "in",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0804",
+   "topic_id": "17",
+   "ru": "внутри; в",
+   "en": "inside; in",
+   "it": "dentro",
+   "ipa": "ˈdentro",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0805",
+   "topic_id": "17",
+   "ru": "на поверхности",
+   "en": "on",
+   "it": "su",
+   "ipa": "su",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0806",
+   "topic_id": "17",
+   "ru": "под",
+   "en": "under",
+   "it": "sotto",
+   "ipa": "ˈsotto",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0807",
+   "topic_id": "17",
+   "ru": "с; вместе с",
+   "en": "with",
+   "it": "con",
+   "ipa": "kon",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0808",
+   "topic_id": "17",
+   "ru": "без",
+   "en": "without",
+   "it": "senza",
+   "ipa": "ˈsɛntsa",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0809",
+   "topic_id": "17",
+   "ru": "для; чтобы",
+   "en": "for; in order to",
+   "it": "per",
+   "ipa": "per",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0810",
+   "topic_id": "17",
+   "ru": "через; сквозь",
+   "en": "through; across",
+   "it": "attraverso",
+   "ipa": "attraˈvɛrso",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0811",
+   "topic_id": "17",
+   "ru": "от; из; у кого-то; к кому-то",
+   "en": "from; at/to someone’s place",
+   "it": "da",
+   "ipa": "da",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0812",
+   "topic_id": "17",
+   "ru": "между; через (о времени)",
+   "en": "between; in (time)",
+   "it": "tra",
+   "ipa": "tra",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0813",
+   "topic_id": "17",
+   "ru": "перед; впереди",
+   "en": "in front of",
+   "it": "davanti a",
+   "ipa": "daˈvanti a",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0814",
+   "topic_id": "17",
+   "ru": "за; позади",
+   "en": "behind",
+   "it": "dietro",
+   "ipa": "ˈdjɛtro",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0815",
+   "topic_id": "17",
+   "ru": "до; раньше",
+   "en": "before",
+   "it": "prima",
+   "ipa": "ˈprima",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0816",
+   "topic_id": "17",
+   "ru": "после",
+   "en": "after",
+   "it": "dopo",
+   "ipa": "ˈdopo",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0817",
+   "topic_id": "17",
+   "ru": "во время",
+   "en": "during",
+   "it": "durante",
+   "ipa": "duˈrante",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0818",
+   "topic_id": "17",
+   "ru": "тому назад",
+   "en": "ago",
+   "it": "fa",
+   "ipa": "fa",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0819",
+   "topic_id": "17",
+   "ru": "до указанного предела",
+   "en": "until; up to",
+   "it": "fino a",
+   "ipa": "ˈfino a",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0820",
+   "topic_id": "17",
+   "ru": "против",
+   "en": "against",
+   "it": "contro",
+   "ipa": "ˈkontro",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0821",
+   "topic_id": "17",
+   "ru": "по направлению к; около по времени",
+   "en": "toward; around a time",
+   "it": "verso",
+   "ipa": "ˈvɛrso",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0822",
+   "topic_id": "17",
+   "ru": "близко к",
+   "en": "near",
+   "it": "vicino a",
+   "ipa": "viˈtʃino a",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0823",
+   "topic_id": "17",
+   "ru": "далеко от",
+   "en": "far from",
+   "it": "lontano da",
+   "ipa": "lonˈtano da",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0824",
+   "topic_id": "17",
+   "ru": "рядом с",
+   "en": "next to",
+   "it": "accanto a",
+   "ipa": "akˈkanto a",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0825",
+   "topic_id": "17",
+   "ru": "здесь",
+   "en": "here",
+   "it": "qui",
+   "ipa": "kwi",
+   "g": "",
+   "e": "📍"
+  },
+  {
+   "id": "it-core-0826",
+   "topic_id": "17",
+   "ru": "там",
+   "en": "there",
+   "it": "lì",
+   "ipa": "li",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0827",
+   "topic_id": "17",
+   "ru": "везде",
+   "en": "everywhere",
+   "it": "dappertutto",
+   "ipa": "dapperˈtutto",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0828",
+   "topic_id": "17",
+   "ru": "налево; слева",
+   "en": "to the left; on the left",
+   "it": "a sinistra",
+   "ipa": "a siˈnistra",
+   "g": "",
+   "e": "⬅️"
+  },
+  {
+   "id": "it-core-0829",
+   "topic_id": "17",
+   "ru": "направо; справа",
+   "en": "to the right; on the right",
+   "it": "a destra",
+   "ipa": "a ˈdɛstra",
+   "g": "",
+   "e": "➡️"
+  },
+  {
+   "id": "it-core-0830",
+   "topic_id": "17",
+   "ru": "прямо вперёд",
+   "en": "straight ahead",
+   "it": "sempre dritto",
+   "ipa": "ˈsɛmpre ˈdritto",
+   "g": "",
+   "e": "⬆️"
+  },
+  {
+   "id": "it-core-0831",
+   "topic_id": "17",
+   "ru": "сегодня",
+   "en": "today",
+   "it": "oggi",
+   "ipa": "ˈɔddʒi",
+   "g": "",
+   "e": "📅"
+  },
+  {
+   "id": "it-core-0832",
+   "topic_id": "17",
+   "ru": "завтра",
+   "en": "tomorrow",
+   "it": "domani",
+   "ipa": "doˈmani",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0833",
+   "topic_id": "17",
+   "ru": "вчера",
+   "en": "yesterday",
+   "it": "ieri",
+   "ipa": "ˈjɛri",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0834",
+   "topic_id": "17",
+   "ru": "сейчас",
+   "en": "now",
+   "it": "adesso",
+   "ipa": "aˈdɛsso",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0835",
+   "topic_id": "17",
+   "ru": "вскоре; через некоторое время",
+   "en": "in a little while; shortly",
+   "it": "tra poco",
+   "ipa": "tra ˈpɔko",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0836",
+   "topic_id": "17",
+   "ru": "рано; скоро",
+   "en": "early; soon",
+   "it": "presto",
+   "ipa": "ˈprɛsto",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0837",
+   "topic_id": "17",
+   "ru": "поздно",
+   "en": "late",
+   "it": "tardi",
+   "ipa": "ˈtardi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0838",
+   "topic_id": "17",
+   "ru": "всегда",
+   "en": "always",
+   "it": "sempre",
+   "ipa": "ˈsɛmpre",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0839",
+   "topic_id": "17",
+   "ru": "часто",
+   "en": "often",
+   "it": "spesso",
+   "ipa": "ˈspesso",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0840",
+   "topic_id": "17",
+   "ru": "иногда",
+   "en": "sometimes",
+   "it": "a volte",
+   "ipa": "a ˈvɔlte",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0841",
+   "topic_id": "17",
+   "ru": "никогда",
+   "en": "never",
+   "it": "mai",
+   "ipa": "mai",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0842",
+   "topic_id": "17",
+   "ru": "ещё; снова",
+   "en": "still; again",
+   "it": "ancora",
+   "ipa": "anˈkora",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0843",
+   "topic_id": "17",
+   "ru": "уже",
+   "en": "already",
+   "it": "già",
+   "ipa": "dʒa",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0844",
+   "topic_id": "17",
+   "ru": "затем; после этого",
+   "en": "next; then",
+   "it": "poi",
+   "ipa": "pɔi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0845",
+   "topic_id": "17",
+   "ru": "наконец",
+   "en": "finally",
+   "it": "finalmente",
+   "ipa": "finalˈmente",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0846",
+   "topic_id": "17",
+   "ru": "позже; попозже",
+   "en": "later",
+   "it": "più tardi",
+   "ipa": "pju ˈtardi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0847",
+   "topic_id": "17",
+   "ru": "вместе",
+   "en": "together",
+   "it": "insieme",
+   "ipa": "inˈsjɛme",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0848",
+   "topic_id": "17",
+   "ru": "снаружи",
+   "en": "outside",
+   "it": "fuori",
+   "ipa": "ˈfwɔri",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0849",
+   "topic_id": "17",
+   "ru": "напротив",
+   "en": "opposite; across from",
+   "it": "di fronte a",
+   "ipa": "di ˈfronte a",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0850",
+   "topic_id": "17",
+   "ru": "в другом месте",
+   "en": "elsewhere",
+   "it": "altrove",
+   "ipa": "alˈtrove",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0851",
+   "topic_id": "18",
+   "ru": "хороший",
+   "en": "good",
+   "it": "buono / buona",
+   "ipa": "ˈbwɔno / ˈbwɔna",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0852",
+   "topic_id": "18",
+   "ru": "плохой",
+   "en": "bad",
+   "it": "cattivo / cattiva",
+   "ipa": "katˈtivo / katˈtiva",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0853",
+   "topic_id": "18",
+   "ru": "красивый",
+   "en": "beautiful",
+   "it": "bello / bella",
+   "ipa": "ˈbɛllo / ˈbɛlla",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0854",
+   "topic_id": "18",
+   "ru": "большой",
+   "en": "big; large",
+   "it": "grande",
+   "ipa": "ˈgrande",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0855",
+   "topic_id": "18",
+   "ru": "маленький",
+   "en": "small",
+   "it": "piccolo / piccola",
+   "ipa": "ˈpikkolo / ˈpikkola",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0856",
+   "topic_id": "18",
+   "ru": "длинный",
+   "en": "long",
+   "it": "lungo / lunga",
+   "ipa": "ˈlungo / ˈlunga",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0857",
+   "topic_id": "18",
+   "ru": "короткий",
+   "en": "short",
+   "it": "corto / corta",
+   "ipa": "ˈkorto / ˈkorta",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0858",
+   "topic_id": "18",
+   "ru": "высокий",
+   "en": "high; tall",
+   "it": "alto / alta",
+   "ipa": "ˈalto / ˈalta",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0859",
+   "topic_id": "18",
+   "ru": "низкий",
+   "en": "low",
+   "it": "basso / bassa",
+   "ipa": "ˈbasso / ˈbassa",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0860",
+   "topic_id": "18",
+   "ru": "широкий",
+   "en": "wide",
+   "it": "largo / larga",
+   "ipa": "ˈlargo / ˈlarga",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0861",
+   "topic_id": "18",
+   "ru": "узкий",
+   "en": "narrow",
+   "it": "stretto / stretta",
+   "ipa": "ˈstretto / ˈstretta",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0862",
+   "topic_id": "18",
+   "ru": "крупный; толстый (о предмете)",
+   "en": "big; thick",
+   "it": "grosso / grossa",
+   "ipa": "ˈgrɔsso / ˈgrɔssa",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0863",
+   "topic_id": "18",
+   "ru": "худой; стройный",
+   "en": "thin; slim",
+   "it": "magro / magra",
+   "ipa": "ˈmagro / ˈmagra",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0864",
+   "topic_id": "18",
+   "ru": "молодой",
+   "en": "young",
+   "it": "giovane",
+   "ipa": "ˈdʒovane",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0865",
+   "topic_id": "18",
+   "ru": "старый; пожилой",
+   "en": "old",
+   "it": "vecchio / vecchia",
+   "ipa": "ˈvɛkkjo / ˈvɛkkja",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0866",
+   "topic_id": "18",
+   "ru": "новый",
+   "en": "new",
+   "it": "nuovo / nuova",
+   "ipa": "ˈnwɔvo / ˈnwɔva",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0867",
+   "topic_id": "18",
+   "ru": "древний; старинный",
+   "en": "ancient; antique",
+   "it": "antico / antica",
+   "ipa": "anˈtiko / anˈtika",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0868",
+   "topic_id": "18",
+   "ru": "горячий; тёплый",
+   "en": "hot; warm",
+   "it": "caldo / calda",
+   "ipa": "ˈkaldo / ˈkalda",
+   "g": "",
+   "e": "🔥"
+  },
+  {
+   "id": "it-core-0869",
+   "topic_id": "18",
+   "ru": "холодный",
+   "en": "cold",
+   "it": "freddo / fredda",
+   "ipa": "ˈfreddo / ˈfredda",
+   "g": "",
+   "e": "🥶"
+  },
+  {
+   "id": "it-core-0870",
+   "topic_id": "18",
+   "ru": "чистый",
+   "en": "clean",
+   "it": "pulito / pulita",
+   "ipa": "puˈlito / puˈlita",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0871",
+   "topic_id": "18",
+   "ru": "грязный",
+   "en": "dirty",
+   "it": "sporco / sporca",
+   "ipa": "ˈspɔrko / ˈspɔrka",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0872",
+   "topic_id": "18",
+   "ru": "сухой",
+   "en": "dry",
+   "it": "secco / secca",
+   "ipa": "ˈsekko / ˈsekka",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0873",
+   "topic_id": "18",
+   "ru": "влажный",
+   "en": "damp; humid",
+   "it": "umido / umida",
+   "ipa": "ˈumido / ˈumida",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0874",
+   "topic_id": "18",
+   "ru": "полный; наполненный",
+   "en": "full",
+   "it": "pieno / piena",
+   "ipa": "ˈpjɛno / ˈpjɛna",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0875",
+   "topic_id": "18",
+   "ru": "пустой",
+   "en": "empty",
+   "it": "vuoto / vuota",
+   "ipa": "ˈvwɔto / ˈvwɔta",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0876",
+   "topic_id": "18",
+   "ru": "тяжёлый",
+   "en": "heavy",
+   "it": "pesante",
+   "ipa": "peˈsante",
+   "g": "",
+   "e": "🏋️"
+  },
+  {
+   "id": "it-core-0877",
+   "topic_id": "18",
+   "ru": "лёгкий по весу",
+   "en": "light in weight",
+   "it": "leggero / leggera",
+   "ipa": "ledˈdʒɛro / ledˈdʒɛra",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0878",
+   "topic_id": "18",
+   "ru": "твёрдый; жёсткий",
+   "en": "hard",
+   "it": "duro / dura",
+   "ipa": "ˈduro / ˈdura",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0879",
+   "topic_id": "18",
+   "ru": "мягкий",
+   "en": "soft",
+   "it": "morbido / morbida",
+   "ipa": "ˈmɔrbido / ˈmɔrbida",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0880",
+   "topic_id": "18",
+   "ru": "дорогой по цене",
+   "en": "expensive",
+   "it": "caro / cara",
+   "ipa": "ˈkaro / ˈkara",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0881",
+   "topic_id": "18",
+   "ru": "бесплатный",
+   "en": "free of charge",
+   "it": "gratuito / gratuita",
+   "ipa": "graˈtuito / graˈtuita",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0882",
+   "topic_id": "18",
+   "ru": "открытый",
+   "en": "open",
+   "it": "aperto / aperta",
+   "ipa": "aˈpɛrto / aˈpɛrta",
+   "g": "",
+   "e": "🔓"
+  },
+  {
+   "id": "it-core-0883",
+   "topic_id": "18",
+   "ru": "закрытый",
+   "en": "closed",
+   "it": "chiuso / chiusa",
+   "ipa": "ˈkjuso / ˈkjusa",
+   "g": "",
+   "e": "🔒"
+  },
+  {
+   "id": "it-core-0884",
+   "topic_id": "18",
+   "ru": "доступный; свободный",
+   "en": "available",
+   "it": "disponibile",
+   "ipa": "dispoˈnibile",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0885",
+   "topic_id": "18",
+   "ru": "полный; без свободных мест",
+   "en": "complete; fully booked",
+   "it": "completo / completa",
+   "ipa": "komˈplɛto / komˈplɛta",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0886",
+   "topic_id": "18",
+   "ru": "близкий",
+   "en": "near; close",
+   "it": "vicino / vicina",
+   "ipa": "viˈtʃino / viˈtʃina",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0887",
+   "topic_id": "18",
+   "ru": "удалённый; далёкий",
+   "en": "distant; far away",
+   "it": "lontano / lontana",
+   "ipa": "lonˈtano / lonˈtana",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0888",
+   "topic_id": "18",
+   "ru": "быстрый",
+   "en": "fast",
+   "it": "veloce",
+   "ipa": "veˈlotʃe",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0889",
+   "topic_id": "18",
+   "ru": "медленный",
+   "en": "slow",
+   "it": "lento / lenta",
+   "ipa": "ˈlɛnto / ˈlɛnta",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0890",
+   "topic_id": "18",
+   "ru": "сильный",
+   "en": "strong",
+   "it": "forte",
+   "ipa": "ˈfɔrte",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0891",
+   "topic_id": "18",
+   "ru": "слабый",
+   "en": "weak",
+   "it": "debole",
+   "ipa": "ˈdebole",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0892",
+   "topic_id": "18",
+   "ru": "белый",
+   "en": "white",
+   "it": "bianco / bianca",
+   "ipa": "ˈbjanko / ˈbjanka",
+   "g": "",
+   "e": "⚪"
+  },
+  {
+   "id": "it-core-0893",
+   "topic_id": "18",
+   "ru": "чёрный",
+   "en": "black",
+   "it": "nero / nera",
+   "ipa": "ˈnero / ˈnera",
+   "g": "",
+   "e": "⚫"
+  },
+  {
+   "id": "it-core-0894",
+   "topic_id": "18",
+   "ru": "красный",
+   "en": "red",
+   "it": "rosso / rossa",
+   "ipa": "ˈrosso / ˈrossa",
+   "g": "",
+   "e": "🔴"
+  },
+  {
+   "id": "it-core-0895",
+   "topic_id": "18",
+   "ru": "синий",
+   "en": "blue",
+   "it": "blu",
+   "ipa": "blu",
+   "g": "",
+   "e": "🔵"
+  },
+  {
+   "id": "it-core-0896",
+   "topic_id": "18",
+   "ru": "зелёный",
+   "en": "green",
+   "it": "verde",
+   "ipa": "ˈverde",
+   "g": "",
+   "e": "🟢"
+  },
+  {
+   "id": "it-core-0897",
+   "topic_id": "18",
+   "ru": "жёлтый",
+   "en": "yellow",
+   "it": "giallo / gialla",
+   "ipa": "ˈdʒallo / ˈdʒalla",
+   "g": "",
+   "e": "🟡"
+  },
+  {
+   "id": "it-core-0898",
+   "topic_id": "18",
+   "ru": "серый",
+   "en": "gray",
+   "it": "grigio / grigia",
+   "ipa": "ˈgridʒo / ˈgridʒa",
+   "g": "",
+   "e": "🩶"
+  },
+  {
+   "id": "it-core-0899",
+   "topic_id": "18",
+   "ru": "розовый",
+   "en": "pink",
+   "it": "rosa",
+   "ipa": "ˈrɔza",
+   "g": "",
+   "e": "🩷"
+  },
+  {
+   "id": "it-core-0900",
+   "topic_id": "18",
+   "ru": "очень вкусный",
+   "en": "delicious",
+   "it": "delizioso / deliziosa",
+   "ipa": "delitˈtsjoso / delitˈtsjosa",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0901",
+   "topic_id": "19",
+   "ru": "довольный",
+   "en": "pleased; satisfied",
+   "it": "contento / contenta",
+   "ipa": "konˈtɛnto / konˈtɛnta",
+   "g": "",
+   "e": "🙂"
+  },
+  {
+   "id": "it-core-0902",
+   "topic_id": "19",
+   "ru": "счастливый",
+   "en": "happy",
+   "it": "felice",
+   "ipa": "feˈlitʃe",
+   "g": "",
+   "e": "😊"
+  },
+  {
+   "id": "it-core-0903",
+   "topic_id": "19",
+   "ru": "грустный",
+   "en": "sad",
+   "it": "triste",
+   "ipa": "ˈtriste",
+   "g": "",
+   "e": "😢"
+  },
+  {
+   "id": "it-core-0904",
+   "topic_id": "19",
+   "ru": "спокойный",
+   "en": "calm",
+   "it": "calmo / calma",
+   "ipa": "ˈkalmo / ˈkalma",
+   "g": "",
+   "e": "😌"
+  },
+  {
+   "id": "it-core-0905",
+   "topic_id": "19",
+   "ru": "обеспокоенный",
+   "en": "worried",
+   "it": "preoccupato / preoccupata",
+   "ipa": "preokkuˈpato / preokkuˈpata",
+   "g": "",
+   "e": "😟"
+  },
+  {
+   "id": "it-core-0906",
+   "topic_id": "19",
+   "ru": "уставший",
+   "en": "tired",
+   "it": "stanco / stanca",
+   "ipa": "ˈstanko / ˈstanka",
+   "g": "",
+   "e": "😴"
+  },
+  {
+   "id": "it-core-0907",
+   "topic_id": "19",
+   "ru": "больной",
+   "en": "ill; sick",
+   "it": "malato / malata",
+   "ipa": "maˈlato / maˈlata",
+   "g": "",
+   "e": "🤒"
+  },
+  {
+   "id": "it-core-0908",
+   "topic_id": "19",
+   "ru": "занятый",
+   "en": "busy",
+   "it": "occupato / occupata",
+   "ipa": "okkuˈpato / okkuˈpata",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0909",
+   "topic_id": "19",
+   "ru": "свободный",
+   "en": "free; not busy",
+   "it": "libero / libera",
+   "ipa": "ˈlibero / ˈlibera",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0910",
+   "topic_id": "19",
+   "ru": "готовый",
+   "en": "ready",
+   "it": "pronto / pronta",
+   "ipa": "ˈpronto / ˈpronta",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0911",
+   "topic_id": "19",
+   "ru": "один; одинокий",
+   "en": "alone; lonely",
+   "it": "solo / sola",
+   "ipa": "ˈsolo / ˈsola",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0912",
+   "topic_id": "19",
+   "ru": "застенчивый",
+   "en": "shy",
+   "it": "timido / timida",
+   "ipa": "ˈtimido / ˈtimida",
+   "g": "",
+   "e": "😳"
+  },
+  {
+   "id": "it-core-0913",
+   "topic_id": "19",
+   "ru": "приятный; дружелюбный",
+   "en": "nice; friendly",
+   "it": "simpatico / simpatica",
+   "ipa": "simˈpatiko / simˈpatika",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0914",
+   "topic_id": "19",
+   "ru": "добрый; милый",
+   "en": "kind; nice",
+   "it": "gentile",
+   "ipa": "dʒenˈtile",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0915",
+   "topic_id": "19",
+   "ru": "вежливый",
+   "en": "polite",
+   "it": "educato / educata",
+   "ipa": "eduˈkato / eduˈkata",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0916",
+   "topic_id": "19",
+   "ru": "серьёзный",
+   "en": "serious",
+   "it": "serio / seria",
+   "ipa": "ˈsɛrjo / ˈsɛrja",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0917",
+   "topic_id": "19",
+   "ru": "смешной; забавный",
+   "en": "funny; fun",
+   "it": "divertente",
+   "ipa": "diverˈtɛnte",
+   "g": "",
+   "e": "😄"
+  },
+  {
+   "id": "it-core-0918",
+   "topic_id": "19",
+   "ru": "умный",
+   "en": "intelligent",
+   "it": "intelligente",
+   "ipa": "intelliˈdʒɛnte",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0919",
+   "topic_id": "19",
+   "ru": "смелый",
+   "en": "brave",
+   "it": "coraggioso / coraggiosa",
+   "ipa": "koradˈdʒoso / koradˈdʒosa",
+   "g": "",
+   "e": "🦁"
+  },
+  {
+   "id": "it-core-0920",
+   "topic_id": "19",
+   "ru": "любопытный",
+   "en": "curious",
+   "it": "curioso / curiosa",
+   "ipa": "kuˈrjoso / kuˈrjosa",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0921",
+   "topic_id": "19",
+   "ru": "интересный",
+   "en": "interesting",
+   "it": "interessante",
+   "ipa": "interesˈsante",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0922",
+   "topic_id": "19",
+   "ru": "скучный",
+   "en": "boring",
+   "it": "noioso / noiosa",
+   "ipa": "noˈjoso / noˈjosa",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0923",
+   "topic_id": "19",
+   "ru": "лёгкий; несложный",
+   "en": "easy",
+   "it": "facile",
+   "ipa": "ˈfatʃile",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0924",
+   "topic_id": "19",
+   "ru": "трудный",
+   "en": "difficult",
+   "it": "difficile",
+   "ipa": "difˈfitʃile",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0925",
+   "topic_id": "19",
+   "ru": "простой",
+   "en": "simple",
+   "it": "semplice",
+   "ipa": "ˈsemplitʃe",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0926",
+   "topic_id": "19",
+   "ru": "сложный; запутанный",
+   "en": "complicated",
+   "it": "complicato / complicata",
+   "ipa": "kompliˈkato / kompliˈkata",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0927",
+   "topic_id": "19",
+   "ru": "возможный",
+   "en": "possible",
+   "it": "possibile",
+   "ipa": "posˈsibile",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0928",
+   "topic_id": "19",
+   "ru": "невозможный",
+   "en": "impossible",
+   "it": "impossibile",
+   "ipa": "imposˈsibile",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0929",
+   "topic_id": "19",
+   "ru": "важный",
+   "en": "important",
+   "it": "importante",
+   "ipa": "imporˈtante",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0930",
+   "topic_id": "19",
+   "ru": "необходимый",
+   "en": "necessary",
+   "it": "necessario / necessaria",
+   "ipa": "netʃesˈsarjo / netʃesˈsarja",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0931",
+   "topic_id": "19",
+   "ru": "полезный",
+   "en": "useful",
+   "it": "utile",
+   "ipa": "ˈutile",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0932",
+   "topic_id": "19",
+   "ru": "бесполезный",
+   "en": "useless",
+   "it": "inutile",
+   "ipa": "iˈnutile",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0933",
+   "topic_id": "19",
+   "ru": "опасный",
+   "en": "dangerous",
+   "it": "pericoloso / pericolosa",
+   "ipa": "perikoˈloso / perikoˈlosa",
+   "g": "",
+   "e": "⚠️"
+  },
+  {
+   "id": "it-core-0934",
+   "topic_id": "19",
+   "ru": "безопасный; уверенный",
+   "en": "safe; sure",
+   "it": "sicuro / sicura",
+   "ipa": "siˈkuro / siˈkura",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0935",
+   "topic_id": "19",
+   "ru": "истинный; настоящий",
+   "en": "true; real",
+   "it": "vero / vera",
+   "ipa": "ˈvero / ˈvera",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0936",
+   "topic_id": "19",
+   "ru": "ложный; неверный",
+   "en": "false; wrong",
+   "it": "falso / falsa",
+   "ipa": "ˈfalso / ˈfalsa",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0937",
+   "topic_id": "19",
+   "ru": "правильный; корректный",
+   "en": "correct",
+   "it": "corretto / corretta",
+   "ipa": "korˈrɛtto / korˈrɛtta",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0938",
+   "topic_id": "19",
+   "ru": "другой; отличающийся",
+   "en": "different",
+   "it": "diverso / diversa",
+   "ipa": "diˈvɛrso / diˈvɛrsa",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0939",
+   "topic_id": "19",
+   "ru": "нормальный; обычный",
+   "en": "normal",
+   "it": "normale",
+   "ipa": "norˈmale",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0940",
+   "topic_id": "19",
+   "ru": "привычный; обычный",
+   "en": "usual",
+   "it": "solito / solita",
+   "ipa": "ˈsɔlito / ˈsɔlita",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0941",
+   "topic_id": "19",
+   "ru": "личный",
+   "en": "personal",
+   "it": "personale",
+   "ipa": "persoˈnale",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0942",
+   "topic_id": "19",
+   "ru": "общественный; публичный",
+   "en": "public",
+   "it": "pubblico / pubblica",
+   "ipa": "ˈpubbliko / ˈpubblika",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0943",
+   "topic_id": "19",
+   "ru": "частный; личный",
+   "en": "private",
+   "it": "privato / privata",
+   "ipa": "priˈvato / priˈvata",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0944",
+   "topic_id": "19",
+   "ru": "естественный; природный",
+   "en": "natural",
+   "it": "naturale",
+   "ipa": "natuˈrale",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0945",
+   "topic_id": "19",
+   "ru": "местный",
+   "en": "local",
+   "it": "locale",
+   "ipa": "loˈkale",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0946",
+   "topic_id": "19",
+   "ru": "международный",
+   "en": "international",
+   "it": "internazionale",
+   "ipa": "internattsjoˈnale",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0947",
+   "topic_id": "19",
+   "ru": "нынешний; текущий",
+   "en": "current; present-day",
+   "it": "attuale",
+   "ipa": "attuˈale",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0948",
+   "topic_id": "19",
+   "ru": "последний",
+   "en": "last",
+   "it": "ultimo / ultima",
+   "ipa": "ˈultimo / ˈultima",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0949",
+   "topic_id": "19",
+   "ru": "первый",
+   "en": "first",
+   "it": "primo / prima",
+   "ipa": "ˈprimo / ˈprima",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0950",
+   "topic_id": "19",
+   "ru": "лучший",
+   "en": "better; best",
+   "it": "migliore",
+   "ipa": "miʎˈʎore",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0951",
+   "topic_id": "20",
+   "ru": "и",
+   "en": "and",
+   "it": "e",
+   "ipa": "e",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0952",
+   "topic_id": "20",
+   "ru": "или",
+   "en": "or",
+   "it": "o",
+   "ipa": "o",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0953",
+   "topic_id": "20",
+   "ru": "но",
+   "en": "but",
+   "it": "ma",
+   "ipa": "ma",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0954",
+   "topic_id": "20",
+   "ru": "следовательно; поэтому",
+   "en": "therefore; so",
+   "it": "quindi",
+   "ipa": "ˈkwindi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0955",
+   "topic_id": "20",
+   "ru": "и действительно; ведь; дело в том, что",
+   "en": "in fact; indeed",
+   "it": "infatti",
+   "ipa": "inˈfatti",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0956",
+   "topic_id": "20",
+   "ru": "поскольку; так как",
+   "en": "since; as (because)",
+   "it": "siccome",
+   "ipa": "sikˈkome",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0957",
+   "topic_id": "20",
+   "ru": "тогда; итак",
+   "en": "then; so",
+   "it": "allora",
+   "ipa": "alˈlora",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0958",
+   "topic_id": "20",
+   "ru": "однако; но",
+   "en": "however; but",
+   "it": "però",
+   "ipa": "peˈrɔ",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0959",
+   "topic_id": "20",
+   "ru": "тем не менее; и всё же",
+   "en": "nevertheless; yet",
+   "it": "tuttavia",
+   "ipa": "tuttaˈvia",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0960",
+   "topic_id": "20",
+   "ru": "тоже; также",
+   "en": "also; too",
+   "it": "anche",
+   "ipa": "ˈanke",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0961",
+   "topic_id": "20",
+   "ru": "особенно; прежде всего",
+   "en": "especially; above all",
+   "it": "soprattutto",
+   "ipa": "sopratˈtutto",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0962",
+   "topic_id": "20",
+   "ru": "только",
+   "en": "only",
+   "it": "soltanto",
+   "ipa": "solˈtanto",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0963",
+   "topic_id": "20",
+   "ru": "даже если",
+   "en": "even if",
+   "it": "anche se",
+   "ipa": "ˈanke se",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0964",
+   "topic_id": "20",
+   "ru": "несмотря на",
+   "en": "despite",
+   "it": "nonostante",
+   "ipa": "nonoˈstante",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0965",
+   "topic_id": "20",
+   "ru": "хорошо",
+   "en": "well",
+   "it": "bene",
+   "ipa": "ˈbɛne",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0966",
+   "topic_id": "20",
+   "ru": "плохо",
+   "en": "badly",
+   "it": "male",
+   "ipa": "ˈmale",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0967",
+   "topic_id": "20",
+   "ru": "очень; много",
+   "en": "very; a lot",
+   "it": "molto",
+   "ipa": "ˈmolto",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0968",
+   "topic_id": "20",
+   "ru": "слишком",
+   "en": "too much; too",
+   "it": "troppo",
+   "ipa": "ˈtrɔppo",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0969",
+   "topic_id": "20",
+   "ru": "достаточно; довольно",
+   "en": "enough; quite",
+   "it": "abbastanza",
+   "ipa": "abbaˈstantsa",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0970",
+   "topic_id": "20",
+   "ru": "мало",
+   "en": "little; few",
+   "it": "poco",
+   "ipa": "ˈpɔko",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0971",
+   "topic_id": "20",
+   "ru": "так много; столько",
+   "en": "so much; so many",
+   "it": "tanto",
+   "ipa": "ˈtanto",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0972",
+   "topic_id": "20",
+   "ru": "больше",
+   "en": "more",
+   "it": "più",
+   "ipa": "pju",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0973",
+   "topic_id": "20",
+   "ru": "меньше",
+   "en": "less; fewer",
+   "it": "meno",
+   "ipa": "ˈmeno",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0974",
+   "topic_id": "20",
+   "ru": "почти",
+   "en": "almost",
+   "it": "quasi",
+   "ipa": "ˈkwazi",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0975",
+   "topic_id": "20",
+   "ru": "примерно",
+   "en": "approximately",
+   "it": "circa",
+   "ipa": "ˈtʃirka",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0976",
+   "topic_id": "20",
+   "ru": "действительно; правда",
+   "en": "really",
+   "it": "davvero",
+   "ipa": "davˈvero",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0977",
+   "topic_id": "20",
+   "ru": "может быть",
+   "en": "maybe",
+   "it": "forse",
+   "ipa": "ˈforse",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0978",
+   "topic_id": "20",
+   "ru": "вероятно",
+   "en": "probably",
+   "it": "probabilmente",
+   "ipa": "probabilˈmente",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0979",
+   "topic_id": "20",
+   "ru": "скорее; скорее уж",
+   "en": "rather",
+   "it": "piuttosto",
+   "ipa": "pjutˈtɔsto",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0980",
+   "topic_id": "20",
+   "ru": "например",
+   "en": "for example",
+   "it": "per esempio",
+   "ipa": "per eˈzɛmpjo",
+   "g": "",
+   "e": ""
+  },
+  {
+   "id": "it-core-0981",
+   "topic_id": "20",
+   "ru": "идея",
+   "en": "idea",
+   "it": "l’idea",
+   "ipa": "liˈdɛa",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0982",
+   "topic_id": "20",
+   "ru": "мнение",
+   "en": "opinion",
+   "it": "l’opinione",
+   "ipa": "lopiˈnjone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0983",
+   "topic_id": "20",
+   "ru": "причина; основание",
+   "en": "reason",
+   "it": "il motivo",
+   "ipa": "il moˈtivo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0984",
+   "topic_id": "20",
+   "ru": "проблема",
+   "en": "problem",
+   "it": "il problema",
+   "ipa": "il proˈblɛma",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0985",
+   "topic_id": "20",
+   "ru": "решение проблемы",
+   "en": "solution",
+   "it": "la soluzione",
+   "ipa": "la solutˈtsjone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0986",
+   "topic_id": "20",
+   "ru": "выбор",
+   "en": "choice",
+   "it": "la scelta",
+   "ipa": "la ˈʃelta",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0987",
+   "topic_id": "20",
+   "ru": "принятое решение",
+   "en": "decision",
+   "it": "la decisione",
+   "ipa": "la detʃiˈzjone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0988",
+   "topic_id": "20",
+   "ru": "ситуация",
+   "en": "situation",
+   "it": "la situazione",
+   "ipa": "la situatˈtsjone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0989",
+   "topic_id": "20",
+   "ru": "условие",
+   "en": "condition",
+   "it": "la condizione",
+   "ipa": "la konditˈtsjone",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0990",
+   "topic_id": "20",
+   "ru": "преимущество",
+   "en": "advantage",
+   "it": "il vantaggio",
+   "ipa": "il vanˈtaddʒo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0991",
+   "topic_id": "20",
+   "ru": "недостаток",
+   "en": "disadvantage",
+   "it": "lo svantaggio",
+   "ipa": "lo zvanˈtaddʒo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0992",
+   "topic_id": "20",
+   "ru": "потребность; нужда",
+   "en": "need",
+   "it": "il bisogno",
+   "ipa": "il biˈzoɲɲo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0993",
+   "topic_id": "20",
+   "ru": "желание",
+   "en": "desire; wish",
+   "it": "la voglia",
+   "ipa": "la ˈvɔʎʎa",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0994",
+   "topic_id": "20",
+   "ru": "страх",
+   "en": "fear",
+   "it": "la paura",
+   "ipa": "la paˈura",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0995",
+   "topic_id": "20",
+   "ru": "надежда",
+   "en": "hope",
+   "it": "la speranza",
+   "ipa": "la speˈrantsa",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0996",
+   "topic_id": "20",
+   "ru": "удача; везение",
+   "en": "luck; fortune",
+   "it": "la fortuna",
+   "ipa": "la forˈtuna",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-0997",
+   "topic_id": "20",
+   "ru": "будущее",
+   "en": "future",
+   "it": "il futuro",
+   "ipa": "il fuˈturo",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0998",
+   "topic_id": "20",
+   "ru": "изменение",
+   "en": "change",
+   "it": "il cambiamento",
+   "ipa": "il kambjaˈmento",
+   "g": "m",
+   "e": ""
+  },
+  {
+   "id": "it-core-0999",
+   "topic_id": "20",
+   "ru": "последствие",
+   "en": "consequence",
+   "it": "la conseguenza",
+   "ipa": "la konseˈgwɛntsa",
+   "g": "f",
+   "e": ""
+  },
+  {
+   "id": "it-core-1000",
+   "topic_id": "20",
+   "ru": "возможность",
+   "en": "possibility",
+   "it": "la possibilità",
+   "ipa": "la possibiliˈta",
+   "g": "f",
+   "e": ""
+  }
+ ],
+ "extra_cards": [
+  {
+   "id": "x-01",
+   "topic_id": "11",
+   "ru": "сто граммов (мера веса)",
+   "en": "100 grams (unit of weight)",
+   "it": "l’etto",
+   "ipa": "ˈlɛtto",
+   "g": "m",
+   "e": "⚖️"
+  },
+  {
+   "id": "x-02",
+   "topic_id": "08",
+   "ru": "пармезан",
+   "en": "parmesan",
+   "it": "il parmigiano",
+   "ipa": "il parmiˈdʒano",
+   "g": "m",
+   "e": "🧀"
+  }
+ ]
+}

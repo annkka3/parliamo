@@ -1,0 +1,1455 @@
+[
+ {
+  "id": "it-grammar-013",
+  "order": 13,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Указательные: questo и quello",
+  "can_do_ru": "Показать на предмет рядом и вдали.",
+  "prerequisites": [
+   "it-grammar-005"
+  ],
+  "rules_ru": [
+   "Questo — «этот» (рядом с говорящим). Окончание как у прилагательного на -o: questo biglietto, questa camera, questi posti, queste chiavi. Перед гласной в ед. ч. можно сократить: quest’albergo, quest’estate.",
+   "Quello — «тот» (вдали). Перед существительным он меняется как определённый артикль: il → quel treno, lo → quello zaino, l’ → quell’albergo, quell’isola, la → quella piazza, i → quei negozi, gli → quegli zaini, quegli amici, le → quelle case. Частая ошибка: *quello treno, *quelli negozi.",
+   "Без существительного — только полные формы: questo, questa, questi, queste; quello, quella, quelli, quelle: «Quale borsa?» — «Quella». Questo è… / Questa è… = «Это…», и форма согласуется с предметом: Questa è la mia valigia (не *Questo è la mia valigia, хотя по-русски всегда «это»)."
+  ],
+  "examples": [
+   {
+    "it": "Questa è la mia valigia.",
+    "ru": "Это мой чемодан.",
+    "tts_text": "Questa è la mia valigia.",
+    "audio_url": null
+   },
+   {
+    "it": "Quanto costa quel cappello?",
+    "ru": "Сколько стоит та шляпа?",
+    "tts_text": "Quanto costa quel cappello?",
+    "audio_url": null
+   },
+   {
+    "it": "Quegli zaini sono molto cari.",
+    "ru": "Те рюкзаки очень дорогие.",
+    "tts_text": "Quegli zaini sono molto cari.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь нужную форму quello.",
+    "stimulus_it": "Quanto costano ___ occhiali? (quello)",
+    "accepted_answers": [
+     "quegli"
+    ],
+    "feedback_ru": "Occhiali — мужской род, мн. ч., начинается с гласной: gli occhiali → quegli occhiali.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-013-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "«Тот отель» по-итальянски:",
+    "options": [
+     {
+      "id": "o1",
+      "text": "quel albergo"
+     },
+     {
+      "id": "o2",
+      "text": "quell’albergo"
+     },
+     {
+      "id": "o3",
+      "text": "quello albergo"
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "Перед гласной артикль l’, значит и quello сокращается: l’albergo → quell’albergo.",
+    "grading": "option_id",
+    "id": "it-grammar-013-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Поставь всю фразу во множественное число: «Quel treno è in ritardo.»",
+    "accepted_answers": [
+     "Quei treni sono in ritardo."
+    ],
+    "feedback_ru": "Il treno → i treni, поэтому quel → quei; глагол тоже во мн. ч.: sono.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-013-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-013-e4",
+    "type": "production",
+    "prompt_ru": "Ты в сувенирном магазине. Спроси цену одной вещи рядом с тобой и нескольких вещей на дальней полке.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Quanto costa questa borsa? E quanto costano quei cappelli?",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Questo и quello согласованы с существительным; форма quello выбрана по первому звуку слова (quel, quei, quegli, quell’…).",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 9,
+  "recommended_vocab_topic_ids": [
+   "06",
+   "11"
+  ]
+ },
+ {
+  "id": "it-grammar-014",
+  "order": 14,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Предлоги и слияние с артиклем",
+  "can_do_ru": "Сказать, где что находится и куда идти.",
+  "prerequisites": [
+   "it-grammar-005",
+   "it-grammar-009"
+  ],
+  "rules_ru": [
+   "Основные предлоги: di (чей; откуда родом: Sono di Mosca), a (в город, к; Sono a Roma), da (от, из: il treno da Milano; к кому-то: vado da Marco, dal medico), in (в стране, регионе; на транспорте: in treno), con (с), su (на), per (для; поезд до: il treno per Roma), tra/fra (между; оба варианта равны).",
+   "Di, a, da, in, su сливаются с определённым артиклем: a + il = al, a + lo = allo, a + l’ = all’, a + la = alla, a + i = ai, a + gli = agli, a + le = alle. Так же del/dello/della…, dal/dalla…, nel/nella… (in → ne-), sul/sulla… Con, per, tra не сливаются: con il treno, per la stazione.",
+   "«Где» и «куда» — один и тот же предлог: Sono a Roma / Vado a Roma («в Риме» и «в Рим»). Город — a, страна и регион — in: in Italia, in Toscana; частая ошибка — *in Roma. Без артикля: in centro, in banca, in farmacia, in albergo; с артиклем: al mare, al bar, alla stazione, all’aeroporto."
+  ],
+  "examples": [
+   {
+    "it": "Siamo a Napoli, in un albergo in centro.",
+    "ru": "Мы в Неаполе, в гостинице в центре.",
+    "tts_text": "Siamo a Napoli, in un albergo in centro.",
+    "audio_url": null
+   },
+   {
+    "it": "Scusi, come arrivo alla stazione?",
+    "ru": "Извините, как мне добраться до вокзала?",
+    "tts_text": "Scusi, come arrivo alla stazione?",
+    "audio_url": null
+   },
+   {
+    "it": "Il passaporto è nella borsa.",
+    "ru": "Паспорт в сумке.",
+    "tts_text": "Il passaporto è nella borsa.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь предлог, слитый с артиклем.",
+    "stimulus_it": "Le chiavi sono ___ tavolo. (su + il)",
+    "accepted_answers": [
+     "sul"
+    ],
+    "feedback_ru": "Su + il = sul.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-014-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как правильно сказать «Я живу в Риме»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Abito in Roma."
+     },
+     {
+      "id": "o2",
+      "text": "Abito al Roma."
+     },
+     {
+      "id": "o3",
+      "text": "Abito a Roma."
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "С названием города — a без артикля: a Roma, a Milano. In — для стран и регионов: in Italia.",
+    "grading": "option_id",
+    "id": "it-grammar-014-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Замени museo на albergo (l’albergo), а stazione — на zoo (lo zoo). Предлоги слей с новыми артиклями: «Dal museo alla stazione sono dieci minuti a piedi.»",
+    "accepted_answers": [
+     "Dall’albergo allo zoo sono dieci minuti a piedi."
+    ],
+    "feedback_ru": "Da + l’ = dall’, a + lo = allo.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-014-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-014-e4",
+    "type": "production",
+    "prompt_ru": "Ты в Риме. Напиши подруге 2–3 фразы: где ты живёшь, рядом с чем гостиница и куда ты пойдёшь сегодня.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Sono a Roma, in un albergo in centro. L’albergo è vicino alla stazione Termini. Oggi vado al Colosseo e poi ai Musei Vaticani.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Предлоги a/in выбраны верно для города, страны и мест; слитные формы (al, alla, nel…) образованы правильно.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 9,
+  "recommended_vocab_topic_ids": [
+   "10",
+   "17"
+  ]
+ },
+ {
+  "id": "it-grammar-015",
+  "order": 15,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Количество и partitivo",
+  "can_do_ru": "Попросить немного чего-то в магазине и в кафе.",
+  "prerequisites": [
+   "it-grammar-005",
+   "it-grammar-010",
+   "it-grammar-014"
+  ],
+  "rules_ru": [
+   "Partitivo = di + определённый артикль, значит «немного, несколько»: del pane, dello zucchero, dell’acqua, della frutta (неисчисляемое); dei pomodori, degli spinaci, delle mele (мн. ч.). В русском здесь артикля нет — просто «хлеба», «яблок».",
+   "Un po’ di + существительное без артикля: un po’ di pane, un po’ di latte. В po’ апостроф (сокращение от poco), а не ударение: не *pò. Мера и тара — тоже di без артикля: un etto di prosciutto (100 г), mezzo chilo di pane, un chilo di mele, una bottiglia di vino, un litro di latte.",
+   "В отрицании partitivo обычно не ставят: Non ho pane. В вопросе можно и так, и так: Avete (del) pane fresco? Quanto согласуется с существительным: Quanto pane? Quanta frutta? Quanti pomodori? Quante mele?"
+  ],
+  "examples": [
+   {
+    "it": "Prendo del pane e un po’ di formaggio.",
+    "ru": "Я возьму хлеба и немного сыра.",
+    "tts_text": "Prendo del pane e un po’ di formaggio.",
+    "audio_url": null
+   },
+   {
+    "it": "Un etto di prosciutto, per favore.",
+    "ru": "Сто граммов ветчины, пожалуйста.",
+    "tts_text": "Un etto di prosciutto, per favore.",
+    "audio_url": null
+   },
+   {
+    "it": "Compriamo delle pesche e una bottiglia d’acqua.",
+    "ru": "Мы покупаем персики и бутылку воды.",
+    "tts_text": "Compriamo delle pesche e una bottiglia d’acqua.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь partitivo (di + артикль).",
+    "stimulus_it": "Al mercato compro ___ spinaci. (partitivo)",
+    "accepted_answers": [
+     "degli"
+    ],
+    "feedback_ru": "Spinaci — мужской род, мн. ч., начинается с s + согласная: gli spinaci → degli spinaci.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-015-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать «немного воды»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "un po’ di acqua"
+     },
+     {
+      "id": "o2",
+      "text": "un pò di acqua"
+     },
+     {
+      "id": "o3",
+      "text": "un po’ acqua"
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "Un po’ di + существительное без артикля. Po’ пишется с апострофом, а не с ударением. Можно и un po’ d’acqua.",
+    "grading": "option_id",
+    "id": "it-grammar-015-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Замени определённые артикли на partitivo («немного», «несколько»): «Compro le mele e lo zucchero.»",
+    "accepted_answers": [
+     "Compro delle mele e dello zucchero.",
+     "Io compro delle mele e dello zucchero."
+    ],
+    "feedback_ru": "Di + le = delle, di + lo = dello.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-015-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-015-e4",
+    "type": "production",
+    "prompt_ru": "Ты на рынке в Болонье. Купи три продукта: один на вес (un etto, mezzo chilo, un chilo di…), один в бутылке или упаковке и ещё что-то с partitivo.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Buongiorno! Un etto di prosciutto crudo, per favore. Poi mezzo chilo di pane e una bottiglia di vino rosso. E anche delle pesche, grazie.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Мера и тара с di без артикля; partitivo (del, della, dei, delle…) образован верно.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 10,
+  "recommended_vocab_topic_ids": [
+   "07",
+   "08",
+   "11"
+  ]
+ },
+ {
+  "id": "it-grammar-016",
+  "order": 16,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Potere, volere, dovere; вежливая просьба",
+  "can_do_ru": "Вежливо попросить, предложить, сказать, что нужно.",
+  "prerequisites": [
+   "it-grammar-003",
+   "it-grammar-009",
+   "it-grammar-010"
+  ],
+  "rules_ru": [
+   "Potere: posso, puoi, può, possiamo, potete, possono. Volere: voglio, vuoi, vuole, vogliamo, volete, vogliono. Dovere: devo, devi, deve, dobbiamo, dovete, devono. После них сразу инфинитив, без предлога: Posso entrare? Devo partire. (не *devo di partire).",
+   "Potere — «могу, можно» (разрешение, возможность): Posso pagare con la carta? Dovere — «должна, надо»: Devo cambiare treno? Volere — «хочу», но voglio в кафе и магазине звучит резко. Вежливо — Vorrei… («Я бы хотела…»): Vorrei un caffè.",
+   "С незнакомыми — форма Lei (3-е лицо): Può ripetere, per favore? Ещё мягче — Potrebbe…?: Potrebbe chiamare un taxi? Vorrei и Potrebbe здесь берём как готовые формулы; само время (condizionale) будет в отдельной теме."
+  ],
+  "examples": [
+   {
+    "it": "Posso pagare con la carta?",
+    "ru": "Можно оплатить картой?",
+    "tts_text": "Posso pagare con la carta?",
+    "audio_url": null
+   },
+   {
+    "it": "Vorrei un biglietto per Venezia, per favore.",
+    "ru": "Я бы хотела билет до Венеции, пожалуйста.",
+    "tts_text": "Vorrei un biglietto per Venezia, per favore.",
+    "audio_url": null
+   },
+   {
+    "it": "Devo cambiare treno a Bologna?",
+    "ru": "Мне нужно делать пересадку в Болонье?",
+    "tts_text": "Devo cambiare treno a Bologna?",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь форму глагола в presente.",
+    "stimulus_it": "Scusi, ___ ripetere, per favore? (potere, Lei)",
+    "accepted_answers": [
+     "può"
+    ],
+    "feedback_ru": "Lei — это 3-е лицо ед. ч.: può. Не забудь ударение: può.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-016-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как вежливее всего начать заказ в кафе?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Voglio un cappuccino."
+     },
+     {
+      "id": "o2",
+      "text": "Devo un cappuccino."
+     },
+     {
+      "id": "o3",
+      "text": "Vorrei un cappuccino."
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "Vorrei — «я бы хотела», стандартная вежливая формула. Voglio звучит как требование, а devo значит «я должна».",
+    "grading": "option_id",
+    "id": "it-grammar-016-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Перепиши вопрос, обращаясь к незнакомому человеку на Lei (в presente): «Puoi chiamare un taxi?»",
+    "accepted_answers": [
+     "Può chiamare un taxi?",
+     "Lei può chiamare un taxi?"
+    ],
+    "feedback_ru": "Lei требует 3-го лица: può. Инфинитив chiamare не меняется.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-016-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-016-e4",
+    "type": "production",
+    "prompt_ru": "Ты на ресепшене гостиницы. Спроси, можно ли оставить чемодан (lasciare la valigia), вежливо попроси карту города и спроси, нужно ли платить туристический налог (la tassa di soggiorno).",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Buongiorno! Posso lasciare la valigia qui? Vorrei una mappa della città, per favore. Devo pagare la tassa di soggiorno?",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Использованы potere, volere (vorrei) и dovere; после них сразу инфинитив без предлога.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 10,
+  "recommended_vocab_topic_ids": [
+   "02",
+   "08"
+  ]
+ },
+ {
+  "id": "it-grammar-017",
+  "order": 17,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Возвратные глаголы в presente",
+  "can_do_ru": "Рассказать о распорядке дня.",
+  "prerequisites": [
+   "it-grammar-001",
+   "it-grammar-007",
+   "it-grammar-010"
+  ],
+  "rules_ru": [
+   "Возвратный глагол в словаре кончается на -si: chiamarsi, alzarsi, svegliarsi, lavarsi. В presente местоимение отдельным словом стоит перед глаголом: mi alzo, ti alzi, si alza, ci alziamo, vi alzate, si alzano. Русское «-ся» на конце здесь превращается в mi/ti/si впереди.",
+   "Возвратность не всегда совпадает с русской: mi chiamo — «меня зовут», mi diverto — «мне весело», mi riposo — «я отдыхаю». И наоборот: «я улыбаюсь» — sorrido, «я учусь» — studio, без mi.",
+   "Non ставится перед местоимением: Non mi alzo presto (не *Mi non alzo). С инфинитивом местоимение можно присоединить к концу: Devo alzarmi presto = Mi devo alzare presto. Ci vediamo! — «Увидимся!» (взаимное действие)."
+  ],
+  "examples": [
+   {
+    "it": "Mi chiamo Anna. E tu come ti chiami?",
+    "ru": "Меня зовут Анна. А тебя как зовут?",
+    "tts_text": "Mi chiamo Anna. E tu come ti chiami?",
+    "audio_url": null
+   },
+   {
+    "it": "In vacanza non mi sveglio mai presto.",
+    "ru": "В отпуске я никогда не просыпаюсь рано.",
+    "tts_text": "In vacanza non mi sveglio mai presto.",
+    "audio_url": null
+   },
+   {
+    "it": "Ci vediamo domani davanti all’albergo.",
+    "ru": "Увидимся завтра перед гостиницей.",
+    "tts_text": "Ci vediamo domani davanti all’albergo.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь возвратный глагол в presente вместе с местоимением.",
+    "stimulus_it": "La domenica i bambini ___ tardi. (svegliarsi)",
+    "accepted_answers": [
+     "si svegliano"
+    ],
+    "feedback_ru": "Loro: si + svegliano.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-017-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "«Я не просыпаюсь рано» — где правильный порядок слов?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non mi sveglio presto."
+     },
+     {
+      "id": "o2",
+      "text": "Mi non sveglio presto."
+     },
+     {
+      "id": "o3",
+      "text": "Non sveglio mi presto."
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "Порядок: non + местоимение + глагол.",
+    "grading": "option_id",
+    "id": "it-grammar-017-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Перепиши фразу от первого лица (io): «Marco si lava e si veste in cinque minuti.»",
+    "accepted_answers": [
+     "Mi lavo e mi vesto in cinque minuti.",
+     "Io mi lavo e mi vesto in cinque minuti."
+    ],
+    "feedback_ru": "Si → mi, и глагол в 1-м лице: mi lavo, mi vesto. Местоимение повторяется перед каждым глаголом.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-017-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-017-e4",
+    "type": "production",
+    "prompt_ru": "Опиши в 3–4 фразах своё обычное утро в отпуске. Используй хотя бы три возвратных глагола (svegliarsi, alzarsi, lavarsi, vestirsi, riposarsi…).",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "In vacanza mi sveglio tardi. Mi alzo con calma, mi faccio la doccia e mi vesto. Il pomeriggio mi riposo in albergo.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Возвратные глаголы использованы с правильным местоимением перед глаголом (mi, ti, si…).",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 11,
+  "recommended_vocab_topic_ids": [
+   "03"
+  ]
+ },
+ {
+  "id": "it-grammar-018",
+  "order": 18,
+  "stage": "A1",
+  "cefr_band_author": "A1",
+  "priority": "core",
+  "title_ru": "Время, частотность и первые связки",
+  "can_do_ru": "Связать простые фразы во времени.",
+  "prerequisites": [
+   "it-grammar-007",
+   "it-grammar-011",
+   "it-grammar-017"
+  ],
+  "rules_ru": [
+   "Который час: Che ore sono? (или Che ora è?) — Sono le tre; È l’una; È mezzogiorno / mezzanotte. Минуты: le tre e dieci, le tre e un quarto, le tre e mezza, le quattro meno dieci. «Во сколько?» — A che ora? — alle otto, all’una, a mezzogiorno.",
+   "Частотность: sempre, spesso, a volte, raramente, non… mai, ogni giorno, ogni settimana. Sempre и spesso обычно ставят после глагола: Prendo sempre il caffè al bar («Я всегда пью кофе в баре»). Ogni не меняется и требует ед. ч.: ogni giorno (не *ogni giorni).",
+   "Связки: e (и), ma (но), o (или), poi (потом), allora (тогда, значит), quando (когда), perché (потому что; тот же perché — «почему?» в вопросе).",
+   "Stare + gerundio — действие в процессе прямо сейчас: sto, stai, sta… + -ando (parlare → parlando) или -endo (prendere → prendendo, partire → partendo). Неправильные: fare → facendo, bere → bevendo, dire → dicendo. Sto arrivando! — «Я уже иду!»"
+  ],
+  "examples": [
+   {
+    "it": "Che ore sono? — Sono le nove e mezza.",
+    "ru": "Который час? — Половина десятого.",
+    "tts_text": "Che ore sono? — Sono le nove e mezza.",
+    "audio_url": null
+   },
+   {
+    "it": "Ogni mattina faccio colazione al bar, poi vado in ufficio.",
+    "ru": "Каждое утро я завтракаю в баре, потом иду в офис.",
+    "tts_text": "Ogni mattina faccio colazione al bar, poi vado in ufficio.",
+    "audio_url": null
+   },
+   {
+    "it": "Un momento, sto arrivando!",
+    "ru": "Минутку, я уже иду!",
+    "tts_text": "Un momento, sto arrivando!",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь одно слово, чтобы получилось «в 8:20».",
+    "stimulus_it": "Il treno parte ___ otto e venti.",
+    "accepted_answers": [
+     "alle"
+    ],
+    "feedback_ru": "«Во сколько» — a + le = alle (часы во мн. ч.); только «в час» — all’una.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-018-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Выбери подходящую связку: «Prendo un taxi, ___ sono stanca.»",
+    "options": [
+     {
+      "id": "o1",
+      "text": "ma"
+     },
+     {
+      "id": "o2",
+      "text": "perché"
+     },
+     {
+      "id": "o3",
+      "text": "o"
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "Perché — «потому что»: беру такси, потому что устала.",
+    "grading": "option_id",
+    "id": "it-grammar-018-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Скажи, что это происходит прямо сейчас, через stare + gerundio: «Aspettiamo l’autobus.»",
+    "accepted_answers": [
+     "Stiamo aspettando l’autobus.",
+     "Noi stiamo aspettando l’autobus."
+    ],
+    "feedback_ru": "Stiamo + aspettando (-are → -ando).",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-018-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-018-e4",
+    "type": "production",
+    "prompt_ru": "Напиши подруге 3–4 фразы о своём дне в поездке: во сколько ты что делаешь, что делаешь часто или всегда и что делаешь прямо сейчас. Используй хотя бы две связки (e, ma, poi, perché…).",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Ogni mattina mi sveglio alle otto e faccio colazione in albergo. Poi visito un museo, ma il pomeriggio mi riposo perché fa caldo. Adesso sto bevendo uno spritz in piazza!",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Есть время (alle…), слово частотности и stare + gerundio; фразы связаны связками.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 11,
+  "recommended_vocab_topic_ids": [
+   "15",
+   "16",
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-019",
+  "order": 19,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Passato prossimo с avere",
+  "can_do_ru": "Рассказать, что ты сделала.",
+  "prerequisites": [
+   "it-grammar-003",
+   "it-grammar-007",
+   "it-grammar-008",
+   "it-grammar-010"
+  ],
+  "rules_ru": [
+   "Passato prossimo = avere в presente + причастие: ho mangiato, hai mangiato, ha mangiato, abbiamo mangiato, avete mangiato, hanno mangiato. Это основное время для законченных действий: «я поела», «мы купили».",
+   "Правильные причастия: -are → -ato (parlato), -ere → -uto (venduto), -ire → -ito (dormito, finito). Частые неправильные: fare → fatto, prendere → preso, vedere → visto, dire → detto, scrivere → scritto, leggere → letto, aprire → aperto, chiudere → chiuso, bere → bevuto, perdere → perso.",
+   "С avere причастие не меняется по роду и числу: Anna ha mangiato, le ragazze hanno mangiato. Non стоит перед avere: Non ho capito. Частая ошибка — пропустить вспомогательный глагол: *Io mangiato вместо Ho mangiato."
+  ],
+  "examples": [
+   {
+    "it": "Ieri ho visitato il Colosseo.",
+    "ru": "Вчера я посетила Колизей.",
+    "tts_text": "Ieri ho visitato il Colosseo.",
+    "audio_url": null
+   },
+   {
+    "it": "Abbiamo preso il treno delle otto.",
+    "ru": "Мы поехали восьмичасовым поездом.",
+    "tts_text": "Abbiamo preso il treno delle otto.",
+    "audio_url": null
+   },
+   {
+    "it": "Scusi, non ho capito.",
+    "ru": "Извините, я не поняла.",
+    "tts_text": "Scusi, non ho capito.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в passato prossimo.",
+    "stimulus_it": "Stamattina ___ un cappuccino al bar. (bere, io)",
+    "accepted_answers": [
+     "ho bevuto"
+    ],
+    "feedback_ru": "Ho + bevuto: у bere причастие от старой основы bev-.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-019-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Причастие от prendere:",
+    "options": [
+     {
+      "id": "o1",
+      "text": "prenduto"
+     },
+     {
+      "id": "o2",
+      "text": "presso"
+     },
+     {
+      "id": "o3",
+      "text": "preso"
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "Prendere → preso (ho preso). Presso — совсем другое слово («около»).",
+    "grading": "option_id",
+    "id": "it-grammar-019-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Перепиши в passato prossimo: «Leggo il giornale e scrivo una cartolina.»",
+    "accepted_answers": [
+     "Ho letto il giornale e ho scritto una cartolina.",
+     "Io ho letto il giornale e ho scritto una cartolina.",
+     "Ho letto il giornale e scritto una cartolina."
+    ],
+    "feedback_ru": "Leggere → letto, scrivere → scritto; оба с avere.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-019-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-019-e4",
+    "type": "production",
+    "prompt_ru": "Напиши подруге 3 фразы о том, что ты успела сделать вчера в Риме. Используй глаголы с avere и хотя бы два неправильных причастия (fatto, visto, preso, letto…).",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Ieri ho visto la Fontana di Trevi. Ho mangiato una carbonara molto buona e ho fatto tante foto. La sera ho preso un gelato in piazza Navona.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Passato prossimo с avere образован верно; неправильные причастия использованы правильно.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 14,
+  "recommended_vocab_topic_ids": [
+   "03"
+  ]
+ },
+ {
+  "id": "it-grammar-020",
+  "order": 20,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Passato prossimo с essere и возвратными",
+  "can_do_ru": "Рассказать, куда ходила и что случилось.",
+  "prerequisites": [
+   "it-grammar-002",
+   "it-grammar-017",
+   "it-grammar-019"
+  ],
+  "rules_ru": [
+   "С essere образуют passato prossimo глаголы движения и изменения состояния: andare, venire, arrivare, partire, entrare, uscire, tornare, salire, scendere, restare, rimanere, nascere, diventare, а также essere и stare (у обоих причастие stato: sono stata — «я была»). Неправильные причастия: venuto, sceso, rimasto, nato.",
+   "С essere причастие согласуется с подлежащим, как прилагательное: -o, -a, -i, -e. Анна: Sono andata a Roma. Марко: È arrivato. Мы с подругой: Siamo tornate. Смешанная группа — мужской род: Siamo arrivati.",
+   "Все возвратные глаголы тоже спрягаются с essere: mi sono svegliata, ti sei divertito, si è fermata, ci siamo persi. Местоимение стоит перед essere. Частые ошибки: *ho andato, *mi ho svegliato."
+  ],
+  "examples": [
+   {
+    "it": "Sono arrivata a Venezia ieri sera.",
+    "ru": "Я приехала в Венецию вчера вечером.",
+    "tts_text": "Sono arrivata a Venezia ieri sera.",
+    "audio_url": null
+   },
+   {
+    "it": "Il treno è partito in ritardo.",
+    "ru": "Поезд отправился с опозданием.",
+    "tts_text": "Il treno è partito in ritardo.",
+    "audio_url": null
+   },
+   {
+    "it": "Stamattina mi sono svegliata tardi.",
+    "ru": "Сегодня утром я проснулась поздно.",
+    "tts_text": "Stamattina mi sono svegliata tardi.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в passato prossimo.",
+    "stimulus_it": "Ieri sera Giulia ___ a casa tardi. (tornare)",
+    "accepted_answers": [
+     "è tornata"
+    ],
+    "feedback_ru": "Tornare — с essere; Giulia — женский род: è tornata.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-020-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Анна пишет: «Вчера я ходила в музей». Как правильно?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Ieri sono andata al museo."
+     },
+     {
+      "id": "o2",
+      "text": "Ieri ho andato al museo."
+     },
+     {
+      "id": "o3",
+      "text": "Ieri sono andato al museo."
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "Andare — с essere, а причастие согласуется с Анной: sono andata.",
+    "grading": "option_id",
+    "id": "it-grammar-020-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Перепиши в passato prossimo (это говорит Анна): «Mi sveglio presto ed esco subito.»",
+    "accepted_answers": [
+     "Mi sono svegliata presto e sono uscita subito.",
+     "Io mi sono svegliata presto e sono uscita subito."
+    ],
+    "feedback_ru": "Svegliarsi и uscire — с essere; окончание -a, потому что говорит женщина.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-020-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-020-e4",
+    "type": "production",
+    "prompt_ru": "Расскажи в 3–4 фразах, как прошёл твой день в поездке: во сколько ты проснулась, куда ходила, когда вернулась. Используй essere и хотя бы один возвратный глагол.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Stamattina mi sono svegliata alle otto. Sono andata al mercato e poi sono salita sul campanile. La sera sono tornata in albergo e mi sono riposata.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Глаголы движения и возвратные — с essere; причастие согласовано по роду и числу.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 14,
+  "recommended_vocab_topic_ids": [
+   "03",
+   "09"
+  ]
+ },
+ {
+  "id": "it-grammar-021",
+  "order": 21,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Imperfetto: образование и значения",
+  "can_do_ru": "Описать, как было, и привычки в прошлом.",
+  "prerequisites": [
+   "it-grammar-007",
+   "it-grammar-008",
+   "it-grammar-009"
+  ],
+  "rules_ru": [
+   "Образование: у инфинитива отбрасываем -re и добавляем -vo, -vi, -va, -vamo, -vate, -vano: parlare → parlavo, avere → avevo, dormire → dormivo. В 3-м л. мн. ч. ударение на третий слог от конца: parlavano, avevano.",
+   "Essere неправильный: ero, eri, era, eravamo, eravate, erano. Fare, dire, bere берут старую основу: facevo, dicevo, bevevo.",
+   "Imperfetto отвечает на вопросы «как было?» и «что бывало обычно?»: описание (La camera era piccola, faceva caldo), возраст и состояние (Avevo dieci anni, ero stanca), привычка в прошлом (Da bambina andavo al mare ogni estate). По-русски это часто несовершенный вид: «я ездила (каждое лето)», «было жарко»."
+  ],
+  "examples": [
+   {
+    "it": "Da bambina passavo l’estate al mare.",
+    "ru": "В детстве я проводила лето на море.",
+    "tts_text": "Da bambina passavo l’estate al mare.",
+    "audio_url": null
+   },
+   {
+    "it": "L’albergo era piccolo, ma la camera era molto bella.",
+    "ru": "Гостиница была маленькая, но номер был очень красивый.",
+    "tts_text": "L’albergo era piccolo, ma la camera era molto bella.",
+    "audio_url": null
+   },
+   {
+    "it": "Faceva caldo e tutti bevevano acqua fredda.",
+    "ru": "Было жарко, и все пили холодную воду.",
+    "tts_text": "Faceva caldo e tutti bevevano acqua fredda.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в imperfetto.",
+    "stimulus_it": "Quando avevo vent’anni, ___ molto. (viaggiare, io)",
+    "accepted_answers": [
+     "viaggiavo"
+    ],
+    "feedback_ru": "Viaggia- + -vo: viaggiavo — привычка в прошлом.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-021-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Imperfetto глагола fare (io):",
+    "options": [
+     {
+      "id": "o1",
+      "text": "favo"
+     },
+     {
+      "id": "o2",
+      "text": "facevo"
+     },
+     {
+      "id": "o3",
+      "text": "farevo"
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "Fare берёт старую основу fac-: facevo, facevi, faceva…",
+    "grading": "option_id",
+    "id": "it-grammar-021-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Перепиши в imperfetto: «Siamo stanchi e abbiamo fame.»",
+    "accepted_answers": [
+     "Eravamo stanchi e avevamo fame.",
+     "Noi eravamo stanchi e avevamo fame."
+    ],
+    "feedback_ru": "Essere → eravamo (неправильная форма), avere → avevamo.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-021-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-021-e4",
+    "type": "production",
+    "prompt_ru": "Опиши в 3–4 фразах место, где ты отдыхала в детстве: каким оно было, какая была погода и что ты обычно делала.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Da bambina andavo in vacanza in un piccolo paese al mare. Le case erano bianche e faceva sempre caldo. Ogni giorno nuotavo e mangiavo il gelato.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Imperfetto использован для описания, погоды и привычных действий; формы образованы верно.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 15,
+  "recommended_vocab_topic_ids": [
+   "15"
+  ]
+ },
+ {
+  "id": "it-grammar-022",
+  "order": 22,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Passato prossimo или imperfetto",
+  "can_do_ru": "Выбрать прошедшее время по смыслу.",
+  "prerequisites": [
+   "it-grammar-019",
+   "it-grammar-020",
+   "it-grammar-021"
+  ],
+  "rules_ru": [
+   "Passato prossimo — законченное событие, которое двигает рассказ («что случилось?»): Sono arrivata, ho preso un taxi. Imperfetto — фон, описание, состояние, привычка («как было?»): Pioveva, ero stanca.",
+   "Mentre + imperfetto — длительное фоновое действие; quando + passato prossimo — событие, которое его прервало: Mentre aspettavo il treno, ho incontrato un’amica. Facevo la doccia quando è arrivato Marco.",
+   "Некоторые глаголы меняют смысл: conoscevo Marco («я была знакома с Марко») — ho conosciuto Marco («я познакомилась»); sapevo («знала») — ho saputo («узнала»); volevo («хотела», неясно, сделала ли) — ho voluto («захотела и сделала»).",
+   "Русский вид помогает не всегда. «Я два часа ждала», «мы три дня жили в Риме» — несовершенный вид, но отрезок закрыт, поэтому passato prossimo: Ho aspettato due ore, Siamo stati tre giorni a Roma."
+  ],
+  "examples": [
+   {
+    "it": "Mentre passeggiavo in centro, ho visto un vecchio amico.",
+    "ru": "Пока я гуляла по центру, я увидела старого друга.",
+    "tts_text": "Mentre passeggiavo in centro, ho visto un vecchio amico.",
+    "audio_url": null
+   },
+   {
+    "it": "Pioveva, così abbiamo preso un taxi.",
+    "ru": "Шёл дождь, так что мы взяли такси.",
+    "tts_text": "Pioveva, così abbiamo preso un taxi.",
+    "audio_url": null
+   },
+   {
+    "it": "Ieri ho conosciuto la sorella di Marco.",
+    "ru": "Вчера я познакомилась с сестрой Марко.",
+    "tts_text": "Ieri ho conosciuto la sorella di Marco.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в нужном прошедшем времени.",
+    "stimulus_it": "Ieri sera facevo la doccia quando ___ Marco. (arrivare)",
+    "accepted_answers": [
+     "è arrivato"
+    ],
+    "feedback_ru": "Приход Марко — событие, прервавшее фон: passato prossimo, с essere и согласованием: è arrivato.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-022-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "«Вчера я два часа ждала автобус». Как правильно?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Ieri aspettavo l’autobus per due ore."
+     },
+     {
+      "id": "o2",
+      "text": "Ieri sono aspettata l’autobus per due ore."
+     },
+     {
+      "id": "o3",
+      "text": "Ieri ho aspettato l’autobus per due ore."
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "Отрезок с чётким концом (два часа) — passato prossimo, хотя по-русски несовершенный вид. Aspettare — с avere.",
+    "grading": "option_id",
+    "id": "it-grammar-022-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Перепиши в прошедшем времени, выбрав для каждого глагола imperfetto или passato prossimo: «Mentre aspetto il treno, perdo il biglietto.»",
+    "accepted_answers": [
+     "Mentre aspettavo il treno, ho perso il biglietto.",
+     "Mentre io aspettavo il treno, ho perso il biglietto.",
+     "Mentre aspettavo il treno ho perso il biglietto.",
+     "Mentre io aspettavo il treno ho perso il biglietto."
+    ],
+    "feedback_ru": "Ожидание — фон (mentre + imperfetto), потеря билета — событие (passato prossimo, perdere → perso).",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-022-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-022-e4",
+    "type": "production",
+    "prompt_ru": "Расскажи в 3–4 фразах о неожиданном случае в поездке: сначала фон (погода, где ты была, что делала), потом что случилось.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Era sabato e faceva bel tempo. Passeggiavo sul lungomare quando ho visto dei delfini. Ho fatto subito un video!",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Фон и описание — в imperfetto, события — в passato prossimo.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 15,
+  "recommended_vocab_topic_ids": [
+   "03",
+   "09"
+  ]
+ },
+ {
+  "id": "it-grammar-023",
+  "order": 23,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Futuro semplice",
+  "can_do_ru": "Говорить о планах и предположениях.",
+  "prerequisites": [
+   "it-grammar-009",
+   "it-grammar-016",
+   "it-grammar-018"
+  ],
+  "rules_ru": [
+   "Окончания одни для всех групп: -ò, -ai, -à, -emo, -ete, -anno. У глаголов на -are a → e: parlare → parlerò; prendere → prenderò, partire → partirò. -care/-gare добавляют h: cercherò, pagherò; -ciare/-giare теряют i: comincerò, mangerò. Ударение в 1-м и 3-м л. ед. ч. пишется: partirò, partirà.",
+   "Неправильные основы: essere → sarò, avere → avrò, andare → andrò, potere → potrò, dovere → dovrò, vedere → vedrò, fare → farò, stare → starò, dare → darò, venire → verrò, volere → vorrò, bere → berrò.",
+   "Futuro — для планов, прогнозов и обещаний: Domani visiterò gli Uffizi. Будущее — одно слово, без «буду»: не *sarò visitare. О близком плане итальянцы часто говорят в presente: Domani parto. Ещё futuro выражает предположение о настоящем: Che ore sono? — Saranno le otto («наверное, около восьми»)."
+  ],
+  "examples": [
+   {
+    "it": "L’anno prossimo andrò in Sicilia.",
+    "ru": "В следующем году я поеду на Сицилию.",
+    "tts_text": "L’anno prossimo andrò in Sicilia.",
+    "audio_url": null
+   },
+   {
+    "it": "Domani farà bel tempo?",
+    "ru": "Завтра будет хорошая погода?",
+    "tts_text": "Domani farà bel tempo?",
+    "audio_url": null
+   },
+   {
+    "it": "Dov’è Marco? — Sarà ancora in albergo.",
+    "ru": "Где Марко? — Наверное, ещё в гостинице.",
+    "tts_text": "Dov’è Marco? — Sarà ancora in albergo.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в futuro semplice.",
+    "stimulus_it": "Stasera ___ in un ristorante di pesce. (mangiare, noi)",
+    "accepted_answers": [
+     "mangeremo"
+    ],
+    "feedback_ru": "Mangiare теряет i и меняет a → e: mangeremo.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-023-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Futuro глагола venire (io):",
+    "options": [
+     {
+      "id": "o1",
+      "text": "verrò"
+     },
+     {
+      "id": "o2",
+      "text": "venirò"
+     },
+     {
+      "id": "o3",
+      "text": "venerò"
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "Venire — неправильная основа verr-: verrò, verrai, verrà…",
+    "grading": "option_id",
+    "id": "it-grammar-023-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Перепиши в futuro semplice: «Domani andiamo a Pisa e vediamo la Torre.»",
+    "accepted_answers": [
+     "Domani andremo a Pisa e vedremo la Torre.",
+     "Domani noi andremo a Pisa e vedremo la Torre.",
+     "Noi domani andremo a Pisa e vedremo la Torre."
+    ],
+    "feedback_ru": "Andare → andremo, vedere → vedremo: у обоих сокращённая основа.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-023-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-023-e4",
+    "type": "production",
+    "prompt_ru": "Напиши подруге 3–4 фразы о планах на выходные в поездке: куда поедешь, что посмотришь, где будешь ночевать. Добавь одно предположение о погоде.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Sabato andrò a Verona in treno. Visiterò l’Arena e farò un giro in centro. Dormirò in un B&B vicino alla stazione. Domenica probabilmente farà caldo, quindi andrò al lago di Garda.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Глаголы в futuro образованы верно, включая неправильные основы (andrò, farò, sarò…).",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 16,
+  "recommended_vocab_topic_ids": [
+   "15",
+   "09"
+  ]
+ },
+ {
+  "id": "it-grammar-024",
+  "order": 24,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Condizionale presente: просьбы и советы",
+  "can_do_ru": "Вежливо попросить и дать совет.",
+  "prerequisites": [
+   "it-grammar-016",
+   "it-grammar-021",
+   "it-grammar-023"
+  ],
+  "rules_ru": [
+   "Condizionale строится от той же основы, что futuro, + окончания -ei, -esti, -ebbe, -emmo, -este, -ebbero: parlerei, prenderesti, partirebbe. Неправильные основы те же: sarei, avrei, andrei, farei, vorrei, potrei, dovrei, verrei. По-русски — глагол + «бы».",
+   "Вежливая просьба: Vorrei una camera doppia. Potrebbe chiamare un taxi? Mi piacerebbe vedere il Duomo («мне хотелось бы…»). Это мягче, чем voglio или può.",
+   "Совет: dovresti + инфинитив («тебе стоило бы»), potresti («ты могла бы»), sarebbe meglio… («лучше было бы»): Dovresti prenotare prima. Не путай с futuro: vorrò («захочу») — vorrei («хотела бы»); andremo («поедем») — andremmo («поехали бы», двойное m)."
+  ],
+  "examples": [
+   {
+    "it": "Vorrei una camera con vista sul mare.",
+    "ru": "Я бы хотела номер с видом на море.",
+    "tts_text": "Vorrei una camera con vista sul mare.",
+    "audio_url": null
+   },
+   {
+    "it": "Potrebbe chiamare un taxi, per favore?",
+    "ru": "Не могли бы вы вызвать такси, пожалуйста?",
+    "tts_text": "Potrebbe chiamare un taxi, per favore?",
+    "audio_url": null
+   },
+   {
+    "it": "Dovresti assaggiare la pasta alla Norma.",
+    "ru": "Тебе стоит попробовать пасту алла Норма.",
+    "tts_text": "Dovresti assaggiare la pasta alla Norma.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь глагол в condizionale presente.",
+    "stimulus_it": "Hai tre giorni a Napoli? ___ visitare anche Pompei! (dovere, tu)",
+    "accepted_answers": [
+     "dovresti"
+    ],
+    "feedback_ru": "Совет: dovresti + инфинитив.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-024-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "«Мы бы поехали на море» — выбери правильную форму:",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Andremo al mare."
+     },
+     {
+      "id": "o2",
+      "text": "Andremmo al mare."
+     },
+     {
+      "id": "o3",
+      "text": "Andrebbero al mare."
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "Condizionale noi — -emmo с двумя m. Andremo — это futuro («поедем»), andrebbero — «они бы поехали».",
+    "grading": "option_id",
+    "id": "it-grammar-024-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Сделай просьбу вежливее: поставь глагол в condizionale. «Può portare il conto?»",
+    "accepted_answers": [
+     "Potrebbe portare il conto?",
+     "Lei potrebbe portare il conto?"
+    ],
+    "feedback_ru": "Può → potrebbe: форма Lei в condizionale.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-024-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-024-e4",
+    "type": "production",
+    "prompt_ru": "Ты в гостинице. Вежливо попроси у администратора две вещи (номер, такси, завтрак…), а потом дай совет подруге, которая приедет сюда позже.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Buonasera, vorrei una camera tranquilla. Potrebbe prenotare un taxi per domani mattina? Giulia, dovresti venire a giugno: sarebbe perfetto per il mare.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Просьбы и совет выражены через condizionale (vorrei, potrebbe, dovresti…); формы образованы верно.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Образец показывает конструкцию, но не является единственным ответом. Самооценка и проверка преподавателем учитываются отдельно.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 16,
+  "recommended_vocab_topic_ids": [
+   "04",
+   "08"
+  ]
+ }
+]

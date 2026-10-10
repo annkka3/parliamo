@@ -1,0 +1,93 @@
+[
+ {
+  "id": "S-CEFR",
+  "title": "Council of Europe — The CEFR Levels (Global scale)",
+  "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions",
+  "use_ru": "Общая шкала: уровень описывается через умения во всех видах речевой деятельности, а не через список грамматики; поэтому приложение уровень не присваивает.",
+  "accessed_at": "2026-10-10"
+ },
+ {
+  "id": "S-QUAL",
+  "title": "Council of Europe — Qualitative aspects of spoken language use, Table 3 (CEFR 3.3)",
+  "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-3-cefr-3.3-common-reference-levels-qualitative-aspects-of-spoken-language-use",
+  "use_ru": "Различия уровней по диапазону, точности, беглости, взаимодействию и связности; объяснение, почему грамматический мини-тест не равен уровню.",
+  "accessed_at": "2026-10-10"
+ },
+ {
+  "id": "S-RLD",
+  "title": "Council of Europe — Reference Level Descriptions (RLDs) developed so far",
+  "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/reference-level-descriptions-rlds-developed-so-far",
+  "use_ru": "Подтверждение, что Profilo della lingua italiana — описание уровней A1–B2 для итальянского в рамках проекта RLD Совета Европы.",
+  "accessed_at": "2026-10-10"
+ },
+ {
+  "id": "S-PROFILO",
+  "title": "Spinelli B., Parizzi F. Profilo della lingua italiana. Livelli di riferimento del QCER A1, A2, B1, B2 (La Nuova Italia, 2010) — онлайн-инвентари, Università per Stranieri di Perugia",
+  "url": "https://www.unistrapg.it/profilo_lingua_italiana/site/contenuti.html",
+  "use_ru": "Главный ориентир распределения грамматики по уровням A1–B2 (инвентари «Grammatica» и «Funzioni»); ориентир охвата, не обязательный экзаменационный список; недели и группировка тем авторские.",
+  "accessed_at": "2026-10-10"
+ },
+ {
+  "id": "S-CILS",
+  "title": "Università per Stranieri di Siena — Linee guida CILS (силлабусы уровней A1, A2, UNO-B1, DUE-B2)",
+  "url": "https://cils.unistrasi.it/public/articoli/12/linee_guida_cils_pdf(2).pdf",
+  "use_ru": "Сверка уровней по морфосинтаксическим силлабусам CILS; CILS осторожнее Profilo (congiuntivo и сочетания местоимений — на B2), passato prossimo уже на A1; не подготовка к экзамену.",
+  "accessed_at": "2026-10-10"
+ },
+ {
+  "id": "S-CELI",
+  "title": "Università per Stranieri di Perugia (CVCL) — CELI 3, livello B2: descrizione delle competenze richieste",
+  "url": "https://www.unistrapg.it/sites/default/files/docs/certificazioni/celi-3-competenze-richieste.pdf",
+  "use_ru": "Верхняя граница B2: condizionale, congiuntivo, periodo ipotetico, пассив и безличные формы, gerundio, связки; грамматика CELI 3 сама отсылает к Profilo. Проверен только уровень B2.",
+  "accessed_at": "2026-10-10"
+ },
+ {
+  "id": "S-PLIDA",
+  "title": "Società Dante Alighieri — Sillabo della Certificazione PLIDA, livelli A1–C2 (2-е изд., март 2021)",
+  "url": "https://cms.plida.dante.global/wp-content/uploads/2022/11/Sillabo_della_certificazione_PLIDA-1.pdf",
+  "use_ru": "Коммуникативные цели и типы текстов по уровням; отдельного списка грамматики в силлабусе нет — грамматику сверяли по Quaderni delle specifiche B1 и B2.",
+  "accessed_at": "2026-10-10"
+ },
+ {
+  "id": "S-PLIDA-B1",
+  "title": "Società Dante Alighieri — PLIDA B1, Quaderno delle specifiche (2-е изд., 2021): Elenco delle strutture ricorrenti",
+  "url": "https://cms.plida.dante.global/wp-content/uploads/2022/11/Quaderno-delle-specifiche-PLIDA-B1.pdf",
+  "use_ru": "Список структур, которые экзаменаторы ожидают на B1 (сочетания местоимений, imperfetto/passato prossimo, congiuntivo presente после глаголов мнения, реальное условие); сам список не исчерпывающий.",
+  "accessed_at": "2026-10-10"
+ },
+ {
+  "id": "S-PLIDA-B2",
+  "title": "Società Dante Alighieri — PLIDA B2, Quaderno delle specifiche: Elenco delle strutture ricorrenti",
+  "url": "https://cms.plida.dante.global/wp-content/uploads/2022/11/Quaderno-delle-specifiche-PLIDA-B2.pdf",
+  "use_ru": "Список структур B2 (congiuntivo всех времён, condizionale passato, periodo ipotetico II–III, gerundio, пассив с essere/venire, passato remoto, il quale, discorso indiretto, come se); ориентир, не экзаменационное обещание.",
+  "accessed_at": "2026-10-10"
+ },
+ {
+  "id": "S-CLIQ-B2",
+  "title": "Enti certificatori dell’italiano L2 — Sillabo di riferimento per i livelli di competenza in italiano L2: Livello B2",
+  "url": "https://www.unistrapg.it/sites/default/files/docs/certificazioni/sillabo-4-enti-B2.pdf",
+  "use_ru": "Точечно: passato remoto на B2 — на уровне узнавания, condizionale «giornalistico»; силлабус ориентирован на взрослых мигрантов, поэтому как общий ориентир не использован.",
+  "accessed_at": "2026-10-10"
+ },
+ {
+  "id": "S-GRAM",
+  "title": "Treccani — Enciclopedia dell’Italiano (dir. R. Simone, 2010–2011)",
+  "url": "https://www.treccani.it/enciclopedia/elenco-opere/Enciclopedia_dell'Italiano/",
+  "use_ru": "Основной грамматический справочник: 1–2 статьи на тему в italian_reference_paths.json; статьи научные и на итальянском — для преподавателя и проверки правил, не для чтения новичком.",
+  "accessed_at": "2026-10-10"
+ },
+ {
+  "id": "S-RU-MASLA",
+  "title": "Masla A. Imparare dagli errori: apprendenti russofoni di italiano LS/L2 // EL.LE 10(3), 2021, 361–392",
+  "url": "https://edizionicafoscari.it/media/pdf/article/elle/2021/3/art-10.30687-ELLE-2280-6792-2021-03-002.pdf",
+  "use_ru": "Типичные письменные ошибки русскоязычных по корпусу VALICO: артикли и слитные предлоги, вспомогательные глаголы и выбор essere/avere, пропуск связки, congiuntivo, управление, двойные согласные.",
+  "accessed_at": "2026-10-10"
+ },
+ {
+  "id": "S-RU-TORRESIN",
+  "title": "Torresin L. Attività glottoludiche per la correzione degli errori di allievi russofoni // Bollettino ITALS 17(77), 2019",
+  "url": "https://www.itals.it/sites/default/files/pdf-bollettino/febbraio2019/Linda_Torresin.pdf",
+  "use_ru": "Контрастивные заметки «русский — итальянский»: артикли, passato prossimo и imperfetto через вид глагола, пропуск essere, двойные согласные, письменное ударение.",
+  "accessed_at": "2026-10-10"
+ }
+]

@@ -1,0 +1,1453 @@
+[
+ {
+  "id": "it-grammar-025",
+  "order": 25,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Imperativo: tu, voi, noi и вежливое Lei",
+  "can_do_ru": "Давать и понимать инструкции и дорогу.",
+  "prerequisites": [
+   "it-grammar-007",
+   "it-grammar-008",
+   "it-grammar-009",
+   "it-grammar-010",
+   "it-grammar-017"
+  ],
+  "rules_ru": [
+   "Imperativo на tu: у глаголов на -are окончание -a (parla!, gira!, aspetta!), у глаголов на -ere и -ire — -i (prendi!, senti!, scendi!, finisci!). Формы на voi и noi совпадают с presente: parlate!, prendete!, andiamo! («пойдём!»).",
+   "Запрет на tu — non + инфинитив: non parlare!, non prendere il taxi! На voi и noi просто ставим non: non parlate!, non andiamo! Типичная ошибка — «Non parla!» вместо «Non parlare!» при обращении на ты.",
+   "Вежливое Lei — окончания «наоборот»: -are → -i (Giri a destra, Scusi, Aspetti), -ere/-ire → -a (Prenda, Senta, Scenda). Неправильные: vada, faccia, dica, stia, dia, venga. Запрет: Non giri qui.",
+   "Короткие неправильные формы на tu: va’ (andare), fa’ (fare), di’ (dire), sta’ (stare), da’ (dare). Вместо va’, fa’, sta’, da’ можно сказать vai, fai, stai, dai; у dire есть только di’."
+  ],
+  "examples": [
+   {
+    "it": "Giri a destra e vada sempre dritto.",
+    "ru": "Поверните направо и идите всё время прямо.",
+    "tts_text": "Giri a destra e vada sempre dritto.",
+    "audio_url": null
+   },
+   {
+    "it": "Prendi il 64 e scendi alla terza fermata.",
+    "ru": "Садись на 64-й и выходи на третьей остановке.",
+    "tts_text": "Prendi il 64 e scendi alla terza fermata.",
+    "audio_url": null
+   },
+   {
+    "it": "Non aspettare l’autobus, andiamo a piedi!",
+    "ru": "Не жди автобус, пойдём пешком!",
+    "tts_text": "Non aspettare l’autobus, andiamo a piedi!",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Объясни дорогу вежливо: вставь глагол в повелительном наклонении на Lei.",
+    "stimulus_it": "Per il Duomo, signora? ___ la prima strada a destra. (prendere)",
+    "accepted_answers": [
+     "prenda"
+    ],
+    "feedback_ru": "Lei-форма от prendere: -ere → -a, поэтому prenda. Prendi — это обращение на tu.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-025-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать другу «Не кури здесь!»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non fumi qui!"
+     },
+     {
+      "id": "o2",
+      "text": "Non fumare qui!"
+     },
+     {
+      "id": "o3",
+      "text": "Non fuma qui!"
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "Запрет на tu — non + инфинитив: Non fumare! Non fumi — форма Lei, non fuma — просто «не курит».",
+    "grading": "option_id",
+    "id": "it-grammar-025-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Переделай указание с tu на вежливое Lei: «Gira a destra e va’ dritto.»",
+    "accepted_answers": [
+     "Giri a destra e vada dritto."
+    ],
+    "feedback_ru": "На Lei: gira → giri, va’ → vada.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-025-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-025-e4",
+    "type": "production",
+    "prompt_ru": "Турист на улице спрашивает тебя, как пройти к вокзалу. Объясни дорогу на Lei: 2–3 указания (куда повернуть, куда идти, на чём ехать).",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Vada dritto fino alla piazza, poi giri a sinistra. Prenda l’autobus 12 e scenda alla stazione.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Указания даны в imperativo на Lei (giri, vada, prenda…), а не на tu.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Проверь, что все глаголы в форме Lei: giri, vada, prenda, scenda. Образец — лишь один из возможных ответов.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 18,
+  "recommended_vocab_topic_ids": [
+   "17",
+   "09"
+  ]
+ },
+ {
+  "id": "it-grammar-026",
+  "order": 26,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Прямые дополнения: lo, la, li, le",
+  "can_do_ru": "Заменить предмет местоимением.",
+  "prerequisites": [
+   "it-grammar-005",
+   "it-grammar-017",
+   "it-grammar-019"
+  ],
+  "rules_ru": [
+   "Прямое дополнение отвечает на вопрос «кого? что?»: mi, ti, lo (его, м. р.), la (её, ж. р.), ci, vi, li (их, м. р. или смешанная группа), le (их, ж. р.). Для предметов то же самое: Il treno? Lo prendo. Вежливое La = «Вас»: La aspetto alle otto.",
+   "Местоимение стоит перед спрягаемым глаголом, а не после: Lo compro (не «Compro lo»); с отрицанием — Non lo compro. Lo и la перед гласной и h сокращаются: l’ho, l’aspetto; li и le — нет: li ho, le ho.",
+   "В passato prossimo с lo, la, li, le причастие согласуется с местоимением: l’ho visto (его), l’ho vista (её), li ho visti, le ho viste. С mi, ti, ci, vi согласование возможно, но не обязательно: Anna, ti ho visto / ti ho vista."
+  ],
+  "examples": [
+   {
+    "it": "Il biglietto? Lo compro alla stazione.",
+    "ru": "Билет? Куплю его на вокзале.",
+    "tts_text": "Il biglietto? Lo compro alla stazione.",
+    "audio_url": null
+   },
+   {
+    "it": "Dov’è la mia borsa? Non la trovo!",
+    "ru": "Где моя сумка? Не могу её найти!",
+    "tts_text": "Dov’è la mia borsa? Non la trovo!",
+    "audio_url": null
+   },
+   {
+    "it": "Le cartoline? Le ho già spedite.",
+    "ru": "Открытки? Я их уже отправила.",
+    "tts_text": "Le cartoline? Le ho già spedite.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь причастие глагола в скобках в нужной форме.",
+    "stimulus_it": "Hai visto Giulia? — Sì, l’ho ___ ieri al bar. (vedere)",
+    "accepted_answers": [
+     "vista"
+    ],
+    "feedback_ru": "L’ = la (Giulia), поэтому причастие в женском роде: l’ho vista.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-026-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Выбери местоимение: «Questi biglietti? ___ compro online.»",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Le"
+     },
+     {
+      "id": "o2",
+      "text": "Gli"
+     },
+     {
+      "id": "o3",
+      "text": "Li"
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "Biglietti — мужской род, множественное число, прямое дополнение → li. Gli — это «ему/им» (косвенное).",
+    "grading": "option_id",
+    "id": "it-grammar-026-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Замени «la pizza» местоимением: «Ho mangiato la pizza.»",
+    "accepted_answers": [
+     "L’ho mangiata.",
+     "Io l’ho mangiata."
+    ],
+    "feedback_ru": "La pizza → la, перед ho сокращается до l’; причастие согласуется: mangiata.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-026-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-026-e4",
+    "type": "production",
+    "prompt_ru": "Ты собираешь вещи перед поездкой. Подруга спрашивает: «Hai preso il passaporto? E le chiavi? E la crema solare?» Ответь на каждый вопрос, заменив предмет местоимением.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Sì, l’ho preso. Sì, le ho prese. No, non l’ho presa: la compro in farmacia.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Предметы заменены местоимениями lo/la/li/le перед глаголом, причастие согласовано.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Проверь согласование: il passaporto → l’ho preso, le chiavi → le ho prese, la crema → l’ho presa. Образец — лишь один из возможных ответов.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 18,
+  "recommended_vocab_topic_ids": [
+   "11"
+  ]
+ },
+ {
+  "id": "it-grammar-027",
+  "order": 27,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Косвенные дополнения и ударные местоимения",
+  "can_do_ru": "Сказать кому; выделить человека.",
+  "prerequisites": [
+   "it-grammar-014",
+   "it-grammar-026"
+  ],
+  "rules_ru": [
+   "Косвенное дополнение отвечает на вопрос «кому?»: mi (мне), ti (тебе), gli (ему), le (ей), Le (Вам), ci (нам), vi (вам), gli (им). Стоит перед глаголом: Gli scrivo domani. Не путай: le — «ей», Le — «Вам», а gli — и «ему», и «им».",
+   "Управление не всегда совпадает с русским: telefonare a, chiedere a, rispondere a → gli telefono, le chiedo («спрошу её»). И наоборот, aiutare, ascoltare, ringraziare берут прямое дополнение: la ringrazio («благодарю её»), lo aiuto («помогаю ему»). С косвенными местоимениями причастие не согласуется: Le ho scritto (не «scritta»).",
+   "Ударные местоимения — me, te, lui, lei, Lei, noi, voi, loro — ставятся после предлогов и для выделения: con me, per te, da lui, secondo me, Lo dico a te, non a lui. Ошибка — «con io», «per tu»: после предлога всегда me, te."
+  ],
+  "examples": [
+   {
+    "it": "Stasera gli telefono e gli chiedo l’indirizzo.",
+    "ru": "Вечером позвоню ему и спрошу у него адрес.",
+    "tts_text": "Stasera gli telefono e gli chiedo l’indirizzo.",
+    "audio_url": null
+   },
+   {
+    "it": "Signora, Le do subito la ricevuta.",
+    "ru": "Синьора, сейчас дам Вам чек.",
+    "tts_text": "Signora, Le do subito la ricevuta.",
+    "audio_url": null
+   },
+   {
+    "it": "Vieni a cena con me? — Sì, vengo con te!",
+    "ru": "Пойдёшь со мной ужинать? — Да, пойду с тобой!",
+    "tts_text": "Vieni a cena con me? — Sì, vengo con te!",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь местоимение.",
+    "stimulus_it": "Domani vedo Paolo e ___ porto il suo libro. (ему)",
+    "accepted_answers": [
+     "gli"
+    ],
+    "feedback_ru": "Portare qualcosa a qualcuno: a Paolo → gli.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-027-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Выбери местоимение: «La signora non trova la stazione: ___ aiuto io.»",
+    "options": [
+     {
+      "id": "o1",
+      "text": "la"
+     },
+     {
+      "id": "o2",
+      "text": "le"
+     },
+     {
+      "id": "o3",
+      "text": "gli"
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "Aiutare требует прямого дополнения (aiutare qualcuno), хотя по-русски «помогу ей». Поэтому la, а не le.",
+    "grading": "option_id",
+    "id": "it-grammar-027-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Замени «a Maria» местоимением: «Scrivo una cartolina a Maria.»",
+    "accepted_answers": [
+     "Le scrivo una cartolina.",
+     "Io le scrivo una cartolina."
+    ],
+    "feedback_ru": "A Maria = «ей» → le, перед глаголом.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-027-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-027-e4",
+    "type": "production",
+    "prompt_ru": "Ты выбираешь сувениры. Напиши 3 фразы: что ты привезёшь маме, брату и себе. Используй le/gli и хотя бы одно ударное местоимение (per me, per lui…).",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Mia madre ama il caffè: le porto una moka. Mio fratello tifa per la Roma: gli porto una sciarpa giallorossa. E questo profumo è per me!",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Использованы gli/le перед глаголом и хотя бы одно ударное местоимение после предлога.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Gli — ему, le — ей; после предлогов — me, te, lui, lei. Образец — лишь один из возможных ответов.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 19,
+  "recommended_vocab_topic_ids": [
+   "05",
+   "04"
+  ]
+ },
+ {
+  "id": "it-grammar-028",
+  "order": 28,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Ci и ne",
+  "can_do_ru": "Заменить место и количество.",
+  "prerequisites": [
+   "it-grammar-014",
+   "it-grammar-015",
+   "it-grammar-026",
+   "it-grammar-027"
+  ],
+  "rules_ru": [
+   "Ci заменяет место (a/in/da/su + место) и стоит перед глаголом: Vai a Roma? — Sì, ci vado domani. Sei mai stata a Napoli? — Sì, ci sono stata. По-русски «туда/там» часто опускают, а по-итальянски ci обычно нужен.",
+   "Ci vuole + единственное число, ci vogliono + множественное = «нужно, требуется» (о времени, количестве): Ci vuole un’ora. Ci vogliono due ore. Ошибка — «ci vuole due ore».",
+   "Ne заменяет количество или часть: Quante mele vuole? — Ne prendo due. Число остаётся, существительное уходит, но ne обязателен: просто «Prendo due» звучит недосказанно. Ne также значит «об этом»: Ne parliamo dopo.",
+   "С c’è / ci sono получается ce n’è / ce ne sono: C’è ancora latte? — Sì, ce n’è. Ci sono camere libere? — Sì, ce ne sono due. Отрицание: Non ce n’è, Non ce ne sono."
+  ],
+  "examples": [
+   {
+    "it": "Sei mai stata a Venezia? — Sì, ci sono stata l’anno scorso.",
+    "ru": "Ты когда-нибудь была в Венеции? — Да, была там в прошлом году.",
+    "tts_text": "Sei mai stata a Venezia? — Sì, ci sono stata l’anno scorso.",
+    "audio_url": null
+   },
+   {
+    "it": "Dalla stazione al centro ci vogliono dieci minuti.",
+    "ru": "Дорога от вокзала до центра занимает десять минут.",
+    "tts_text": "Dalla stazione al centro ci vogliono dieci minuti.",
+    "audio_url": null
+   },
+   {
+    "it": "Ci sono camere libere? — Sì, ce ne sono due.",
+    "ru": "Есть свободные номера? — Да, есть два.",
+    "tts_text": "Ci sono camere libere? — Sì, ce ne sono due.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь местоимение, чтобы не повторять «biglietti».",
+    "stimulus_it": "Quanti biglietti vuole? — ___ prendo tre.",
+    "accepted_answers": [
+     "ne"
+    ],
+    "feedback_ru": "Ne заменяет «biglietti», число остаётся: Ne prendo tre.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-028-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Выбери: «Da Milano a Roma in treno ___ tre ore.»",
+    "options": [
+     {
+      "id": "o1",
+      "text": "ci vuole"
+     },
+     {
+      "id": "o2",
+      "text": "ci vogliono"
+     },
+     {
+      "id": "o3",
+      "text": "ne vogliono"
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "Tre ore — множественное число, поэтому ci vogliono.",
+    "grading": "option_id",
+    "id": "it-grammar-028-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Замени «al mare» словом ci: «Vado al mare domani.»",
+    "accepted_answers": [
+     "Ci vado domani.",
+     "Io ci vado domani.",
+     "Domani ci vado."
+    ],
+    "feedback_ru": "Al mare → ci, перед глаголом: Ci vado domani.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-028-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-028-e4",
+    "type": "production",
+    "prompt_ru": "Подруга спрашивает: «Sei mai stata a Napoli? Quanto ci vuole da Roma? Conosci delle buone pizzerie?» Ответь 2–3 фразами, используя ci и ne.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Sì, ci sono stata a maggio. Da Roma in treno ci vuole poco più di un’ora. Buone pizzerie? Ne conosco tre in centro!",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Место заменено на ci, количество — на ne; ci vuole/ci vogliono согласованы по числу.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Ci заменяет место, ne — количество; ci vuole + ед. ч., ci vogliono + мн. ч. Образец — лишь один из возможных ответов.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 19,
+  "recommended_vocab_topic_ids": [
+   "10",
+   "11"
+  ]
+ },
+ {
+  "id": "it-grammar-029",
+  "order": 29,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Piacere и похожие глаголы",
+  "can_do_ru": "Сказать, что нравится, нужно, не хватает.",
+  "prerequisites": [
+   "it-grammar-027"
+  ],
+  "rules_ru": [
+   "Piacere строится как русское «мне нравится»: кому — косвенное местоимение (mi, ti, gli, le, Le, ci, vi) или a + имя (A Marco piace…), а подлежащее — то, что нравится. Mi piace + единственное число или инфинитив (Mi piace il mare, Mi piace viaggiare), mi piacciono + множественное (Mi piacciono i musei). Ошибки: «Io piaccio la pizza», «Mi piace i musei».",
+   "В passato prossimo — essere, и причастие согласуется с тем, что понравилось: Mi è piaciuto il film, Mi è piaciuta la cena, Mi sono piaciuti i musei, Mi sono piaciute le spiagge. Для выделения: A me è piaciuto, a lui no.",
+   "Так же работают servire (Mi serve un adattatore — мне нужен), mancare (Mi mancano due euro — мне не хватает; Mi manca casa — скучаю по дому), bastare (Basta un biglietto — достаточно), sembrare (Mi sembra caro — мне кажется). «Я по тебе скучаю» — Mi manchi: «ты» здесь подлежащее."
+  ],
+  "examples": [
+   {
+    "it": "Mi piacciono molto le piazze di Roma.",
+    "ru": "Мне очень нравятся римские площади.",
+    "tts_text": "Mi piacciono molto le piazze di Roma.",
+    "audio_url": null
+   },
+   {
+    "it": "Ti è piaciuta la cena? — Sì, molto!",
+    "ru": "Тебе понравился ужин? — Да, очень!",
+    "tts_text": "Ti è piaciuta la cena? — Sì, molto!",
+    "audio_url": null
+   },
+   {
+    "it": "Mi serve un adattatore per la presa.",
+    "ru": "Мне нужен переходник для розетки.",
+    "tts_text": "Mi serve un adattatore per la presa.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь форму глагола в скобках.",
+    "stimulus_it": "Le spiagge della Sardegna mi ___ molto. (piacere, presente)",
+    "accepted_answers": [
+     "piacciono"
+    ],
+    "feedback_ru": "Подлежащее — le spiagge (мн. ч.), поэтому piacciono.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-029-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать «Мне понравились музеи»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Mi è piaciuto i musei."
+     },
+     {
+      "id": "o2",
+      "text": "Ho piaciuto i musei."
+     },
+     {
+      "id": "o3",
+      "text": "Mi sono piaciuti i musei."
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "Piacere спрягается с essere, причастие согласуется с musei: Mi sono piaciuti.",
+    "grading": "option_id",
+    "id": "it-grammar-029-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Переделай в passato prossimo: «Mi piace la gita in barca.»",
+    "accepted_answers": [
+     "Mi è piaciuta la gita in barca.",
+     "La gita in barca mi è piaciuta."
+    ],
+    "feedback_ru": "Essere + причастие в роде подлежащего: la gita → è piaciuta.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-029-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-029-e4",
+    "type": "production",
+    "prompt_ru": "Вечером после экскурсии напиши подруге 3 фразы: что тебе понравилось, что не понравилось и что тебе нужно на завтра (servire).",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Mi sono piaciuti molto i mosaici e mi è piaciuta la guida. Non mi è piaciuto il pranzo: troppo caro. Domani mi serve un cappello per il sole.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Piacere и servire согласованы с тем, что нравится или нужно; в passato prossimo — essere и согласование причастия.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Проверь число и род: mi piace / mi è piaciuto(-a) для одного, mi piacciono / mi sono piaciuti(-e) для нескольких. Образец — лишь один из возможных ответов.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 20,
+  "recommended_vocab_topic_ids": [
+   "19",
+   "07"
+  ]
+ },
+ {
+  "id": "it-grammar-030",
+  "order": 30,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Сравнение и превосходная степень",
+  "can_do_ru": "Сравнить цены, места и людей.",
+  "prerequisites": [
+   "it-grammar-005",
+   "it-grammar-006",
+   "it-grammar-015"
+  ],
+  "rules_ru": [
+   "Più/meno + прилагательное + di, когда сравниваем двух людей или два предмета: Roma è più grande di Firenze, Il treno è meno caro dell’aereo (di сливается с артиклем). Che — когда сравниваем действия или слова с предлогом: È più comodo viaggiare in treno che in macchina. Равенство: Il pullman è (tanto) caro quanto il treno.",
+   "Превосходная степень: артикль + существительное + più/meno + прилагательное + di: È il museo più famoso di Firenze. «Самый … в городе» — di, а не in: la piazza più bella della città. «Очень» — окончание -issimo: caro → carissimo, bella → bellissima, buoni → buonissimi.",
+   "Особые формы: buono → migliore (лучше, лучший), cattivo → peggiore, grande → maggiore (больший, старший), piccolo → minore (меньший, младший). Наречия: bene → meglio, male → peggio. Не путай: Questo vino è migliore, но Parli meglio di me, Oggi sto meglio."
+  ],
+  "examples": [
+   {
+    "it": "Il treno è meno caro dell’aereo.",
+    "ru": "Поезд дешевле самолёта.",
+    "tts_text": "Il treno è meno caro dell’aereo.",
+    "audio_url": null
+   },
+   {
+    "it": "Questa è la gelateria più famosa della città.",
+    "ru": "Это самое знаменитое кафе-мороженое в городе.",
+    "tts_text": "Questa è la gelateria più famosa della città.",
+    "audio_url": null
+   },
+   {
+    "it": "La pizza qui è buonissima, ma la pasta è ancora migliore.",
+    "ru": "Пицца здесь очень вкусная, но паста ещё лучше.",
+    "tts_text": "La pizza qui è buonissima, ma la pasta è ancora migliore.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь пропущенное слово.",
+    "stimulus_it": "Il treno è più comodo ___ macchina.",
+    "accepted_answers": [
+     "della"
+    ],
+    "feedback_ru": "Сравниваем два предмета: di + la → della.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-030-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Выбери: «Oggi sto ___ di ieri: il mal di testa è passato.»",
+    "options": [
+     {
+      "id": "o1",
+      "text": "meglio"
+     },
+     {
+      "id": "o2",
+      "text": "migliore"
+     },
+     {
+      "id": "o3",
+      "text": "più bene"
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "Нужно наречие (как я себя чувствую): bene → meglio. Migliore — прилагательное, «più bene» не говорят.",
+    "grading": "option_id",
+    "id": "it-grammar-030-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Замени «molto caro» одним словом на -issimo: «L’albergo è molto caro.»",
+    "accepted_answers": [
+     "L’albergo è carissimo."
+    ],
+    "feedback_ru": "Caro → car- + -issimo: carissimo.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-030-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-030-e4",
+    "type": "production",
+    "prompt_ru": "Ты выбираешь между двумя отелями. Сравни их 3 фразами: цена, расстояние до центра и какой, по-твоему, лучше.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "L’hotel Sole è meno caro dell’hotel Mare, ma è più lontano dal centro. Le camere dell’hotel Mare sono più grandi e la colazione è migliore. Secondo me l’hotel Mare è il più comodo dei due.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Есть сравнение с più/meno … di и хотя бы одна особая форма (migliore, meglio) или превосходная степень.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Più/meno … di перед существительным; migliore — прилагательное, meglio — наречие. Образец — лишь один из возможных ответов.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 20,
+  "recommended_vocab_topic_ids": [
+   "18"
+  ]
+ },
+ {
+  "id": "it-grammar-031",
+  "order": 31,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Наречия: образование, место, степень",
+  "can_do_ru": "Сказать, как и насколько.",
+  "prerequisites": [
+   "it-grammar-006",
+   "it-grammar-019",
+   "it-grammar-025"
+  ],
+  "rules_ru": [
+   "Наречие на -mente образуется от формы женского рода: lento → lenta → lentamente, tranquillo → tranquillamente. Прилагательные на -e просто добавляют -mente (veloce → velocemente), а после l и r конечное -e выпадает: facile → facilmente, gentile → gentilmente, regolare → regolarmente. От buono и cattivo — bene и male: Parli bene (не «buono»).",
+   "Molto, poco, troppo, abbastanza перед прилагательным или после глагола — наречия и не меняются: sono molto stanca, mangio troppo, è abbastanza vicino. Перед существительным molto, poco, troppo согласуются: molti turisti, troppa gente. Частая ошибка — «sono molte stanche».",
+   "Обычно наречие стоит после глагола: Mi alzo presto, Arrivo tardi. В passato prossimo già, appena, ancora, sempre, mai встают между вспомогательным глаголом и причастием: Ho già mangiato, Sono appena arrivata, Ho sempre viaggiato da sola. Bene и male — чаще после причастия: Ho dormito bene."
+  ],
+  "examples": [
+   {
+    "it": "Parli più lentamente, per favore.",
+    "ru": "Говорите, пожалуйста, медленнее.",
+    "tts_text": "Parli più lentamente, per favore.",
+    "audio_url": null
+   },
+   {
+    "it": "Sono appena arrivata in albergo.",
+    "ru": "Я только что приехала в отель.",
+    "tts_text": "Sono appena arrivata in albergo.",
+    "audio_url": null
+   },
+   {
+    "it": "Ho dormito bene, ma mi sono alzata troppo presto.",
+    "ru": "Я хорошо спала, но встала слишком рано.",
+    "tts_text": "Ho dormito bene, ma mi sono alzata troppo presto.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Образуй наречие от прилагательного в скобках.",
+    "stimulus_it": "Alla reception ci rispondono sempre ___. (gentile)",
+    "accepted_answers": [
+     "gentilmente"
+    ],
+    "feedback_ru": "Gentile теряет -e после l: gentil- + -mente.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-031-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Выбери: «Dopo la gita siamo ___ stanchi.»",
+    "options": [
+     {
+      "id": "o1",
+      "text": "molti"
+     },
+     {
+      "id": "o2",
+      "text": "molte"
+     },
+     {
+      "id": "o3",
+      "text": "molto"
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "Перед прилагательным molto — наречие и не меняется.",
+    "grading": "option_id",
+    "id": "it-grammar-031-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Добавь наречие già на правильное место: «Ho comprato i biglietti.»",
+    "accepted_answers": [
+     "Ho già comprato i biglietti.",
+     "Io ho già comprato i biglietti."
+    ],
+    "feedback_ru": "Già стоит между ho и причастием.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-031-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-031-e4",
+    "type": "production",
+    "prompt_ru": "Напиши подруге сообщение из поездки (3 фразы): что ты только что сделала, что уже успела и как всё прошло. Используй appena, già и bene или наречие на -mente.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Sono appena arrivata a Bologna! Ho già lasciato la valigia in albergo. Il viaggio è andato bene: in treno ho dormito tranquillamente.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Già и appena стоят между вспомогательным глаголом и причастием; есть bene/male или наречие на -mente.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Appena и già — между вспомогательным глаголом и причастием; bene — после. Образец — лишь один из возможных ответов.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 22,
+  "recommended_vocab_topic_ids": [
+   "17",
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-032",
+  "order": 32,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Время: da, fa, tra/fra, per; stare + gerundio, stare per",
+  "can_do_ru": "Сказать, как долго, как давно и когда.",
+  "prerequisites": [
+   "it-grammar-018",
+   "it-grammar-019",
+   "it-grammar-020",
+   "it-grammar-023"
+  ],
+  "rules_ru": [
+   "Da + срок + presente — действие началось в прошлом и продолжается: Abito qui da due anni («живу здесь уже два года»), Studio italiano da settembre. Как и в русском, здесь настоящее время; passato prossimo — ошибка.",
+   "Fa — «назад», ставится после срока: due giorni fa, un’ora fa. Tra или fra — «через» от настоящего момента: tra un’ora, fra tre giorni (не «dopo un’ora»). Per — сколько длилось или будет длиться: Resto per tre notti, Ho vissuto a Roma per un anno.",
+   "Stare + gerundio — действие прямо сейчас: sto mangiando, stai facendo, sta scrivendo (-are → -ando, -ere/-ire → -endo; неправильные: facendo, dicendo, bevendo). Stare per + инфинитив — «вот-вот»: Il treno sta per partire."
+  ],
+  "examples": [
+   {
+    "it": "Studio italiano da sei mesi.",
+    "ru": "Я учу итальянский уже полгода.",
+    "tts_text": "Studio italiano da sei mesi.",
+    "audio_url": null
+   },
+   {
+    "it": "Sono arrivata a Roma tre giorni fa e riparto tra una settimana.",
+    "ru": "Я приехала в Рим три дня назад и уезжаю через неделю.",
+    "tts_text": "Sono arrivata a Roma tre giorni fa e riparto tra una settimana.",
+    "audio_url": null
+   },
+   {
+    "it": "Corri, il treno sta per partire!",
+    "ru": "Беги, поезд вот-вот отправится!",
+    "tts_text": "Corri, il treno sta per partire!",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь предлог времени.",
+    "stimulus_it": "Studio italiano ___ un anno. (уже год)",
+    "accepted_answers": [
+     "da"
+    ],
+    "feedback_ru": "Действие началось год назад и продолжается: da + presente.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-032-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать «Через час я буду в отеле»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Un’ora fa sarò in albergo."
+     },
+     {
+      "id": "o2",
+      "text": "Tra un’ora sarò in albergo."
+     },
+     {
+      "id": "o3",
+      "text": "Per un’ora sarò in albergo."
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "«Через» от настоящего момента — tra/fra. Fa — «назад», per — длительность.",
+    "grading": "option_id",
+    "id": "it-grammar-032-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Скажи, что это происходит прямо сейчас (stare + gerundio): «Mangiamo una pizza in piazza.»",
+    "accepted_answers": [
+     "Stiamo mangiando una pizza in piazza.",
+     "Noi stiamo mangiando una pizza in piazza."
+    ],
+    "feedback_ru": "Stare (stiamo) + gerundio: mangiare → mangiando.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-032-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-032-e4",
+    "type": "production",
+    "prompt_ru": "Напиши подруге из отпуска 3 фразы: сколько ты уже в городе (da), на сколько ночей остаёшься (per) и что делаешь прямо сейчас или что вот-вот случится (stare + gerundio или stare per).",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Sono a Palermo da quattro giorni e resto qui per altre tre notti. In questo momento sto bevendo un caffè al porto. L’autobus per Mondello sta per arrivare!",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Da использовано с presente, per — для срока; stare + gerundio или stare per образованы верно.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Da + presente — «уже столько-то»; per — на какой срок; sto + gerundio — прямо сейчас; sta per — вот-вот. Образец — лишь один из возможных ответов.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 22,
+  "recommended_vocab_topic_ids": [
+   "15",
+   "16"
+  ]
+ },
+ {
+  "id": "it-grammar-033",
+  "order": 33,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Относительные: che, cui, dove",
+  "can_do_ru": "Соединить два предложения.",
+  "prerequisites": [
+   "it-grammar-011",
+   "it-grammar-014",
+   "it-grammar-026"
+  ],
+  "rules_ru": [
+   "Che = «который, которая, которые» в роли подлежащего или прямого дополнения; не меняется по роду, числу и падежу: la ragazza che lavora alla reception, il museo che abbiamo visitato, i biglietti che ho comprato. По-русски «которого, которую» склоняются, а che — нет. Опускать che нельзя.",
+   "После предлога вместо che — cui: l’amica con cui viaggio, la città di cui ti ho parlato, il motivo per cui sono qui, il giorno in cui sono arrivata. Ошибка — «con che».",
+   "Для места — dove (= in cui): il ristorante dove abbiamo mangiato = il ristorante in cui abbiamo mangiato. Che для места не подходит: «l’albergo che abbiamo dormito» — ошибка."
+  ],
+  "examples": [
+   {
+    "it": "La signora che lavora alla reception parla russo.",
+    "ru": "Женщина, которая работает на ресепшене, говорит по-русски.",
+    "tts_text": "La signora che lavora alla reception parla russo.",
+    "audio_url": null
+   },
+   {
+    "it": "Questo è l’amico con cui viaggio in Sicilia.",
+    "ru": "Это друг, с которым я путешествую по Сицилии.",
+    "tts_text": "Questo è l’amico con cui viaggio in Sicilia.",
+    "audio_url": null
+   },
+   {
+    "it": "Il ristorante dove abbiamo mangiato ieri è qui vicino.",
+    "ru": "Ресторан, в котором мы вчера ели, совсем рядом.",
+    "tts_text": "Il ristorante dove abbiamo mangiato ieri è qui vicino.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь относительное слово.",
+    "stimulus_it": "Il museo ___ abbiamo visitato ieri era bellissimo.",
+    "accepted_answers": [
+     "che"
+    ],
+    "feedback_ru": "Il museo — прямое дополнение (abbiamo visitato il museo), без предлога → che.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-033-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Выбери: «Questa è l’amica ___ ho viaggiato in Puglia.»",
+    "options": [
+     {
+      "id": "o1",
+      "text": "con cui"
+     },
+     {
+      "id": "o2",
+      "text": "che"
+     },
+     {
+      "id": "o3",
+      "text": "con che"
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "Viaggiare con qualcuno: предлог con + cui. «Con che» не говорят.",
+    "grading": "option_id",
+    "id": "it-grammar-033-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Соедини два предложения с помощью dove: «Questo è l’albergo. Abbiamo dormito lì.»",
+    "accepted_answers": [
+     "Questo è l’albergo dove abbiamo dormito."
+    ],
+    "feedback_ru": "Место → dove (= in cui).",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-033-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-033-e4",
+    "type": "production",
+    "prompt_ru": "Ты показываешь подруге фото из поездки. Опиши 3 фото: человека, место и вещь. В каждой фразе используй che, предлог + cui или dove.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Questo è il ragazzo che ci ha aiutato con le valigie. Questa è la trattoria dove abbiamo mangiato le orecchiette. E questa è la borsa di cui ti ho parlato: l’ho comprata al mercato.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "В трёх фразах есть che, предлог + cui и dove, выбранные по роли слова.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Che — без предлога, cui — после предлога, dove — для места. Образец — лишь один из возможных ответов.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 23,
+  "recommended_vocab_topic_ids": [
+   "10"
+  ]
+ },
+ {
+  "id": "it-grammar-034",
+  "order": 34,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Расширенное отрицание",
+  "can_do_ru": "Сказать «больше не», «никто», «ни… ни».",
+  "prerequisites": [
+   "it-grammar-010",
+   "it-grammar-019",
+   "it-grammar-026"
+  ],
+  "rules_ru": [
+   "Как в non… mai, non ставится перед глаголом, а второе слово — после: non… più («больше не»): Non fumo più; non… ancora («ещё не»): Non ho ancora mangiato; non… nessuno («никто, никого»): Non conosco nessuno; non… niente / non… nulla («ничего»). Двойное отрицание обязательно, как в русском.",
+   "В passato prossimo più, ancora, mai стоят между вспомогательным глаголом и причастием (Non sono ancora arrivata), а nessuno, niente, nulla — после причастия (Non ho visto nessuno, Non ho capito niente).",
+   "Если nessuno или niente стоит в начале, перед глаголом, non не нужен: Nessuno è venuto, Niente è cambiato. По-русски «Никто не пришёл», поэтому частая ошибка — «Nessuno non è venuto».",
+   "Né… né = «ни… ни»: Non bevo né vino né birra. Neanche = «тоже не» или «даже не»: Non ho fame. — Neanch’io. Non ho neanche un euro."
+  ],
+  "examples": [
+   {
+    "it": "Non ho ancora prenotato l’albergo.",
+    "ru": "Я ещё не забронировала отель.",
+    "tts_text": "Non ho ancora prenotato l’albergo.",
+    "audio_url": null
+   },
+   {
+    "it": "In questo piccolo paese nessuno parla inglese.",
+    "ru": "В этой деревушке никто не говорит по-английски.",
+    "tts_text": "In questo piccolo paese nessuno parla inglese.",
+    "audio_url": null
+   },
+   {
+    "it": "Non mangio né carne né pesce. — Neanch’io!",
+    "ru": "Я не ем ни мяса, ни рыбы. — Я тоже не ем!",
+    "tts_text": "Non mangio né carne né pesce. — Neanch’io!",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь пропущенное слово.",
+    "stimulus_it": "Non lavoro ___ in banca: adesso faccio la guida. (больше не)",
+    "accepted_answers": [
+     "più"
+    ],
+    "feedback_ru": "«Больше не» — non… più.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-034-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Как сказать «Никто не позвонил»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Nessuno non ha telefonato."
+     },
+     {
+      "id": "o2",
+      "text": "Non nessuno ha telefonato."
+     },
+     {
+      "id": "o3",
+      "text": "Nessuno ha telefonato."
+     }
+    ],
+    "correct_option_id": "o3",
+    "feedback_ru": "Nessuno перед глаголом уже содержит отрицание, non не нужен.",
+    "grading": "option_id",
+    "id": "it-grammar-034-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Сделай отрицание с non… ancora: «Il treno è partito.»",
+    "accepted_answers": [
+     "Il treno non è ancora partito."
+    ],
+    "feedback_ru": "Non — перед вспомогательным глаголом, ancora — между è и partito.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-034-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-034-e4",
+    "type": "production",
+    "prompt_ru": "В отеле что-то не так. Пожалуйся администратору 3 короткими вежливыми фразами, используя разные отрицания: non… più, nessuno, non… ancora или né… né.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Scusi, nella mia camera non c’è più acqua calda. Ho chiamato la reception, ma non ha risposto nessuno. E la colazione non è ancora arrivata.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Использованы минимум два разных отрицания; nessuno перед глаголом — без non.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Если nessuno стоит перед глаголом, non не нужен; ancora и più — между вспомогательным глаголом и причастием. Образец — лишь один из возможных ответов.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 23,
+  "recommended_vocab_topic_ids": [
+   "20"
+  ]
+ },
+ {
+  "id": "it-grammar-035",
+  "order": 35,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Инфинитив и управление: a, di, da, per",
+  "can_do_ru": "Связать два глагола верным предлогом.",
+  "prerequisites": [
+   "it-grammar-016",
+   "it-grammar-017",
+   "it-grammar-026"
+  ],
+  "rules_ru": [
+   "После модальных и некоторых других глаголов инфинитив идёт без предлога: voglio partire, posso entrare, devo pagare, preferisco restare, mi piace viaggiare. Многие глаголы требуют предлога — учи их сразу вместе с ним.",
+   "A: cominciare a, imparare a, provare a, continuare a, aiutare a, а также andare/venire a + инфинитив (Vado a dormire). Di: finire di, decidere di, cercare di («стараться»), smettere di, dimenticare di. Ошибка — «Cerco trovare» вместо «Cerco di trovare».",
+   "Per + инфинитив = «чтобы»: Sono qui per imparare l’italiano. Prima di + инфинитив = «прежде чем, перед тем как»: Prima di partire controllo il passaporto. Da + инфинитив после существительного или niente/qualcosa — «который нужно или можно»: niente da fare, qualcosa da bere, molto da vedere."
+  ],
+  "examples": [
+   {
+    "it": "Ho cominciato a studiare l’italiano a gennaio.",
+    "ru": "Я начала учить итальянский в январе.",
+    "tts_text": "Ho cominciato a studiare l’italiano a gennaio.",
+    "audio_url": null
+   },
+   {
+    "it": "Abbiamo deciso di prendere il treno delle sette.",
+    "ru": "Мы решили ехать на поезде в семь.",
+    "tts_text": "Abbiamo deciso di prendere il treno delle sette.",
+    "audio_url": null
+   },
+   {
+    "it": "Vuoi qualcosa da bere prima di partire?",
+    "ru": "Хочешь что-нибудь выпить перед отъездом?",
+    "tts_text": "Vuoi qualcosa da bere prima di partire?",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь предлог.",
+    "stimulus_it": "Ho deciso ___ restare a Napoli un giorno in più.",
+    "accepted_answers": [
+     "di"
+    ],
+    "feedback_ru": "Decidere di + инфинитив.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-035-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "Выбери предлог: «Sto imparando ___ cucinare la pasta fresca.»",
+    "options": [
+     {
+      "id": "o1",
+      "text": "di"
+     },
+     {
+      "id": "o2",
+      "text": "a"
+     },
+     {
+      "id": "o3",
+      "text": "per"
+     }
+    ],
+    "correct_option_id": "o2",
+    "feedback_ru": "Imparare a + инфинитив.",
+    "grading": "option_id",
+    "id": "it-grammar-035-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Соедини в одно предложение с помощью prima di + инфинитив: «Controllo il passaporto. Poi parto.»",
+    "accepted_answers": [
+     "Controllo il passaporto prima di partire.",
+     "Io controllo il passaporto prima di partire.",
+     "Prima di partire controllo il passaporto.",
+     "Prima di partire, controllo il passaporto."
+    ],
+    "feedback_ru": "Prima di + инфинитив, когда действует тот же человек.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-035-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-035-e4",
+    "type": "production",
+    "prompt_ru": "Расскажи о планах на поездку 3 фразами: что ты решила сделать, чему учишься и зачем едешь. Используй decidere di, imparare a и per + инфинитив.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Ho deciso di andare in Sicilia a settembre. Sto imparando a ordinare al ristorante in italiano. Ci vado per vedere l’Etna e per riposare un po’.",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Глаголы использованы с верным предлогом (decidere di, imparare a, per + инфинитив).",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Decidere di, imparare a, per + инфинитив — учи глагол вместе с предлогом. Образец — лишь один из возможных ответов.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 24,
+  "recommended_vocab_topic_ids": [
+   "02",
+   "04"
+  ]
+ },
+ {
+  "id": "it-grammar-036",
+  "order": 36,
+  "stage": "A2",
+  "cefr_band_author": "A2",
+  "priority": "core",
+  "title_ru": "Неопределённые слова: tutto, ogni, qualche, alcuni",
+  "can_do_ru": "Говорить о количестве людей и вещей в общем.",
+  "prerequisites": [
+   "it-grammar-005",
+   "it-grammar-006",
+   "it-grammar-015",
+   "it-grammar-034"
+  ],
+  "rules_ru": [
+   "Tutto согласуется и требует артикля: tutto il giorno («весь день»), tutta la notte, tutti i giorni («каждый день»), tutte le sere. Ошибка — «tutti giorni» без артикля. Без существительного: tutti — «все» (люди), tutto — «всё».",
+   "Ogni («каждый») и qualche («несколько, какой-нибудь») не меняются и стоят с существительным в единственном числе: ogni giorno, ogni settimana, qualche giorno, qualche amico. Alcuni/alcune — «несколько» с множественным числом: alcuni giorni, alcune città. Ошибки — «qualche giorni», «ogni giorni».",
+   "Местоимения: qualcuno («кто-то»), qualcosa («что-то»), ognuno («каждый»), nessuno («никто»), niente («ничего»). С прилагательным — через di: qualcosa di buono, niente di speciale. Nessuno и niente после глагола требуют non: Non c’è nessuno."
+  ],
+  "examples": [
+   {
+    "it": "Ogni mattina faccio colazione al bar.",
+    "ru": "Каждое утро я завтракаю в кафе.",
+    "tts_text": "Ogni mattina faccio colazione al bar.",
+    "audio_url": null
+   },
+   {
+    "it": "Abbiamo visitato alcune chiese molto antiche.",
+    "ru": "Мы посмотрели несколько очень старых церквей.",
+    "tts_text": "Abbiamo visitato alcune chiese molto antiche.",
+    "audio_url": null
+   },
+   {
+    "it": "Abbiamo camminato tutto il giorno: alla fine eravamo tutti stanchi.",
+    "ru": "Мы ходили пешком весь день: под конец мы все устали.",
+    "tts_text": "Abbiamo camminato tutto il giorno: alla fine eravamo tutti stanchi.",
+    "audio_url": null
+   }
+  ],
+  "exercises": [
+   {
+    "type": "cloze",
+    "prompt_ru": "Вставь слово со значением, указанным в скобках.",
+    "stimulus_it": "Mi fermo a Siena ___ giorno, poi vado a Pisa. (несколько)",
+    "accepted_answers": [
+     "qualche"
+    ],
+    "feedback_ru": "Qualche — всегда с единственным числом: qualche giorno.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-036-e1",
+    "is_held_out": false
+   },
+   {
+    "type": "choice",
+    "prompt_ru": "«Мы ходили на море каждый день». Выбери: «Siamo andati al mare ___.»",
+    "options": [
+     {
+      "id": "o1",
+      "text": "tutti i giorni"
+     },
+     {
+      "id": "o2",
+      "text": "tutti giorni"
+     },
+     {
+      "id": "o3",
+      "text": "ogni giorni"
+     }
+    ],
+    "correct_option_id": "o1",
+    "feedback_ru": "Tutti + артикль + существительное: tutti i giorni. Ogni — с единственным числом: ogni giorno.",
+    "grading": "option_id",
+    "id": "it-grammar-036-e2",
+    "is_held_out": false
+   },
+   {
+    "type": "transform",
+    "prompt_ru": "Замени qualche на alcuni или alcune: «Ho comprato qualche cartolina.»",
+    "accepted_answers": [
+     "Ho comprato alcune cartoline.",
+     "Io ho comprato alcune cartoline."
+    ],
+    "feedback_ru": "Qualche + ед. ч. → alcune + мн. ч.; cartolina — женский род, поэтому alcune cartoline.",
+    "grading": "exact_normalized",
+    "target_language": "it",
+    "id": "it-grammar-036-e3",
+    "is_held_out": false
+   },
+   {
+    "id": "it-grammar-036-e4",
+    "type": "production",
+    "prompt_ru": "Опиши свой обычный день в отпуске 3 фразами. Используй ogni, tutto/tutti и qualcosa или qualcuno.",
+    "grading": "manual_rubric",
+    "is_held_out": false,
+    "model_answer_it": "Ogni mattina faccio colazione con un cornetto e un cappuccino. Passo tutto il pomeriggio in spiaggia e la sera cerco qualcosa di tipico da mangiare. Qui tutti sono molto gentili!",
+    "model_is_exhaustive": false,
+    "rubric_ru": [
+     "Передан требуемый смысл; ответ не обязан совпадать с образцом.",
+     "Ogni и qualche — с единственным числом, tutto/tutti — с артиклем.",
+     "Фраза понятна; ошибки вне целевой темы обсуждаются отдельно."
+    ],
+    "feedback_ru": "Проверь: ogni mattina (ед. ч.), tutto il pomeriggio и tutti i giorni (с артиклем), qualcosa di + прилагательное. Образец — лишь один из возможных ответов.",
+    "model_answer_scope": "one_possible_response_not_exhaustive"
+   }
+  ],
+  "reference_ids": [],
+  "grammar_reference_paths": [],
+  "estimated_sessions": {
+   "count": 3,
+   "minutes_each": [
+    8,
+    15
+   ]
+  },
+  "mastery_status_initial": "not_started",
+  "suggested_week": 24,
+  "recommended_vocab_topic_ids": [
+   "20"
+  ]
+ }
+]
